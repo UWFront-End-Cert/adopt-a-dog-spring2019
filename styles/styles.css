@@ -1,0 +1,97 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+  
+a:visited {
+  text-decoration: none;
+}
+  
+#banner {
+  background-color: #093b60;
+}
+
+#letterhead {
+/*Position to left of top field */
+}
+
+#toplogo {
+  /*Size to fit top field */
+}
+
+#cart {
+/*Position to top right of top field */
+}
+
+#carticon {
+/*Size to make small */
+}
+
+#checkout-button {
+/*Green background, white letters, beneath cart icon */
+}
+
+h1 {
+  color: #81b642;
+  font-style: italic;
+/*Size */
+}
+
+#subbanner {
+  background-color: #ebebeb;
+  /*Size */
+
+.subtitle {
+ /*Position away from left margin and check font */
+  color: #093b60;
+  font-weight: bold;
+}
+
+#welcome {
+/*Center L and R, make below subbanner */
+}
+
+#hugpicture {
+/*Size down and padding */
+}
+
+h2 {
+/*Color blue and size up; check font */
+}
+
+#lead-in {
+  /*Check size and font */
+}
+
+.profiles {
+/*Center L and R, make below "welcome" or "subbanner" dep on page, light gray border and padding  */
+}
+
+.profile-card {
+  /*Wrapper for individual dog profiles */
+}
+
+.profilepicture {
+  /*Size down and center in div */
+}
+
+h3 {
+  /*Make blue, check size and font */
+}
+
+.cost {
+  /*Check font and size */
+}
+
+.bio {
+  /*Check font and size */
+}
+
+.adopt-button {
+  /*Green backround white text, centered LR in div, padding */
+}
