@@ -95,3 +95,36 @@ h3 {
 .adopt-button {
   /*Green backround white text, centered LR in div, padding */
 }
+
+#whitespace {
+  /*Make big enough for some padding*/
+
+}
+
+#moredogs {
+  /*Text blue, background light grey, LR centered, closer to top than bottom*/
+}
+
+#footer {
+  /*Maybe nothing needed*/
+}
+
+#basefield {
+  /*Dark grey background color*/
+}
+
+#bottomlogo {
+  /*size and center LR*/
+}
+
+#footer-text {
+/*Center LR, white, font*/
+}
+
+#footer-link {
+/*Center LR, white*/
+}
+
+#copyright {
+  /*Different font, white, LR center*/
+}
