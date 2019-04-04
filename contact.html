@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="images/" alt="dog logo">
+        <p>Seattle's priemer dog adoption agency</p>
+        <input type="button" value="Checkout">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home /</a></li>
+            <li><a href="dogs.html">Dogs /</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Checkout</h1>
+        <form method="GET">
+            <label>
+                Name:
+                <input type="text" required name="name">
+            </label>
+            <label>
+                Email Address:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Street Address:
+                <input type="text" name="street">
+            </label>
+            <label>
+                City:
+                <input type="text" name="city">
+            </label>
+            <label>
+                State:
+                <select name="state">
+                    <option value="Idaho">Idaho</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Washington">Washington</option>
+                </select>
+            </label>
+            <label>
+                Zip:
+                <input type="text" name="zip">
+            </label>
+            <fieldset>
+                <legend>
+                    First Time Adopter?
+                    <input type="radio" id="yesadopt" name="adopter" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="noadopt" name="adopter" value="no">
+                    <label for="no">No</label>
+                </legend>
+            </fieldset>
+            <label>
+                Pickup Location:
+                <select name="location">
+                    <option value="Everett">Everett</option>
+                    <option value="Seattle">Seattle</option>
+                    <option value="Tacoma">Tacoma</option>
+                </select>
+            </label>
+        </form>
+        <div>
+            <h2>Dogs Adopted</h2>
+            <div>
+                <img src="images/lucas-checkout.jpg" alt="lucas">
+                <p>Lucas</p>
+                <p>Cost to Adopt: $123.45</p>
+            </div>
+            <div>
+                <img src="images/duffy-checkout.jpg" alt="duffy">
+                <p>Duffy</p>
+                <p>Cost to Adopt: $123.45</p>
+            </div>
+        </div>
+        <div>
+            <h2>Total Adoption Costs</h2>
+            <p>$1234.56</p>
+        </div>
+        <input type="button" value="Submit">
+    </section>
+    <footer>
+        <img src="images/" alt="dog logo">
+        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
+        <p>invenienihil imaximu scideru ptistiusam consequunt</p>
+        <ul>
+            <li><a href="index.html">Home /</a></li>
+            <li><a href="dogs.html">Dogs /</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>© 2018 Adoptadog, LLC   |   Seattle, WA</p>
+    </footer>
+</body>
+</html>
