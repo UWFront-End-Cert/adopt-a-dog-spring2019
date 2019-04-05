@@ -49,7 +49,7 @@ color: white;
 }
 
 h1 {
-  color: #81b642;
+  color:#81B642;
   font-style: italic;
 /*Size */
 }
@@ -124,6 +124,7 @@ h3 {
 
 #basefield {
   background-color: #3C3C3C;
+  /*some padding above*/
 }
 
 #bottomlogo {
@@ -155,4 +156,54 @@ a.footer-link:visited {
 
 .blogpic {
   /*Position and size*/
+}
+
+.blogtext {
+  /*Size, color (grey), and font*/
+}
+
+.formfield {
+  /*Not totally sure; font color and size; padding*/
+}
+
+#dogsadopted {
+  /*same font as formfield*/
+}
+
+.dogincart{
+  /*position with image and text*/
+}
+
+.adoptedname {
+  /*same font as formfield but smaller*/
+}
+
+.outpic {
+  /*Size small for cart*/
+}
+
+.cartcost {
+  /*Same font as in top right but grey and small*/
+}
+
+#totalcost{
+  /*same font color and size and #dogsadopted*/
+}
+
+#totalprice{
+  /*grey, medium size, font*/
+}
+
+input[type=submit] {
+  display: block;
+  width: 20%; /*or some other size*/
+  background-color: 	#81B642;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
 }
