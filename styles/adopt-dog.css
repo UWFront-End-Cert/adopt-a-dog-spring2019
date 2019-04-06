@@ -1,0 +1,28 @@
+fieldset {
+  margin-left: 100px ;
+  border: none;
+  /* margin-top: 5px; */
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    height: 10em;
+    padding: 10px 150px 35px;
+}
+header .img {
+}
+#id {
+background: grey;
+border: 1px solid black;
+}
+
+footer p {
+    margin-top: 4px;
+    margin-bottom: 0%;
+}
+footer {
+background-color: grey;
+    color: white;
+    text-align: center;
+}
