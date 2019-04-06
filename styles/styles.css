@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background: url("../images/header-image.jpg") no-repeat top;
+  color: #81B741;
+  padding-left: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+  height: 300px;
+}
+
+.cart {
+  float: right;
+  padding: 30px;
+}
+
+.cart img {
+  height: 20px;
+}
+
+.cart span {
+  color: white;
+  font-size: 14px;
+}
+
+.cart button {
+  background-color: #81B741;
+  color: #FFF;
+  display: block;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+nav.global {
+  background-color: #E8E8E8;
+  color: #323232;
+  padding: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #323232;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+a {
+  color: #49B0CE;
+  text-decoration: none;
+}
+
+main.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.intro-image {
+  display: inline-block;
+  float: left;
+  padding: 0 25px 25px 0;
+  height: 250px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #083B5F;
+  color: white;
+  padding: 50px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+img.logo {
+  width: 30%;
+}
+
+/* Dog Card Styles */
+.dog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  clear: both;
+}
+
+.dog-cards div {
+  width: 150px;
+  border: 1px solid #E8E8E8;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.dog-cards img {
+  height: 75px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.dog-cards p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.dog-cards strong {
+  color: #083B5F;
+}
+
+.dog-cards span {
+  font-weight: bold;
+  display: block;
+  font-size: 14px;
+}
+
+.dog-cards button {
+  width: 50%;
+  margin: auto;
+  background-color: #81B741;
+  color: #FFF;
+}
+
+/* Blog Styles */
+.blog {
+  clear: both;
+}
+
+
+/* Cart Styles */
+fieldset {
+  border: none;
+}
