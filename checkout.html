@@ -20,7 +20,7 @@
 
       <article id="right-header">
         <a href="checkout.html"><img src="images/cart-icon.svg" alt="Icon of a shopping cart.">$1234.56</a>
-        <p class="checkout">Checkout</p>
+        <p class="checkout"><a href="checkout.html">Checkout</a></p>
       </article>
     </header>
 
@@ -30,6 +30,91 @@
       <li class="navigation"><a href="dogs.html">Dogs /</a></li>
       <li class="navigation"><a href="blog.html">Blog</a></li>
     </ul>
+
+<!-- Checkout form -->
+    <form method="GET">
+      <h1>Checkout</h1>
+
+<!-- Contact form elements -->
+      <fieldset class="contact">
+        <label>Name
+          <input type="text" name="contactName" required>
+        </label>
+
+        <label>Email Address
+          <input type="email" name="contactEmail" required>
+        </label>
+
+        <label>Street Address
+          <input type="text" name="contactStreet" required>
+        </label>
+
+        <label>City
+          <input type="text" name="contactCity" required>
+        </label>
+
+        <label>State
+          <select name="contactState" required>
+            <option value="">Please select</option>
+            <option value="WA">Washington</option>
+            <option value="OR">Oregon</option>
+            <option value="CA">California</option>
+          </select>
+        </label>
+
+        <label>ZIP Code
+          <input type="text" name="contactName" required>
+        </label>
+      </fieldset>
+
+      <fieldset class="first-time">
+        <legend>First Time Adopter?</legend>
+        <label>
+          <input type="radio" name="firstTime" value="yes">
+          <span class="rad"></span>
+          Yes
+        </label>
+
+        <label>
+          <input type="radio" name="firstTime" value="no">
+          <span class="rad"></span>
+          No
+        </label>
+      </fieldset>
+
+      <fieldset class="location">
+        <label>Pickup Location
+          <select name="contactState" required>
+            <option value="">Please select</option>
+            <option value="WA">Washington</option>
+            <option value="OR">Oregon</option>
+            <option value="CA">California</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <section id="adopted" class="grid-container-adopted">
+        <h2>Dogs Adopted</h2>
+        <article class="lucas-checkout">
+          <img class="lucas-check" src="images/lucas-checkout.jpg" alt="Image of Lucas who is an all black dog.">
+          <h3 class="lucas-check-name">Lucas</h3>
+          <p class="lucas-check-cost">Cost to Adopt: $123.45</p>
+        </article>
+
+        <article class="duffy-checkout">
+          <img class="duffy-check" src="images/duffy-checkout.jpg" alt="Image of Duffy who is a brown dog with white face and chest.">
+          <h3 class="duffy-check-name">Duffy</h3>
+          <p class="duffy-check-cost">Cost to Adopt: $123.45</p>
+        </article>
+      </section>
+
+      <section id="cost">
+        <h2>Total Adoption Cost</h2>
+        <p>$1234.56</p>
+        <input type="submit" value="Submit">
+      </section>
+
+    </form>
 
 <!-- This is the footer in only one section -->
     <footer>
