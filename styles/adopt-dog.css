@@ -1,7 +1,27 @@
-fieldset {
-  margin-left: 100px ;
+* {box-sizing: border-box;}
+
+div{
+    margin-left: 20%;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
   border: none;
-  /* margin-top: 5px; */
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 header {
