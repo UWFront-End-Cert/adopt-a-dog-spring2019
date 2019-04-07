@@ -7,10 +7,16 @@ fieldset {
 header {
     background-color: darkblue;
     color: white;
-    height: 10em;
+   /* height: 10em;
     padding: 10px 150px 35px;
+    */
 }
-header .img {
+ img {
+         margin: 5px 5px 0 10px;
+         padding: 2px;
+         width: 100px;
+         height: 100px;
+         border-radius: 25px;
 }
 #id {
 background: grey;
