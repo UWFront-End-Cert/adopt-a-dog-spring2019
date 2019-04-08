@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!--HEAD-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Adopt a Dog
+    </title>
+    <!---<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+
+  <!--BODY-->
+  <body>
+    <a href="#main-content" class="hidden">Skip to main content</a>
+    <header>
+      <h1>Adopt a Dog</h1>
+      <h2><em>Seattle's premier dog adoption agency</em></h2>
+      <img src="images/adoptadog-logo.svg" alt="white logo of a dog">
+
+      <!--CHECKOUT-->
+      <img src="images/cart-icon.svg" alt="icon of a white shopping cart" width="15">
+      <a href="checkout.html" class="button" target="_blank">Checkout</a><!--need to create CSS for buttons-->
+
+      <!--NAVIGATION-->
+      <nav>
+        <a href="index.html" class="a-navigation active" target="_blank">About</a>
+        <a href="dogs.html" class="a-navigation" target="_blank">Dogs</a>
+        <a href="blog.html" class="a-navigation" target="_blank">Blog</a>
+        <a href="contact.html" class="a-navigation" target="_blank">Contact</a>
+      </nav>
+    </header>
+
+    <!--MAIN CONTENT-->
+    <h2>Checkout</h2>
+    <form method="GET">
+          <label>Name
+            <input type="text" name="applicantName">
+          </label>
+
+          <label>Email
+            <input type="email" name="applicantEmail">
+          </label>
+
+          <label>Address
+            <input type="text" name="applicantEmail">
+          </label>
+
+          <label>City
+            <input type="text" name="applicantEmail">
+          </label>
+
+          <label>State
+            <select name="State"><!--need option element to list out options-->
+              <option value="AL">Alabama</option>
+            	<option value="AK">Alaska</option>
+            	<option value="AZ">Arizona</option>
+            	<option value="AR">Arkansas</option>
+            	<option value="CA">California</option>
+            	<option value="CO">Colorado</option>
+            	<option value="CT">Connecticut</option>
+            	<option value="DE">Delaware</option>
+            	<option value="DC">District Of Columbia</option>
+            	<option value="FL">Florida</option>
+            	<option value="GA">Georgia</option>
+            	<option value="HI">Hawaii</option>
+            	<option value="ID">Idaho</option>
+            	<option value="IL">Illinois</option>
+            	<option value="IN">Indiana</option>
+            	<option value="IA">Iowa</option>
+            	<option value="KS">Kansas</option>
+            	<option value="KY">Kentucky</option>
+            	<option value="LA">Louisiana</option>
+            	<option value="ME">Maine</option>
+            	<option value="MD">Maryland</option>
+            	<option value="MA">Massachusetts</option>
+            	<option value="MI">Michigan</option>
+            	<option value="MN">Minnesota</option>
+            	<option value="MS">Mississippi</option>
+            	<option value="MO">Missouri</option>
+            	<option value="MT">Montana</option>
+            	<option value="NE">Nebraska</option>
+            	<option value="NV">Nevada</option>
+            	<option value="NH">New Hampshire</option>
+            	<option value="NJ">New Jersey</option>
+            	<option value="NM">New Mexico</option>
+            	<option value="NY">New York</option>
+            	<option value="NC">North Carolina</option>
+            	<option value="ND">North Dakota</option>
+            	<option value="OH">Ohio</option>
+            	<option value="OK">Oklahoma</option>
+            	<option value="OR">Oregon</option>
+            	<option value="PA">Pennsylvania</option>
+            	<option value="RI">Rhode Island</option>
+            	<option value="SC">South Carolina</option>
+            	<option value="SD">South Dakota</option>
+            	<option value="TN">Tennessee</option>
+            	<option value="TX">Texas</option>
+            	<option value="UT">Utah</option>
+            	<option value="VT">Vermont</option>
+            	<option value="VA">Virginia</option>
+            	<option value="WA">Washington</option>
+            	<option value="WV">West Virginia</option>
+            	<option value="WI">Wisconsin</option>
+            	<option value="WY">Wyoming</option>
+              <option value="AS">American Samoa</option>
+              <option value="GU">Guam</option>
+              <option value="MP">Northern Mariana Islands</option>
+              <option value="PR">Puerto Rico</option>
+              <option value="UM">United States Minor Outlying Islands</option>
+              <option value="VI">Virgin Islands</option>
+            </select>
+          </label>
+
+          <label>Zip Code
+            <input type="number" name="applicantEmail">
+          </label>
+
+        <p>First time adopter?</p>
+        <label> Yes
+          <input type="checkbox" name="species" value="Yes">
+          <span class="checkmark"></span><!--challenges with customizing checkbox inputs is that you can't really style the browser's default checkboxes so we've created these span elements that are going to act like our new checkmark boxes and so we're going into CSS to hide the default and only see our spans-->
+        </label>
+
+        <label> No
+          <input type="checkbox" name="species" value="No">
+          <span class="checkmark"></span>
+        </label>
+
+        <label>Pickup Location
+          <select name="pickup-location"><!--need option element to list out options-->
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+          </select>
+        </label>
+
+      <!--NEED SECTION FOR DOGS ADOPTED!!!!!-->
+
+      <a href="checkout.html" class="button">Submit</a><!--PROPER CSS NEEDED-->
+    </form>
+
+
+    <!--FOOTER-->
+    <footer>
+      <img src="images/adoptadog-logo.svg" alt="white logo of a dog">
+      <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatb accusantium dolorbque laudantium, totam rb aperiam, eaque ipsa quae ab illo inventore veritatis
+      </p>
+      <nav>
+        <a href="index.html" class="a-navigation active" target="_blank">About</a>
+        <a href="dogs.html" class="a-navigation" target="_blank">Dogs</a>
+        <a href="blog.html" class="a-navigation" target="_blank">Blog</a>
+        <a href="contact.html" class="a-navigation" target="_blank">Contact</a>
+      </nav>
+      <p class="footer-copyright">
+          <sub>&#169; Adoptadog, LLC | Seattle, WA</sub>
+        </p>
+    </footer>
+  </body>
+</html>
