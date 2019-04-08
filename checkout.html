@@ -3,18 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Adopt a Dog Checkout</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <img src="images/adoptadog-logo.svg"  alt="Logo">
-      <nav>
-        <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="dogs.html">Dogs</a>
-        <a href="blog.html">Blog</a>
-        </div>
-      </nav>
+      <h1 class="header-text">Seattle's premier dog adoption agency</h1>
     </header>
+  <section class="navbar">
+    <nav>
+      <div class="nav">
+      <a href="index.html">Home</a>
+      <a>/</a>
+      <a href="dogs.html">Dogs</a>
+      <a>/</a>
+      <a href="blog.html">Blog</a>
+      </div>
+    </nav>
+  </section>
+
 
     <section>
       <h2>Checkout</h2>
@@ -63,18 +70,23 @@
           </select>
         </label>
 
-        <div class="container">
-          <div class="box">
-            <p>Lucas
-              <br><img src="images/lucas-checkout.jpg"  alt="Lucas Pic">
+        <div class="grid-container">
+          <div class="chk-pic">
+            <img src="images/lucas-checkout.jpg"  alt="Lucas Pic">
+          </div>
+          <div class="chk-details">
+                Lucas
+            <br>Costs to Adopt: $123.45
+          </div>
+          <div class="chk-pic">
+            <img src="images/duffy-checkout.jpg"  alt="Duffy Pic">
+          </div>
+          <div class="chk-details">
+                  Duffy
               <br>Costs to Adopt: $123.45
-            </p>
-            <p>Duffy
-              <br><img src="images/duffy-checkout.jpg"  alt="Duffy Pic">
-              <br>Costs to Adopt: $123.45
-            </p>
+          </div>
         </div>
-            </div>
+
         <h1> Total Adoption Cost</h1>
         <p> $1234.56</p>
 
@@ -85,13 +97,15 @@
 
 
 
-    <footer>
+    <footer class= "footer">
       <img src="images/adoptadog-logo.svg"  alt="Logo">
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lorem tortor, auctor vitae hendrerit quis. </p>
       <nav>
         <div class="nav">
         <a href="index.html">Home</a>
+        <a>/</a>
         <a href="dogs.html">Dogs</a>
+        <a>/</a>
         <a href="checkout.html">Checkout</a>
         </div>
       </nav>

@@ -1,0 +1,125 @@
+.header {
+  background-color:rgb(9,60,96);
+  width: 100%;
+}
+
+h1{
+  color: rgb(9,60,96);
+}
+
+h2{
+  color: rgb(9,60,96);
+}
+
+.navbar {
+  background-color:rgb(236,236,236);
+  width: 100%;
+  padding: 1rem;
+}
+
+.header-text{
+  color: green
+}
+
+.homepic{
+  width:90%;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.home-pic {
+  grid-column: 1/2;
+  grid-row: 1/1;
+}
+
+.home-des{
+  grid-column: 2/2;
+  grid-row: 1/1:
+}
+
+.container{
+  height: 100%;
+  background-color: white;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 100%;
+  width: 20%;
+  background: white;
+  border: .1rem solid rgb(236,236,236);
+  margin: 1rem;
+
+}
+
+.card{
+  width: 100%;
+}
+
+.blog-pic{
+  grid-column: 1/2;
+}
+
+.blog-des{
+  grid-column: 2/2;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin:1rem;
+}
+
+
+fieldset{
+  border:none;
+}
+
+fieldset input{
+  display: inline;
+}
+
+.checkbox label {
+
+  display: block;
+
+  position: relative;
+
+  padding-left: 35px;
+
+  margin-top: 12px;
+
+  cursor: pointer;
+
+  -webkit-user-select: none;
+
+  -moz-user-select: none;
+
+  -ms-user-select: none;
+
+  user-select: none;
+
+}
+
+.chk-pic{
+  grid-column: 1/2;
+}
+
+.chk-details{
+  grid-column: 2/2;
+}
+
+.footer {
+  background-color:rgb(61,61,61);
+  width: 100%;
+  color:rgb(255,255,255);
+}
