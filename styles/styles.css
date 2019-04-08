@@ -166,7 +166,7 @@ a.footer-link:visited {
   /*Not totally sure; font color and size; padding*/
 }
 
-#dogsadopted {
+.dogsadopted {
   /*same font as formfield*/
 }
 
@@ -207,3 +207,5 @@ button, input, select, textarea {
   display: block;
   margin: 1rem;
 }
+
+/*Need to style city, state, and zip so that they're in one line and make Yes/No be on one line as well*/
