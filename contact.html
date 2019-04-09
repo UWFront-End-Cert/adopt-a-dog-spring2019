@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!--HEAD-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Adopt a Dog
+    </title>
+    <!---<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+
+  <!--BODY-->
+  <body>
+    <a href="#main-content" class="hidden">Skip to main content</a>
+    <header>
+      <h1>Adopt a Dog</h1>
+      <h2><em>Seattle's premier dog adoption agency</em></h2>
+      <img src="images/adoptadog-logo.svg" alt="white logo of a dog">
+
+      <!--CHECKOUT-->
+      <img src="images/cart-icon.svg" alt="icon of a white shopping cart" width="15">
+      <a href="checkout.html" class="button" target="_blank">Checkout</a><!--need to create CSS for buttons-->
+
+      <!--NAVIGATION-->
+      <nav>
+        <a href="index.html" class="a-navigation active" target="_blank">About</a>
+        <a href="dogs.html" class="a-navigation" target="_blank">Dogs</a>
+        <a href="blog.html" class="a-navigation" target="_blank">Blog</a>
+        <a href="contact.html" class="a-navigation" target="_blank">Contact</a>
+      </nav>
+    </header>
+
+    <!--MAIN CONTENT-->
+    <h2>Contact</h2>
+    <p>Have any questions? Feel free to reach out!</p>
+
+    <form method="GET">
+      <label>Name
+        <input type="text" name="applicantName">
+      </label>
+
+      <label>Email
+        <input type="email" name="applicantEmail">
+      </label>
+
+      <label>Message
+        <textarea name="applicantMessage" rows="4" cols="50">Type your message here.</textarea><!--row is how tall and cols is how wide it is-->
+      </label>
+      <input type="submit"  value="Send">
+
+    </form>
+
+    <!--FOOTER-->
+    <footer>
+      <img src="images/adoptadog-logo.svg" alt="white logo of a dog">
+      <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatb accusantium dolorbque laudantium, totam rb aperiam, eaque ipsa quae ab illo inventore veritatis
+      </p>
+      <nav>
+        <a href="index.html" class="a-navigation active" target="_blank">About</a>
+        <a href="dogs.html" class="a-navigation" target="_blank">Dogs</a>
+        <a href="blog.html" class="a-navigation" target="_blank">Blog</a>
+        <a href="contact.html" class="a-navigation" target="_blank">Contact</a>
+      </nav>
+      <p class="footer-copyright">
+          <sub>&#169; Adoptadog, LLC | Seattle, WA</sub>
+        </p>
+    </footer>
+  </body>
+</html>
