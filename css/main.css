@@ -1,7 +1,8 @@
-/* some temporary styles */
+/* some temporary styles for easier review*/
 body{
   background-color: green;
 }
 
 .logo{ width: 250px;}
 #cart-bug .cart-icon{width: 25px;}
+label, input{ display: block;}
