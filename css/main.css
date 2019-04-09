@@ -1,0 +1,7 @@
+/* some temporary styles */
+body{
+  background-color: green;
+}
+
+.logo{ width: 250px;}
+#cart-bug .cart-icon{width: 25px;}
