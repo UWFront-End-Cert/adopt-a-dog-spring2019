@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: "Work Sans";
+}
+
+header {
+  background-image: url("../images/header-image.jpg");
+  color: #ffffff;
+}
+
+.cart {
+  width: 1.5rem;
+}
+
+.checkout {
+  text-align: right;
+}
+
+.dog-logo {
+  width: 20rem;
+}
+
+.tag-line {
+  color: #7EB33F;
+  font-family: Neuton;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #EBEBEB;
+}
+
+nav a:visited {
+  color: #073B60;
+}
+
+h1, h2, h3, h4 {
+  color: #073B60;
+  font-family: Neuton;
+  font-weight: bold;
+}
+
+button, .checkout a {
+  font-family: arial;
+  font-weight: bold;
+  background-color: #7EB33F;
+}
+
+footer {
+  background-color: #073B60;
+  text-align: center;
+  font-family: arial;
+  color: #ffffff;
+}
+
+.footer-links a, .checkout a {
+  color: #ffffff;
+}
+
+.footer-links a:visited, .checkout a:visited {
+  color: #ffffff;
+}
