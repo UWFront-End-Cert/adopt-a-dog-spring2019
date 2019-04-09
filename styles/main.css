@@ -1,5 +1,256 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: darkgrey;
+	font-family: Arial;
+}
+
+.container {
+	padding: 0 200px;
+}
+
+header {
+	background: url(../img/bg-main.jpg) no-repeat center top/cover;
+	height: 50vh;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 0;
+}
+
+.logo-img {
+	width: 600px;
+}
+
+.logo-text {
+	color: #80b641;
+	font-size: 33px;
+	font-style: italic;
+	margin: 0;
+}
+
+.left-side{
+	text-align: left;
+}
+.right-side{
+	text-align: right;
+}
+.cart-img{
+	width: 40px;
+	margin-right: 10px;
+}
+.cart-price {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.button-top, .button {
+	border: none;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	background: #80b641;
+	text-align: center;
+	padding: 10px 60px;
+	margin-top: 10px;
+	border-radius: 5px;
+
+}
+
+/* header ends */
+
+.nav-first {
+	background: #ececec;
+	padding: 30px 0;
+}
+
+.nav-first a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #093c60;
+	font-weight: 900;
+}
+
+.nav-first .after:after {
+	content: "/";
+	font-size: 20px;
+	font-weight: 900;
+	padding: 0 10px;
+}
+
+/* nav ends */
+
+.block-1 {
+	display: flex;
+	margin-top: 70px;
+}
+
+.second-side {
+	margin-left: 50px;
+}
+
+.second-side h2 {
+	color: #093c60;
+}
+
+p {
+	color: #3d3d3d;
+	line-height: 2;
+}
+
+
+.block-2 {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+
+}
+.item{
+-webkit-box-shadow: 3px 3px 5px 0px rgba(120,120,120,1);
+-moz-box-shadow: 3px 3px 5px 0px rgba(120,120,120,1);
+box-shadow: 3px 3px 5px 0px rgba(120,120,120,1);
+flex-basis: 22%;
+margin-top: 70px;
+
+}
+
+.mini-container {
+	padding: 0 10px 10px;
+}
+
+.item img {
+	width: 100%;
+}
+
+.item .button {
+	width: 100%;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+h3 {
+	color:#093c60;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.text {
+	line-height: 1.7;
+}
+
+.more-dogs{
+	display: block;
+	background: #ececec;
+	text-decoration: none;
+	font-weight: 900;
+	text-align: center;
+	color: #093c60;
+	padding: 12px 30px;
+	border-radius: 5px;
+	width: 10%;
+	margin: 80px auto;
+
+}
+
+/* end of section */
+
+footer {
+	background: #093c60;
+	text-align: center;
+	padding: 50px 0px;
+	color:#fff;
+}
+
+footer img, footer p {
+	width: 25%;
+}
+
+footer p {
+	color:#fff;
+	margin: 15px auto;
+	line-height: 2;
+}
+
+.second{
+	margin: 40px 0;
+}
+.second a {
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+
+.second .after:after {
+	content: "/";
+	font-weight: bold;
+	margin: 0 20px;
+}
+
+footer .left:after {
+	content: "|";
+	margin: 0 20px;
+}
+
+/* Dogs second */
+ h2 {
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+.dogs-second .item {
+	margin: 0 0 40px;
+}
+
+h3{
+	padding: 0;
+	margin: 0;
+}
+
+/* chechout */
+form {
+	width: 40%;
+}
+input{
+	width: 100%;
+	height: 35px;
+	border: 1px solid #c0c0c0;
+	padding: 0 10px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+label, .label {
+	display: block;
+	color: #093c60;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.form-row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.form-row .city-form {
+	width: 40%;
+}
+
+.form-row .state-form {
+	width: 20%;
+}
+
+.form-row .zip-form {
+	width: 30%;
+}
+
+select {
+	width: 115%;
+	height: 37%;
 }
