@@ -24,19 +24,22 @@
       <form class="checkout-form" method="post">
         <fieldset>
           <label>Name
-            <input type="text" name="name" value="">
+            <input type="text" name="name" value="" required>
           </label>
           <label>Email Address
-            <input type="email" name="email" value="">
+            <input type="email" name="email" value="" required>
           </label>
+        </fieldset>
+        <fieldset>
           <label>Street Address
-            <input type="text" name="streetAddress" value="">
+            <input type="text" name="streetAddress" value="" required>
           </label>
           <label>City
-            <input type="text" name="city" value="">
+            <input type="text" name="city" value="" required>
           </label>
           <label>State
-            <select name="state">
+            <select name="state" required>
+              <option value="">Please Select</option>
               <option value="AL">Alabama</option>
             	<option value="AK">Alaska</option>
             	<option value="AZ">Arizona</option>
@@ -91,7 +94,7 @@
             </select>
           </label>
           <label>Zip Code
-            <input type="number" name="zip" value="">
+            <input type="number" name="zip" value="" required>
           </label>
         </fieldset>
         <fieldset class="radio">
@@ -106,7 +109,8 @@
           </label>
         </fieldset>
         <label>Pickup Location
-          <select class="" name="pickupLocation">
+          <select class="" name="pickupLocation" required>
+            <option value="">Please Select</option>
             <option value="">Seattle</option>
             <option value="">Redmond</option>
             <option value="">Renton</option>
@@ -122,9 +126,11 @@
     <footer class="main-footer">
       <img src="images/adoptadog-logo.svg" alt="Adoptadog logo">
       <p>Basset hound black and tan coonhound chinook dogue de bordeaux german shepherd dog grand basset griffon vendeen kai ken norwegian</p>
-      <a href="index.html" target="_blank">Home /</a>
-      <a href="dogs.html" target="_blank">Dogs /</a>
-      <a href="#">Contact</a>
+      <nav class="footer-links">
+        <a href="index.html" target="_blank">Home /</a>
+        <a href="dogs.html" target="_blank">Dogs /</a>
+        <a href="#">Contact</a>
+      </nav>
       <p>&copy; 2019 Adoptadog, LLC | Seattle, WA</p>
     </footer>
 
