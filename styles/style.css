@@ -14,10 +14,11 @@
   margin-left: 2rem;
   max-width: 29%;
 }
-.head figcaption{
+.head p{
   font-family: "Comic Sans MS", cursive, sans-serif;
-  margin-left: 2rem;
-  font-size: 1em;
+  margin-left: 3rem;
+  font-size: 2em;
+  margin-top: 0;
   color: rgb(97, 142, 49);
 }
 .checkout{
@@ -245,7 +246,7 @@ span{
   font-weight: bold;
 }
 .checkout-form {
-  max-width: 50%
+  max-width: 50%;
   margin:auto;
   padding-left: 6rem;
   color: rgb(9, 60 , 96);
