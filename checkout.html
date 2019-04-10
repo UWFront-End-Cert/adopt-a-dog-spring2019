@@ -20,24 +20,79 @@
 
     </header>
 
-    <nav>
+    <nav class="top">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="doglist.html">Dogs</a></li>
         <li><a href="blog.html">Blog</a></li>
       </ul>
     </nav>
-    <section class="form">
-      <input type="text" name="FullName" value="Name">
+    <form class="checkout-form">
+      <h2>Checkout</h2>
+      <h3>Name</h3>
+      <input type="text" name="FullName">
+      <h3>Email Adress</h3>
       <input type="text" name="Email" value="Email Address">
+      <h3>Street Address</h3>
       <input type="text" name="StreetAdress" value="Street Address">
+      <h3>City</h3>
       <input type="text" name="City" value="City">
-      <select class="" name="State"></select>
+      <h3>State</h3>
+      <select>
+        <option value="AK">AK</option>
+        <option value="CA">CA</option>
+        <option value="OR">OR</option>
+        <option value="WA">WA</option>
+      </select>
+      <h3>Zip Code</h3>
       <input type="text" name="ZipCode" value="Zip Code">
+      <h3>First Time Adopter?</h3>
+      <input type="radio" name="Yes" value="Yes">Yes
+      <input type="radio" name="No" value="No">No
+      <h3>Pickup Location</h3>
+      <select>
+        <option value="center">Adoption Center</option>
+        <option value="office">Office</option>
+      </select><br>
+      <h3>Dogs Adopted</h3>
+      <div class="checkout-items">
+        <div class="dog-checkout">
+          <img src="images/lucas-checkout.jpg" alt="Image of Lucas the dog">
+        </div>
+        <div class="item2">
+          <h3>Lucas</h3>
+          <p><span>Cost to Adopt:</span>$123.45</p>
+        </div>
+        <div class="dog-checkout">
+          <img src="images/duffy-checkout.jpg" alt="Image of Duffy the dog">
+        </div>
+        <div class="item2">
+          <h3>Duffy</h3>
+          <p><span>Cost to Adopt:</span>$123.45</p>
+        </div>
 
-    </section>
+      </div>
+      <br>
+      <h3>Total Adoption Cost</h3>
+      <p>$1234.56</p>
+      <input type="submit" name="Submit" value="Submit">
+    </form>
 
 
-    <footer class="foot"></footer>
+    <footer class="foot">
+      <div class="foot-items">
+      <img src="images/adoptadog-logo.svg" alt="Adoptadog logo">
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex
+        esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="doglist.html">Dogs</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+      <div>
+    </footer>
   </body>
 </html>
