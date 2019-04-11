@@ -1,8 +1,114 @@
-/* some temporary styles for easier review*/
-body{
-  background-color: green;
+:root {
+  --main-color: rgb(35, 71, 130);
+  --accent-color: rgb(76, 150, 46);
+  --light-grey-color: rgb(220, 220, 220);
+  --main-text-color: rgb(0, 0, 0);
+  --left-padding: 35px;
+
+  --body-font: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  --display-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: .8em;
 }
 
-.logo{ width: 250px;}
-#cart-bug .cart-icon{width: 25px;}
-label, input{ display: block;}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: var(--body-font);
+}
+
+.skiplink{
+  display: none;
+}
+
+header#page-header{
+  background: var(--main-color) url("../images/header-image.jpg") no-repeat center top;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 80% 20%;
+ }
+
+header #identity{
+  width: 80%;
+}
+
+header .logo{
+  width: 60%;
+  max-width: 250px;
+  height: auto;
+  margin: 30px 0 0 45px;
+}
+
+header .tagline{
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  font-style: italic;
+  font-family: var(--display-font);
+  margin: 0 0 135px 45px;
+}
+
+#cart-bug{
+  width: 15%;
+  text-align: right;
+}
+
+#cart-bug .cart-icon{
+  width: 25%;
+}
+
+header#page-header nav{
+  background-color: var(--light-grey-color);
+  grid-column: 1 / span 2;
+}
+header#page-header nav ul{
+  padding: 15px 0;
+  width: 80%;
+  margin: auto;
+}
+
+header#page-header nav ul li{
+  display: inline;
+  list-style-type: none;
+  padding: 15px 0;
+  color: var(--main-color);
+}
+
+header#page-header nav ul li a{
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px;
+}
+
+header#page-header nav ul li:first-child a{
+  padding-left: 0;
+}
+
+header#page-header nav ul li:after{
+  content: "\00a0/ ";
+}
+
+header#page-header nav ul li:last-child:after{
+  content: "";
+}
+main{
+  width: 80%;
+  margin: auto;
+}
+
+h1, h2{
+  font-family: var(--display-font);
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+h1{
+  margin: 20px 0;
+}
