@@ -1,3 +1,4 @@
+/* TODO: can vars be set for breakpoints? didn't work, check syntax... */
 :root {
   --main-color: rgb(35, 71, 130);
   --accent-color: rgb(76, 150, 46);
@@ -7,6 +8,7 @@
 
   --body-font: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   --display-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
   font-size: .8em;
 }
 
@@ -98,6 +100,7 @@ header.page-header nav ul li:after{
 header.page-header nav ul li:last-child:after{
   content: "";
 }
+
 main{
   width: 80%;
   margin: auto;
@@ -112,3 +115,52 @@ h1, h2{
 h1{
   margin: 20px 0;
 }
+
+/* dog cards */
+ul.cards{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+ul.cards li{
+  width: 90%;
+  min-width: 165px;
+  margin-bottom: 15px;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.cards li{
+  
+}
+
+ul.cards li img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* responsive shuffling of dog cards */
+@media screen and (max-width:900px){
+  ul.cards{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:700px){
+  ul.cards{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:460px){
+  ul.cards{
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
