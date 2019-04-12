@@ -26,7 +26,7 @@ body {
   display: none;
 }
 
-header#page-header{
+header.page-header{
   background: var(--main-color) url("../images/header-image.jpg") no-repeat center top;
   background-size: cover;
   color: rgb(255, 255, 255);
@@ -35,7 +35,7 @@ header#page-header{
   grid-template-columns: 80% 20%;
  }
 
-header #identity{
+header .identity{
   width: 80%;
 }
 
@@ -54,48 +54,48 @@ header .tagline{
   margin: 0 0 135px 45px;
 }
 
-#cart-bug{
+.cart-bug{
   width: 15%;
   text-align: right;
 }
 
-#cart-bug .cart-icon{
+.cart-bug .cart-icon{
   width: 25%;
 }
 
-header#page-header nav{
+header.page-header nav{
   background-color: var(--light-grey-color);
   grid-column: 1 / span 2;
 }
-header#page-header nav ul{
+header.page-header nav ul{
   padding: 15px 0;
   width: 80%;
   margin: auto;
 }
 
-header#page-header nav ul li{
+header.page-header nav ul li{
   display: inline;
   list-style-type: none;
   padding: 15px 0;
   color: var(--main-color);
 }
 
-header#page-header nav ul li a{
+header.page-header nav ul li a{
   color: var(--main-color);
   text-decoration: none;
   font-weight: bold;
   padding: 15px;
 }
 
-header#page-header nav ul li:first-child a{
+header.page-header nav ul li:first-child a{
   padding-left: 0;
 }
 
-header#page-header nav ul li:after{
+header.page-header nav ul li:after{
   content: "\00a0/ ";
 }
 
-header#page-header nav ul li:last-child:after{
+header.page-header nav ul li:last-child:after{
   content: "";
 }
 main{
