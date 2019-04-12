@@ -1,5 +1,7 @@
-.grid-container {
-    display: grid;
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Merriweather:400,400i');
+
+.flex-container {
+    display: flex;
     /*Need to decide on columns, rows, or other approach*/
     /*May also need to figure out if you can do multiple grids in one page and if so whether that is best approach here*/
 }
@@ -14,6 +16,11 @@ a:visited {
   
 #banner {
   background-color: #093b60;
+  height: 18em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
 a.subtitle:visited {
@@ -21,47 +28,80 @@ a.subtitle:visited {
 }
 
 #letterhead {
-/*Position to left of top field */
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 3%;
+  color: #81B642;
+  font-family: Merriweather, Times, serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 150%;
+  
 }
 
 #toplogo {
   /*Size to fit top field; I've just shrunk it a bit for now */
-  width: 40%;
+  max-width: 100%;
+  height: auto;
 }
 
 #cart {
-/*Position to top right of top field */
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-right: 10%;
+  margin-top: 3%;
+
+  
 }
+
+.top-cart {
+  color: white;
+  font-family: "Archivo Black", Geneva, sans-serif;
+  font-weight: bold;
+}
+
 
 #carticon {
 /*Size to make small; I've just shrunk it a bit for now*/
-width: 10%;
+width: 1.5em;
+
 }
 
-#cartprice {
-  /*size and check font, perhaps bold*/
-  color: white;
-}
-
-#checkout-button {
-/*Green background, position beneath cart icon */
-color: white;
-}
+.checkout-button {
+  /*Green background, position beneath cart icon */
+    background-color: #81B642;
+    height: 30px;
+    width: 140px;
+    color: white;
+    font-family: "Archivo Black", Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 75%;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px;
+}  
 
 h1 {
-  color:#81B642;
-  font-style: italic;
+  
 /*Size */
 }
 
 #subbanner {
   background-color: #ebebeb;
-  /*Size */
+  height: 4em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  
 }
 
 .subtitle {
  /*Position away from left margin and check font */
   color: #093b60;
+  font-family: "Archivo Black", Geneva, sans-serif;
   font-weight: bold;
 }
 
@@ -74,11 +114,15 @@ h1 {
 }
 
 h2 {
-/*Color blue and size up; check font */
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #093b60;
+  font-size: 1.75em;
+  font-weight: 900;
 }
 
 #lead-in {
-  /*Check size and font */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3C3C3C;
 }
 
 .profiles {
@@ -94,20 +138,30 @@ h2 {
 }
 
 h3 {
-  /*Make blue, check size and font */
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #093b60;
+  font-size: 1em;
+  font-weight: 900;
 }
 
 .cost {
-  /*Check font and size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .8em;
+  color: #3C3C3C;
 }
 
 .bio {
-  /*Check font and size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .8em;
+  color: #3C3C3C;
 }
 
 .adopt-button {
   /*Green backround white text, centered LR in div, padding */
 }
+
+/*Not working: make adopt-button white and still white when visited*/
+
 
 #whitespace {
   /*Make big enough for some padding*/
