@@ -1,0 +1,27 @@
+input, textarea, select {
+    border-radius: 5px;
+    display: block;
+    margin: 1em;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset input {
+    display: inline;
+    margin: 0em;
+}
+
+input[type="button"] {
+    background-color: lightgreen;
+}
+
+input:hover {
+    border-style: double;
+    border-color: magenta;
+}
+
+select {
+    width: 25%;
+}

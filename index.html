@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="styles/width-small.css">
+    <link rel="stylesheet" media="screen and (min-width: 501px) and (max-width: 850px)" href="styles/width-medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 851px)" href="styles/width-large.css">
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <img src="images/" alt="dog logo">
-        <p>Seattle's priemer dog adoption agency</p>
-        <input type="button" value="Checkout">
-    </header>
+        <header class="header-container">
+            <div class="header-item-1"><img src="images/cart-icon.svg" alt="cart icon">
+            <input class="header-item-2" type="button" value="Checkout"></div>
+            <div class="header-item-3"><img src="images/adoptadog-logo.svg" alt="dog logo"></div>
+            <h3 class="header-item-4 home-h">Seattle's priemer dog adoption agency</h3>
+        </header>
     <nav>
-        <ul>
-            <li><a href="#">Home /</a></li>
-            <li><a href="dogs.html">Dogs /</a></li>
-            <li><a href="blog.html">Blog</a></li>
+        <ul class="nav-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+            <li><a href="blog.html">Dog Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <section>
-        <img src="images/home-intro.jpg" alt="person with dog">
-        <h1>Adopt A Dog</h1>
-        <p>
+    <section class="top-section large-flex">
+        <div class="large-flex-div">
+        <img class="home-image" src="images/home-intro.jpg" alt="person with dog">
+    </div>
+    <div class="large-flex-div">
+        <h1 class="home-h">Adopt A Dog</h1>
+        <p class="home-p">
             Iduciendisite quo magnatem iuntum quid quaest ea am,
             tenderumet adis dolenem quidustrum fuga. Faceaquae estioria
             derum recuptatur, cum volore, undipsa doloreium hillupta aut
@@ -31,26 +40,23 @@
             volorent fugia nonsedi gendand itatquos as magnimpor aut
             molor autatia ad est officimus accae et omnia cus, od qui ate
         </p>
+    </div>
+        <hr/><hr/>
     </section>
-    <div>
-        <div>
-            <img src="images/murphy-card.jpg" alt="murphy">
-            <div>
+    <div class="card-parent">
+        <div class="card">
+            <img class="card-img" src="images/murphy-card.jpg" alt="murphy">
+            <div class="card-container">
                 <h3>Murphy</h3>
                 <p>Cost to Adopt: $123.45</p>
-                <p>
-                    Corrum volorit iandae
-                    nimaxim cum restia volor
-                    reicid ut et etur sunt arum
-                    rendae pla endis re ea erum,
-                    qui doluptae
+                <p> Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae
                 </p>
                 <input type="button" value="Adopt">
             </div>
         </div>
-        <div>
-            <img src="images/poppy-card.jpg" alt="Poppy">
-            <div>
+        <div class="card">
+            <img class="card-img" src="images/poppy-card.jpg" alt="Poppy">
+            <div class="card-container">
                 <h3>Poppy</h3>
                 <p>Cost to Adopt: $123.45</p>
                 <p>
@@ -63,9 +69,9 @@
                 <input type="button" value="Adopt">
             </div>
         </div>
-        <div>
-            <img src="images/jack-card.jpg" alt="Jack">
-            <div>
+        <div class="card">
+            <img class="card-img" src="images/jack-card.jpg" alt="Jack">
+            <div class="card-container">
                 <h3>Jack</h3>
                 <p>Cost to Adopt: $123.45</p>
                 <p>
@@ -78,9 +84,9 @@
                 <input type="button" value="Adopt">
             </div>
         </div>
-        <div>
-            <img src="images/duffy-card.jpg" alt="Duffy">
-            <div>
+        <div class="card">
+            <img class="card-img" src="images/duffy-card.jpg" alt="Duffy">
+            <div class="card-container">
                 <h3>Duffy</h3>
                 <p>Cost to Adopt: $123.45</p>
                 <p>
@@ -93,9 +99,9 @@
                 <input type="button" value="Adopt">
             </div>
         </div>
-        <div>
-            <img src="images/lucas-card.jpg" alt="Lucas">
-            <div>
+        <div class="card">
+            <img class="card-img" src="images/lucas-card.jpg" alt="Lucas">
+            <div class="card-container">
                 <h3>Lucas</h3>
                 <p>Cost to Adopt: $123.45</p>
                 <p>
@@ -108,9 +114,9 @@
                 <input type="button" value="Adopt">
             </div>
         </div>
-        <div>
-            <img src="images/jake-card.jpg" alt="Jake">
-            <div>
+        <div class="card">
+            <img class="card-img" src="images/jake-card.jpg" alt="Jake">
+            <div class="card-container">
                 <h3>Jake</h3>
                 <p>Cost to Adopt: $123.45</p>
                 <p>
@@ -123,9 +129,9 @@
                 <input type="button" value="Adopt">
             </div>
         </div>
-        <div>
-            <img src="images/angus-card.jpg" alt="Angus">
-            <div>
+        <div class="card">
+            <img class="card-img" src="images/angus-card.jpg" alt="Angus">
+            <div class="card-container">
                 <h3>Angus</h3>
                 <p>Cost to Adopt: $123.45</p>
                 <p>
@@ -138,9 +144,9 @@
                 <input type="button" value="Adopt">
             </div>
         </div>
-        <div>
-            <img src="images/violet-card.jpg" alt="Violet">
-            <div>
+        <div class="card">
+            <img class="card-img" src="images/violet-card.jpg" alt="Violet">
+            <div class="card-container">
                 <h3>Violet</h3>
                 <p>Cost to Adopt: $123.45</p>
                 <p>
@@ -154,14 +160,17 @@
             </div>
         </div>
     </div>
+    <div class="button-bottom">
     <input type="button" value="See More Dogs">
+    </div>
     <footer>
-        <img src="images/" alt="dog logo">
+            <img class="header-item-3" src="images/adoptadog-logo.svg" alt="dog logo">
         <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
         <p>invenienihil imaximu scideru ptistiusam consequunt</p>
-        <ul>
-            <li><a href="#">Home /</a></li>
-            <li><a href="dogs.html">Dogs /</a></li>
+        <ul class="nav-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+            <li><a href="blog.html">Dog Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
         <p>© 2018 Adoptadog, LLC   |   Seattle, WA</p>

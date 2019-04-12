@@ -1,0 +1,48 @@
+body {
+    background-color: red;
+  }
+  
+  .header-item-1 {
+    width: 5%;
+    float: right;
+  }
+  
+  .header-item-2 {
+    float: right;
+  }
+  
+.header-item-3 {
+  width: 30%;
+}
+
+  .card {
+    width: 28%;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  .home-image {
+    width: 90%;
+    margin-top: 1em;
+  }
+  
+  .home-p {
+    font-size: 1.5em;
+  }
+  
+  .home-h {
+    font-size: 2em;
+  }
+  .flex-large {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .large-flex-div {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+  }

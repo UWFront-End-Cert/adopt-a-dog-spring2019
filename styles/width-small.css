@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+  }
+
+  .header-item-1 {
+    width: 10%;
+    float: right;
+  }
+
+  .header-item-2 {
+    float: right;
+  }
+
+  .header-item-3 {
+    width: 50%;
+  }
+
+  .home-image {
+    width: 80%;
+    margin-top: 1em;
+  }
+
+  .nav-ul li ~ li {
+    padding-left: 2em;
+}

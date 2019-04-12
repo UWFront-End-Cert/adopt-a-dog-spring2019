@@ -1,0 +1,35 @@
+body {
+    background-color: blue;
+}
+
+.header-item-1 {
+  width: 5%;
+  float: right;
+}
+
+.header-item-2 {
+  float: right;
+}
+
+.header-item-3 {
+  width: 40%;
+}
+
+.card {
+  width: 40%;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.home-image {
+  width: 80%;
+  margin-top: 1em;
+}
+
+.home-p {
+  font-size: 1.5em;
+}
+
+.home-h {
+  font-size: 1.5em;
+}

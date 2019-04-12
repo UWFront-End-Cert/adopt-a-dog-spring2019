@@ -1,54 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/main-style.css">
+        <link rel="stylesheet" media="screen and (max-width: 500px)" href="styles/width-small.css">
+        <link rel="stylesheet" media="screen and (min-width: 501px) and (max-width: 850px)" href="styles/width-medium.css">
+        <link rel="stylesheet" media="screen and (min-width: 851px)" href="styles/width-large.css">
         <title>Dog Blog</title>
     </head>
     <body>
-        <header>
-            <img src="images/" alt="dog logo">
-            <p>Seattle's priemer dog adoption agency</p>
-            <input type="button" value="Checkout">
-        </header>
+            <header class="header-container">
+                    <div class="header-item-1"><img src="images/cart-icon.svg" alt="cart icon">
+                    <input class="header-item-2" type="button" value="Checkout"></div>
+                    <div class="header-item-3"><img src="images/adoptadog-logo.svg" alt="dog logo"></div>
+                    <h3 class="header-item-4 home-h">Seattle's priemer dog adoption agency</h3>
+                </header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home /</a></li>
-                <li><a href="dogs.html">Dogs /</a></li>
-                <li><a href="#">Blog</a></li>
+            <ul class="nav-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="blog.html">Dog Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <section>
-            <h1>Adoptadog Blog</h1>
-            <section>
-                <img src="images/blog-1.jpg" alt="dog blog one">
-                <h2>Traveling With Your Dog</h2>
-                <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
-                <p>Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam.</p>
+        <section class="top-section">
+            <h1 class="home-h">Adoptadog Blog</h1>
+            <hr/>
+            <h2 class="home-h">Traveling With Your Dog</h2>
+            <section class="flex-large">
+                <img class="home-image"  src="images/blog-1.jpg" alt="dog blog one">
+               
+                <p class="home-p">Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
+                <p class="home-p">Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam.</p>
             </section>
-            <section>
-                <img src="images/blog-2.jpg" alt="dog blog two">
-                <h2>How To Walk Multiple Dogs</h2>
-                <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
-                <p>Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam.</p>
+            <hr/>
+            <h2 class="home-h">How To Walk Multiple Dogs</h2>
+            <section class="flex-large">
+                <img class="home-image"  src="images/blog-2.jpg" alt="dog blog two">
+                
+                <p class="home-p">Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
+                <p class="home-p">Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam.</p>
+
             </section>
-            <section>
-                <img src="images/blog-3.jpg" alt="dog blog three">
-                <h2>Teach Your Dog To Fetch!</h2>
-                <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
-                <p>Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam.</p>
+            <hr/>
+            <h2 class="home-h">Teach Your Dog To Fetch!</h2>
+            <section class="flex-large">
+                <img class="home-image"  src="images/blog-3.jpg" alt="dog blog three">
+              
+                <p class="home-p">Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus am aut amet ant fugiatum, utem non reptat.</p>
+                <p class="home-p">Uptiusd andesci qui nem aut vendion ectur? Debis que explaut laborenia que doluptur, con et labor abor sant poreperum dio quat que doluptatur aut voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam.</p>
             </section>
         </section>
+        <hr/>
+        <hr/>
         <footer>
-                <img src="images/" alt="dog logo">
-                <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
-                <p>invenienihil imaximu scideru ptistiusam consequunt</p>
-                <ul>
-                    <li><a href="index.html">Home /</a></li>
-                    <li><a href="dogs.html">Dogs /</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <p>© 2018 Adoptadog, LLC   |   Seattle, WA</p>
+                <img class="header-item-3" src="images/adoptadog-logo.svg" alt="dog logo">
+            <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex</p>
+            <p>invenienihil imaximu scideru ptistiusam consequunt</p>
+            <ul class="nav-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="blog.html">Dog Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>© 2018 Adoptadog, LLC   |   Seattle, WA</p>
         </footer>
     </body>
 </html>
