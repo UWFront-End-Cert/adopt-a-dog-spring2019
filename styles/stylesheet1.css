@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+
+header.head {
+    background-image: url(../images/header-image.jpg);
+    width: 100%;
+    padding: 2em 4em 4em;
+    padding-bottom: 10em;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    color: #77ad3b;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20pt;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+
+.checkout-button, .checkout-button a {
+    float: right;
+    clear: both;
+    background-color: #77ad3b;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+nav.navigation {
+    background-color: lightgray;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+nav a {
+    padding-right: .5em;
+    padding-left: .5em;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    color: #072054;
+}
+
+nav a#first-nav  {
+    margin-left: 15%;
+}
+
+.cart {
+    float: right;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 1.5;
+    align-content: flex-end;
+}
+
+.main-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-adopt {
+    display: flex;
+    padding: 2em; 
+}
+
+.about-adopt img {
+    padding: 2em; 
+    width: 75%;
+    height: 75%;
+}
+
+h2.blue-title {
+    color: #072054;
+    font-size: 40px;
+
+}
+
+.about-adopt-text p {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+figure.gallery-item {
+    float: left;
+    width: auto;
+    padding: 0em;
+    margin: 1em;
+    border: #f0f2f3 thick solid;
+  }
+
+  .gallery::after {
+    content: "";
+    clear: both;
+    display: flex;
+  }
+
+  figcaption {
+    padding: .5em;
+    text-align: left;
+    width: 250px;
+  }
+
+  .adopt-button, .adopt-button a {
+    display: flex;
+    justify-content: center;
+    background-color: #77ad3b;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .gallery-button {
+    clear: both;
+    display: block;
+    text-align: center;
+    background-color: #f0f2f3;
+    color: #072054;
+    font-weight: 900;
+    font-size: 20px;
+    padding: .5em 1em .5em 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-decoration: none;
+  }
