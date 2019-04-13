@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Adopt a Dog</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">    <title>Adopt a Dog</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet1.css">
   </head>
 
   <body>
 
-    <header style="background-color:#ADD8E6;">
-      <img src="images/adoptadog-logo.svg" alt="white adopt a dog logo"  width="503" height="136">
+    <header class="head">
+      <div class="cart">
+        <p><img src="images/cart-icon.svg" alt="shopping cart icon"  width="10%"> $1234.56 </p>
+      </div>
+        <a class="checkout-button" href="checkout.html">checkout</a>
+      <img class="head-logo" src="images/adoptadog-logo.svg" alt="white adopt a dog logo"  width="503" height="136">
       <h1>Seattle's premiere dog adoption agency</h1>
-      <img src="images/cart-icon.svg" alt="shopping cart icon" width="29" height="26">
-      <p>$1234.56</p>
-      <a class="checkout-button" href="checkout.html">checkout</a>
     </header>
 
-    <nav style="background-color:#C0C0C0">
-      <a href="index.html">Home</a> /
+    <nav class="navigation">
+      <a id="first-nav" href="index.html">Home</a> /
       <a href="dogs.html">Dogs</a> /
       <a href="blog.html">Blog</a>
     </nav>
 
-    <section>
-      <h2>Checkout</h2>
+    <div class="main-content">
 
-      <form class="" action="index.html" method="GET">
+    <section>
+      <h2 class="blue-title">Checkout</h2>
+
+      <form class="contact" action="index.html" method="GET">
 
         <fieldset class= contact-info>
-          <label>Name
+          <label class="contact-info-input">Name
             <input type="text" name="customerName" value="">
           </label>
 
-          <label>Email Address
+          <label class="contact-info-input">Email Address
             <input type="text" name="customerEmail" value="">
           </label>
 
-          <label>Street Address
+          <label class="contact-info-input">Street Address
             <input type="text" name="customerAddress" value="">
           </label>
-
-          <label class="contact-csz">City
+      
+          <label class="contact-csz" id="contact-city">City
             <input type="text" name="customerCity" value="">
           </label>
 
           <label class="contact-csz">State
+              <input type="text" name="customerState" value="">
+            </label>
+
+            <label class="contact-csz" id="contact-zip">Zip Code
+                <input type="text" pattern="[0-9]{5}" name="customerZip" value="">
+              </label>
+            
+          </fieldset>
+
+          <!-- <label class="contact-csz">State
             <select>
               <option value="">Select</option>
             	<option value="AL">Alabama</option>
@@ -99,14 +111,11 @@
             	<option value="WI">Wisconsin</option>
             	<option value="WY">Wyoming</option>
             </select>
-          </label>
+          </label> -->
 
-          <label class="contact-csz">Zip Code
-            <input type="text" pattern="[0-9]{5}" name="customerZip" value="">
-          </label>
-        </fieldset>
+          
 
-        <fieldset>
+        <fieldset class="contact-info-input">
           <legend>First Time Adopter?</legend>
             <label>Yes
               <input type="radio" name="firstTime" value="yes">
@@ -157,12 +166,12 @@
 
 
     </section>
+  </div>
 
-
-    <footer style="background-color:#ADD8E6;">
+    <footer>
       <img src="images/adoptadog-logo.svg" alt="white adopt a dog logo"  width="503" height="136">
         <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
-        <nav>
+        <nav class="footer-nav">
           <a href="index.html">Home</a> /
           <a href="dogs.html">Dogs</a> /
           <a href="blog.html">Blog</a>

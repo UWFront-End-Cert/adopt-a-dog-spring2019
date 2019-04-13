@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
   }
 
 header.head {
@@ -47,20 +48,25 @@ nav a {
     padding-left: .5em;
     text-decoration: none;
     font-weight: 900;
-    font-size: 20px;
-    color: #072054;
+    font-size: 1.2em;
+    color: #034177;
 }
 
 nav a#first-nav  {
-    margin-left: 15%;
+    padding-left: 9em;
+}
+
+.cart p {
+  display: inline-block;
+
 }
 
 .cart {
     float: right;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 1em;
     line-height: 1.5;
-    align-content: flex-end;
+    
 }
 
 .main-content {
@@ -71,18 +77,24 @@ nav a#first-nav  {
 
 .about-adopt {
     display: flex;
-    padding: 2em; 
 }
 
 .about-adopt img {
-    padding: 2em; 
+    padding: 1.25em; 
     width: 75%;
     height: 75%;
 }
 
 h2.blue-title {
-    color: #072054;
-    font-size: 40px;
+    color: #034177;
+    font-size: 2.5em;
+    padding-left: .5em;
+
+}
+
+h3.blue-title {
+  color: #034177;
+  font-size: 1.3em;
 
 }
 
@@ -92,7 +104,7 @@ h2.blue-title {
     line-height: 1.25;
 }
 
-figure.gallery-item {
+div.gallery-item {
     float: left;
     width: auto;
     padding: 0em;
@@ -112,14 +124,13 @@ figure.gallery-item {
     width: 250px;
   }
 
-  .adopt-button, .adopt-button a {
+  .adopt-button {
     display: flex;
     justify-content: center;
     background-color: #77ad3b;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding: .5em 5em .5em 5em;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 900;
     color: white;
     text-decoration: none;
@@ -131,12 +142,104 @@ figure.gallery-item {
     display: block;
     text-align: center;
     background-color: #f0f2f3;
-    color: #072054;
+    color: #034177;
     font-weight: 900;
     font-size: 20px;
     padding: .5em 1em .5em 1em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1em auto 1em auto;
     width: 20%;
     text-decoration: none;
   }
+
+  footer {
+    display: block;
+    text-align: center;
+    padding: 4em;
+    background-color: #034177;
+    color: white;
+  }
+
+  footer a {
+    color: white;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+
+  .footer-nav {
+    padding: 2em;
+  }
+
+  footer p {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    width: 33%;
+    font-size: 1em;
+  }
+
+  .blog {
+    display: flex;
+    padding: 0em 2em 2em 0em;
+}
+
+.blog img {
+    padding: 1.25em 2.5em 1.25em 1.25em; 
+    width: 75%;
+    height: 75%;
+}
+
+.blog-post p {
+  font-size: 1.07em;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.contact-info input {
+  width: 100%;
+  padding: 1.25em;
+  margin: .5em 0em 4em 0em;;
+  color: #034177;
+}
+
+.contact-info-input {
+  color: #034177;
+  font-size: 2em;
+  width: 60%;
+}
+
+fieldset {
+  border: none;
+  display: block;
+  width: 60%;
+  padding: 1em;
+}
+
+.csz {
+  width: 100%;
+  border: none;
+ 
+}
+
+.contact-csz {
+  display: inline-block;
+  width: 15%;
+  color: #034177;
+  font-size: 2em;
+}
+
+.contact-csz#contact-city {
+  width: 35%;
+  margin-right: 1.9em;
+}
+
+.contact-csz#contact-zip {
+  width: 30%;
+  margin-left: 1.9em;
+  margin-right: 0em;
+}
+
+.contact-csz input {
+  display: flex;
+  justify-content: space-between;
+}
+
