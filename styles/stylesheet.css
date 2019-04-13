@@ -46,17 +46,17 @@ a {
   font-weight: bold;
 }
 
-.home-intro {
+.home-intro, .blog-post {
   margin: 2em 6.5em 1em 6.5em;
   display: inline-block;
 }
 
-.home-intro img {
+.home-intro img, .blog-post img {
   float: left;
   width: 30%;
 }
 
-.home-intro p, .home-intro h1{
+.home-intro p, .home-intro h1, .blog-post p, .blog-post h2{
   margin: 1em 2em;
   display: table;
   position: relative;
@@ -71,6 +71,13 @@ a {
 .above-flex {
   width: 100%;
   margin: 1.5em 3.5em 0 3.5em;
+}
+
+.blog-title {
+  margin: 2em 3.5em 0 4.25em;
+}
+
+h2 {
   color: #154360;
 }
 
