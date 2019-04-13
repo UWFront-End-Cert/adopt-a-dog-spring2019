@@ -127,7 +127,7 @@ h2 {
   font-weight: 900;
 }
 
-#lead-in {
+.lead-in {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #3C3C3C;
   width: 30rem;
@@ -229,36 +229,55 @@ a.more:visited {
   /*Maybe nothing needed*/
 }
 
-#basefield {
+.basefield {
   background-color: #3C3C3C;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /*some padding above*/
 }
 
 #bottomlogo {
   /*size and center LR*; just shrank a bit for now*/
-  width: 20%;
+  width: 22%;
+  
 }
 
 #footer-text {
-/*Center LR, font*/
-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }
 
 .footer-link {
-/*Center LR,*/
-color: white;
+/*Having a problem with this breaking into lines*/
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 a.footer-link:visited {
   color: white;
 }
 #copyright {
-  /*Different font, LR center*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
 
 .blogentry {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+  
   /*Wrap image, h3, and text; some padding*/
+}
+
+.text {
+  width: 40rem;
+  margin: 30px;
 }
 
 .blogpic {
