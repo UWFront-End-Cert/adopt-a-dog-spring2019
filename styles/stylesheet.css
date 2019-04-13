@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*font-family*/
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../images/header-image.jpg");
+  padding: 7em;
+  color: #55C632;
+}
+
+.float-right {
+  float: right;
+  width: 5%;
+}
+
+header.logo {
+  clear: both;
+}
+
+header button {
+  background-color: #55C632;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+
+nav {
+  background-color: #DCDCDC;
+  padding: 0.5em;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0.5em;
+  color: #154360;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.home-intro {
+  margin: 2em 6.5em 1em 6.5em;
+  display: inline-block;
+}
+
+.home-intro img {
+  float: left;
+  width: 30%;
+}
+
+.home-intro p, .home-intro h1{
+  margin: 1em 2em;
+  display: table;
+  position: relative;
+  left: 3em;
+  width: 60%;
+}
+
+.above-flex {
+  width: 100%;
+  margin: 0.5em 3.5em;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  clear: both;
+}
+
+.flex-dog {
+  width: 20%;
+  border: 0.25em solid #D3D3D3;
+  margin: 1em;
+}
+
+.flex-dog img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-dog h2, .flex-dog h3, .flex-dog p, .flex-dog button{
+  margin: 0.5rem 1rem;
+}
+
+.flex-dog button {
+  background-color: #55C632;
+  color: #FFFFFF;
+  padding: 0.5em 3.5em;
+}
+
+.not-flex {
+  display: block;
+  width: 15%;
+  margin: 2em;
+  font-size: 1em;
+  color: #154360;
+  font-weight: bolder;
+  padding: 0.5em;
+}
+
+footer {
+  background-color: #154360;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1rem;
+  padding: 2.5em;
+}
+
+footer p {
+  width: 25rem;
+  margin: 1em auto;
+  line-height: 1.5em;
+}
+
+.bottom-nav ul li{
+  color: #FFFFFF;
+}
+
+.bottom-nav a:visited{
+  color: #FFFFFF;
+}
+
+.bottom-nav {
+  background-color: #154360;
+  margin-bottom: 0.5em;
+}
+
+footer h3 {
+  margin: 0;
+}
