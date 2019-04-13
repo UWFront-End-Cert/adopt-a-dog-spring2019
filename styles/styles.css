@@ -20,6 +20,7 @@ a:visited {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 
 }
 
@@ -30,18 +31,22 @@ a.subtitle:visited {
 #letterhead {
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
+  
   margin-top: 3%;
   color: #81B642;
   font-family: Merriweather, Times, serif;
   font-style: italic;
   text-align: center;
   font-size: 150%;
+}
+
+.filler {
+  width: 0%;
   
+ 
 }
 
 #toplogo {
-  /*Size to fit top field; I've just shrunk it a bit for now */
   max-width: 100%;
   height: auto;
 }
@@ -50,10 +55,8 @@ a.subtitle:visited {
   display: flex;
   flex-direction: column;
   justify-content: right;
-  margin-right: 10%;
-  margin-top: 3%;
-
-  
+  margin-top: 2rem;
+   
 }
 
 .top-cart {
@@ -95,7 +98,6 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  
 }
 
 .subtitle {
@@ -103,14 +105,19 @@ h1 {
   color: #093b60;
   font-family: "Archivo Black", Geneva, sans-serif;
   font-weight: bold;
+  margin-left: 10rem;
 }
 
 #welcome {
-/*Center L and R, make below subbanner, add some padding */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
 }
 
 #hugpicture {
-/*Size down and padding */
+  width: 85%;
 }
 
 h2 {
@@ -123,24 +130,34 @@ h2 {
 #lead-in {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #3C3C3C;
+  width: 30rem;
+
 }
 
 .profiles {
-/*Center L and R, make below "welcome" or "subbanner" dep on page, light gray border and padding  */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-card {
-  /*Wrapper for individual dog profiles */
+  width: 200px;
+  height: 375px;
+  margin: 25px;
+  border: 2px solid #ebebeb;
 }
 
 .profilepicture {
-  /*Size down and center in div */
+  width: 200px;
 }
 
 h3 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #093b60;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 900;
 }
 
@@ -157,19 +174,55 @@ h3 {
 }
 
 .adopt-button {
-  /*Green backround white text, centered LR in div, padding */
+  background-color: #81B642;
+  height: 30px;
+  width: 180px;
+  color: white;
+  font-family: "Archivo Black", Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+a.checkout:visited {
+  color: white;
 }
 
 /*Not working: make adopt-button white and still white when visited*/
 
+.superfooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+}
 
 #whitespace {
+  height: 8rem;
   /*Make big enough for some padding*/
 
 }
 
-#moredogs {
+.moredogs {
+  background-color: #ebebeb;
+  height: 50px;
+  width: 225px;
+  color: #093b60;
+  font-family: "Archivo Black", Geneva, sans-serif;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  margin: 10px;
   /*Text blue, background light grey, LR centered, closer to top than bottom*/
+}
+
+a.more:visited {
+  color: #093b60;
 }
 
 #footer {
