@@ -64,9 +64,14 @@ a {
   width: 60%;
 }
 
+.home-intro h1 {
+  color: #154360;
+}
+
 .above-flex {
   width: 100%;
-  margin: 0.5em 3.5em;
+  margin: 1.5em 3.5em 0 3.5em;
+  color: #154360;
 }
 
 .flexbox-container {
@@ -81,7 +86,7 @@ a {
 .flex-dog {
   width: 20%;
   border: 0.25em solid #D3D3D3;
-  margin: 1em;
+  margin: 2em 1em;
 }
 
 .flex-dog img {
@@ -116,6 +121,10 @@ footer {
   margin: 0 auto;
   line-height: 1rem;
   padding: 2.5em;
+}
+
+footer {
+  margin-top: 2.5em;
 }
 
 footer p {
