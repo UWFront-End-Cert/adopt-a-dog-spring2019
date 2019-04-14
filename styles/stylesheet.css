@@ -79,6 +79,7 @@ a {
 
 h2 {
   color: #154360;
+  margin-top: 2em;
 }
 
 .flexbox-container {
@@ -101,11 +102,11 @@ h2 {
   height: auto;
 }
 
-.flex-dog h2, .flex-dog h3, .flex-dog p, .flex-dog button{
+.flex-dog h2, .flex-dog h3, .flex-dog p, .flex-dog button {
   margin: 0.5rem 1rem;
 }
 
-.flex-dog button {
+.flex-dog button, .checkout-submit {
   background-color: #55C632;
   color: #FFFFFF;
   padding: 0.5em 3.5em;
@@ -119,6 +120,72 @@ h2 {
   color: #154360;
   font-weight: bolder;
   padding: 0.5em;
+}
+
+.checkout {
+  margin: 2em 6.5em 1em 4em;
+}
+
+.checkout label, legend {
+  font-size: 1.5em;
+  margin-left: 1.5em;
+  color: #154360;
+  font-weight: bold;
+}
+
+input, select {
+  position: relative;
+  left: 2em;
+  width: 70%;
+  height: 2.5em;
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.inline-radio, .inline-radio input {
+  display: inline;
+  width: 5%;
+}
+
+fieldset {
+  border: 0;
+  position: relative;
+  right: 2em;
+}
+
+.inline-radio label {
+  font-size: 4rem;
+  color: #000000;
+}
+
+.city input {
+  width: 35%;
+}
+
+.state select, .location select{
+  width: 14%;
+}
+
+.zip input {
+  width: 21%;
+}
+
+.adopted-dog, .adopted-dog h3 {
+  display: inline-block;
+  padding: 0 1.5em;
+}
+
+.adopted-dog p {
+  display: inline;
+  position: relative;
+  right: 5em;
+  bottom: -2em;
+  margin-bottom: 3em;
+}
+
+.checkout-submit {
+  font-weight: bolder;
+  width: 15%;
 }
 
 footer {
