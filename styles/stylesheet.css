@@ -93,19 +93,30 @@ footer {
 }
 
 footer {
+  height: 30em;
+  width: auto;
   display: flex;
-	height: 30em;
 	background-color: #00004d;
   background-size: cover;
   justify-content: center;
   text-align: center;
-  align-items: center;
-  align-content: center;
+  align-content: space-between;
   color: #ffffff;
 	margin: 0;
 	padding: 5% 5%;
 }
 
+.footer-text {
+  margin-bottom: 3em;
+}
+
+.footer-copy {
+  margin-top: 3em;
+}
+
+.footer-link {
+  font-weight: 700;
+}
 
 
 footer a {
