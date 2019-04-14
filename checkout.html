@@ -3,134 +3,156 @@
 <html lang = "en">
 
 <head>
-  <title>Checkout - Adopt-a-Dog</title>
+    <title>Checkout - Adopt-a-Dog</title>
+    <link rel="stylesheet" type="text/css" href="formatting.css">
 </head>
 
 <body>
-       <header>
-           <img src="./images/header-image.svg">
-           <img src="./images/adoptadog-logo.svg">           <!--Logo-->
-           <h1>Seattle's premiere dog adoption agency</h1>
-           <img src="./images/cart-icon.svg">           <!--Cart-->
-           <form action="./checkout.html">
-                <input type="submit" value="Checkout">
-            </form>>
-           <nav>
-               <a href="./index.html">Home / </a>
-               <a href="./dogs.html">Dogs / </a>
-               <a href="./blog.html">Blog</a>
-           </nav>
-       </header>
-        <section>
-            <h2>Checkout</h2>
-            <form>
-                Name<br>
-                <input type="text" name="name"><br>
-                Email Address<br>
-                <input type="email" name="email"><br>
-                Street Address<br>
-                <input type="text" name="street address"><br>
-                City<br>
-                <input type="text" name="city">
-                <fieldset>
-                  <legend>State</legend>
-                  <p>
-                     <label>Select list</label>
-                     <select>
-                       <option value = "1">AL</option>
-                       <option value = "2">AK</option>
-                       <option value = "3">AR</option>
-                       <option value = "4">AZ</option>
-                       <option value = "1">CA</option>
-                       <option value = "2">CO</option>
-                       <option value = "3">CT</option>
-                       <option value = "4">DC</option>
-                       <option value = "1">DE</option>
-                       <option value = "2">FL</option>
-                       <option value = "3">GA</option>
-                       <option value = "4">HI</option>
-                       <option value = "1">IA</option>
-                       <option value = "2">ID</option>
-                       <option value = "3">IL</option>
-                       <option value = "4">IN</option>
-                       <option value = "1">KS</option>
-                       <option value = "2">KY</option>
-                       <option value = "3">LA</option>
-                       <option value = "4">MA</option>
-                       <option value = "1">MD</option>
-                       <option value = "2">ME</option>
-                       <option value = "3">MI</option>
-                       <option value = "4">MN</option>
-                       <option value = "1">MO</option>
-                       <option value = "2">MS</option>
-                       <option value = "3">MT</option>
-                       <option value = "4">NC</option>
-                       <option value = "1">ND</option>
-                       <option value = "2">NE</option>
-                       <option value = "3">NH</option>
-                       <option value = "4">NJ</option>
-                       <option value = "1">NM</option>
-                       <option value = "2">NV</option>
-                       <option value = "3">NY</option>
-                       <option value = "4">OH</option>
-                       <option value = "1">OK</option>
-                       <option value = "2">OR</option>
-                       <option value = "3">PA</option>
-                       <option value = "4">PR</option>
-                       <option value = "1">SC</option>
-                       <option value = "2">SD</option>
-                       <option value = "3">TN</option>
-                       <option value = "4">TX</option>
-                       <option value = "1">UT</option>
-                       <option value = "2">VA</option>
-                       <option value = "3">WA</option>
-                       <option value = "4">WI</option>
-                       <option value = "3">WV</option>
-                       <option value = "4">WY</option>
-                     </select>
-                  </p>
-               </fieldset><br>
+    <header>
+        <div class="header-banner">
+            <img src="./images/header-image.jpg" id="banner-image">
+            <div class="title-alligner">
+                <img src="./images/adoptadog-logo.svg" id="logo-image">           <!--Logo-->
+                <h1>Seattle's premiere dog adoption agency</h1>
+            </div>
+            <div class="cart-alligner">
+                <img src="./images/cart-icon.svg" id="cart-image"><b>$1234.56</b><!--Cart-->
+                <form action="./checkout.html">
+                    <input type="submit" value="Checkout" class="w3-button w3-round-large">
+                </form>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-bar-links">
+                <a href="./index.html">Home</a> /
+                <a href="./dogs.html">Dogs</a> /
+                <a href="./blog.html">Blog</a>
+            </div>
+        </nav>
+    </header>
+    <section class="main-content" id="checkout">
+        <h2 style="font-size: 3em">Checkout</h2>
+        <form>
+            <div id="checkout-label">Name</div><br>
+            <input type="text" name="name"><br>
+            <div id="checkout-label">
+                Email Address
+            </div><br>
+            <input type="email" name="email"><br>
+            <div id="checkout-label">
+                Street Address
+            </div><br>
+            <input type="text" name="street address"><br>
+            <div id="checkout-label">
+                City
+            </div>
+            <input type="text" name="city">
+            <div id="checkout-label">
+                State
+            </div>
+            <p>
+                <select style="height: 2em">
+                    <option value="1">AL</option>
+                    <option value="2">AK</option>
+                    <option value="3">AR</option>
+                    <option value="4">AZ</option>
+                    <option value="5">CA</option>
+                    <option value="6">CO</option>
+                    <option value="7">CT</option>
+                    <option value="8">DC</option>
+                    <option value="9">DE</option>
+                    <option value="10">FL</option>
+                    <option value="11">GA</option>
+                    <option value="12">HI</option>
+                    <option value="13">IA</option>
+                    <option value="14">ID</option>
+                    <option value="15">IL</option>
+                    <option value="16">IN</option>
+                    <option value="17">KS</option>
+                    <option value="18">KY</option>
+                    <option value="19">LA</option>
+                    <option value="20">MA</option>
+                    <option value="21">MD</option>
+                    <option value="22">ME</option>
+                    <option value="23">MI</option>
+                    <option value="24">MN</option>
+                    <option value="25">MO</option>
+                    <option value="26">MS</option>
+                    <option value="27">MT</option>
+                    <option value="28">NC</option>
+                    <option value="29">ND</option>
+                    <option value="30">NE</option>
+                    <option value="31">NH</option>
+                    <option value="32">NJ</option>
+                    <option value="33">NM</option>
+                    <option value="34">NV</option>
+                    <option value="35">NY</option>
+                    <option value="36">OH</option>
+                    <option value="37">OK</option>
+                    <option value="38">OR</option>
+                    <option value="39">PA</option>
+                    <option value="40">PR</option>
+                    <option value="41">SC</option>
+                    <option value="42">SD</option>
+                    <option value="43">TN</option>
+                    <option value="44">TX</option>
+                    <option value="45">UT</option>
+                    <option value="46">VA</option>
+                    <option value="47">WA</option>
+                    <option value="48">WI</option>
+                    <option value="49">WV</option>
+                    <option value="50">WY</option>
+                </select>
+            </p>
+            <div id="checkout-label">
                 Zip<br>
-                <input type="number" name="Zip Code"><br>
-                First Time Adopter?<br>
-                <input type="radio" name="first time adopter" value="yes">
-                <input type="radio" name="first time adopter" value="no"><br>
+            </div>
+            <input type="number" name="Zip Code"><br>
+            <div class="radial">
+                <div id="checkout-label">
+                    First-Time Adopter?<br>
+                </div>
+                <input type="radio" name="first time adopter" value="yes"><label id="checkout-label">Yes</label>
+                <input type="radio" name="first time adopter" value="no"><label id="checkout-label">No</label><br><br>
+            </div>
+            <div id="checkout-label">
                 Pick Up Location<br>
-                <fieldset>
-                  <legend>Selecting elements</legend>
-                  <p>
-                     <label>Select list</label>
-                     <select>
-                     </select>
-                  </p>
-                </fieldset><br>
-                Dogs Adopted<br>
-                <div>
-                    <img src="./images/lucas-checkout.jpg">
-                    Lucas
-                    <b>Cost to Adopt:</b> $123.45
+            </div>
+            <p>
+                <select></select>
+            </p><br>
+            <div id="checkout-label">
+                Dogs Adopted:<br>
+            </div>
+            <div class="grid-wrapper">
+                <div class="article">
+                    <img src="./images/lucas-checkout.jpg" height="100" width="100">
+                    <label style="font-size: 1.7em; color: darkblue"><b>Lucas</b></label>
+                    <br><label style="font-size: 1.2em"><b>Cost to Adopt:</b>$123.45</label>
                 </div>
-                <div>
-                    <img src="./images/duffy-checkout.jpg">
-                    Duffy
-                    <b>Cost to Adopt:</b> $123.45
+                <div class="article">
+                    <img src="./images/duffy-checkout.jpg" height="100" width="100">
+                    <label style="font-size: 1.7em; color: darkblue"><b>Duffy</b></label>
+                    <br><label style="font-size: 1.2em"><b>Cost to Adopt:</b> $123.45</label>
                 </div>
+            </div>
+            <div id="checkout-label">
                 Total Adoption Cost<br>
-                $1234.56
-                <input type="submit" value="Submit">
-
-            </form>
-        </section>
-       <footer style="text-align: center;">
-           <img src="./images/adoptadog-logo.svg">           <!--Logo-->
-           <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>esseque envenienihil imaximu scideru ptistusiasm consequunt</p>
-           <nav>
-               <a href="./index.html">Home / </a>
-               <a href="./dogs.html">Dogs / </a>
-               <a href="./contact.html">Contact</a>
-           </nav>
-           <p>&#169 2018 Adoptadog, LLC | Seattle</p>
-       </footer>
+            </div>
+            <label style="font-size: 1.5em;">$1234.56</label><br>
+            <input type="submit" value="Submit" style="width: 25%; background-color: olivedrab; color: white; border: none; border-radius: 8px; margin-top: 3em; margin-bottom: 3em;">
+        </form>
+    </section>
+    <footer>
+        <img src="./images/adoptadog-logo.svg" id="logo-image">           <!--Logo-->
+        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>esseque envenienihil imaximu scideru ptistusiasm consequunt<br></p>
+        <nav>
+            <a href="./index.html">Home / </a>
+            <a href="./dogs.html">Dogs / </a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <p><br>&#169 2018 Adoptadog, LLC | Seattle</p>
+    </footer>
 </body>
 
 </html>

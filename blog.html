@@ -3,52 +3,61 @@
 <html lang = "en">
 
 <head>
-  <title>Blog - Adopt-a-Dog</title>
+    <title>Blog - Adopt-a-Dog</title>
+    <link rel="stylesheet" type="text/css" href="formatting.css">
 </head>
 
 <body>
-       <header>
-           <img src="./images/header-image.svg">
-           <img src="./images/adoptadog-logo.svg">           <!--Logo-->
-           <h1>Seattle's premiere dog adoption agency</h1>
-           <img src="./images/cart-icon.svg">           <!--Cart-->
-           <form action="./checkout.html">
-                <input type="submit" value="Checkout">
-            </form>>
-           <nav>
-               <a href="./index.html">Home / </a>
-               <a href="./dogs.html">Dogs / </a>
-               <a href="./blog.html">Blog</a>
-           </nav>
-       </header>
-        <section>
-            <h2>Adoptadog Blog</h2>
-            <div>
-                <img src="./blog-1.jpg">
-                <h3>Traveling with Your Dog</h3>
-                <p>Simplex chartam ultimum dubitem vi de ignorem is mallent. Conari pileos calida si indere gi. Meditatas obstinate eo id immittant si eversioni. Me circulum mutuatur diversas ut. Talium ex audita is gustum et ha nullam certis. Effectus supponit continet vi simulque de siquidem. Erunt bonus istas ferri de favis facit at. Figuras hoc vul innatis figuram.<br>Ii alterius ferventi momentum co cohiberi notitiam si. Veram sed ipsos longe supra nam pla vitae cui. Eo et ad potest ausint clarae. Modi viam atra ii cera ea plus hinc. Hic efficitur cur formantur desinerem his corporeas percipior. Ubi indefinite sim deteriorem mem transferre lus. Animalia mei cernitur cui pendeant figmenta ejusmodi. Tangatur una acceptis lor intuebar deceptor sub quaesita. Reducantur cau nam perficitur ubi nec incidissem. </p>
+    <header>
+        <div class="header-banner">
+            <img src="./images/header-image.jpg" id="banner-image">
+            <div class="title-alligner">
+                <img src="./images/adoptadog-logo.svg" id="logo-image">           <!--Logo-->
+                <h1>Seattle's premiere dog adoption agency</h1>
             </div>
-            <div>
-                <img src="./blog-2.jpg">
-                <h3>How to Walk Multiple Dogs</h3>
-                <p>Simplex chartam ultimum dubitem vi de ignorem is mallent. Conari pileos calida si indere gi. Meditatas obstinate eo id immittant si eversioni. Me circulum mutuatur diversas ut. Talium ex audita is gustum et ha nullam certis. Effectus supponit continet vi simulque de siquidem. Erunt bonus istas ferri de favis facit at. Figuras hoc vul innatis figuram.<br>Ii alterius ferventi momentum co cohiberi notitiam si. Veram sed ipsos longe supra nam pla vitae cui. Eo et ad potest ausint clarae. Modi viam atra ii cera ea plus hinc. Hic efficitur cur formantur desinerem his corporeas percipior. Ubi indefinite sim deteriorem mem transferre lus. Animalia mei cernitur cui pendeant figmenta ejusmodi. Tangatur una acceptis lor intuebar deceptor sub quaesita. Reducantur cau nam perficitur ubi nec incidissem. </p>
+            <div class="cart-alligner">
+                <img src="./images/cart-icon.svg" id="cart-image"><b>$1234.56</b><!--Cart-->
+                <form action="./checkout.html">
+                    <input type="submit" value="Checkout" class="w3-button w3-round-large">
+                </form>
             </div>
-            <div>
-                <img src="./blog-3.jpg">
-                <h3>Teach Your Dog to Fetch!</h3>
-                <p>Simplex chartam ultimum dubitem vi de ignorem is mallent. Conari pileos calida si indere gi. Meditatas obstinate eo id immittant si eversioni. Me circulum mutuatur diversas ut. Talium ex audita is gustum et ha nullam certis. Effectus supponit continet vi simulque de siquidem. Erunt bonus istas ferri de favis facit at. Figuras hoc vul innatis figuram.<br>Ii alterius ferventi momentum co cohiberi notitiam si. Veram sed ipsos longe supra nam pla vitae cui. Eo et ad potest ausint clarae. Modi viam atra ii cera ea plus hinc. Hic efficitur cur formantur desinerem his corporeas percipior. Ubi indefinite sim deteriorem mem transferre lus. Animalia mei cernitur cui pendeant figmenta ejusmodi. Tangatur una acceptis lor intuebar deceptor sub quaesita. Reducantur cau nam perficitur ubi nec incidissem. </p>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-bar-links">
+                <a href="./index.html">Home</a> /
+                <a href="./dogs.html">Dogs</a> /
+                <a href="./blog.html">Blog</a>
             </div>
-        </section>
-       <footer style="text-align: center;">
-           <img src="./images/adoptadog-logo.svg">           <!--Logo-->
-           <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>esseque envenienihil imaximu scideru ptistusiasm consequunt</p>
-           <nav>
-               <a href="./index.html">Home / </a>
-               <a href="./dogs.html">Dogs / </a>
-               <a href="./contact.html">Contact</a>
-           </nav>
-           <p>&#169 2018 Adoptadog, LLC | Seattle</p>
-       </footer>
+        </nav>
+    </header>
+    <section  class="main-content">
+        <h2 style="font-size: 3em">Adoptadog Blog</h2>
+        <div class="article">
+            <img src="./blog-1.jpg"  height="440" width="450">
+            <h3>Traveling with Your Dog</h3>
+            <p id="blog-text">Simplex chartam ultimum dubitem vi de ignorem is mallent. Conari pileos calida si indere gi. Meditatas obstinate eo id immittant si eversioni. Me circulum mutuatur diversas ut. Talium ex audita is gustum et ha nullam certis. Effectus supponit continet vi simulque de siquidem. Erunt bonus istas ferri de favis facit at. Figuras hoc vul innatis figuram.<br>Ii alterius ferventi momentum co cohiberi notitiam si. Veram sed ipsos longe supra nam pla vitae cui. Eo et ad potest ausint clarae. Modi viam atra ii cera ea plus hinc. Hic efficitur cur formantur desinerem his corporeas percipior. Ubi indefinite sim deteriorem mem transferre lus. Animalia mei cernitur cui pendeant figmenta ejusmodi. Tangatur una acceptis lor intuebar deceptor sub quaesita. Reducantur cau nam perficitur ubi nec incidissem. </p>
+        </div>
+        <div class="article">
+            <img src="./blog-2.jpg"  height="440" width="450">
+            <h3>How to Walk Multiple Dogs</h3>
+            <p id="blog-text">Simplex chartam ultimum dubitem vi de ignorem is mallent. Conari pileos calida si indere gi. Meditatas obstinate eo id immittant si eversioni. Me circulum mutuatur diversas ut. Talium ex audita is gustum et ha nullam certis. Effectus supponit continet vi simulque de siquidem. Erunt bonus istas ferri de favis facit at. Figuras hoc vul innatis figuram.<br>Ii alterius ferventi momentum co cohiberi notitiam si. Veram sed ipsos longe supra nam pla vitae cui. Eo et ad potest ausint clarae. Modi viam atra ii cera ea plus hinc. Hic efficitur cur formantur desinerem his corporeas percipior. Ubi indefinite sim deteriorem mem transferre lus. Animalia mei cernitur cui pendeant figmenta ejusmodi. Tangatur una acceptis lor intuebar deceptor sub quaesita. Reducantur cau nam perficitur ubi nec incidissem. </p>
+        </div>
+        <div class="article">
+            <img src="./blog-3.jpg"  height="440" width="450">
+            <h3>Teach Your Dog to Fetch!</h3>
+            <p id="blog-text">Simplex chartam ultimum dubitem vi de ignorem is mallent. Conari pileos calida si indere gi. Meditatas obstinate eo id immittant si eversioni. Me circulum mutuatur diversas ut. Talium ex audita is gustum et ha nullam certis. Effectus supponit continet vi simulque de siquidem. Erunt bonus istas ferri de favis facit at. Figuras hoc vul innatis figuram.<br>Ii alterius ferventi momentum co cohiberi notitiam si. Veram sed ipsos longe supra nam pla vitae cui. Eo et ad potest ausint clarae. Modi viam atra ii cera ea plus hinc. Hic efficitur cur formantur desinerem his corporeas percipior. Ubi indefinite sim deteriorem mem transferre lus. Animalia mei cernitur cui pendeant figmenta ejusmodi. Tangatur una acceptis lor intuebar deceptor sub quaesita. Reducantur cau nam perficitur ubi nec incidissem. </p>
+        </div>
+    </section>
+    <footer>
+        <img src="./images/adoptadog-logo.svg" id="logo-image">           <!--Logo-->
+        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>esseque envenienihil imaximu scideru ptistusiasm consequunt<br></p>
+        <nav>
+            <a href="./index.html">Home / </a>
+            <a href="./dogs.html">Dogs / </a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <p><br>&#169 2018 Adoptadog, LLC | Seattle</p>
+    </footer>
 </body>
 
 </html>

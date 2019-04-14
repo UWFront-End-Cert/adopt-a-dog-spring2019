@@ -3,169 +3,205 @@
 <html lang = "en">
 
 <head>
-  <title>Dogs - Adopt-a-Dog</title>
+    <title>Dogs - Adopt-a-Dog</title>
+
+    <link rel="stylesheet" type="text/css" href="formatting.css">
 </head>
 
 <body>
-        <header>
-           <img src="./images/header-image.svg">
-           <img src="./images/adoptadog-logo.svg">           <!--Logo-->
-           <h1>Seattle's premiere dog adoption agency</h1>
-           <img src="./images/cart-icon.svg">           <!--Cart-->
-           <form action="./checkout.html">
-                <input type="submit" value="Checkout">
-            </form>>
-           <nav>
-               <a href="./index.html">Home / </a>
-               <a href="./dogs.html">Dogs / </a>
-               <a href="./blog.html">Blog</a>
-           </nav>
-       </header>
-           <section>     <!--Table-->
-            <div>
-                <img src="./images/murphy-card.jpg">
-                <h2>Murphy</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+    <header>
+        <div class="header-banner">
+            <img src="./images/header-image.jpg" id="banner-image">
+            <div class="title-alligner">
+                <img src="./images/adoptadog-logo.svg" id="logo-image">           <!--Logo-->
+                <h1>Seattle's premiere dog adoption agency</h1>
             </div>
-            <div>
-                <img src="./images/poppy-card.jpg">
-                <h2>Poppy</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="cart-alligner">
+                <img src="./images/cart-icon.svg" id="cart-image"><b>$1234.56</b><!--Cart-->
+                <form action="./checkout.html">
+                    <input type="submit" value="Checkout" class="w3-button w3-round-large">
+                </form>
             </div>
-            <div>
-                <img src="./images/jack-card.jpg">
-                <h2>Jack</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-bar-links">
+                <a href="./index.html">Home</a> /
+                <a href="./dogs.html">Dogs</a> /
+                <a href="./blog.html">Blog</a>
             </div>
-            <div>
-                <img src="./images/duffy-card.jpg">
-                <h2>Duffy</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+        </nav>
+    </header>
+    <div class="main-content">
+        <section class="grid-wrapper" style="align-content: center">
+            <!--Table-->
+            <div class="shopping-grid-squares">
+                <img src="./images/murphy-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Murphy</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-            <div>
-                <img src="./images/lucas-card.jpg">
-                <h2>Lucas</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="shopping-grid-squares">
+                <img src="./images/poppy-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Poppy</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-            <div>
-                <img src="./images/jake-card.jpg">
-                <h2>Jake</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="shopping-grid-squares">
+                <img src="./images/jack-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Jack</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-            <div>
-                <img src="./images/angus-card.jpg">
-                <h2>Angus</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="shopping-grid-squares">
+                <img src="./images/duffy-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Duffy</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-            <div>
-                <img src="./images/violet-card.jpg">
-                <h2>Violet</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="shopping-grid-squares">
+                <img src="./images/lucas-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Lucas</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-            <div>
-                <img src="./images/piper-card.jpg">
-                <h2>Piper</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="shopping-grid-squares">
+                <img src="./images/jake-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Jake</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-            <div>
-                <img src="./images/maximus-card.jpg">
-                <h2>Maximus</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="shopping-grid-squares">
+                <img src="./images/angus-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Angus</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-            <div>
-                <img src="./images/luna-card.jpg">
-                <h2>Luna</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="shopping-grid-squares">
+                <img src="./images/violet-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Violet</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-            <div>
-                <img src="./images/stella-card.jpg">
-                <h2>Stella</h2>
-                <p>
-                    <b>Cost to Adopt:</b> $123.45
-                </p>
-                <p>
-                    Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
-                </p>
-                <button>Adopt</button>
+            <div class="shopping-grid-squares">
+                <img src="./images/piper-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Piper</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                    </div>
+                </div>
+            <div class="shopping-grid-squares">
+                <img src="./images/maximus-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Maximus</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                    </div>
+                </div>
+            <div class="shopping-grid-squares">
+                <img src="./images/luna-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Luna</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                    </div>
+                </div>
+            <div class="shopping-grid-squares">
+                <img src="./images/stella-card.jpg" id="item-image">
+                <div class="shopping-grid-squares-text">
+                    <h2>Stella</h2>
+                    <p>
+                        <b>Cost to Adopt:</b> $123.45
+                    </p>
+                    <p>
+                        Addo re haec ii unum idem ex cera sumi ob. Notandum callidus memoriae hic deo exsurgit. Contineri mo sufficere se ingeniosi devinctam perfectis id ad.
+                    </p>
+                    <button>Adopt</button>
+                </div>
             </div>
-
-       </section>
-       <footer style="text-align: center;">
-           <img src="./images/adoptadog-logo.svg">           <!--Logo-->
-           <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>esseque envenienihil imaximu scideru ptistusiasm consequunt</p>
-           <nav>
-               <a href="./index.html">Home / </a>
-               <a href="./dogs.html">Dogs / </a>
-               <a href="./contact.html">Contact</a>
-           </nav>
-           <p>&#169 2018 Adoptadog, LLC | Seattle</p>
-       </footer>
+        </section>
+    </div>
+    <footer>
+        <img src="./images/adoptadog-logo.svg" id="logo-image">           <!--Logo-->
+        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>esseque envenienihil imaximu scideru ptistusiasm consequunt<br></p>
+        <nav>
+            <a href="./index.html">Home / </a>
+            <a href="./dogs.html">Dogs / </a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <p><br>&#169 2018 Adoptadog, LLC | Seattle</p>
+    </footer>
 </body>
 
 </html>

@@ -1,81 +1,162 @@
-* {
-    box-sizing: border-box;
-}
-.col-1 {
-    width: 8.33%;
-    }
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-body{
+body, html{
     margin: 0%;
     padding: 0%;
 }
 .header-banner{
     position: relative;
     text-align: center;
+    background-color: darkgrey;
+    width: 100%;
 }
 .header-banner .title-alligner{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
+    width: 45%;
 }
 .header-banner .cart-alligner{
     position: absolute;
+    top: 25%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+}
+.cart-alligner input {
+    background-color: olivedrab;
+    color: white;
+    width: 100%;
+    font-size: 0.75em;
+    font-weight: bold;
+    height: 1.5em;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+.shopping-grid-squares .shopping-grid-squares-text button {
+    background-color: olivedrab;
+    color: white;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    height: 2em;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+.shopping-grid-squares .shopping-grid-squares-text button:hover {
+    background-color: darkgreen;
+    color: lightgray;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    height: 2em;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+#input-index {
+    background-color: lightgrey;
+    color: navy;
+    padding: 0.5em 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 3em;
+    border: none;
+    border-radius: 8px;
+}
+#index-form {
+    width: 25%;
+    padding: 4em 0em 8em;
+    align-content: center;
+    transform: translate(162%, 0%);
+}
+.nav-bar {
+    width: 100%;
+    background-color: lightgray;
+    height: 4em;
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+}
+.nav-bar-links{
+    color: navy;
+    position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
 }
-.footer-banner{
+a {
 
+}
+.footer-banner{
+    background-color: darkblue;
 }
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 10px;
+    grid-template-columns: 21.7% 21.7% 21.7% 21.7%;
+    grid-gap: 4em;
     background-color: #fff;
     color: #444;
+    padding: 2em 0%;
 }
 .main-content{
-    padding: 0% 15%;
+    padding: 0% 12%;
 }
 footer{
     align-content: center;
-    background-color: darkgrey;
+    text-align: center;
+    background-color: darkblue;
     color: white;
+    padding-bottom: 3em;
+    font-size: 1.5em;
 }
-form{
-
-}
-button{
-
-}
-h1{
-    
+h1 {
+    font-size: 3em;
+    color: olivedrab;
 }
 
-h2{
+h2 {
+    color: darkblue;
+    font-size: 150%;
+}
+
+h3{
+    font-size: 2.5em;
+    color: darkblue;
+}
+.shopping-grid-squares {
+    background-color: ghostwhite;
+    color: #1c1c17;
+    border-color: #cbcbbe;
+    border-width: 1em;
+    padding: 0px;
+}
+.shopping-grid-squares #item-image{
+    width: 100%;
+    height: 10em;
+}
+.shopping-grid-squares .shopping-grid-squares-text{
+    padding: 0% 10%;
+    font-size: 1.5em;
 
 }
-.shopping-grid-squares{
+.cart-items {
+    width: 100%;
+    overflow: hidden;
 }
-.cart-items{
-
+.cart-items #descrip{
+    font-size: 1.5em;
+}
+.cart-items img{
+    height: 100px;
+    width: 100px;
+}
+.cart-items h4 {
+    font-size: 1.5em;
+    color: darkblue;
 }
 .menu-bar{
 
@@ -85,4 +166,66 @@ h2{
 }
 .blog-article-link{
 
+}
+header{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+#cart-image{
+    width: 2em;
+    height: 2em;
+    z-index: 0;
+    margin: 1em;
+}
+#banner-image {
+    width: 100%;
+    height: 40em;
+    z-index: 0;
+}
+.header-banner .title-alligner #logo-image{
+    width: 100%;
+    height: 200px;
+}
+footer #logo-image{
+    width: 25%;
+    padding-top: 3em;
+}
+
+.article {
+    width: 100%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    overflow: hidden;
+}
+.article img {
+    margin-right: 15px;
+    float: left;
+}
+.article p{
+    font-size: 2em;
+    padding: 1em;
+}
+#blog-text{
+    font-size: 1.45em;
+    padding: 1em;
+}
+heading{
+    font-size: 4em;
+    
+}
+#checkout input{
+    width: 66%;
+    font-size: 3em;
+}
+#checkout-label{
+    font-size: 2em;
+    color: darkblue;
+    font-weight: bolder;
+}
+.radial input{
+    width: 10%;
+}
+select{
+    height: 3em;
 }
