@@ -14,7 +14,7 @@ h2 {
 h3 {
   font-family: 'Bitter', sans-serif;
   color: #093C60;
-  line-height: 0.5;
+    line-height: 0.8;
 }
 
 h3.footer-h3 {
@@ -40,7 +40,7 @@ p.small {
   color: #373943;
   font-family: 'Muli', sans-serif;
   line-height: 1.5;
-  font-size: smaller;
+  font-size: 9pt;
 }
 
 p.light{
@@ -127,6 +127,11 @@ div.dog-box {
   border-radius: 4px;
 }
 
+div.checkout-dog-box {
+  width: 17em;
+  border: none;
+}
+
 article.dog-profile {
   padding: 1em 1em 1em 1em;
   margin: 0;
@@ -156,7 +161,8 @@ img.header-img {
 
 img.blog-img {
   height: 15em;
-  padding-right: 3em;
+  padding-right: 2.5em;
+  padding-bottom: 1em;
   width: auto;
   float: left;
 }
@@ -171,6 +177,13 @@ img.dog-img {
   position: static;
 }
 
+img.dog-checkout {
+  width: 4em;
+  float: left;
+  padding-right: 0.5em;
+  padding-bottom: 1em;
+}
+
 .adopt-button {
   background-color: #81B742;
   border: none;
@@ -180,6 +193,11 @@ img.dog-img {
   text-align: center;
   text-decoration: none;
   font-family: 'Bitter', serif;
+}
+
+.adopt-button:hover {
+  background-color: #093C60;
+  color: #ECECEC;
 }
 
 .checkout-button {
@@ -193,6 +211,11 @@ img.dog-img {
   text-decoration: none;
   font-family: 'Bitter', serif;
   font-size: smaller;
+}
+
+.checkout-button:hover {
+  background-color: #093C60;
+  color: #ECECEC;
 }
 
 .light-button {
@@ -214,6 +237,11 @@ img.dog-img {
   margin-left: -5em;
 }
 
+.light-button:hover {
+  background-color: #093C60;
+  color: #ECECEC;
+}
+
 .hidden {
   position: relative;
   left: -10000px;
@@ -225,11 +253,69 @@ img.dog-img {
 }
 
 form, button, option, input, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
   box-sizing: border-box;
   display: block;
-  margin: 1em;
+  margin-bottom: 2em;
+  margin-right: 1em;
+}
+
+label {
+  font-family: 'Bitter', sans-serif;
+  color: #093C60;
+  line-height: 0.5;
+  font-weight: 800;
+}
+
+div.form-container {
+  width: 75%;
+}
+
+div.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-25 {
+  flex: 25%;
+}
+
+.col-10 {
+  flex: 10%;
+  padding-left: 1em;
+}
+
+input[type=text] {
+  border: 1px solid #ECECEC;
+  border-radius: 1px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+input[type=radio] {
+  display: inline;
+}
+
+label.radio-label {
+  color: #373943;
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  font-size: smaller;
+  padding-right: 2em;
+}
+
+select {
+  font-family: 'Muli', sans-serif;
+  border: 1px solid #ECECEC;
+  background-color: white;
+  border-radius: 1px;
+  width: 50%;
+  height: 3em;
+  padding: 20px;
 }
 
 input[type=submit] {
