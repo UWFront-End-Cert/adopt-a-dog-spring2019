@@ -101,6 +101,7 @@ h3 {
 /* Styling for the Adopt buttons */
 button {
 	background-color: #00cc00;
+	border: none;
 	color: #ffffff;
 	font-size: .75em;
 	font-weight: 700;
