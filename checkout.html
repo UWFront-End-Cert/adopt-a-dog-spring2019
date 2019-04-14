@@ -5,20 +5,25 @@
   <head>
     <meta charset="utf-8">
     <title>Adopt A Dog!</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
 
       <header>
-        <img src="images/adoptadog-logo.svg" alt="Adopt a Dog logo">
+        <img class="header-logo" src="images/adoptadog-logo.svg" alt="Adopt a Dog logo">
         <h1>Seattle's premier dog adoption agency</h1>
+        <img class="cart-img" src="images/cart-icon.svg" alt="Cart icon">
+        <a href="checkout.html" class="checkout-button">Checkout</a>
       </header>
 
       <nav>
         <a href="index.html">Home&nbsp;&nbsp;/</a>
         <a href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a>
-        <a href="blog.html">&nbsp;&nbsp;Blog&nbsp;&nbsp;/</a>
-        <a href="checkout.html"><img src="images/cart-icon.svg" alt="Cart icon">&nbsp;&nbsp;Checkout</a>
+        <a href="blog.html">&nbsp;&nbsp;Blog</a>
       </nav>
 
           <h2>Checkout</h2>
@@ -102,42 +107,40 @@
 
                 <fieldset>
                     <legend>First Time Adopter?</legend>
-                        <label>Yes
+                        <label class="radio-option">Yes
                             <input type="radio" name="special" value="yes">
                         </label>
-                        <label>No
+                        <label class="radio-option">No
                             <input type="radio" name="special" value="no">
                         </label>
                 </fieldset>
 
                 <label>Pickup Location
-                    <select name="#">
-                    <option value="#">Option 1</option>
-                    <option value="#">Option 2</option>
-                    <option value="#">Option 3</option>
-                    <option value="#">Option 4</option>
+                    <select name="location">
+                    <option value="#">Seattle</option>
+                    <option value="#">Tacoma</option>
+                    <option value="#">Everett</option>
+                    <option value="#">Bellevue</option>
                     </select>
                 </label>
   
-                <label>Dogs Adopted</label>
-                <img src="images/lucas-checkout.jpg" alt="You're adopting Lucas!">
-                <img src="images/duffy-checkout.jpg" alt="You're adopting Duffy!">
+                <label>Dogs Adopted</label><br>
   
                 <label>Total Adoption Cost</label>
 
                 <input type="submit" id="submit" value="Submit">
           </form>
 
-      <footer>
-          <img src="images/adoptadog-logo.svg" alt="Dog logo">
-          <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
-          <nav>
-              <a href="index.html">Home&nbsp;&nbsp;/</a>
-              <a href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a>
-              <a href="#">&nbsp;&nbsp;Contact</a>
-          </nav>
-          <p>&copy; 2019 Adopt A Dog, LLC | Seattle, WA</p>
-      </footer>
+        <footer>
+            <img src="images/adoptadog-logo.svg" alt="Dog logo">
+            <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+            <nav>
+                <a href="index.html">Home&nbsp;&nbsp;/</a>
+                <a href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a>
+                <a href="#">&nbsp;&nbsp;Contact</a>
+            </nav>
+            <p>&copy; 2019 Adopt A Dog, LLC  |  Seattle, WA</p>
+        </footer>
 
   </body>
   </html>

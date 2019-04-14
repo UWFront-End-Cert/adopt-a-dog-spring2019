@@ -1,0 +1,391 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+    max-width: 80rem;
+    margin: auto;
+}
+
+
+header {
+	height:10%;
+	background-color:#093C60;
+	color:white;
+    padding: 5% 13%;
+    max-height: 400px;
+    position: relative;
+}
+
+header h1 {
+	font-size: 1.1em;
+	font-family: 'Courgette', cursive;
+	margin-top: -10px;
+    margin-left: -65px;
+    padding-left: 30px;
+    color: #75B441;
+}
+
+.header-logo {
+    max-width: 40%;
+    min-width: 20rem;
+    height: auto;
+    margin-left: -75px;
+    padding-left: 30px;
+}
+
+.cart-img {
+    display: inline;
+    max-width: 30px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+
+.checkout-button {
+    background-color: #81B741;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    width: 12%;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block !important;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+
+nav {
+	background-color: #ECECEC;
+    max-height: 5rem;
+    padding-left: 30px;
+    padding: 2em 13%;
+	margin-bottom: 3%;
+}
+
+nav a {
+	text-decoration: none;
+	color: #093C60;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+nav a:visited {
+	text-decoration: none;
+}
+
+.main-content {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.main-content img {
+    float: left;
+    padding: 0 35px 20px 0;
+}
+
+section {
+	margin-right:7%;
+	margin-bottom: 7%;
+	padding-left: 13%;
+}
+
+h2 {
+    font-family: 'Arbutus Slab', serif;
+    font-size: 2rem;
+    color: #093C60;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.main-content p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+div img {
+    max-width: 100%;
+}
+
+article {
+    clear: both;
+    padding: 25px;
+}
+
+article img {
+    padding: 0 25px 25px 0;
+    float: left;
+}
+
+article h3 {
+    font-family: 'Arbutus Slab', serif;
+    color: #093C60;
+    font-size: 1.5rem;
+    display: inline;
+    }
+
+article p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+}
+
+    footer {
+        font-family: 'Work Sans', sans-serif;
+        clear: both;
+        text-align: center;
+        width: 100%;
+        height:20%;
+        background-color: #3D3D3D;
+        color:white;
+        padding: 5% 13%;
+        margin-top: 100px;
+        line-height: 2rem;
+    }
+
+    footer img {
+        max-width: 35%;
+        min-width: 20rem;
+        height: auto;
+        padding-top: 2rem;
+    }
+    
+    footer nav {
+        background-color: #3D3D3D;
+        font-weight: 700;
+    }
+    
+    footer nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    footer nav a:visited {
+        text-decoration: none;
+    }
+    
+    footer p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 15px 10px;
+  }
+  
+  .row {
+    margin: 0 -5px;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    padding: 0px;
+    text-align: left;
+    border: #EDEDED;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  div h3 {
+    font-family: 'Arbutus Slab', serif;
+    color: #093C60;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-bottom: -5px;
+  }
+
+  div h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: -5px;
+  }
+
+  div p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: -5px;
+  }
+
+  .card-button {
+    background-color: #81B741;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block !important;
+  }
+
+  .see-more-button {
+    background-color: #ECECEC;
+    border: none;
+    color: #093C60;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 23%;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block !important;
+  }
+
+ /* Mobile Styles */
+ 
+  @media screen and (max-width: 800px) {
+    .cart-img {
+        top: 40px;
+        right: 20px;
+    }
+
+    .checkout-button {
+        font-size: 10px;
+        width: 85px;
+        top: 60px;
+        right: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    .card-button {
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+    }
+  }
+
+
+/* Form Styles */
+
+form {
+    padding: 25px;
+}
+
+label {
+    font-family: 'Arbutus Slab', serif;
+    color: #093C60;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+button, input, select, textarea {
+    box-sizing: border-box;
+    display: block;
+    margin: 0.5rem;
+  }
+
+  fieldset {
+    border: none;
+  }
+  
+  fieldset input {
+    display: inline;
+  }
+
+  input[type=text], input[type=email] {
+    border: 1px solid #D6D6D6;
+    height: 2.2rem;
+    width: 50%;
+    margin-bottom: 30px;
+  }  
+
+  select {
+    border: 1px solid #D6D6D6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 2.6rem;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  legend {
+    margin-left: -0.8rem;
+    font-family: 'Arbutus Slab', serif;
+    color: #093C60;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  legend ~ label {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding-right: 25px;
+  }
+
+  input[type=radio] {
+    margin-bottom: 30px;
+  }
+
+  input[type=submit] {
+    background-color: #81B741;
+    color: white;
+    width: 15em;
+    height: 2.5em;
+    margin-top: 2rem;
+    text-shadow: none !important;
+    border: none !important;
+    box-shadow:none !important;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+
+  
