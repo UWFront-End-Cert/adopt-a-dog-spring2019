@@ -2,76 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Adopt A Dog</title>
+    <meta name="description" content="Adopt a dog in Seattle">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>Checkout</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|Muli:400,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
 
   <header>
-    <img src="images/adoptadog-logo.svg" alt="Adopt a Dog Logo">
-    <h2>Seattle's premiere dog adoption agency</h2>
-      <aside>
-        <img src="images/cart-icon.svg" alt="Checkout Icon">
-        <p><strong>$1,234.56</strong></p>
-        <button onclick="window.open('checkout.html', '_self');">Checkout</button>
-      </aside>
+    <div class="header-flex">
+      <div class="header-box">
+        <a href="#main-content" class="hidden">Skip to main content</a><br>
+        <img class="header-img" src="images/adoptadog-logo.svg" alt="Adopt a Dog Logo">
+        <h2>Seattle's premiere dog adoption agency</h2>
+      </div>
+      <div class="header-box">
+        <p class="light"><i class="fas fa-shopping-cart"></i>&nbsp;<strong>$1,234.56</strong></p>
+        <a href="checkout.html" class="checkout-button">Checkout</a>
+      </div>
+    </div>
   </header>
 
   <nav>
-    <h3><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="dogs.html">Dogs</a> &nbsp;/&nbsp; <a href="blog.html">Blog</a></h3>
+    <h3><a class="nav" href="index.html">Home</a> &nbsp;/&nbsp; <a class="nav" href="dogs.html">Dogs</a> &nbsp;/&nbsp; <a class="nav" href="blog.html">Blog</a></h3>
   </nav>
 
-  <section>
-    <h2>Checkout</h2>
-    <form>
-      Name: <input type="text"><br>
-      Email: <input type="text"><br>
-      City: <input type="text">
-      State: <select>
-        <option style="display:none">State</option>
-        <option value="CA">California</option>
-        <option value="ID">Idaho</option>
-        <option value="OR">Oregon</option>
-        <option value="WA">Washington</option>
-      </select>
-      Zip Code: <input type="text"><br><br>
-      First Time Adopter?<br>
-      <input type="radio" name="adopt" value="yes">Yes
-      <input type="radio" name="adopt" value="no">No<br><br>
+  <section class="main" id="main-content">
+    <h1>Checkout</h1>
+    <form method="GET">
+      <div class="form-container">
 
-      Pickup Location:<br>
-      <select>
-        <option style="display:none">Pickup</option>
-        <option value="OR">Portland, OR</option>
-        <option value="WA">Seattle, WA</option>
-      </select><br><br>
+      <div class="row">
+        <div class="col-50">
+          <label>Name: <input type="text" name="applicantName"></label>
+          <label>Email Address: <input type="text" name="applicantEmail"></label>
+          <label>Street Address: <input type="text" name="applicantAddress"></label>
+        </div>
+      </div>
 
-      Dogs Adopted:<br>
-      <img src="images/lucas-checkout.jpg" alt="A photo of Lucas, an energetic black dog, Shepherd mix.">
-      <h4>Lucas</h4>
-      <p><strong>Cost to Adopt:</strong> $123.45</p>
+      <div class="row">
+        <div class="col-25">
+          <label>City: <input type="text" name="applicantCity"></label>
+          </div>
+        <div class="col-10">
+          <label>State: <input type="text" name="applicantState"></label>
+          </div>
+        <div class="col-10">
+          <label>Zip Code: <input type="text" name="applicantZip"></label>
+          </div>
+      </div>
 
-      <img src="images/duffy-checkout.jpg" alt="A photo of Duffy, a playful white and brown dog, American Staffordshire Terrier mix.">
-      <h4>Duffy</h4>
-      <p><strong>Cost to Adopt:</strong> $123.45</p>
+      <div class="row">
+        <div class="col-50">
+          <h3>First Time Adopter?</h3>
+          <label class="radio-label">
+            <input type="radio" name="new" value="yes">Yes</label>
+          <label class="radio-label">
+            <input type="radio" name="new" value="no">No</label>
+        </div>
+      </div>
 
-      Total Adoption Cost: <br>
-      $1,234.56
+      <div class="row">
+        <div class="col-50">
+          <h3>Pickup Location:</h3>
+          <select name="pickup">
+            <option style="display:none"> &nbsp; </option>
+            <option value="OR">Portland, OR</option>
+            <option value="WA">Seattle, WA</option>
+          </select>
+        </div>
+      </div>
+
+      <h3>Dogs Adopted:</h3>
+      <div class="dog-flex">
+        <div class="checkout-dog-box">
+          <img class="dog-checkout" src="images/lucas-checkout.jpg" alt="A photo of Lucas, an energetic black dog, Shepherd mix.">
+            <h4>Lucas</h4>
+            <p class="small"><strong>Cost to Adopt:</strong>&nbsp;$123.45</p>
+        </div>
+        <div class="checkout-dog-box">
+          <img class="dog-checkout" src="images/duffy-checkout.jpg" alt="A photo of Duffy, a playful white and brown dog, American Staffordshire Terrier mix.">
+            <h4>Duffy</h4>
+            <p class="small"><strong>Cost to Adopt:</strong>&nbsp;$123.45</p>
+        </div>
+      </div>
+
+
+      <h3>Total Adoption Cost:</h3>
+      <p>$1,234.56</p>
       <br><br>
 
       <input type="submit" value="Submit">
+      </div>
     </form>
 
   </section>
 
 
   <footer>
-    <img src="images/adoptadog-logo.svg" alt="Adopt a Dog Logo">
-    <h4>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</h4>
-    <nav>
-      <h3><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="dogs.html">Dogs</a> &nbsp;/&nbsp; <a href="blog.html">Blog</a></h3>
+    <section class="footer-section">
+    <img class="footer-img" src="images/adoptadog-logo.svg" alt="Adopt a Dog Logo">
+    <h3 class="footer-h3">Aborpos nisto inci tet aut que volupti beruptiberro to</h3>
+    <h3 class="footer-h3">ex esseque invenienihil imaximu scideru ptistiusam consequunt</h3>
+    <nav class="footer-nav">
+      <h3 class="footer-h3"><a class="nav" href="index.html">Home</a> &nbsp;/&nbsp; <a class="nav" href="dogs.html">Dogs</a> &nbsp;/&nbsp; <a class="nav" href="blog.html">Blog</a></h3>
     </nav>
-    <p>&copy; 2018 Adoptadog, LLC &nbsp;|&nbsp; Seattle, WA
+    <p class="footer-p">&copy; 2018 Adoptadog, LLC &nbsp;|&nbsp; Seattle, WA</p>
+    </section>
   </footer>
 </body>
 
