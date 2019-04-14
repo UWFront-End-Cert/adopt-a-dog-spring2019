@@ -146,23 +146,25 @@ button {
 	width: 15em;
 	margin-left: 20em;
 	margin-right: 15em;
+	margin-bottom: 40em;
 }
 
 .see-more {
 	grid-column-start: 1;
 	grid-column-end: 4;
 	margin-left: 22em;
+	margin-bottom: 10em;
 	background-color: #e6e6e6;
 	padding: 1em 2em 1em 7em;
 }
 
 .see-more a {
-		color: #00394d;
-		font-size: 1.25em;
-		font-weight: 700;
+	color: #00394d;
+	font-size: 1.25em;
+	font-weight: 700;
 }
 
-/* ******TESTING SEPARATE GRID CONTAINERS****** */
+/* This is the styling for the Dogs page */
 .grid-container-all-dogs {
 	display: inline-grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -187,15 +189,16 @@ button {
 	width: 15em;
 	margin-left: 20em;
 	margin-right: 15em;
-	margin-bottom: 30em;
+	margin-bottom: 75em;
 }
 
 .all-dogs {
 	margin-left: 20em;
 	margin-right: 15em;
+	margin-top: 3em;
 }
-/* ********************************** */
 
+/* Styling for the copy in the grid cells */
 .dog {
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -214,6 +217,28 @@ button {
 	margin-left: .5em;
 }
 
+/* This is the styling for the Blog page */
+.blog {
+	display: inline-grid;
+	grid-template-columns: 1fr 3fr;
+	margin-top: 2em;
+	margin-left: 20em;
+	margin-right: 15em;
+	margin-bottom: 4em;
+}
+
+.blog aside {
+	margin-left: 4em;
+	width: 30em;
+}
+
+.blog-header {
+	grid-column-start: 1;
+	color: #00394d;
+	margin-left: 13.5em;
+	margin-top: 2em;
+}
+
 /* Footer styling for background, text, positioning, links, etc. */
 footer {
 	clear:both;
@@ -229,7 +254,7 @@ footer {
   text-align: center;
   align-content: space-around;
   color: #ffffff;
-	margin-top: 50em;
+	margin-top: 10em;
 	padding: 5% 5%;
 }
 
