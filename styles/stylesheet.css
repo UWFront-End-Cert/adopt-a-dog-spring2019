@@ -122,6 +122,7 @@ button {
 	width: 30em;
 }
 
+/* Grid for index (home) page */
 .grid-container-dogs {
 	display: inline-grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -237,6 +238,131 @@ button {
 	color: #00394d;
 	margin-left: 13.5em;
 	margin-top: 2em;
+}
+
+.adopted img {
+
+}
+
+/* This is the styling for the Checkout form */
+form h1 {
+	font-family: "Times New Roman", Times, serif;
+	color: #00394d;
+}
+
+form {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #00394d;
+	margin-top: 2em;
+	margin-left: 10em;
+}
+
+fieldset {
+	border: none;
+}
+
+label {
+	margin-top: 2em;
+}
+
+.contact label {
+	display: block;
+}
+
+.contact input {
+	display: block;
+	width: 50%;
+	height: 3em;
+}
+
+.location select {
+	display: block;
+	width: 10%;
+	height: 3em;
+}
+
+.other-contact label {
+	display: block
+}
+
+.other-contact input {
+	display: block;
+	width: 10%;
+	height: 3em;
+}
+
+.other-contact select {
+	display: block;
+	width: 10%;
+	height: 3em;
+}
+
+.first-time {
+	margin-top: 1em;
+}
+
+.location {
+	margin-top: 1em;
+}
+
+/* Grid styling for the two adopted dogs */
+.adopted {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/* grid-column-gap: 1em; */
+}
+
+.adopted {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.adopted {
+	height: 4em;
+	width: 10em;
+}
+
+.adopted aside {
+	margin-left: .5em;
+}
+
+.adopted img {
+	height: 4em;
+	width: 4em;
+}
+
+.name {
+	font-size: .75em;
+	font-weight: 700;
+	color: #00394d;
+}
+
+.adopt-cost {
+	font-size: .5em;
+	font-weight: 700;
+	color: #000000;
+}
+
+.form-cost {
+	margin-top: 2em;
+}
+
+.value {
+  font-family: 'Open Sans', 'Lato', sans-serif;
+	color: #000000;
+	font-size: 1em;
+}
+
+input[type=submit] {
+	background-color: #00cc00;
+	color: #ffffff;
+	border: none;
+	font-size: .75em;
+	font-weight: 700;
+	padding: .5em 6em;
+
 }
 
 /* Footer styling for background, text, positioning, links, etc. */
