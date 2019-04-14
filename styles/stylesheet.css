@@ -21,7 +21,7 @@ a {
 
 /* Styling the header for images, fonts, etc. */
 header {
-	height: 25em;
+	height: 30em;
 	background-image: url("../images/header-image.jpg");
   background-size: cover;
   display: flex;
@@ -90,4 +90,24 @@ li:last-of-type:after {
 /* Footer styling for background, text, positioning, links, etc. */
 footer {
 	clear:both;
+}
+
+footer {
+  display: flex;
+	height: 30em;
+	background-color: #00004d;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  color: #ffffff;
+	margin: 0;
+	padding: 5% 5%;
+}
+
+
+
+footer a {
+  color: #ffffff;
 }
