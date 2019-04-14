@@ -63,7 +63,6 @@ ul {
 }
 
 .navigation a {
-  /* display: inline-block; */
   color: #00394d;
 	font-weight: 700;
   text-align: center;
@@ -79,8 +78,6 @@ li:after {
   content: "/";
   color: #00394d;
   position: absolute;
-  /* right: 0;
-  top: 34%; */
 }
 
 li:last-of-type:after {
@@ -109,6 +106,7 @@ button {
 	margin-bottom: 2em;
 }
 
+/* Styling for the introduction on index (home) page */
 .intro {
 	display: inline-grid;
 	grid-template-columns: 1fr 3fr;
@@ -123,7 +121,7 @@ button {
 	width: 30em;
 }
 
-/* Grid for index (home) page */
+/* Grid of dogs for index (home) page */
 .grid-container-dogs {
 	display: inline-grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -134,15 +132,13 @@ button {
 .grid-container-dogs {
 	grid-column-start: 1;
 	grid-column-end: 4;
-	/* grid-row-start: 1;
-	grid-row-end: 2; */
 }
-
+/* Image size */
 .grid-container-dogs img {
 	height: 8em;
 	width: 12em;
 }
-
+/* Cell size */
 .grid-container-dogs {
 	height: 20em;
 	width: 15em;
@@ -150,7 +146,7 @@ button {
 	margin-right: 15em;
 	margin-bottom: 40em;
 }
-
+/* See More Dogs button styling */
 .see-more {
 	grid-column-start: 1;
 	grid-column-end: 4;
@@ -166,7 +162,7 @@ button {
 	font-weight: 700;
 }
 
-/* This is the styling for the Dogs page */
+/* This is the styling for grid on the Dogs page */
 .grid-container-all-dogs {
 	display: inline-grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -180,12 +176,12 @@ button {
 	/* grid-row-start: 1;
 	grid-row-end: 2; */
 }
-
+/* Image size */
 .grid-container-all-dogs img {
 	height: 8em;
 	width: 12em;
 }
-
+/* Cell size */
 .grid-container-all-dogs {
 	height: 20em;
 	width: 15em;
@@ -241,10 +237,6 @@ button {
 	margin-top: 2em;
 }
 
-.adopted img {
-
-}
-
 /* This is the styling for the Checkout form */
 form h1 {
 	font-family: "Times New Roman", Times, serif;
@@ -267,7 +259,7 @@ fieldset {
 label {
 	margin-top: 2em;
 }
-
+/* Getting labels on top of input fields */
 .contact label {
 	display: block;
 }
@@ -355,7 +347,7 @@ label {
 	color: #000000;
 	font-size: 1em;
 }
-
+/* Submit button styling */
 input[type=submit] {
 	background-color: #00cc00;
 	color: #ffffff;
@@ -385,7 +377,7 @@ footer {
 	padding: 5% 5%;
 }
 
-/* May chnage the footer to use a grid down the road. Keeping code just in case. */
+/* May change the footer to use a grid down the road. Keeping code just in case. */
 /* .grid-container-footer {
 	display: grid;
 	grid-column-gap: auto;
