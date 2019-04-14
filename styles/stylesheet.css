@@ -40,6 +40,10 @@ header a {
   color: #ffffff;
 }
 
+.cart {
+	width: 2em;
+}
+
 .checkout {
   background-color: #00cc00;
   font-size: .75em;
