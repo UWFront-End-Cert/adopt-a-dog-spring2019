@@ -51,7 +51,9 @@
         <label>Street Address
           <input type="text" name="contactStreet" required>
         </label>
+      </fieldset>
 
+      <fieldset class="other-contact">
         <label>City
           <input type="text" name="contactCity" required>
         </label>
@@ -76,13 +78,13 @@
         <legend>First Time Adopter?</legend>
         <label>
           <input type="radio" name="firstTime" value="yes">
-          <span class="rad"></span>
+          <!-- <span class="rad"></span> -->
           Yes
         </label>
 
         <label>
           <input type="radio" name="firstTime" value="no">
-          <span class="rad"></span>
+          <!-- <span class="rad"></span> -->
           No
         </label>
       </fieldset>
@@ -99,25 +101,33 @@
       </fieldset>
 
 <!-- Cart displayed on form -->
-
-      <section id="adopted" class="grid-container-adopted">
+      <!-- <section>
         <h2>Dogs Adopted</h2>
-        <article class="lucas-checkout">
-          <img class="lucas-check" src="images/lucas-checkout.jpg" alt="Image of Lucas who is an all black dog.">
-          <h3 class="lucas-check-name">Lucas</h3>
-          <p class="lucas-check-cost">Cost to Adopt: $123.45</p>
+      </section> -->
+
+      <section class="grid-container-adopted">
+        <h3>Dogs Adopted</h3>
+
+        <article class="adopted">
+          <img src="images/lucas-checkout.jpg" alt="Image of Lucas who is an all black dog.">
+          <aside>
+            <p class="name">Lucas</p>
+            <p class="adopt-cost">Cost to Adopt: $123.45</p>
+          </aside>
         </article>
 
-        <article class="duffy-checkout">
-          <img class="duffy-check" src="images/duffy-checkout.jpg" alt="Image of Duffy who is a brown dog with white face and chest.">
-          <h3 class="duffy-check-name">Duffy</h3>
-          <p class="duffy-check-cost">Cost to Adopt: $123.45</p>
+        <article class="adopted">
+          <img src="images/duffy-checkout.jpg" alt="Image of Duffy who is a brown dog with white face and chest.">
+          <aside>
+            <p class="name">Duffy</p>
+            <p class="adopt-cost">Cost to Adopt: $123.45</p>
+          </aside>
         </article>
       </section>
 
-      <section id="cost">
-        <h2>Total Adoption Cost</h2>
-        <p>$1234.56</p>
+      <section class="form-cost">
+        <p>Total Adoption Cost<p>
+        <p class="value">$1234.56</p>
         <input type="submit" value="Submit">
       </section>
 
