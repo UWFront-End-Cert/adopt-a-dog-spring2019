@@ -11,66 +11,142 @@
 
 <body>
 	<header>
-		<img src="images/adoptadog-logo.svg" alt="dog LOGO">
-		<h2>Seattle’s premiere dog adoption agency</h2>
-		<a href="#"><img src="images/cart-icon.svg" alt="checkout image">Checkout</a>
+		<div class="logo">
+			<figure>
+				<img src="images/adoptadog-logo.svg" alt="dog LOGO">
+				<figcaption>Seattle’s premiere dog adoption agency</figcaption>
+			</figure>
+		</div>
+		<div class="checkout">
+			<a href="#"><img src="images/cart-icon.svg" alt="checkout image"></a>$1234.56<p>
+			<button type="button">Checkout</button>
+		</div>
+		<nav class="clear">
+			<a href="index.html">Home</a> /
+			<a href="dogs.html">Dogs</a> / 
+			<a href="blog.html">Blog</a>
+		</nav>
 	</header>
 
-	<nav>
-		<a href="index.html">Home</a> /
-		<a href="dogs.html">Dogs</a> / 
-		<a href="blog.html">Blog</a>
-	</nav>
+	<div class="form-container">
+		<form method="get" action="action_page.php">
+			<h3>Checkout</h3>
 
-	<form method="get" action="action_page.php">
-		<h3>Checkout</h3>
+			<div class="row">
+				<div class="col-100">
+					<label for="name">Name</label>
+				</div>
+				<div class="col-100">
+					<input type="text" id="name" name="fullname">
+				</div>
+			</div>
 
-		<label for="name">Name</label><br>
-		<input type="text" id="name" name="fullname">
+			<div class="row">
+				<div class="col-100">
+					<label for="email">Email Address</label>
+				</div>
+				<div class="col-100">
+					<input type="text" id="email" name="email">
+				</div>
+			</div>
 
-		<label for="email">Email Address</label><br>
-		<input type="text" id="email" name="email">
+			<div class="row">
+				<div class="col-100">
+					<label for="address">Street Address</label>
+				</div>
+				<div class="col-100">
+					<input type="text" id="address" name="address">
+				</div>
+			</div>
 
-		<label for="address">Street Address</label><br>
-		<input type="text" id="address" name="address">
+			<div class="row">
+				<div class="col-30">
+					<label  for="city">City</label>
+				</div>
+				<div class="col-25">
+					<label  for="state">State</label>
+				</div>
+				<div class="col-25">
+					<label for="zipcode">Zip Code</label>
+				</div>
+			</div>	
 
-		<label  for="city">City</label><br>
-		<input type="text" id="city" name="city">
+			<div class="row">
+				<div class="col-30">
+					<input type="text" id="city" name="city">
+				</div>
+				<div class="col-25">
+					<select id="state"  name="State">
+						<option value="">. </option>
+						<option value=""> .</option>
+						<option value="">. </option>
+					</select>
+				</div>
+				<div class="col-25">
+					<input type="text" id="zipcode" name="zipcode">
+				</div>
+			</div>
 
-		<label  for="state">State</label><br>
-		<input type="text" id="state" name="state">
+			<div class="row">
+				<div class="col-100">
+					<label>First Time Adopter?</label>
+				</div>
+				<div class="col-100">
+					<input name="instructor-name" type="radio" value="yes" checked>Yes
+					<input name="instructor-name" type="radio" value="no">No
+				</div>
+			</div>
 
-		<label for="zipcode">Zip Code</label><br>
-		<input type="text" id="zipcode" name="zipcode">
+			<div class="row">
+				<div class="col-100">	
+					<label>Pick up Location</label>
+				</div>
+				<div class="col-40">
+					<select id="location"  name="location">
+						<option value="">. </option>
+						<option value=""> .</option>
+						<option value="">. </option>
+					</select>
+				</div>
+			</div>
 
-		<label>First Time Adopter?</label>	<br>
-		<input name="instructor-name" type="radio" value="yes" checked>Yes
-		<input name="instructor-name" type="radio" value="no">No
-
-		<label>PickupLocation</label><br>
-		<select  name="location">
-			<option value="">. </option>
-			<option value=""> .</option>
-			<option value="">. </option>
-		</select>
-
-		<label>Dogs Adopted</label><br>    
-		<img src="images/lucas-card.jpg" alt="lucus dog image">
-		<h4>Lucas</h4>
-		Cost to Adopt: $123.45
+			<div class="row">
+			<div class="col-100">
+				<label>Dogs Adopted</label>
+			</div>  
+			</div>
+				
+			<div class="checkout-container">
+				<div class="row">
+				<div class="col-50">	
+						<div class="checkout-dog">
+							<img src="images/lucas-card.jpg" alt="lucus dog image" class="checkout-dog">
+							<p><strong>Lucas</strong></p>
+							<p class="cost"><strong>Cost to Adopt:</strong>$123.45 </p>
+						</div>
+				</div>
+				<div class="col-50">	
+						<div class="checkout-dog">
+							<img src="images/duffy-card.jpg" alt="duffy dog image" class="checkout-dog">
+							<p><strong>Duffy</strong></p>
+							<p class="cost"><strong>Cost to Adopt:</strong>$123.45 </p>
+						</div>
+					</div>
+				</div>
+			</div>
 		
-		<img src="images/duffy-card.jpg" alt="duffy dog image">
-		<h4>Duffy</h4>
-		Cost to Adopt: $123.45
+			<div class="total-cost">
+				<label >Toal Adoption Cost</label>
+				<p class="cost"> $123.45 </p>
+				<input type="submit" value="Submit">
+			</div>					
 
-		<label >Toal Adoption Cost</label><br>
-		$123.45
-
-		<input type="submit" value="Submit">
-	</form>
+		</form>
+	</div>
 
 	<footer>
 		<img src="images/adoptadog-logo.svg" alt="dog LOGO">
+
 		<p>Aborpos nisto inci tet aut que volupti beruptiberro to ex </p>
 		<p>esseque invenienihil imaximu scideru ptistiusam consequunt</p>
 		<nav>
