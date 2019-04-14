@@ -8,14 +8,10 @@
 
 <body>
   <header>
-    <div class="cart">
-      <img src="images/cart-icon.svg" alt="Shopping Cart" /><span>$1,234.56</span>
-      <form action="cart.html">
-        <input type="submit" value="Checkout" />
-      </form>
+    <div class="logo-container">
+      <img class="logo" src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
     </div>
-    <img class="logo" src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo" />
-    <div><em>Seattle's premiere dog adoption agency</em></div>
+    <div class="motto"><em>Seattle's premiere dog adoption agency</em></div>
   </header>
   <nav class="global">
     <a href="index.html">Home</a> / <a href="dogs.html">Dogs</a> / <a href="blog.html">Blog</a>
@@ -109,16 +105,28 @@
           <option value="Location 2">Location 2</option>
         </select>
       </label>
-      <span>Dogs Adopted</span>
-      <img src="images/lucas-checkout.jpg" alt="Lucas" />
-      <span>Lucas</span>
-      <span><strong>Cost to Adopt:</strong> $123.45</span>
-      <img src="images/duffy-checkout.jpg" alt="Duffy" />
-      <span>Duffy</span>
-      <span><strong>Cost to Adopt:</strong> $123.45</span>
-      <span>Total Adoption Cost</span>
-      <span>$1234.56</span>
-      <input type="submit" value="Submit">
+      <div class="dogs-adopted">
+        <div>Dogs Adopted</div>
+        <div class="dog">
+          <img src="images/lucas-checkout.jpg" alt="Lucas" />
+          <div class="dog-info">
+            <span>Lucas</span>
+            <span><strong>Cost to Adopt:</strong> $123.45</span>
+          </div>
+        </div>
+        <div class="dog">
+          <img src="images/duffy-checkout.jpg" alt="Duffy" />
+          <div class="dog-info">
+            <span>Duffy</span>
+            <span><strong>Cost to Adopt:</strong> $123.45</span>
+          </div>
+        </div>
+      </div>
+      <div class="total">
+        <span>Total Adoption Cost</span>
+        <span>$1234.56</span>
+        <input type="submit" value="Submit">
+      </div>
     </form>
   </main>
   <footer>

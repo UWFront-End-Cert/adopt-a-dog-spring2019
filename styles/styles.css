@@ -5,24 +5,43 @@ body {
 header {
   background: url("../images/header-image.jpg") no-repeat top;
   color: #81B741;
-  padding-left: 100px;
-  padding-top: 50px;
-  font-size: 20px;
-  height: 300px;
+  font-size: 1.25rem;
+  height: 20rem;
+  padding-top: 3rem;
+  box-sizing: border-box;
+}
+
+header img.logo {
+  width: 100%;
+}
+
+header .cart, .logo-container {
+  display: inline-block;
+
+}
+
+header .logo, .motto {
+  padding-left: 2rem;
+}
+
+@media (min-width: 840px) {
+  header .logo, .motto {
+    padding-left: 10rem;
+  }
 }
 
 .cart {
   float: right;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .cart img {
-  height: 20px;
+  height: 1.25rem;
 }
 
 .cart span {
   color: white;
-  font-size: 14px;
+  font-size: .875rem;
 }
 
 .cart button {
@@ -32,7 +51,7 @@ header {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 nav.global {
@@ -48,7 +67,7 @@ nav.global {
 nav a {
   color: #323232;
   text-decoration: none;
-  padding: 0 15px;
+  padding: 0 .9375rem;
 }
 
 a {
@@ -64,8 +83,17 @@ main.container {
 .intro-image {
   display: inline-block;
   float: left;
-  padding: 0 25px 25px 0;
-  height: 250px;
+  padding: 0 1.5625rem 1.5625rem 0;
+  height: 15.625rem;
+}
+
+.see-more {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.see-more form {
+  display: inline-block;
 }
 
 footer {
@@ -73,7 +101,7 @@ footer {
   text-align: center;
   background-color: #083B5F;
   color: white;
-  padding: 50px;
+  padding: 3.125rem;
 }
 
 footer nav {
@@ -85,10 +113,10 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
-  padding: 0 15px;
+  padding: 0 .9375rem;
 }
 
-img.logo {
+footer img.logo {
   width: 30%;
 }
 
@@ -100,22 +128,23 @@ img.logo {
   clear: both;
 }
 
-.dog-cards div {
-  width: 150px;
+.dog-cards .card {
+  width: 10rem;
   border: 1px solid #E8E8E8;
-  padding: 15px;
-  margin-bottom: 15px;
+  padding: .9375rem;
+  margin-bottom: .9375rem;
+  text-align: center;
 }
 
 .dog-cards img {
-  height: 75px;
-  padding: 10px;
+  height: 4.6875rem;
+  padding: .625rem;
   display: inline-block;
 }
 
 .dog-cards p {
   display: inline-block;
-  font-size: 12px;
+  font-size: .75rem;
 }
 
 .dog-cards strong {
@@ -125,7 +154,7 @@ img.logo {
 .dog-cards span {
   font-weight: bold;
   display: block;
-  font-size: 14px;
+  font-size: .875rem;
 }
 
 .dog-cards button {
@@ -144,4 +173,46 @@ img.logo {
 /* Cart Styles */
 fieldset {
   border: none;
+}
+
+label {
+  display: block;
+  padding: 1rem;
+}
+
+input {
+  height: 2rem;
+  margin-top: .5rem;
+  display: block;
+}
+
+input[type="radio"] {
+  height: inherit;
+  margin-top: 0;
+  display: inline;
+}
+
+.dogs-adopted {
+  padding: 1rem;
+}
+
+.dogs-adopted .dog, .dog-info {
+  display: inline-block;
+}
+
+.dogs-adopted .dog {
+  padding: 1rem;
+}
+
+.dogs-adopted .dog img {
+  vertical-align: middle;
+  height: 5rem;
+}
+
+.dogs-adopted .dog span {
+  display: block;
+}
+
+.total {
+  padding-bottom: 3rem;
 }
