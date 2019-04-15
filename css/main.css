@@ -29,16 +29,27 @@ body {
   display: none;
 }
 
+.more-button,
 .action-button{
   padding: 5px;
   text-align: center;
-  color: rgb(255,255,255);
   text-decoration: none;
-  background-color: var(--accent-color);
   font-weight: bold;
   display: inline-block;
 }
 
+.action-button{
+  color: rgb(255,255,255);
+  background-color: var(--accent-color);
+}
+
+.more-button{
+  color: var(--main-color);
+  background-color: var(--light-grey-color);
+  width: 15rem;
+  margin: auto;
+  display: block;
+}
 /* let's add something nicer next iteration */
 .action-button:hover{
   background-color: var(--light-accent-color);
@@ -88,41 +99,61 @@ header.page-header nav{
   background-color: var(--light-grey-color);
   grid-column: 1 / span 2;
 }
+
+footer nav ul,
 header.page-header nav ul{
   padding: 15px 0;
   width: 80%;
   margin: auto;
 }
 
+footer nav ul li,
 header.page-header nav ul li{
   display: inline;
   list-style-type: none;
   padding: 15px 0;
+}
+
+header.page-header nav ul li{
   color: var(--main-color);
+}
+
+footer nav ul li{
+  color: rgb(255, 255, 255);
+}
+
+footer nav ul li a,
+header.page-header nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px;
 }
 
 header.page-header nav ul li a{
   color: var(--main-color);
-  text-decoration: none;
-  font-weight: bold;
-  padding: 15px;
+}
+
+footer nav ul li a{
+  color: rgb(255, 255, 255);
 }
 
 header.page-header nav ul li:first-child a{
   padding-left: 0;
 }
 
+footer nav ul li:after,
 header.page-header nav ul li:after{
   content: "\00a0/ ";
 }
 
+footer nav ul li:last-child:after,
 header.page-header nav ul li:last-child:after{
   content: "";
 }
 
 main{
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
 }
 
 h1, h2{
@@ -138,7 +169,7 @@ h1{
 /* dog cards */
 ul.cards{
   width: 100%;
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -174,6 +205,46 @@ ul.cards li a.action-button{
   bottom: 0;
 }
 
+footer{
+  background-color: var(--main-color);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 25px 0;
+}
+
+footer img.logo{
+  width: 30%;
+  margin: auto;
+}
+
+/* home page here */
+header.image-blurb{
+  display: grid;
+  grid-template-areas:  "a b b"
+                        "a c c";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3em auto;
+  grid-column-gap: 25px;
+  margin-bottom: 25px;
+
+}
+
+header.image-blurb img{
+  grid-area: a;
+  width: 100%;
+  bacground-color: red;
+}
+
+header.image-blurb h1{
+  grid-area: b;
+  background-color: pink;
+  margin: 0;
+}
+
+header.image-blurb p{
+  grid-area: c;
+  background-color: orchid;
+}
 /* responsive adjustments - refine later */
 @media screen and (max-width:900px){
   ul.cards{
