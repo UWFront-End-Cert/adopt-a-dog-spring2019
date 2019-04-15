@@ -3,21 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>Adopt a Dog</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>ADOPTADOG</h1>
-    <h2>Seattle's Premiere Dog Adoption Agency</h2>
-  </header>
-  <nav>
-    <a href="index.html">Home  /</a>
-    <a href="dogs.html">  &nbsp;&nbsp;Dogs  /</a>
-    <a href="blog.html">  &nbsp;&nbsp;Blog  / </a>
-    <a href="checkout.html">  &nbsp;&nbsp;Checkout   </a>
-  </nav>
+  <div class="grid-container">
+    <div class="grid-item-header">
+      <h1><img id="dog-logo" src="images/adoptadog-logo.svg" alt="a brown dog"></h1>
+      <h2>Seattle's Premiere Dog Adoption Agency</h2>
+      <article class="header">
+        <h3><a href="checkout.html">Checkout</a></h3>
+      </article>
+    </div>
+    <div class="global-nav">
+      <a class="header-link" href="index.html">Home /</a>
+      <a class="header-link" href="dogs.html">  &nbsp;&nbsp;Dogs  /</a>
+      <a class="header-link" href="blog.html">  &nbsp;&nbsp;Blog    /</a>
+    </div>
 
   <br><br>
-  <form method="GET">
+  <form class="input" method="GET">
     <label>Name
       <input type="text" name="Name"/>
     </label>
@@ -40,7 +44,7 @@
         <option value="oregon">OR</option>
         <option value="california">CA</option>
       </select>
-    </label>
+    </label><
 
     <label>Zip Code
       <input type="text" name="userZip"/>
@@ -76,14 +80,16 @@
   </form>
 
 
-    <footer>
-      <section>
+
+      <div class="grid-item-footer">
+        <img id="dog-footer-logo" src="images/adoptadog-logo.svg" alt="Adoptadog logo">
         <h6>Pellentesque nec nam aliquam sem.<br> Pretium quam vulputate dignissim suspendisse in est ante in nibh.</h6>
-        <a href="index.html">Home  /</a>
-        <a href="dogs.html">  &nbsp;&nbsp;Dogs  /</a>
-        <a href="#">  &nbsp;&nbsp;Contact   </a>
+        <a class="footer-link" href="#">Home /</a>
+        <a class="footer-link" href="dogs.html">  &nbsp;Dogs  /</a>
+        <a class="footer-link" href="blog.html">  &nbsp;Blog    /</a>
         <p>&copy; 2018 Adoptadog, LLC || Seattle, WA</p>
-      </section>
-    </footer>
+      </div>
+
+    </div>
 </body>
 </html>
