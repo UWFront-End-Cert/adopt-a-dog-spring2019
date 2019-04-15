@@ -8,7 +8,7 @@ body
 
 .container
 {
-    padding: 0 200px;
+    padding: 0 10%;
 }
 
 header
@@ -22,19 +22,19 @@ header
 {
     display: flex;
 
-    padding: 80px 0;
+    padding: 5% 0;
 
     justify-content: space-between;
 }
 
 .logo-img
 {
-    width: 600px;
+    width: 100%;
 }
 
 .logo-text
 {
-    font-size: 33px;
+    font-size: 2.1em;
     font-style: italic;
 
     margin: 0;
@@ -54,13 +54,13 @@ header
 
 .cart-img
 {
-    width: 40px;
+    width: 2.5em;
     margin-right: 10px;
 }
 
 .cart-price
 {
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: bold;
 
     color: #fff;
@@ -90,14 +90,14 @@ header
 
 .nav-first
 {
-    padding: 30px 0;
+    padding: 2em 0;
 
     background: #ececec;
 }
 
 .nav-first a
 {
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 900;
 
     text-decoration: none;
@@ -107,7 +107,7 @@ header
 
 .nav-first .after:after
 {
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 900;
 
     padding: 0 10px;
@@ -131,6 +131,7 @@ header
 
 .second-side h2
 {
+    margin-top: 0;
     color: #093c60;
 }
 
@@ -202,10 +203,11 @@ h3
 .more-dogs
 {
     font-weight: 900;
+    font-size: 1em;
 
     display: block;
 
-    width: 10%;
+    width: 15%;
     margin: 80px auto;
     padding: 12px 30px;
 
@@ -277,7 +279,7 @@ footer .left:after
 /* Dogs second */
 h2
 {
-    font-size: 40px;
+    font-size: 2.5em;
 
     letter-spacing: 1px;
 }
@@ -310,7 +312,7 @@ input
 label,
 .label
 {
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: bold;
 
     display: block;
