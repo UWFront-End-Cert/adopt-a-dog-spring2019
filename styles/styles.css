@@ -1,16 +1,18 @@
 * {
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 body {
-  max-width: 1024px;
-  margin: 0 auto;
-  font-family: "Work Sans";
+  padding: 0 2rem;
+  font-family: "Work Sans", serif;
 }
 
 header {
   background-image: url("../images/header-image.jpg");
+  background-size: cover;
   color: #ffffff;
+  width: 100%;
 }
 
 .cart {
@@ -19,15 +21,15 @@ header {
 
 .checkout {
   text-align: right;
+  padding: 1rem;
 }
-
 .dog-logo {
-  width: 20rem;
+  width: 25%;
 }
-
 .tag-line {
   color: #7EB33F;
   font-family: Neuton;
+  font-style: italic;
 }
 
 a {
@@ -36,14 +38,14 @@ a {
 
 nav {
   background-color: #EBEBEB;
+  font-weight: bolder;
 }
 
-nav a:visited {
+nav, nav a:visited, h1, h2, h3, h4, .more-dogs a{
   color: #073B60;
 }
 
 h1, h2, h3, h4 {
-  color: #073B60;
   font-family: Neuton;
   font-weight: bold;
 }
@@ -54,13 +56,71 @@ button, .checkout a {
   background-color: #7EB33F;
 }
 
+.about, .blog {
+  display: flex;
+  margin: 3rem 0;
+}
+
+.intro, .blog-text {
+  padding-left: 3rem;
+}
+.home-dogs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 25rem);
+  grid-auto-flow: row;
+  grid-gap: 3rem;
+}
+
+h1 {
+  padding: 2rem 0;
+}
+main {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.dog {
+  box-shadow: 0 0 3px #D3D3D3;
+  width: 100%;
+}
+article img {
+  width: 100%;
+}
+
+.description {
+  padding: .5rem;
+}
+
+.description h3, .description p, h2 {
+  margin-bottom: .5rem;
+}
+
+button {
+  color: #ffffff;
+  height: 2.5em;
+  width: 100%;
+}
+.more-dogs {
+  background-color: #D3D3D3;
+  font-weight: bold;
+  text-align: center;
+  width: 20%;
+  padding:.5rem 0;
+  margin-bottom: 3rem;
+}
 footer {
   background-color: #073B60;
   text-align: center;
   font-family: arial;
   color: #ffffff;
+  margin-top: 3rem;
+  padding: 3rem 10rem;
 }
 
+footer p {
+  margin: .5rem;
+}
 .footer-links a, .checkout a {
   color: #ffffff;
 }
