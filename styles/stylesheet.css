@@ -55,6 +55,35 @@
 
 /* Styling Footer */
 
+/* Styling Dog Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: minmax(5%, auto); */
+  grid-gap: 5%;
+  padding: 0 12%;
+  margin-bottom: 20%;
+}
+.dog-card {
+  border: 1px solid #e8e8e8;
+}
+.dog-card > img {
+  width: 100%;
+}
+.dog-card > h3 {
+    color: #1c356d;
+    padding: 0 5%;
+}
+.dog-card > p {
+  line-height: 1.5;
+  padding: 0 5%;
+}
+.dog-card > button {
+  text-align: center;
+  background-color: #418c27;
+  color: #ffffff;
+  padding: 1% 4%;
+}
 
 /* Styling Homepage */
 .home-intro {
@@ -80,34 +109,6 @@
   line-height: 1.5;
 }
 
-.intro-cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: minmax(5%, auto);
-  grid-gap: 5%;
-  padding: 0 12%;
-}
-.intro-dog-card {
-/* margin-bottom: 10%; */
-/* display: flex; */
-border: 1px solid #e8e8e8;
-}
-.intro-dog-card > img {
-  width: 100%;
-}
-.intro-dog-card > h3 {
-    color: #1c356d;
-}
-.intro-dog-card > p {
-  line-height: 1.5;
-}
-.intro-dog-card > button {
-  text-align: center;
-  background-color: #418c27;
-  color: #ffffff;
-  padding: 1% 4%;
-}
-
 .see-more-dogs {
   display: flex;
   justify-content: center;
@@ -120,6 +121,13 @@ border: 1px solid #e8e8e8;
   font-weight: bold;
   padding: 1% 4%;
 }
+
+/* Styling for Dogs page */
+.dog-intro > h2 {
+  padding: 1% 12%;
+  color: #1c356d;
+}
+
 
 /* Styling Footer */
 .main-footer {
