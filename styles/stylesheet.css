@@ -38,22 +38,69 @@
 /* Styling Nav Bar */
 .main-nav {
   background-color: #d9dbd9;
-  color: #244899;
+  color: #1c356d;
   padding: 2% 12%;
 }
 
 .main-nav > a {
   text-decoration: none;
-  color: #244899;
+  color: #1c356d;
   font-weight: bold;
   padding: 0 1%;
 }
 
 .main-nav > a:first-child {
-  padding-right: 1%;
+  padding: 0 1% 0 0;
 }
 
 /* Styling Footer */
 
 
 /* Styling Homepage */
+.home-intro {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: minmax(5%, auto);
+  grid-gap: 10%;
+  padding: 3% 12%;
+  color: #1c356d;
+}
+.home-intro > img {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+  width: 100%;
+}
+.home-intro > h2 {
+  grid-column: 4 / 9;
+  grid-row: 1 / 2;
+}
+.home-intro > p {
+  grid-column: 4 / 9;
+  grid-row: 2 / 4;
+  line-height: 1.5;
+}
+
+.intro-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(5%, auto);
+  grid-gap: 5%;
+  padding: 0 12%;
+}
+.intro-dog-card {
+/* margin-bottom: 10%; */
+/* display: flex; */
+border: 1px solid #d9dbd9;
+}
+.intro-dog-card > img {
+  width: 100%;
+}
+.intro-dog-card > h3 {
+    color: #1c356d;
+}
+.intro-dog-card > p {
+  line-height: 1.5;
+}
+.intro-dog-card > button {
+  text-align: center;
+}
