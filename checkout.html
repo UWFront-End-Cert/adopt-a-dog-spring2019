@@ -3,10 +3,12 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>adopt-a-dog-spring2019-checkout</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <body>
       <header>
+        <img class="header-color" src="images/adoptadog-logo.svg" alt="adoptadog logo-header">
         <h1>Seattle's premiere dog adoption agency</h1>
         <nav>
           <a href="index.html">Home</a>
@@ -18,54 +20,45 @@
 
       <h2>Checkout</h2>
 
-    <form method="GET">
-      <label>Name
-        <input type="text" name="userName">
-      </label>
+    <form class="" method="post">
+      <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="">
 
-      <label>Email Address
-        <input type="email" name="userEmail">
-      </label>
+      <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" value="">
 
-      <label>Street Address
-        <input type="text" name="userAddress">
-      </label>
+      <label for="address">Street Address</label>
+        <input type="text" name="address" id="address" value="">
 
-      <label>City
-        <input type="text" name="userCity">
-      </label>
+      <label for="city">City</label>
+        <input type="text" name="city" id="city" value="">
 
-      <label>State
-        <select name="text">
+      <label for="states">State</label>
+        <select name="states" id="states">
           <option value="">Please select</option>
           <option value="Washington">WA</option>
           <option value="Oregon">OR</option>
           <option value="Texas">TX</option>
         </select>
-      </label>
 
-      <label>Zip Code
-        <input type="number" name="userZipcode">
-      </label>
+      <label for="name">Zip Code</label>
+        <input type="text" name="zip" id="zip" value="">
 
       <fieldset>
         <legend>Are you a first time adopter?</legend>
-          <label>Yes
-            <input type="radio" name="special" value="yes">
-          </label>
-          <label>No
-            <input type="radio" name="special" value="No">
-          </label>
+          <label for="f-yes">Yes</label>
+            <input type="radio" name="f-Yes" value="yes">
+          <label for="f-no">No</label>
+            <input type="radio" name="f-no" value="No">
       </fieldset>
 
-      <label>Pickup Location
-        <select name="text">
+      <label for="pickup">Pickup Location</label>
+        <select name="pickup" id="pickup">
           <option value="">Please select</option>
           <option value="Washington">WA</option>
           <option value="Oregon">OR</option>
           <option value="Texas">TX</option>
         </select>
-      </label>
 
       <h3>Dogs Adopted</h3>
 
@@ -74,8 +67,8 @@
       <input type="submit" value="Submit">
     </form>
 
-    <footer>
-      <img class="footercolor" src="images/adoptadog-logo.svg" alt="adoptadog logo-footer">
+    <footer class="footer-color">
+      <img class="footer-img" src="images/adoptadog-logo.svg" alt="adoptadog logo-footer">
       <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex
 esseque invenienihil imaximu scideru ptistiusam consequunt</p>
         <nav>
