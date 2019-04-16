@@ -136,11 +136,58 @@
   display: flex;
   align-content: flex-start;
 }
+.blog-post > img {
+  width: 100%;
+}
 .blog-content {
   padding-left: 2%;
 }
 .blog-content > h3 {
   margin-top: 0;
+}
+
+/* Styling for Checkout page */
+.checkout {
+  color: #1c356d;
+  padding: 2% 12%;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+label {
+  display: block;
+  padding: 1rem 0;
+}
+input {
+  display: block;
+  width: 40%;
+  height: 2rem;
+}
+input[type=submit] {
+  color: #ffffff;
+  background-color: #418c27;
+  font-weight: bold;
+  width: 15%;
+}
+input[type=radio] {
+  display: inline;
+  width: auto;
+  height: auto;
+}
+input:focus {
+  background-color: #eaf3fc;
+}
+
+.adopted .adopted-info {
+  display: inline-block;
+}
+.adopted-info > p {
+  color: #000000;
+}
+p.adoption-total {
+  color:#000000;
 }
 
 /* Styling Footer */
@@ -149,7 +196,7 @@
   text-align: center;
   color: #ffffff;
   padding: 5%;
-  /* margin-top: 10%; */
+  margin-top: 10%;
 }
 .adoptadog-logo-footer {
   width: 30%;

@@ -22,7 +22,7 @@
       <a href="blog.html" target="_blank">Blog</a>
     </nav>
 
-    <section>
+    <section class="checkout">
       <h2>Checkout</h2>
       <form class="checkout-form" method="post">
         <fieldset>
@@ -97,7 +97,7 @@
             </select>
           </label>
           <label>Zip Code
-            <input type="number" name="zip" value="" required>
+            <input type="text" name="zip" value="" required>
           </label>
         </fieldset>
         <fieldset class="radio">
@@ -124,16 +124,20 @@
           <h3>Dogs Adopted</h3>
           <div class="adopted">
             <img src="images/lucas-checkout.jpg" alt="Picture of Lucas looking up at camera">
-            <h4>Lucas</h4>
-            <p><b>Cost to Adopt:</b> $123.45</p>
+            <div class="adopted-info">
+              <h4>Lucas</h4>
+              <p><strong>Cost to Adopt:</strong> $123.45</p>
+            </div
           </div>
           <div class="adopted">
             <img src="images/duffy-checkout.jpg" alt="Picture of Duffy looking up at camera">
-            <h4>Duffy</h4>
-            <p><b>Cost to Adopt:</b> $123.45</p>
+            <div class="adopted-info">
+              <h4>Duffy</h4>
+              <p><strong>Cost to Adopt:</strong> $123.45</p>
+            </div>
           </div>
           <h3>Total Adoption Cost</h3>
-          <p>$1234.56</p>
+          <p class="adoption-total">$1234.56</p>
         </section>
 
         <input type="submit" name="submit" value="Submit">
