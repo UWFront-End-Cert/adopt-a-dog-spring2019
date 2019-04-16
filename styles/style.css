@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-img {
+  background-image: url(../images/header-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+}
+
+.logo {
+  max-width: 40%;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.tagline {
+  color: 	#81B642;
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 200;
+  margin: 0;
+  margin-left: 1em;
+}
+
+.cart-total {
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 3em;
+  width: 12em;
+}
+
+.cart-icon {
+  max-width: 1em;
+}
+
+.checkout-btn {
+  background-color: #81B642;
+  border: none;
+  color: white;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #ECECEC;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10%;
+}
+
+.navlink {
+  color: #083C61;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.blog-container {
+  display: inline-block;
+  padding-bottom: 1em;
+}
+
+.blog {
+  margin: auto;
+  width: 80%;
+}
+
+.blogimg {
+  float: left;
+  max-width: 20em;
+}
+
+.blogtext {
+  padding-left: 17em;
+  margin-left: 2em;
+  font-size: 1.25em;
+}
+
+h3 {
+  color: #083C61;
+}
+
+.centering-container {
+  display: inline-block;
+}
+
+.dogs-list-container {
+  margin: auto;
+  width: 80%;
+}
+
+.doggo-card {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 15em;
+}
+
+.card-text {
+  margin-left: 1em;
+}
+
+.doggo-bloggo-container {
+  margin: auto;
+  width: 80%;
+}
+
+.bloggo-card{
+  display: inline-block;
+}
+
+h1 {
+  color: #083C61;
+}
+
+.bloggoimg {
+  float: left;
+  margin-right: 2em;
+  margin-bottom: 4em;
+  max-width: 15em;
+}
+
+h4 {
+  color: #083C61;
+}
+
+.adopt-btn {
+  background-color: #81B642; /* Green */
+  border: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 85px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.btm-link {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+.list-more-doggos-btn {
+  background-color: #ECECEC;
+  border: none;
+  color: #083C61;
+  font-weight: bold;
+  padding: 10px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 4em;
+  margin-bottom: 1em;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.total {
+  text-decoration: none;
+}
+
+.form-container {
+  margin: auto;
+  width: 80%;
+  color: #083C61;
+  font-weight: bold;
+}
+
+input[type=text], input[type=email], input[type=number], select {
+  width: 60%;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 2em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  background-color: #81B642; /* Green */
+  border: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 85px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #083C61;
+  color: white;
+  padding-top: 4em;
+}
+
+.footerlinks {
+  color: white;
+  text-decoration: none;
+  padding-right: 1em;
+  padding-left: 1em;
+}
