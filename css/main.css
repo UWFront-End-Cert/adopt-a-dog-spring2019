@@ -161,7 +161,7 @@ main{
   margin: 20px auto;
 }
 
-h1, h2, label, legend{
+h1, h2, label, legend, h3{
   font-family: var(--display-font);
   color: var(--main-color);
   font-weight: bold;
@@ -266,17 +266,19 @@ article.blog{
 }
 
 form.checkout{
-  width: 50%;
+  width: 65%;
   min-width: 400px;
 }
+
 label,
-input:not([type="radio"]):not([type="checkbox"]),
-select{
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+select,
+h2{
   display: block;
   margin-bottom: 10px;
 }
 
-input:not([type="radio"]):not([type="checkbox"]),
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
 select{
   font-size: 1.25rem;
   padding: 5px;
@@ -293,6 +295,8 @@ select{
 p.selectbox{
   position: relative;
 }
+
+/* customize select box arrow with FontAwesome icon. Much off this portion comes from their instructions */
 .icon::after {
   display: inline-block;
   font-style: normal;
@@ -312,10 +316,14 @@ p.selectbox.icon::after{
   font-size: 2.25rem;
   color: var(--light-grey-color);
 }
-input:not([type="radio"]):not([type="checkbox"]){
+
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]){
   width: 100%;
 }
 
+input[type="submit"]{
+  width: 40%;
+}
 fieldset.radios{
   border: none;
   padding: 10px 0;
@@ -349,7 +357,41 @@ p.pickup{
 p.pickup select{
   width: 100%;
 }
-/* responsive adjustments - refine later */
+
+form.checkout ul.adopted{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+}
+
+form.checkout ul.adopted li{
+  list-style-type: none;
+  display: grid;
+  grid-template-areas:  "a b b"
+                        "a c c";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  margin-bottom: 25px;
+
+}
+
+form.checkout ul.adopted li h3{
+   grid-area: b;
+}
+
+form.checkout ul.adopted li p{
+  grid-area: c;
+}
+form.checkout ul.adopted li img{
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  grid-area: a;
+}
+
+/* responsive adjustments - refine later
+  TODO: checkout page */
 @media screen and (max-width:900px){
   ul.cards{
     grid-template-columns: 1fr 1fr 1fr;
