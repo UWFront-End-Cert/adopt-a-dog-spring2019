@@ -1,0 +1,59 @@
+/* Styling for ALL pages */
+* {
+  box-sizing: border-box;
+}
+
+/* Styling Header */
+.main-header {
+  background-image: url(../images/header-image.jpg);
+  margin: 0;
+  padding: 6%;
+}
+
+.main-header > h2 {
+  color: #418c27;
+}
+
+.main-header > p {
+  color: #ffffff;
+}
+
+.main-header > a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #418c27;
+  padding: 1% 4%;
+  border-radius: 1px;
+
+}
+
+.adoptadog-logo {
+  width: 35%;
+}
+
+.cart-icon {
+  width: 4%;
+}
+
+/* Styling Nav Bar */
+.main-nav {
+  background-color: #d9dbd9;
+  color: #244899;
+  padding: 2% 12%;
+}
+
+.main-nav > a {
+  text-decoration: none;
+  color: #244899;
+  font-weight: bold;
+  padding: 0 1%;
+}
+
+.main-nav > a:first-child {
+  padding-right: 1%;
+}
+
+/* Styling Footer */
+
+
+/* Styling Homepage */
