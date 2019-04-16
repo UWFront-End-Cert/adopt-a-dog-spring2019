@@ -1,0 +1,19 @@
+.in-cart {
+  display: flex;
+}
+
+fieldset {
+  border: none;
+}
+
+.cart img, .cart-text, .in-cart {
+  margin: 0;
+}
+.cart {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.cart-text {
+  padding: 2rem;
+}
