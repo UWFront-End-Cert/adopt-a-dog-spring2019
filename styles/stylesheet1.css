@@ -12,7 +12,7 @@ p, a {
 
 header.head {
     background-image: url(../images/header-image.jpg);
-    width: 100%;
+    background-size: cover;
     padding: 2em 4em 4em;
     padding-bottom: 10em;
     color: white;
@@ -43,7 +43,7 @@ header h1 {
     font-weight: 900;
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1em;
     
 }
 
@@ -87,6 +87,7 @@ nav a#first-nav  {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 4em;
 }
 
 .about-adopt {
@@ -119,7 +120,6 @@ h3.blue-title-checkout {
   font-size: 1.75em;
   font-weight: 900;
   margin-top: 1.5em;
-  /* margin-bottom: 2em; */
 }
 
 .about-adopt-text p {
@@ -131,26 +131,27 @@ h3.blue-title-checkout {
 
 div.gallery-item {
     float: left;
-    width: 22%;
+    width: auto;
     padding: 0em;
     margin: 1em;
     border: #f0f2f3 thick solid;
   }
 
   .gallery-item img {
-    width: 100%;
+    width: 15em;
   }
 
   .gallery::after {
     content: "";
     clear: both;
     display: flex;
+    /* padding-bottom: 4em; */
   }
 
   .caption {
     padding: .5em;
     text-align: left;
-    width: auto;
+    width: 15em;
   }
 
   .adopt-button {
@@ -175,7 +176,7 @@ div.gallery-item {
     font-weight: 900;
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1em;
     margin: 1em 0em 4em .75em;
     border: none;
   }
@@ -187,9 +188,9 @@ div.gallery-item {
     background-color: #f0f2f3;
     color: #034177;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 1.25em;
     padding: .5em 1em .5em 1em;
-    margin: 1em auto 5em auto;
+    margin: 1em auto 0em auto;
     width: 20%;
     text-decoration: none;
   }
@@ -217,7 +218,7 @@ div.gallery-item {
     margin-right: auto;
     line-height: 1.5;
     width: 33%;
-    font-size: 1em;
+    font-size: .9em;
   }
 
   .blog {
