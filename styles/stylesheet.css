@@ -1,6 +1,7 @@
 /* Styling for ALL pages */
 * {
   box-sizing: border-box;
+  font-family: 'Merriweather', sans-serif;
 }
 
 /* Styling Header */
@@ -9,28 +10,22 @@
   margin: 0;
   padding: 6%;
 }
-
 .main-header > h2 {
   color: #418c27;
 }
-
 .main-header > p {
   color: #ffffff;
 }
-
 .main-header > a {
   text-decoration: none;
   color: #ffffff;
   background-color: #418c27;
   padding: 1% 4%;
   border-radius: 1px;
-
 }
-
 .adoptadog-logo {
   width: 35%;
 }
-
 .cart-icon {
   width: 4%;
 }
@@ -41,14 +36,12 @@
   color: #1c356d;
   padding: 2% 12%;
 }
-
 .main-nav > a {
   text-decoration: none;
   color: #1c356d;
   font-weight: bold;
   padding: 0 1%;
 }
-
 .main-nav > a:first-child {
   padding: 0 1% 0 0;
 }
