@@ -28,6 +28,13 @@ header {
   padding: 1% 2% 1% 2%;
 }
 
+header .logo {
+  width: 70%;
+  max-width: 250px;
+  height: auto;
+  margin: 30px 0 0 45px;
+}
+
 .headline {
   color: #3ca721; /*green color*/
 }
@@ -55,7 +62,9 @@ header {
 }
 
 /**H1, H2, H3, H4, p**/
-
+h2 {
+  font-size: 2em;
+}
 
 
 /**NAVIGATION**/
@@ -96,9 +105,17 @@ footer {
   text-align: center;
 }
 
+footer .logo {
+  width: 70%;
+  max-width: 250px;
+  height: auto;
+  margin: 30px 0 0 45px;
+}
+
 .footer-p {
   font-size: 1 em;
   color: white;
+  text-align: center;
 }
 
 .footer-copyright {
@@ -117,8 +134,24 @@ footer {
   a:hover {
     background-color: #083b5f;
   }
-}
 /**INDEX.HTML**/
 
 
 /**GRID FOR DOG CARDS**/
+.grid-container div {
+  border: 1px solid #bbbbbb;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+div + img {
+  width: 100%;
+  height: auto;
+}
