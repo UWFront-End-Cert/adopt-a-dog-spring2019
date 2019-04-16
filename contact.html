@@ -18,22 +18,27 @@
   <body>
     <a href="#main-content" class="hidden">Skip to main content</a>
     <header>
-      <h1>Adopt a Dog</h1>
-      <h2><em>Seattle's premier dog adoption agency</em></h2>
-      <img src="images/adoptadog-logo.svg" alt="white logo of a dog">
+      <div class="head-bucket">
+        <div class="head-1">
+          <img src="images/adoptadog-logo.svg" class="logo" alt="white logo of a dog">
+          <h2 class="headline"><em>Seattle's premier dog adoption agency</em></h2>
+        </div>
 
-      <!--CHECKOUT-->
-      <img src="images/cart-icon.svg" alt="icon of a white shopping cart" width="15">
-      <a href="checkout.html" class="button" target="_blank">Checkout</a><!--need to create CSS for buttons-->
+        <!--CHECKOUT-->
+        <div class="head-2">
+          <img src="images/cart-icon.svg" class="cart" alt="icon of a white shopping cart" width="15">
+          <a href="checkout.html" class="button" target="_blank">Checkout</a><!--need to create CSS for buttons-->
+        </div>
+      </div><!--close head-bucket div-->
+    </header>
 
       <!--NAVIGATION-->
-      <nav>
-        <a href="index.html" class="a-navigation" target="_blank">About</a>
-        <a href="dogs.html" class="a-navigation" target="_blank">Dogs</a>
-        <a href="blog.html" class="a-navigation" target="_blank">Blog</a>
-        <a href="contact.html" class="a-navigation active" target="_blank">Contact</a>
-      </nav>
-    </header>
+      <ul>
+        <li><a href="index.html" class="a-navigation" target="_blank">About</a></li>
+        <li><a href="dogs.html" class="a-navigation" target="_blank">Dogs</a></li>
+        <li><a href="blog.html" class="a-navigation" target="_blank">Blog</a></li>
+        <li><a href="contact.html" class="a-navigation active" target="_blank">Contact</a></li>
+      </ul>
 
     <!--MAIN CONTENT-->
     <h2>Contact</h2>
@@ -57,19 +62,19 @@
 
     <!--FOOTER-->
     <footer>
-      <img src="images/adoptadog-logo.svg" alt="white logo of a dog">
-      <p>
+      <img src="images/adoptadog-logo.svg" class="logo" alt="white logo of a dog">
+      <p class="footer-p">
         Sed ut perspiciatis unde omnis iste natus error sit voluptatb accusantium dolorbque laudantium, totam rb aperiam, eaque ipsa quae ab illo inventore veritatis
       </p>
-      <nav>
-        <a href="index.html" class="a-navigation active" target="_blank">About</a>
-        <a href="dogs.html" class="a-navigation" target="_blank">Dogs</a>
-        <a href="blog.html" class="a-navigation" target="_blank">Blog</a>
-        <a href="contact.html" class="a-navigation" target="_blank">Contact</a>
+      <nav class="footer-nav">
+        <a href="index.html" target="_blank">About</a>
+        <a href="dogs.html" target="_blank">Dogs</a>
+        <a href="blog.html" target="_blank">Blog</a>
+        <a href="contact.html" target="_blank">Contact</a>
       </nav>
       <p class="footer-copyright">
           <sub>&#169; Adoptadog, LLC | Seattle, WA</sub>
-        </p>
+      </p>
     </footer>
   </body>
 </html>
