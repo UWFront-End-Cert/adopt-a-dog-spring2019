@@ -1,7 +1,14 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
   }
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+p, a {
+  font-family:  'Work Sans', serif;
+}
 
 header.head {
     background-image: url(../images/header-image.jpg);
@@ -13,13 +20,16 @@ header.head {
     margin-right: auto;
 }
 
+.head-logo {
+  width: 33%;
+}
+
 header h1 {
     color: #77ad3b;
     font-style: italic;
-    font-weight: 300;
-    font-size: 20pt;
+    font-weight: 500;
+    font-size: 175%;
     margin-top: 0%;
-    margin-left: 2%;
 }
 
 .checkout-button, .checkout-button a {
@@ -52,21 +62,25 @@ nav a {
     color: #034177;
 }
 
+nav a:not(:last-child):after  {
+  content: '\2001' '/';
+}
+
 nav a#first-nav  {
     padding-left: 9em;
 }
 
-.cart p {
-  display: inline-block;
-
+.cart {
+  float: right;
+  font-weight: 900;
+  font-size: 1em;
+  line-height: 1.5;
+  padding-left: .5em;
+  text-align: right;
 }
 
-.cart {
-    float: right;
-    font-weight: 900;
-    font-size: 1em;
-    line-height: 1.5;
-    
+.cart img {
+  width: 10%;
 }
 
 .main-content {
@@ -94,14 +108,25 @@ h2.blue-title {
 
 h3.blue-title {
   color: #034177;
-  font-size: 1.3em;
+  font-size: 1.75em;
+  font-weight: 900;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
 
+h3.blue-title-checkout {
+  color: #034177;
+  font-size: 1.75em;
+  font-weight: 900;
+  margin-top: 1.5em;
+  /* margin-bottom: 2em; */
 }
 
 .about-adopt-text p {
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 1.25;
+    font-size: 1.4em;
+    font-weight: 100;
+    line-height: 1.4;
+    padding-left: 1em;
 }
 
 div.gallery-item {
@@ -118,7 +143,7 @@ div.gallery-item {
     display: flex;
   }
 
-  figcaption {
+  .caption {
     padding: .5em;
     text-align: left;
     width: 250px;
@@ -128,13 +153,27 @@ div.gallery-item {
     display: flex;
     justify-content: center;
     background-color: #77ad3b;
-    padding: .5em 5em .5em 5em;
+    padding: .5em 6em .5em 6em;
     margin-left: auto;
     margin-right: auto;
     font-weight: 900;
     color: white;
     text-decoration: none;
     font-size: 15px;
+    border: none;
+  }
+
+  .adopt-button-checkout {
+    display: flex;
+    justify-content: left;
+    background-color: #77ad3b;
+    padding: .75em 6em .75em 6em;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 1em 0em 4em .75em;
+    border: none;
   }
 
   .gallery-button {
@@ -146,7 +185,7 @@ div.gallery-item {
     font-weight: 900;
     font-size: 20px;
     padding: .5em 1em .5em 1em;
-    margin: 1em auto 1em auto;
+    margin: 1em auto 5em auto;
     width: 20%;
     text-decoration: none;
   }
@@ -189,7 +228,7 @@ div.gallery-item {
 }
 
 .blog-post p {
-  font-size: 1.07em;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.75;
 }
@@ -197,13 +236,13 @@ div.gallery-item {
 .contact-info input {
   width: 100%;
   padding: 1.25em;
-  margin: .5em 0em 4em 0em;;
+  margin: .5em 0em 4em 0em;
   color: #034177;
 }
 
 .contact-info-input {
   color: #034177;
-  font-size: 2em;
+  font-size: 1.5em;
   width: 60%;
 }
 
@@ -214,21 +253,20 @@ fieldset {
   padding: 1em;
 }
 
-.csz {
+select {
+  padding: 1.25em;
   width: 100%;
-  border: none;
- 
 }
 
 .contact-csz {
   display: inline-block;
   width: 15%;
   color: #034177;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .contact-csz#contact-city {
-  width: 35%;
+  width: 40%;
   margin-right: 1.9em;
 }
 
@@ -238,8 +276,35 @@ fieldset {
   margin-right: 0em;
 }
 
-.contact-csz input {
-  display: flex;
-  justify-content: space-between;
+.pickup-location {
+  color: #034177;
+  font-size: 1.5em;
+  width: 25%;
+  margin-bottom: 0em;
 }
 
+#cart-title {
+  color: #034177;
+  font-size: 1.5em;
+}
+.dogs-selected {
+  display: inline-block;
+}
+
+.cart-dog {
+  display: inline-block;
+  line-height: .25em;
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: top;
+}
+
+section.checkout {
+  padding-left: 1em;
+}
+
+.total  {
+  display: block;
+  padding: 1em;
+  line-height: .25;
+}
