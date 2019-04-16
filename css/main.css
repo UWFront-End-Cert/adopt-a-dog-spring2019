@@ -265,6 +265,10 @@ article.blog{
   margin-bottom: 30px;
 }
 
+form.checkout{
+  width: 50%;
+  min-width: 400px;
+}
 label,
 input:not([type="radio"]):not([type="checkbox"]),
 select{
@@ -279,13 +283,16 @@ select{
   margin-bottom: 15px;
   border: 1px solid var(--light-grey-color);
   border-radius: 0px;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
 }
 
 select{
   -webkit-appearance: none;
 }
 
+p.selectbox{
+  position: relative;
+}
 .icon::after {
   display: inline-block;
   font-style: normal;
@@ -294,14 +301,19 @@ select{
   -webkit-font-smoothing: antialiased;
 }
 
-p.selectbox::after{
-
-  font-family: "Font Awesome 5 Pro";
+p.selectbox.icon::after{
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: '\f2ec';
+  content: "\f0d7";
+  top: 2.5rem;
+  right: 5px;
+  position: absolute;
+  z-index: -1;
+  font-size: 2.25rem;
+  color: var(--light-grey-color);
 }
 input:not([type="radio"]):not([type="checkbox"]){
-  width: 50%;
+  width: 100%;
 }
 
 fieldset.radios{
@@ -321,7 +333,7 @@ fieldset.radios label{
  form.checkout .grid-container-3{
    display: grid;
    grid-template-columns: 3fr 2fr 2fr;
-   width: 50%;
+   width: 100%;
    grid-column-gap: 10px;
  }
 
@@ -330,6 +342,13 @@ fieldset.radios label{
    width: 100%;
  }
 
+p.pickup{
+  width: 30%;
+}
+
+p.pickup select{
+  width: 100%;
+}
 /* responsive adjustments - refine later */
 @media screen and (max-width:900px){
   ul.cards{
