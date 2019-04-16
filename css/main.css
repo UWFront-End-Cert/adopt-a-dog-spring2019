@@ -161,15 +161,19 @@ main{
   margin: 20px auto;
 }
 
-h1, h2{
+h1, h2, label, legend{
   font-family: var(--display-font);
   color: var(--main-color);
   font-weight: bold;
 }
 
 h1{
-  font-size: 1.85em;
+  font-size: 1.85rem;
   margin: 0 0 20px 0;
+}
+
+h2, label, legend{
+  font-size: 1.15rem;
 }
 
 /* dog cards */
@@ -249,6 +253,7 @@ article.blog div.text,
 header.image-blurb p{
   grid-area: c;
   padding: 0 5px 0 0;
+  max-width: 500px;
 }
 
 header.image-blurb p{
@@ -259,6 +264,71 @@ header.image-blurb p{
 article.blog{
   margin-bottom: 30px;
 }
+
+label,
+input:not([type="radio"]):not([type="checkbox"]),
+select{
+  display: block;
+  margin-bottom: 10px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
+select{
+  font-size: 1.25rem;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid var(--light-grey-color);
+  border-radius: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+select{
+  -webkit-appearance: none;
+}
+
+.icon::after {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+p.selectbox::after{
+
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  content: '\f2ec';
+}
+input:not([type="radio"]):not([type="checkbox"]){
+  width: 50%;
+}
+
+fieldset.radios{
+  border: none;
+  padding: 10px 0;
+}
+
+fieldset.radios label{
+  display: inline;
+  font-family: var(--body-font);
+  color: var(--default-text-color);
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 0 25px 0 5px;
+}
+
+ form.checkout .grid-container-3{
+   display: grid;
+   grid-template-columns: 3fr 2fr 2fr;
+   width: 50%;
+   grid-column-gap: 10px;
+ }
+
+ form.checkout .grid-container-3 input,
+ form.checkout .grid-container-3 select{
+   width: 100%;
+ }
 
 /* responsive adjustments - refine later */
 @media screen and (max-width:900px){
@@ -296,10 +366,12 @@ article.blog{
     width: 90%;
   }
 
-  header.image-blurb{
+  header.image-blurb,
+  article.blog{
     display: block;
   }
-  header.image-blurb img{
+  header.image-blurb img,
+  article.blog img.decor{
     display: none;
   }
 
