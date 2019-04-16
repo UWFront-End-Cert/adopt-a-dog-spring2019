@@ -162,14 +162,14 @@ label {
 }
 input {
   display: block;
-  width: 40%;
+  width: 30rem;
   height: 2rem;
 }
 input[type=submit] {
   color: #ffffff;
   background-color: #418c27;
   font-weight: bold;
-  width: 15%;
+  width: 10rem;
 }
 input[type=radio] {
   display: inline;
@@ -205,9 +205,6 @@ p.adoption-total {
   padding: 0 30%;
   text-align: center;
   line-height: 1.5;
-}
-.footer-links {
-
 }
 .footer-links > a {
   text-decoration: none;
