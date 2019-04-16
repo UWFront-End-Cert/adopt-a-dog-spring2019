@@ -37,7 +37,7 @@
 
 /* Styling Nav Bar */
 .main-nav {
-  background-color: #d9dbd9;
+  background-color: #e8e8e8;
   color: #1c356d;
   padding: 2% 12%;
 }
@@ -90,7 +90,7 @@
 .intro-dog-card {
 /* margin-bottom: 10%; */
 /* display: flex; */
-border: 1px solid #d9dbd9;
+border: 1px solid #e8e8e8;
 }
 .intro-dog-card > img {
   width: 100%;
@@ -103,4 +103,48 @@ border: 1px solid #d9dbd9;
 }
 .intro-dog-card > button {
   text-align: center;
+  background-color: #418c27;
+  color: #ffffff;
+  padding: 1% 4%;
+}
+
+.see-more-dogs {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.see-more-dogs > a {
+  text-decoration: none;
+  color: #1c356d;
+  background-color: #e8e8e8;
+  font-weight: bold;
+  padding: 1% 4%;
+}
+
+/* Styling Footer */
+.main-footer {
+  background-color: #133e70;
+  text-align: center;
+  color: #ffffff;
+  padding: 5%;
+}
+.adoptadog-logo-footer {
+  width: 30%;
+}
+.main-footer > p {
+  padding: 0 30%;
+  text-align: center;
+  line-height: 1.5;
+}
+.footer-links {
+
+}
+.footer-links > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0 1%;
+}
+.footer-links > a:first-child {
+  padding: 0 1% 0 0;
 }
