@@ -62,8 +62,9 @@ header .logo {
 }
 
 /**H1, H2, H3, H4, p**/
-h2 {
+h2, h3, h4 {
   font-size: 2em;
+  color: #083b5f
 }
 
 
@@ -165,7 +166,6 @@ button, input, select, textarea {
 }
 
 form {
-  background-color: none;
   padding: 15px 15px 15px 15px;
   margin-bottom: 15px;
   margin-right: 50%;
