@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+	background-image: url("images/header-image.jpg");
+	background-size: cover;
+	color: white;
+	height: 400px;
+}
+
+header h1 {
+}
+
+header h3 {
+  color: green;
+	font-style: italic;
+}
+
+nav {
+	padding:1em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	display:inline;
+}
+
+a {
+	color: black;
+	padding: 1%;
+	text-decoration: none;
+}
+
+footer{
+  padding-top: 20px;
+  text-align: center;
+	background-size: cover;
+  clear: both;
+  color: white;
+	padding: 1rem;
+}
