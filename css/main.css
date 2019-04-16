@@ -25,6 +25,11 @@ body {
   font-family: var(--body-font);
 }
 
+p{
+  margin-bottom: 10px;
+  line-height: 1.25em;
+}
+
 .skiplink{
   display: none;
 }
@@ -163,7 +168,8 @@ h1, h2{
 }
 
 h1{
-  margin: 20px 0;
+  font-size: 1.85em;
+  margin: 0 0 20px 0;
 }
 
 /* dog cards */
@@ -217,7 +223,7 @@ footer img.logo{
   margin: auto;
 }
 
-/* home page here */
+article.blog,
 header.image-blurb{
   display: grid;
   grid-template-areas:  "a b b"
@@ -226,25 +232,34 @@ header.image-blurb{
   grid-template-rows: 3em auto;
   grid-column-gap: 25px;
   margin-bottom: 25px;
-
 }
 
+article.blog img.decor,
 header.image-blurb img{
   grid-area: a;
   width: 100%;
-  bacground-color: red;
 }
 
+article.blog h2,
 header.image-blurb h1{
   grid-area: b;
-  background-color: pink;
-  margin: 0;
+}
+
+article.blog div.text,
+header.image-blurb p{
+  grid-area: c;
+  padding: 0 5px 0 0;
 }
 
 header.image-blurb p{
-  grid-area: c;
-  background-color: orchid;
+  font-size: 1.15rem;
+  line-height: 1.5em;
 }
+
+article.blog{
+  margin-bottom: 30px;
+}
+
 /* responsive adjustments - refine later */
 @media screen and (max-width:900px){
   ul.cards{
@@ -280,6 +295,14 @@ header.image-blurb p{
   main{
     width: 90%;
   }
+
+  header.image-blurb{
+    display: block;
+  }
+  header.image-blurb img{
+    display: none;
+  }
+
   ul.cards{
     grid-template-columns: 1fr;
   }
