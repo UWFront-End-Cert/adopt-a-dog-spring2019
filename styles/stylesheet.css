@@ -2,18 +2,122 @@
   box-sizing: border-box;
 }
 
+/*code for hidden elements*/
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+} /*hides the elements off the page*/
+
+.hidden:focus {
+  left: 0;
+}/*makes visible when focused*/
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/**HEADER**/
+header {
+  background-color: #083b5f; /*dark blue*/
+  padding: 1% 2% 1% 2%;
+}
+
+.headline {
+  color: #3ca721; /*green color*/
+}
+
+.head-bucket {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/**Button**/
+.button:link,.button:visited {
+  background-color: #3ca721;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:  "Hind Siliguri", sans-serif;
+  font-size: 1em;
+}
+
+.button:hover,.button:active {
+  background-color: #b6dde3;
+}
+
 /**H1, H2, H3, H4, p**/
 
 
+
 /**NAVIGATION**/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bbbbbb;
+}
 
+li {
+  float: left;
+}
 
-/**HEADER**/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #083b5f;
+}
+
+li .active {
+  background-color: #083b5f;
+}
 
 
 /**FOOTER**/
+footer {
+  background-color: #083b5f;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
+.footer-p {
+  font-size: 1 em;
+  color: white;
+}
 
+.footer-copyright {
+  font-size: 1 em;
+  color: white;
+}
+
+.footer-nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: #083b5f;
+  }
+}
 /**INDEX.HTML**/
 
 
