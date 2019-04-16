@@ -113,6 +113,7 @@
 .top-text{
   margin-left: 1.5rem;
   flex-basis: 35%;
+  min-width: 50%;
 }
 .top-text2{
   color: rgb(9, 60 , 96);
@@ -122,39 +123,32 @@
   font-size: 2rem;
 }
 .top-text h3{
-  font-size: 2vw;
+  font-size: 1rem;
   margin: 0;
 }
 .top-text p{
-  font-size: 1.4vw;
+  font-size: 1rem;
 }
-.top-image{
-  flex-basis: 35%;
-}
-.top-image img{
-  min-width: 85%;
-}
+
 .dog-checkout{
     flex-basis: 10%;
 }
 .dog-checkout img{
   max-height: 4rem;
 }
-.container1{
+.dogs-container{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 5rem;
-  padding-left: 5rem;
   justify-content: center;
 }
-.container1 img{
+.dogs-container img{
   min-width: 100%;
   max-width: 100%;
 }
-.container1 input[type=button]{
+.dogs-container input[type=button]{
   display: block;
   margin-left: 5%;
   margin-right: 5%;
@@ -165,16 +159,16 @@
   min-height: 2rem;
   min-width: 90%;
 }
-.container1 div{
+.dogs-container div{
   margin: 1rem;
-  max-width: 20%;
+  max-width: 30%;
 }
-.container1 p{
+.dogs-container p{
   padding: 5%;
   margin: 0;
   font-size: 0.75em;
 }
-.container1 h3{
+.dogs-container h3{
   margin: 0em;
   padding-left: 5%;
   padding-right: 5%;
@@ -183,13 +177,14 @@ span{
   color: black;
   font-weight: 600;
 }
-.item1{
+.dog-item1{
   border-width: 2px;
   border-color: lightgray;
   border-style: solid;
-  flex-basis: 25% ;
+  flex-basis: 22% ;
+  word-wrap: normal;
 }
-.item2{
+.dog-item2{
   margin-right: 4rem;
 }
 .foot{
