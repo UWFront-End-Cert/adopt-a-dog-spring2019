@@ -53,8 +53,6 @@
   padding: 0 1% 0 0;
 }
 
-/* Styling Footer */
-
 /* Styling Dog Cards */
 .cards {
   display: grid;
@@ -62,7 +60,7 @@
   /* grid-template-rows: minmax(5%, auto); */
   grid-gap: 5%;
   padding: 0 12%;
-  margin-bottom: 20%;
+  /* margin-bottom: 10%; */
 }
 .dog-card {
   border: 1px solid #e8e8e8;
@@ -128,6 +126,22 @@
   color: #1c356d;
 }
 
+/* Styling for Blog page */
+.blog-main {
+  padding: 2% 12%;
+  color: #1c356d;
+}
+.blog-post {
+  margin: 4% 0;
+  display: flex;
+  align-content: flex-start;
+}
+.blog-content {
+  padding-left: 2%;
+}
+.blog-content > h3 {
+  margin-top: 0;
+}
 
 /* Styling Footer */
 .main-footer {
@@ -135,6 +149,7 @@
   text-align: center;
   color: #ffffff;
   padding: 5%;
+  /* margin-top: 10%; */
 }
 .adoptadog-logo-footer {
   width: 30%;
