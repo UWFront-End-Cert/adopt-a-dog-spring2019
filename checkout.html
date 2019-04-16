@@ -122,17 +122,17 @@
           </label>
 
           <label>Zip Code
-            <input type="number" name="applicantEmail">
+            <input type="text" name="applicantEmail">
           </label>
 
         <p>First time adopter?</p>
-        <label> Yes
-          <input type="checkbox" name="species" value="Yes">
+        <label class="adopter"> Yes
+          <input type="radio" name="species" value="Yes">
           <span class="checkmark"></span><!--challenges with customizing checkbox inputs is that you can't really style the browser's default checkboxes so we've created these span elements that are going to act like our new checkmark boxes and so we're going into CSS to hide the default and only see our spans-->
         </label>
 
-        <label> No
-          <input type="checkbox" name="species" value="No">
+        <label class="adopter"> No
+          <input type="radio" name="species" value="No">
           <span class="checkmark"></span>
         </label>
 

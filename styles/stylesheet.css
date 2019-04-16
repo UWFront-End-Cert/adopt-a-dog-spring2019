@@ -155,3 +155,135 @@ div + img {
   width: 100%;
   height: auto;
 }
+
+/**CHECKOUT**/
+button, input, select, textarea {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 100%;
+  display: block;
+  margin: 1rem;
+}
+
+form {
+  background-color: none;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
+  margin-right: 50%;
+}
+
+label {
+  display: inline;
+  width: 140px;
+  text-align: right;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  border: 3px solid #696969;
+  outline: none;
+}
+
+input[type=text]:hover{
+  cursor: text;
+}
+
+input[type=text]:focus {
+  border: 3px solid #3ca721;
+}
+
+input[type=email]{
+  border: 3px solid #696969;
+  outline: none;
+}
+
+input[type=email]:focus {
+  border: 3px solid #3ca721;
+}
+
+input[type=submit] {
+  background-color: white;
+  cursor: pointer;
+  transition: border 1s ease-in 1s;
+}
+
+input[type=checkbox] {
+
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  border: 3px solid #696969;
+  outline: none;
+  resize: none; /*Use the resize property to prevent textareas from being resized (disable the "grabber" in the bottom right corner)*/
+}
+
+textarea:focus {
+  border: 3px solid #3ca721;
+}
+
+/* The container for the YES & NO CHECKBOX*/
+.adopter {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.adopter input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.adopter:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.adopter input:checked ~ .checkmark {
+  background-color: #9CD0D3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.adopter input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.adopter .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+/* END OF the container for the YES & NO CHECKBOX*/
