@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/checkout.css">
   <title>Checkout | Adoptadog</title>
 </head>
 
@@ -104,7 +105,7 @@
           <input type="text" name="zipCode" pattern="[0-9]{5}" placeholder="5-digit zip">
         </label>
       </fieldset>
-      <h3>First Time Adopter?</h3>
+      <h2>First Time Adopter?</h2>
       <input type="radio" name="adoptedBefore" value="Yes"> Yes
       <input type="radio" name="adoptedBefore" value="No"> No
       <label> Pickup Location
@@ -114,18 +115,22 @@
           <option value="3">#</option>
         </select>
       </label>
-      <h3>Dogs Adopted</h3>
+      <h2>Dogs Adopted</h2>
       <div class="in-cart">
         <img src="images/lucas-checkout.jpg" alt="Lucas the black farmdog">
-        <h4>Lucas</h4>
-        <p><strong>Cost to adopt:</strong> $123.45</p>
+        <div class="cart-text">
+          <h3>Lucas</h3>
+          <p><strong>Cost to adopt:</strong> $123.45</p>
+        </div>
       </div>
       <div class="in-cart">
         <img src="images/duffy-checkout.jpg" alt="Duffy the white and brown pitbul">
-        <h4>Lucas</h4>
-        <p><strong>Cost to adopt:</strong> $123.45</p>
+        <div class="cart-text">
+          <h3>Lucas</h3>
+          <p><strong>Cost to adopt:</strong> $123.45</p>
+        </div>
       </div>
-      <h3>Total Adoption Cost</h3>
+      <h2>Total Adoption Cost</h2>
       <p>$1234.56</p>
       <input type="submit" name="submit" value="Submit">
     </form>
@@ -133,7 +138,8 @@
   <footer>
     <div>
       <img class="dog-logo" src="images/adoptadog-logo.svg" alt="Dog Logo">
-      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam
+        consequunt</p>
       <p class="footer-links">
         <a href="#">Home</a> /
         <a href="#"> Dogs</a> /

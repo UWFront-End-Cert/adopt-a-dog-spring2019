@@ -23,6 +23,7 @@ header {
   text-align: right;
   padding: 1rem;
 }
+
 .dog-logo {
   width: 25%;
 }
@@ -41,11 +42,11 @@ nav {
   font-weight: bolder;
 }
 
-nav, nav a:visited, h1, h2, h3, h4, .more-dogs a{
+nav, nav a:visited, h1, h2, h3, h4, .more-dogs a, label{
   color: #073B60;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, label{
   font-family: Neuton;
   font-weight: bold;
 }
