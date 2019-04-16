@@ -131,10 +131,14 @@ h3.blue-title-checkout {
 
 div.gallery-item {
     float: left;
-    width: auto;
+    width: 22%;
     padding: 0em;
     margin: 1em;
     border: #f0f2f3 thick solid;
+  }
+
+  .gallery-item img {
+    width: 100%;
   }
 
   .gallery::after {
@@ -146,24 +150,24 @@ div.gallery-item {
   .caption {
     padding: .5em;
     text-align: left;
-    width: 250px;
+    width: auto;
   }
 
   .adopt-button {
     display: flex;
     justify-content: center;
     background-color: #77ad3b;
-    padding: .5em 6em .5em 6em;
+    padding: 5% 35% 5% 35%;
     margin-left: auto;
     margin-right: auto;
     font-weight: 900;
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1em;
     border: none;
   }
 
-  .adopt-button-checkout {
+    .adopt-button-checkout {
     display: flex;
     justify-content: left;
     background-color: #77ad3b;
