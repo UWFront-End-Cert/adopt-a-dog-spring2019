@@ -20,6 +20,11 @@ body > section {
   width: 100%;
 }
 
+.banner > * {
+  flex-flow: row;
+  align-items: center;
+}
+
 .banner > a {
   text-decoration: none;
   color: #ffffff;
