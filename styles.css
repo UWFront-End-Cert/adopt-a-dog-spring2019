@@ -4,11 +4,10 @@
   padding: 0;
 }
 
-
 header {
-  height: 6rem;
+  height: 30%;
   width: 100%;
-  background-color: black;
+  background-image: url("images/h.jpg");
   color: white;
   display: flex;
   flex-direction: row;
@@ -16,10 +15,54 @@ header {
   justify-content: space-between;
 }
 
+.logo,.cart {
+  padding: 5rem;
+}
+
+.cart {
+  font-weight: bold;
+}
+
+.total-cart {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+#cart-button {
+  width: 100%;
+}
+
+nav {
+  text-decoration: none;
+  color: white;
+
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .main-nav {
-  height: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 15%;
   width: 100%;
   background-color: gray;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+
 }
 
 .container {
@@ -34,21 +77,9 @@ img {
   height: auto;
 }
 
-.high-dog {
-  width: 25%;
-  height: auto;
-  margin: 1rem;
-  border: 1px solid black;
-}
-
-.high-desc {
-  margin: 1rem;
-  width: 50%;
-}
-
 
 .canvas {
-  width: 83%;
+  width: 70%;
   height: 100%;
   flex-direction: column;
   align-items: center;
@@ -61,39 +92,102 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #00072b;
   color: white;
-  height: 10rem;
+  height: 100%;
   margin-top: 4rem;
+  padding: 5rem;
+}
+
+
+
+button {
+  width: 100%;
+  height: 1.7rem;
+  background-color: #3fb63f;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: .5rem;
+  color: white;
+  font-weight: bold;
+  padding: .5rem;
 }
 
 .highlight {
-  border: 1px solid black;
-  height: 14rem;
-  margin: 1rem;
+  height: 20rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 2.5rem;
 }
 
-.dog-card {
-  width: 15rem;
-  height: 20rem;
-  margin-bottom: 1rem;
-  font-size: 80%;
-  border: 1px solid black;
-  padding: 1rem;
+.high-dog {
+  margin: 1rem;
+  width: 20rem;
+  display: inline-block;
+  margin-left: 0;
 }
 
-button {
-  width: 80%;
+.high-desc {
+  margin: 1rem;
+  width: 50%;
+  margin-right: 0;
+  font-size: 130%
 }
 
 .dog-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: space-around;
+  align-content: space-between;
+  justify-content: space-between;
+}
 
+.dog-card {
+  width: 12rem;
+  height: 100%;
+  margin-bottom: 1rem;
+  font-size: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.dog-info {
+  padding: 1rem;
+}
+
+.cart {
+  width: 7rem;
+  height: 9rem;
+}
+
+#more-dogs {
+  width: 10rem;
+}
+
+#footer-logo {
+  width: 20%;
+}
+
+input {
+  width: 50%;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-pics {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.form-dogs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#form-submit {
+  width: 10%;
 }

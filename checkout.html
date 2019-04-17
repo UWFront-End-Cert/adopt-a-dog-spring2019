@@ -3,18 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Adopt a Dog</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
-      <div class="logo"> Logo
+      <div class="logo">
+        <img src="images/adoptadog-logo.svg" alt="logo">
+        <div>Seattle's premiere adoption agency</div>
       </div>
-      <div class="cart"> Cart
+      <div class="cart">
+        <div class="total-cart">
+          <i class="fas fa-shopping-cart"></i>
+          <p>$1234.56</p>
+        </div>
+        <button type="button" name="button" id="cart-button"><a href="checkout.html">Checkout</a></button>
       </div>
     </header>
     <nav class="main-nav">
       <a href="index.html">Home</a> /
-      <a href="checkout.html">Dogs</a> /
+      <a href="browse.html">Dogs</a> /
       <a href="blog.html">Blog</a>
     </nav>
     <div class="container">
@@ -50,21 +58,23 @@
           <input type="text" name="name">
 
           <h3>Dogs</h3>
-          <div class="dog1">
-            <img src="images/lucas-card.jpg" alt="dog">
-            <h5>Lucas</h5>
-            <p>Good Boy</p>
-          </div>
+          <div class="form-dogs">
+            <div class="dog1">
+              <img src="images/lucas-card.jpg" alt="dog" class="form-pics">
+              <h5>Lucas</h5>
+              <p>Good Boy</p>
+            </div>
 
-          <div class="dog2">
-            <img src="images/lucas-card.jpg" alt="dog">
-            <h5>Lucas</h5>
-            <p> Good Boy</p>
+            <div class="dog2">
+              <img src="images/lucas-card.jpg" alt="dog" class="form-pics">
+              <h5>Lucas</h5>
+              <p> Good Boy</p>
+            </div>
           </div>
 
           <h3>Total Adoption Cost</h3>
-          <p></p>
-          <button type="submit"></button>
+          <p>$1234.56</p>
+          <button type="submit" id="form-submit">Submit</button>
 
 
         </form>
