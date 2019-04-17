@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Adopt A Dog</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
 
   <body>
-    <header id="header">
-        <img src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
-        <p>Seattle's premiere dog adoption agency</p>
+    <header>
+      <div class="banner">
+        <img id="logo"src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
+        <h1>Seattle's premiere dog adoption agency</h1>
+        <img id="cart" src="images/cart-icon.svg" alt="Cart Icon" >
+        <p>$1234.56</p>
         <a href="checkout.html"> Checkout</a>
-      <nav>
+      </div>
+
+      <nav class="top-navigation">
         <a href="index.html"> Home</a>
         <a href="dogs.html"> Dogs</a>
         <a href="blog.html"> Blog</a>
@@ -28,80 +34,82 @@
     </section>
 
     <section>
-      <article>
-        <img src="images/murphy-card.jpg" alt="">
-        <h3>Murphy</h3>
-        <p><strong>Cost to Adopt:</strong> $123.45</p>
-        <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-        <button type="button" name="button"> Adopt</button>
-      </article>
+      <div class="grid">
+        <article class="doggo-grid">
+          <img src="images/murphy-card.jpg" alt="">
+          <h3>Murphy</h3>
+          <p><strong>Cost to Adopt:</strong> $123.45</p>
+          <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
+          <button type="button" name="button"> Adopt</button>
+        </article>
 
-      <article>
-        <img src="images/poppy-card.jpg" alt="">
-        <h3>Poppy</h3>
-        <p><strong>Cost to Adopt:</strong> $123.45</p>
-        <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-        <button type="button" name="button"> Adopt</button>
-      </article>
+        <article class="doggo-grid">
+          <img src="images/poppy-card.jpg" alt="">
+          <h3>Poppy</h3>
+          <p><strong>Cost to Adopt:</strong> $123.45</p>
+          <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
+          <button type="button" name="button"> Adopt</button>
+        </article>
 
-      <article>
-        <img src="images/jack-card.jpg" alt="">
-        <h3>Jack</h3>
-        <p><strong>Cost to Adopt:</strong> $123.45</p>
-        <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-        <button type="button" name="button"> Adopt</button>
-      </article>
+        <article class="doggo-grid">
+          <img src="images/jack-card.jpg" alt="">
+          <h3>Jack</h3>
+          <p><strong>Cost to Adopt:</strong> $123.45</p>
+          <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
+          <button type="button" name="button"> Adopt</button>
+        </article>
 
-      <article>
-        <img src="images/duffy-card.jpg" alt="">
-        <h3>Duffy</h3>
-        <p><strong>Cost to Adopt:</strong> $123.45</p>
-        <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-        <button type="button" name="button"> Adopt</button>
-      </article>
+        <article class="doggo-grid">
+          <img src="images/duffy-card.jpg" alt="">
+          <h3>Duffy</h3>
+          <p><strong>Cost to Adopt:</strong> $123.45</p>
+          <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
+          <button type="button" name="button"> Adopt</button>
+        </article>
 
-      <article>
-        <img src="images/lucas-card.jpg" alt="">
-        <h3>Lucas</h3>
-        <p><strong>Cost to Adopt:</strong> $123.45</p>
-        <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-        <button type="button" name="button"> Adopt</button>
-      </article>
+        <article class="doggo-grid">
+          <img src="images/lucas-card.jpg" alt="">
+          <h3>Lucas</h3>
+          <p><strong>Cost to Adopt:</strong> $123.45</p>
+          <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
+          <button type="button" name="button"> Adopt</button>
+        </article>
 
-      <article>
-        <img src="images/jake-card.jpg" alt="">
-        <h3>Jake</h3>
-        <p><strong>Cost to Adopt:</strong> $123.45</p>
-        <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-        <button type="button" name="button"> Adopt</button>
-      </article>
+        <article class="doggo-grid">
+          <img src="images/jake-card.jpg" alt="">
+          <h3>Jake</h3>
+          <p><strong>Cost to Adopt:</strong> $123.45</p>
+          <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
+          <button type="button" name="button"> Adopt</button>
+        </article>
 
-      <article>
-        <img src="images/angus-card.jpg" alt="">
-        <h3>Angus</h3>
-        <p><strong>Cost to Adopt:</strong> $123.45</p>
-        <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-        <button type="button" name="button"> Adopt</button>
-      </article>
+        <article class="doggo-grid">
+          <img src="images/angus-card.jpg" alt="">
+          <h3>Angus</h3>
+          <p><strong>Cost to Adopt:</strong> $123.45</p>
+          <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
+          <button type="button" name="button"> Adopt</button>
+        </article>
 
-      <article>
-        <img src="images/violet-card.jpg" alt="">
-        <h3>Violet</h3>
-        <p><strong>Cost to Adopt:</strong> $123.45</p>
-        <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-        <button type="button" name="button"> Adopt</button>
-      </article>
+        <article class="doggo-grid">
+          <img src="images/violet-card.jpg" alt="">
+          <h3>Violet</h3>
+          <p><strong>Cost to Adopt:</strong> $123.45</p>
+          <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
+          <button type="button" name="button"> Adopt</button>
+        </article>
+      </div>
 
       <a href="dogs.html"> See More Dogs</a>
     </section>
 
     <footer>
-      <img src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
+      <img id="logo-footer" src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
       <p>Pellentesque a sem porttitor, vestibulum ligula hendrerit, rutrum lorem. Vivamus feugiat ut ex ac porttitor. Curabitur bibendum risus nisi. Sed sagittis purus nec cursus iaculis. Vestibulum ornare metus at velit lobortis, vitae gravida ex dignissim. Fusce vestibulum auctor rhoncus.</p>
-      <div>
-        <a href="index.html"> Home</a>
-        <a href="dogs.html"> Dogs</a>
-        <a href="blog.html"> Blog</a>
+      <div class="footer-navigation">
+        <a href="index.html">Home</a>
+        <a href="dogs.html">Dogs</a>
+        <a href="blog.html">Blog</a>
       </div>
       <p>© 2018 Adoptagog, LLC | Seattle, WA</p>
     </footer>

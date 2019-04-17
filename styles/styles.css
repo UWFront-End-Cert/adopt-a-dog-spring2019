@@ -1,12 +1,124 @@
-#header {
-  background-image: url(../images/header-image.jpg);
-  color: #7EB442;
+
+/*Universal Stylings*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
 }
 
-nav {
-  background-color: gray;
+body > section {
+  padding-left: 10em;
+  padding-right: 10em;
 }
+
+/*Header*/
+
+.banner {
+  background-image: url("../images/header-image.jpg");
+  margin: 0;
+  padding: 6%;
+  width: 100%;
+}
+
+.banner > a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4CAF50;
+  padding: 1% 4%;
+}
+
+.banner > h1 {
+  font-style: italic;
+  font-size: 1.4em;
+  color: #4CAF50;
+}
+
+.banner > p {
+  font-size: 1em;
+  color: white;
+}
+
+.top.navigation {
+ background-color: blue;
+ color: #1c356d;
+ padding: 2% 12%;
+ padding-left: 2em;
+
+}
+
+.top-navigation > a{
+  text-decoration: none;
+  color: #1c356d;
+  font-weight: bold;
+  padding-left: 2em;
+}
+
+
+#logo {
+  width: 25%;
+}
+
+#cart {
+  width: 2%;
+}
+
+
+/*Body*/
+
+/*Body: Doggo grid*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3%;
+  margin-bottom: 10%;
+}
+
+.doggo-grid {
+  border: 1px solid #e8e8e8;
+}
+.doggo-grid > img {
+  width: 100%;
+}
+.doggo-grid > h3 {
+    color: #1c356d;
+    padding: 0 5%;
+}
+.doggo-grid > p {
+  line-height: 1.5;
+  padding: 0 5%;
+}
+.doggo-grid > button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3em;
+  cursor: pointer;
+}
+
+/*Footer*/
 
 footer {
   background-color: #0E3C5F;
+  padding-top: 3%;
+  text-align: center;
+}
+
+footer > p {
+  color: white;
+}
+
+.footer-navigation > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0 1%;
+}
+
+#logo-footer {
+  width: 30%;
 }
