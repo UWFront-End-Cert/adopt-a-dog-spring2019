@@ -21,29 +21,28 @@ a:visited {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 a.subtitle:visited {
   color: #093b60;
 }
 
+
+/*best practice to not use id's for css, a single class is just fine*/
 #letterhead {
   display: flex;
   flex-direction: column;
-  
   margin-top: 3%;
   color: #81B642;
   font-family: Merriweather, Times, serif;
   font-style: italic;
   text-align: center;
   font-size: 150%;
+  /*Rems or ems please*/
 }
 
 .filler {
   width: 0%;
-  
- 
 }
 
 #toplogo {
@@ -69,25 +68,26 @@ a.subtitle:visited {
 #carticon {
 /*Size to make small; I've just shrunk it a bit for now*/
 width: 1.5em;
-
 }
 
 .checkout-button {
   /*Green background, position beneath cart icon */
-    background-color: #81B642;
-    height: 30px;
-    width: 140px;
-    color: white;
-    font-family: "Archivo Black", Geneva, sans-serif;
-    font-weight: bold;
-    font-size: 75%;
-    line-height: 30px;
-    text-align: center;
-    margin: 10px;
+  background-color: #81B642;
+  height: 30px;
+  width: 140px;
+  color: white;
+  font-family: "Archivo Black", Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 75%;
+  line-height: 30px;
+  /*do a search on Mozilla Developer's network on line-height. I'm a fan of the multiplier method for these; could =/* Unitless values: use this number multiplied
+by the element's font size
+line-height: 3.5;*/
+  text-align: center;
+  margin: 10px;
 }  
 
 h1 {
-  
 /*Size */
 }
 
@@ -106,6 +106,7 @@ h1 {
   font-family: "Archivo Black", Geneva, sans-serif;
   font-weight: bold;
   margin-left: 10rem;
+  /*a percent might be useful here to keep it more fluid*/
 }
 
 #welcome {
@@ -131,7 +132,7 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #3C3C3C;
   width: 30rem;
-
+  /*You might want to consider a percent for this.*/
 }
 
 .profiles {
@@ -145,6 +146,7 @@ h2 {
 
 .profile-card {
   width: 200px;
+  /*You'll want to use a percent for this. You can constrain how small or large it gets with max-width and min-width*/
   height: 375px;
   margin: 25px;
   border: 2px solid #ebebeb;
@@ -152,6 +154,7 @@ h2 {
 
 .profilepicture {
   width: 200px;
+  /*Percent here will be helpful, you can set it for a percentage of the container.*/
 }
 
 h3 {
@@ -177,6 +180,7 @@ h3 {
   background-color: #81B642;
   height: 30px;
   width: 180px;
+  /*Percent again...*/
   color: white;
   font-family: "Archivo Black", Geneva, sans-serif;
   font-weight: bold;
@@ -191,6 +195,7 @@ a.checkout:visited {
 }
 
 /*Not working: make adopt-button white and still white when visited*/
+/*the adopt buttons aren't links, but buttons that will do something*/
 
 .superfooter {
   display: flex;
@@ -205,7 +210,7 @@ a.checkout:visited {
 #whitespace {
   height: 8rem;
   /*Make big enough for some padding*/
-
+  /*Get rid of this in the HTML. See if you can find another way to add that spacing. We don't want to add elements in the page to add blank space.*/
 }
 
 .moredogs {
@@ -252,6 +257,7 @@ a.more:visited {
 
 .footer-link {
 /*Having a problem with this breaking into lines*/
+/*Your flexbox container is forcing these into columns. If you put a wapper on these elements, it'll still stack the link container, and then you can layout the links*/
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -265,7 +271,7 @@ a.footer-link:visited {
   color: white;
 }
 
-.blogentry {
+.blog-entry {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

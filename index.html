@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>Adopt A Dog</title>
 </head>
@@ -15,9 +16,11 @@
         Seattle's premiere dog adoption agency
       </div>
       <div id="cart">
+        <!--between an tag with a link to your checkout.html. Could apply this change to all of your pages-->
         <div class="top-cart">
           <img src="images/cart-icon.svg" id="carticon" alt="a white cart logo">
           &nbsp;&nbsp;$1234.56
+          <!--instead of pushing these over with non-breaking spaces, I'd rather have margin do it. Just in case a browser reads those funny . Odds are they won't, but it's best to let css do the styling, not force it with conent-->
         </div>
         <div class="checkout-button">
           Checkout
