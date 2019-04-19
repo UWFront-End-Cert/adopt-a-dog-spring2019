@@ -1,6 +1,7 @@
 /* Styling for ALL pages */
 * {
   box-sizing: border-box;
+  /* margin: 0; */
   font-family: 'Merriweather', sans-serif;
 }
 
