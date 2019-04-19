@@ -14,9 +14,10 @@ a:visited {
   text-decoration: none;
 }
   
-#banner {
+.banner {
   background-color: #093b60;
   height: 18em;
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -27,30 +28,32 @@ a.subtitle:visited {
   color: #093b60;
 }
 
-
-/*best practice to not use id's for css, a single class is just fine*/
-#letterhead {
+.letterhead {
+  position: absolute;
+  left: 10%;
+  top: 20%;
   display: flex;
   flex-direction: column;
-  margin-top: 3%;
   color: #81B642;
   font-family: Merriweather, Times, serif;
   font-style: italic;
   text-align: center;
-  font-size: 150%;
-  /*Rems or ems please*/
+  font-size: 1.5rem;
 }
 
 .filler {
   width: 0%;
 }
 
-#toplogo {
+.toplogo {
   max-width: 100%;
   height: auto;
 }
 
-#cart {
+.cart {
+  position: absolute;
+  right: 10%;
+  top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: right;
@@ -65,13 +68,12 @@ a.subtitle:visited {
 }
 
 
-#carticon {
-/*Size to make small; I've just shrunk it a bit for now*/
+.carticon {
 width: 1.5em;
+margin-right: 1em;
 }
 
 .checkout-button {
-  /*Green background, position beneath cart icon */
   background-color: #81B642;
   height: 30px;
   width: 140px;
@@ -91,25 +93,23 @@ h1 {
 /*Size */
 }
 
-#subbanner {
+.subbanner {
   background-color: #ebebeb;
   height: 4em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  padding-left: 21%;
 }
 
 .subtitle {
- /*Position away from left margin and check font */
   color: #093b60;
   font-family: "Archivo Black", Geneva, sans-serif;
   font-weight: bold;
-  margin-left: 10rem;
-  /*a percent might be useful here to keep it more fluid*/
 }
 
-#welcome {
+.welcome {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -117,7 +117,7 @@ h1 {
   margin: 1rem;
 }
 
-#hugpicture {
+.hugpicture {
   width: 85%;
 }
 
@@ -131,8 +131,7 @@ h2 {
 .lead-in {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #3C3C3C;
-  width: 30rem;
-  /*You might want to consider a percent for this.*/
+  width: 33%;
 }
 
 .profiles {
@@ -147,6 +146,7 @@ h2 {
 .profile-card {
   width: 200px;
   /*You'll want to use a percent for this. You can constrain how small or large it gets with max-width and min-width*/
+  /*I'm probably missing something, but I disagree. I rewrote it with %s and it gets weird when sized down. For these cards, I'm finding px most effective.*/
   height: 375px;
   margin: 25px;
   border: 2px solid #ebebeb;
@@ -207,12 +207,6 @@ a.checkout:visited {
   height: 10rem;
 }
 
-#whitespace {
-  height: 8rem;
-  /*Make big enough for some padding*/
-  /*Get rid of this in the HTML. See if you can find another way to add that spacing. We don't want to add elements in the page to add blank space.*/
-}
-
 .moredogs {
   background-color: #ebebeb;
   height: 50px;
@@ -223,50 +217,45 @@ a.checkout:visited {
   line-height: 50px;
   text-align: center;
   margin: 10px;
-  /*Text blue, background light grey, LR centered, closer to top than bottom*/
 }
 
 a.more:visited {
   color: #093b60;
 }
 
-#footer {
-  /*Maybe nothing needed*/
-}
-
 .basefield {
+  margin-top: 3%;
   background-color: #3C3C3C;
   height: 23rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*some padding above*/
 }
 
-#bottomlogo {
-  /*size and center LR*; just shrank a bit for now*/
+.bottomlogo {
   width: 22%;
-  
 }
 
-#footer-text {
+.footer-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+}
+
+.final-links {
+  display: flex;
+  flex-direction: row;
 }
 
 .footer-link {
-/*Having a problem with this breaking into lines*/
-/*Your flexbox container is forcing these into columns. If you put a wapper on these elements, it'll still stack the link container, and then you can layout the links*/
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 a.footer-link:visited {
   color: white;
 }
-#copyright {
+.copyright {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
@@ -318,11 +307,11 @@ a.footer-link:visited {
   /*Same font as in top right but grey and small*/
 }
 
-#totalcost{
-  /*same font color and size and #dogsadopted*/
+.totalcost{
+  /*same font color and size and .dogsadopted*/
 }
 
-#totalprice{
+.totalprice{
   /*grey, medium size, font*/
 }
 

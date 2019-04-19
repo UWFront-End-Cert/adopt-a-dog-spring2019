@@ -2,46 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>Adopt A Dog</title>
 </head>
 <body>
-  <div class="grid-container">
-    <section id="banner">
-        <div class="filler">
-          </div>
-      <div id="letterhead">
-        <img src="images/adoptadog-logo.svg" id="toplogo" alt= "profile of a dog in white">
+  <div class="grclass-container">
+    <section class="banner">
+      <div class="letterhead">
+        <img src="images/adoptadog-logo.svg" class="toplogo" alt= "profile of a dog in white">
         Seattle's premiere dog adoption agency
       </div>
-      <div id="cart">
+      <div class="cart">
+        <!--I've followed JN's suggestion about positioning with relative and absolute, which works fine on larger screens but not so well on smaller. Thoughts?-->
         <!--between an tag with a link to your checkout.html. Could apply this change to all of your pages-->
         <div class="top-cart">
-          <img src="images/cart-icon.svg" id="carticon" alt="a white cart logo">
-          &nbsp;&nbsp;$1234.56
-          <!--instead of pushing these over with non-breaking spaces, I'd rather have margin do it. Just in case a browser reads those funny . Odds are they won't, but it's best to let css do the styling, not force it with conent-->
+          <img src="images/cart-icon.svg" class="carticon" alt="a white cart logo">$1234.56
         </div>
         <div class="checkout-button">
           Checkout
         </div>
       </div>
-      <div class="filler">
-        </div>
     </section>
-    <section id="subbanner">
-      <div >
+    <section class="subbanner">
+      <div>
         <p><a class="subtitle" href="index.html">Home&nbsp;&nbsp;/</a><a class="subtitle" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="subtitle" href="blog.html">&nbsp;&nbsp;Blog</a></p>
       </div>
     </section>
-    <section id="welcome">
+    <section class="welcome">
       <div>
-        <img src="images/home-intro.jpg" id="hugpicture" alt="a dog appears to smile as it receives a hug">
+        <img src="images/home-intro.jpg" class="hugpicture" alt="a dog appears to smile as it receives a hug">
       </div>
       <div class="lead-in">
         <h2>Adopt A Dog</h2>
         <p >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus sit amet lorem semper vehicula. Etiam nunc neque, sollicitudin et est at, auctor accumsan urna. Suspendisse at nisl eget justo suscipit maximus. Aenean auctor urna nec est efficitur tristique. Cras pellentesque purus vel congue aliquam. Duis fringilla, lorem id vehicula sollicitudin, risus quam placerat ligula, aliquam laoreet risus augue sed mi. Aenean tincidunt, risus eget egestas efficitur, justo quam posuere justo, non elementum sem odio et felis. Praesent fringilla faucibus pellentesque. Nullam sit amet sapien fringilla
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus sit amet lorem semper vehicula. Etiam nunc neque, sollicitudin et est at, auctor accumsan urna. Suspendisse at nisl eget justo suscipit maximus. Aenean auctor urna nec est efficitur tristique. Cras pellentesque purus vel congue aliquam. Duis fringilla, lorem class vehicula sollicitudin, risus quam placerat ligula, aliquam laoreet risus augue sed mi. Aenean tincclassunt, risus eget egestas efficitur, justo quam posuere justo, non elementum sem odio et felis. Praesent fringilla faucibus pellentesque. Nullam sit amet sapien fringilla
         </p>
       </div>
     </section>
@@ -155,19 +150,19 @@
     </section>
     <section>
       <div class="superfooter">
-        <div id="whitespace">
-        </div>
         <div class="moredogs">
             <a class="more" href="dogs.html">See More Dogs</a>
         </div>
       </div>
     </section>
-    <section id="footer">
+    <section class="footer">
       <div class="basefield">
-          <img src="images/adoptadog-logo.svg" id="bottomlogo" alt= "profile of a dog in white">
-          <p id="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis molestie leo <br><br></p>
-          <a class="footer-link" href="index.html">Home&nbsp;&nbsp;/</a><a class="footer-link" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="footer-link" href="contact.html">&nbsp;&nbsp;Contact</a><br><br>
-          <p id="copyright">© 2018 Adoptadog, LLC | Seattle, WA</p>
+          <img src="images/adoptadog-logo.svg" class="bottomlogo" alt= "profile of a dog in white">
+          <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis molestie leo <br><br></p>
+            <div class="final-links">
+              <a class="footer-link" href="index.html">Home&nbsp;&nbsp;/</a><a class="footer-link" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="footer-link" href="contact.html">&nbsp;&nbsp;Contact</a><br><br>
+            </div>
+          <p class="copyright">© 2018 Adoptadog, LLC | Seattle, WA</p>
       </div>
     </section>
   </div>
