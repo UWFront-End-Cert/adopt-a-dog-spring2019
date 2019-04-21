@@ -101,7 +101,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 5rem;
-  
+
 }
 
 /*Body: Doggo grid*/
@@ -170,4 +170,11 @@ footer > p {
 
 #logo-footer {
   width: 30%;
+}
+
+/* checkout Forms */
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
