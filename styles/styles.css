@@ -6,48 +6,80 @@
   font-family: 'Roboto Slab', serif;
 }
 
-body > section {
-  padding-left: 10em;
-  padding-right: 10em;
-}
-
 /*Header*/
 
-.banner {
+.header {
   background-image: url("../images/header-image.jpg");
-  margin: 0;
-  padding: 6%;
+  height: 100%;
   width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
 }
 
-.banner > * {
-  flex-flow: row;
-  align-items: center;
+.title {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  margin-left: 5em;
+  margin-top: 2em;
+  margin-bottom: 5em;
 }
 
-.banner > a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #4CAF50;
-  padding: 1% 4%;
-}
-
-.banner > h1 {
+.title > h1 {
   font-style: italic;
   font-size: 1.4em;
   color: #4CAF50;
 }
 
-.banner > p {
-  font-size: 1em;
-  color: white;
+.title > img {
+  width: 100%;
+
 }
 
-.top.navigation {
- background-color: blue;
- color: #1c356d;
- padding: 2% 12%;
- padding-left: 2em;
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: bold;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.checkout > a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4CAF50;
+  width: 40%;
+}
+
+.cart {
+  font-size: 1em;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.cart > img {
+  width: 10%;
+}
+
+/* Header: Naviagation */
+
+.top-navigation {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 15%;
+  width: 100%;
+  background-color: #D0D0D0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
 
 }
 
@@ -59,18 +91,28 @@ body > section {
 }
 
 
-#logo {
-  width: 25%;
-}
-
-#cart {
-  width: 2%;
-}
 
 
 /*Body*/
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  
+}
+
 /*Body: Doggo grid*/
+
+
+.clean-text {
+  text-decoration: none;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .grid {
   display: grid;
@@ -84,6 +126,7 @@ body > section {
 }
 .doggo-grid > img {
   width: 100%;
+  height: auto;
 }
 .doggo-grid > h3 {
     color: #1c356d;
