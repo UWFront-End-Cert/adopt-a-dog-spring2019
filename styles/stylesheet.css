@@ -99,129 +99,94 @@ h3 {
   color: #00394d;
 }
 
+/* Styling for the introduction on index (home) page */
+.intro {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.intro aside {
+  width: calc(40% - 2rem);
+  margin-left: 2rem;
+}
+
+.intro img {
+  width: 25%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Flex of dogs for index (home) page */
+.container-dogs {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Image size */
+.container-dogs img {
+  width: 100%;
+}
+
 /* Styling for the Adopt buttons */
 button {
   background-color: #00cc00;
   border: none;
   color: #ffffff;
-  font-size: .75em;
+  width: 50%;
+  font-size: 1em;
   font-weight: 700;
-  padding: .5em 6em;
-  margin-bottom: 2em;
+  margin-bottom: 1rem;
 }
 
-/* Styling for the introduction on index (home) page */
-.intro {
-  display: inline-grid;
-  grid-template-columns: 1fr 3fr;
-  margin-top: 4em;
-  margin-left: 20em;
-  margin-right: 15em;
-  margin-bottom: 4em;
-}
-
-.intro aside {
-  margin-left: 4em;
-  width: 30em;
-}
-
-/* Grid of dogs for index (home) page */
-.grid-container-dogs {
-  display: inline-grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 4em;
-  grid-row-gap: 4em;
-}
-
-.grid-container-dogs {
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-/* Image size */
-.grid-container-dogs img {
-  height: 8em;
-  width: 12em;
-}
-
-/* Cell size */
-.grid-container-dogs {
-  height: 20em;
-  width: 15em;
-  margin-left: 20em;
-  margin-right: 15em;
-  margin-bottom: 40em;
-}
-
-/* See More Dogs button styling */
-.see-more {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  margin-left: 22em;
-  margin-bottom: 10em;
-  background-color: #e6e6e6;
-  padding: 1em 2em 1em 7em;
-}
-
-.see-more a {
-  color: #00394d;
-  font-size: 1.25em;
-  font-weight: 700;
-}
-
-/* This is the styling for grid on the Dogs page */
-.grid-container-all-dogs {
-  display: inline-grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 4em;
-  grid-row-gap: 4em;
-}
-
-.grid-container-all-dogs {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  /* grid-row-start: 1;
-  grid-row-end: 2; */
-}
-
-/* Image size */
-.grid-container-all-dogs img {
-  height: 8em;
-  width: 12em;
-}
-
-/* Cell size */
-.grid-container-all-dogs {
-  height: 20em;
-  width: 15em;
-  margin-left: 20em;
-  margin-right: 15em;
-  margin-bottom: 75em;
-}
-
-.all-dogs {
-  margin-left: 20em;
-  margin-right: 15em;
-  margin-top: 3em;
-}
-
-/* Styling for the copy in the grid cells */
 .dog {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  /* padding-left: 1em; */
+  align-items: center;
+  height: auto;
+  width: calc(20% - 1rem);
+  max-width: 500px;
+  min-width: 300px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-style: solid;
   border-width: thin;
   border-color: #e6e6e6;
 }
 
 .dog-copy {
-  margin-left: .5em;
+  margin-left: 1rem;
 }
 
 .dog-cost {
   font-weight: 700;
-  margin-left: .5em;
+  margin-left: 1rem;
+}
+
+/* See More Dogs button styling */
+.see-more {
+  /* grid-column-start: 1;
+  grid-column-end: 4;
+  margin-left: 22em;
+  margin-bottom: 10em;
+  background-color: #e6e6e6;
+  padding: 1em 2em 1em 7em; */
+}
+
+.see-more a {
+  color: #00394d;
+  background-color: #e6e6e6;
+  padding: 1rem;
+  font-size: 1.25em;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 /* This is the styling for the Blog page */
