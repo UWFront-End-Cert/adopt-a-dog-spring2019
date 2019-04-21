@@ -1,5 +1,5 @@
 *{
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* ***Colors used in styling site:***
@@ -21,13 +21,13 @@ a {
 
 /* Styling the header for images, fonts, etc. */
 header {
-	height: 30em;
-	background-image: url("../images/header-image.jpg");
+  height: 30em;
+  background-image: url("../images/header-image.jpg");
   background-size: cover;
   display: flex;
   justify-content: space-between;
-	margin: 0;
-	padding: 5% 5%;
+  margin: 0;
+  padding: 5% 5%;
 }
 
 .header-text {
@@ -41,7 +41,7 @@ header a {
 }
 
 .cart {
-	width: 2em;
+  width: 2em;
 }
 
 .checkout {
@@ -68,7 +68,7 @@ ul {
 
 .navigation a {
   color: #00394d;
-	font-weight: 700;
+  font-weight: 700;
   text-align: center;
   padding: 1em 1em;
   text-decoration: none;
@@ -90,320 +90,326 @@ li:last-of-type:after {
 
 /* Styling for h2 and h3 fonts */
 h2 {
-	  font-family: "Times New Roman", Times, serif;
-	  color: #00394d;
+  font-family: "Times New Roman", Times, serif;
+  color: #00394d;
 }
 
 h3 {
-	  font-family: "Times New Roman", Times, serif;
-  	color: #00394d;
+  font-family: "Times New Roman", Times, serif;
+  color: #00394d;
 }
 
 /* Styling for the Adopt buttons */
 button {
-	background-color: #00cc00;
-	border: none;
-	color: #ffffff;
-	font-size: .75em;
-	font-weight: 700;
-	padding: .5em 6em;
-	margin-bottom: 2em;
+  background-color: #00cc00;
+  border: none;
+  color: #ffffff;
+  font-size: .75em;
+  font-weight: 700;
+  padding: .5em 6em;
+  margin-bottom: 2em;
 }
 
 /* Styling for the introduction on index (home) page */
 .intro {
-	display: inline-grid;
-	grid-template-columns: 1fr 3fr;
-	margin-top: 4em;
-	margin-left: 20em;
-	margin-right: 15em;
-	margin-bottom: 4em;
+  display: inline-grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 4em;
+  margin-left: 20em;
+  margin-right: 15em;
+  margin-bottom: 4em;
 }
 
 .intro aside {
-	margin-left: 4em;
-	width: 30em;
+  margin-left: 4em;
+  width: 30em;
 }
 
 /* Grid of dogs for index (home) page */
 .grid-container-dogs {
-	display: inline-grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-column-gap: 4em;
-	grid-row-gap: 4em;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 4em;
+  grid-row-gap: 4em;
 }
 
 .grid-container-dogs {
-	grid-column-start: 1;
-	grid-column-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
+
 /* Image size */
 .grid-container-dogs img {
-	height: 8em;
-	width: 12em;
+  height: 8em;
+  width: 12em;
 }
+
 /* Cell size */
 .grid-container-dogs {
-	height: 20em;
-	width: 15em;
-	margin-left: 20em;
-	margin-right: 15em;
-	margin-bottom: 40em;
+  height: 20em;
+  width: 15em;
+  margin-left: 20em;
+  margin-right: 15em;
+  margin-bottom: 40em;
 }
+
 /* See More Dogs button styling */
 .see-more {
-	grid-column-start: 1;
-	grid-column-end: 4;
-	margin-left: 22em;
-	margin-bottom: 10em;
-	background-color: #e6e6e6;
-	padding: 1em 2em 1em 7em;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-left: 22em;
+  margin-bottom: 10em;
+  background-color: #e6e6e6;
+  padding: 1em 2em 1em 7em;
 }
 
 .see-more a {
-	color: #00394d;
-	font-size: 1.25em;
-	font-weight: 700;
+  color: #00394d;
+  font-size: 1.25em;
+  font-weight: 700;
 }
 
 /* This is the styling for grid on the Dogs page */
 .grid-container-all-dogs {
-	display: inline-grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-column-gap: 4em;
-	grid-row-gap: 4em;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 4em;
+  grid-row-gap: 4em;
 }
 
 .grid-container-all-dogs {
-	grid-column-start: 1;
-	grid-column-end: 4;
-	/* grid-row-start: 1;
-	grid-row-end: 2; */
+  grid-column-start: 1;
+  grid-column-end: 4;
+  /* grid-row-start: 1;
+  grid-row-end: 2; */
 }
+
 /* Image size */
 .grid-container-all-dogs img {
-	height: 8em;
-	width: 12em;
+  height: 8em;
+  width: 12em;
 }
+
 /* Cell size */
 .grid-container-all-dogs {
-	height: 20em;
-	width: 15em;
-	margin-left: 20em;
-	margin-right: 15em;
-	margin-bottom: 75em;
+  height: 20em;
+  width: 15em;
+  margin-left: 20em;
+  margin-right: 15em;
+  margin-bottom: 75em;
 }
 
 .all-dogs {
-	margin-left: 20em;
-	margin-right: 15em;
-	margin-top: 3em;
+  margin-left: 20em;
+  margin-right: 15em;
+  margin-top: 3em;
 }
 
 /* Styling for the copy in the grid cells */
 .dog {
-	margin-top: 2em;
-	margin-bottom: 2em;
-	/* padding-left: 1em; */
-	border-style: solid;
-	border-width: thin;
-	border-color: #e6e6e6;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  /* padding-left: 1em; */
+  border-style: solid;
+  border-width: thin;
+  border-color: #e6e6e6;
 }
 
 .dog-copy {
-	margin-left: .5em;
+  margin-left: .5em;
 }
 
 .dog-cost {
-	font-weight: 700;
-	margin-left: .5em;
+  font-weight: 700;
+  margin-left: .5em;
 }
 
 /* This is the styling for the Blog page */
 .blog {
-	display: inline-grid;
-	grid-template-columns: 1fr 3fr;
-	margin-top: 2em;
-	margin-left: 20em;
-	margin-right: 15em;
-	margin-bottom: 4em;
+  display: inline-grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 2em;
+  margin-left: 20em;
+  margin-right: 15em;
+  margin-bottom: 4em;
 }
 
 .blog aside {
-	margin-left: 4em;
-	width: 30em;
+  margin-left: 4em;
+  width: 30em;
 }
 
 .blog-header {
-	grid-column-start: 1;
-	color: #00394d;
-	margin-left: 13.5em;
-	margin-top: 2em;
+  grid-column-start: 1;
+  color: #00394d;
+  margin-left: 13.5em;
+  margin-top: 2em;
 }
 
 /* This is the styling for the Checkout form */
 form h1 {
-	font-family: "Times New Roman", Times, serif;
-	color: #00394d;
+  font-family: "Times New Roman", Times, serif;
+  color: #00394d;
 }
 
 form {
-	font-family: "Times New Roman", Times, serif;
-	font-size: 1.5em;
-	font-weight: 700;
-	color: #00394d;
-	margin-top: 2em;
-	margin-left: 10em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #00394d;
+  margin-top: 2em;
+  margin-left: 10em;
 }
 
 fieldset {
-	border: none;
+ border: none;
 }
 
 label {
-	margin-top: 2em;
+  margin-top: 2em;
 }
+
 /* Getting labels on top of input fields */
 .contact label {
-	display: block;
+  display: block;
 }
 
 .contact input {
-	display: block;
-	width: 50%;
-	height: 3em;
+  display: block;
+  width: 50%;
+  height: 3em;
 }
 
 .location select {
-	display: block;
-	width: 10%;
-	height: 3em;
+  display: block;
+  width: 10%;
+  height: 3em;
 }
 
 .other-contact label {
-	display: block
+  display: block
 }
 
 .other-contact input {
-	display: block;
-	width: 10%;
-	height: 3em;
+  display: block;
+  width: 10%;
+  height: 3em;
 }
 
 .other-contact select {
-	display: block;
-	width: 10%;
-	height: 3em;
+  display: block;
+  width: 10%;
+  height: 3em;
 }
 
 .first-time {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 .location {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 /* Grid styling for the two adopted dogs */
 .adopted {
-	display: inline-grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	/* grid-column-gap: 1em; */
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+/* grid-column-gap: 1em; */
 }
 
 .adopted {
-	grid-column-start: 1;
-	grid-column-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .adopted {
-	height: 4em;
-	width: 10em;
+  height: 4em;
+  width: 10em;
 }
 
 .adopted aside {
-	margin-left: .5em;
+  margin-left: .5em;
 }
 
 .adopted img {
-	height: 4em;
-	width: 4em;
+  height: 4em;
+  width: 4em;
 }
 
 .name {
-	font-size: .75em;
-	font-weight: 700;
-	color: #00394d;
+  font-size: .75em;
+  font-weight: 700;
+  color: #00394d;
 }
 
 .form-cost {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .value {
   font-family: 'Open Sans', 'Lato', sans-serif;
-	color: #000000;
-	font-size: 1em;
+  color: #000000;
+  font-size: 1em;
 }
 
 .adopt-cost {
-	font-family: 'Open Sans', 'Lato', sans-serif;
-	font-size: .5em;
-	color: #000000;
-	font-weight: 700;
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  font-size: .5em;
+  color: #000000;
+  font-weight: 700;
 }
 
 .adopt-value {
-	font-family: 'Open Sans', 'Lato', sans-serif;
-	color: #000000;
-	font-size: .5em;
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  color: #000000;
+  font-size: .5em;
 }
+
 /* Submit button styling */
 input[type=submit] {
-	background-color: #00cc00;
-	color: #ffffff;
-	border: none;
-	font-size: .75em;
-	font-weight: 700;
-	padding: .5em 6em;
-
+  background-color: #00cc00;
+  color: #ffffff;
+  border: none;
+  font-size: .75em;
+  font-weight: 700;
+  padding: .5em 6em;
 }
 
 /* Footer styling for background, text, positioning, links, etc. */
 footer {
-	clear:both;
+  clear:both;
 }
 
 footer {
   height: 30em;
   width: auto;
   display: flex;
-	background-color: #00394d;
+  background-color: #00394d;
   background-size: cover;
   justify-content: center;
   text-align: center;
   align-content: space-around;
   color: #ffffff;
-	margin-top: 10em;
-	padding: 5% 5%;
+  margin-top: 10em;
+  padding: 5% 5%;
 }
 
 /* May change the footer to use a grid down the road. Keeping code just in case. */
 /* .grid-container-footer {
-	display: grid;
-	grid-column-gap: auto;
+  display: grid;
+  grid-column-gap: auto;
 }
 
 .grid-container-footer {
-	grid-template-columns: 30% 30% 30%
+  grid-template-columns: 30% 30% 30%
   grid-template-rows: auto;
 }
 
 .grid-container-footer {
-	grid-column-start: 2;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
 } */
 
 .footer-text {
@@ -415,7 +421,7 @@ footer {
 }
 
 .footer-link a {
-	flex-wrap: nowrap;
+  flex-wrap: nowrap;
   font-weight: 700;
 }
 
