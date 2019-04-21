@@ -16,137 +16,130 @@
 
   <body>
 <!-- This is the header on the page - in two sections for styling later.  -->
-    <header>
-      <article class="left-header">
-        <a href="index.html"><img src="images/adoptadog-logo.svg" alt="Logo for Adopt A Dog with silouette of dog."></a>
-        <h2 class="header-text">Seattle's premiere dog adoption agency</h2>
-      </article>
+  <header>
+    <article class="left-header">
+      <a href="index.html"><img src="images/adoptadog-logo.svg" alt="Logo for Adopt A Dog with silouette of dog."></a>
+      <h2 class="header-text">Seattle's premiere dog adoption agency</h2>
+    </article>
 
-      <article class="right-header">
-        <p><a href="checkout.html"><img class="cart" src="images/cart-icon.svg" alt="Icon of a shopping cart."> $1234.56</a></p>
-        <p class="checkout"><a href="checkout.html">Checkout</a></p>
-      </article>
-    </header>
+    <article class="right-header">
+      <p><a href="checkout.html"><img class="cart" src="images/cart-icon.svg" alt="Icon of a shopping cart."> $1234.56</a></p>
+      <p class="checkout"><a href="checkout.html">Checkout</a></p>
+    </article>
+  </header>
 
 <!--This is the navigation - current page has id of active for styling in navigation later-->
-    <ul>
-      <li class="navigation"><a href="index.html">Home</a></li>
-      <li class="navigation"><a href="dogs.html">Dogs</a></li>
-      <li class="navigation"><a href="blog.html">Blog</a></li>
-    </ul>
+  <ul>
+    <li class="navigation"><a href="index.html">Home</a></li>
+    <li class="navigation"><a href="dogs.html">Dogs</a></li>
+    <li class="navigation"><a href="blog.html">Blog</a></li>
+  </ul>
 
 <!-- Checkout form -->
-    <form method="GET">
-      <h1>Checkout</h1>
+  <form method="GET">
+    <h1>Checkout</h1>
 
-<!-- Contact form elements -->
-      <fieldset class="contact">
-        <label>Name
-          <input type="text" name="contactName" required>
-        </label>
+    <!-- Contact form elements -->
+    <fieldset class="contact">
+      <label>Name
+        <input type="text" name="contactName" required>
+      </label>
 
-        <label>Email Address
-          <input type="email" name="contactEmail" required>
-        </label>
+      <label>Email Address
+        <input type="email" name="contactEmail" required>
+      </label>
 
-        <label>Street Address
-          <input type="text" name="contactStreet" required>
-        </label>
-      </fieldset>
+      <label>Street Address
+        <input type="text" name="contactStreet" required>
+      </label>
+    </fieldset>
 
-      <fieldset class="other-contact">
-        <label>City
-          <input type="text" name="contactCity" required>
-        </label>
+    <fieldset class="other-contact">
+      <label>City
+        <input type="text" name="contactCity" required>
+      </label>
 
-        <label>State
-          <select name="contactState" required>
-            <option value="">Please select</option>
-            <option value="WA">Washington</option>
-            <option value="OR">Oregon</option>
-            <option value="CA">California</option>
-          </select>
-        </label>
+      <label>State
+        <select name="contactState" required>
+          <option value="">Please select</option>
+          <option value="WA">Washington</option>
+          <option value="OR">Oregon</option>
+          <option value="CA">California</option>
+        </select>
+      </label>
 
-        <label>ZIP Code
-          <input type="text" name="contactZIP" required>
-        </label>
-      </fieldset>
+      <label>ZIP Code
+        <input type="text" name="contactZIP" required>
+      </label>
+    </fieldset>
 
-<!-- Questions on form -->
+    <!-- Questions on form -->
+    <fieldset class="first-time">
+      <legend>First Time Adopter?</legend>
+      <label>
+        <input type="radio" name="firstTime" value="yes">
+        <!-- <span class="rad"></span> -->
+        Yes
+      </label>
 
-      <fieldset class="first-time">
-        <legend>First Time Adopter?</legend>
-        <label>
-          <input type="radio" name="firstTime" value="yes">
-          <!-- <span class="rad"></span> -->
-          Yes
-        </label>
+      <label>
+        <input type="radio" name="firstTime" value="no">
+        <!-- <span class="rad"></span> -->
+        No
+      </label>
+    </fieldset>
 
-        <label>
-          <input type="radio" name="firstTime" value="no">
-          <!-- <span class="rad"></span> -->
-          No
-        </label>
-      </fieldset>
-
-      <fieldset class="location">
-        <label>Pickup Location
-          <select name="pickupState" required>
-            <option value="">Please select</option>
-            <option value="WA">Washington</option>
-            <option value="OR">Oregon</option>
-            <option value="CA">California</option>
-          </select>
-        </label>
-      </fieldset>
+    <fieldset class="location">
+      <label>Pickup Location
+        <select name="pickupState" required>
+          <option value="">Please select</option>
+          <option value="WA">Washington</option>
+          <option value="OR">Oregon</option>
+          <option value="CA">California</option>
+        </select>
+      </label>
+    </fieldset>
 
 <!-- Cart displayed on form -->
-      <!-- <section>
-        <h2>Dogs Adopted</h2>
-      </section> -->
-
-      <section class="grid-container-adopted">
-        <h3>Dogs Adopted</h3>
-
-        <article class="adopted">
-          <img src="images/lucas-checkout.jpg" alt="Image of Lucas who is an all black dog.">
+    <section class="grid-container-adopted">
+      <h3>Dogs Adopted</h3>
+      <article class="adopted">
+        <img src="images/lucas-checkout.jpg" alt="Image of Lucas who is an all black dog.">
           <aside>
             <p class="name">Lucas</p>
             <p class="adopt-cost">Cost to Adopt: </p>
             <p class="adopt-value">$123.45</p>
           </aside>
-        </article>
+      </article>
 
-        <article class="adopted">
-          <img src="images/duffy-checkout.jpg" alt="Image of Duffy who is a brown dog with white face and chest.">
+      <article class="adopted">
+        <img src="images/duffy-checkout.jpg" alt="Image of Duffy who is a brown dog with white face and chest.">
           <aside>
             <p class="name">Duffy</p>
             <p class="adopt-cost">Cost to Adopt: </p>
             <p class="adopt-value">$123.45</p>
           </aside>
-        </article>
-      </section>
-
-      <section class="form-cost">
-        <p>Total Adoption Cost<p>
-        <p class="value">$1234.56</p>
-        <input type="submit" value="Submit">
-      </section>
-
-    </form>
-
-<!-- This is the footer in only one section because it's all stacked, not on two sides in the mockup-->
-    <footer>
-      <article class="grid-container-footer">
-        <a href="index.html"><img src="images/adoptadog-logo.svg" alt="Logo for Adopt A Dog with silouette of dog."></a>
-        <p class="footer-text">Much ruin diet lotsa pats long water shoob you are doin me a concern tungg</p>
-        <a class="footer-link" href="index.html">Home /</a>
-        <a class="footer-link" href="dogs.html">Dogs /</a>
-        <a class="footer-link" href="checkout.html">Contact</a>
-        <p class="footer-copy">&copy; 2018 Adoptadog, LLC | Seattle, WA<p>
       </article>
-    </footer>
+    </section>
+
+    <section class="form-cost">
+      <p>Total Adoption Cost<p>
+      <p class="value">$1234.56</p>
+      <input type="submit" value="Submit">
+    </section>
+  </form>
+
+  <!-- This is the footer in only one section because it's all stacked, not on two sides in the mockup-->
+  <footer>
+    <article class="grid-container-footer">
+      <a href="index.html"><img src="images/adoptadog-logo.svg" alt="Logo for Adopt A Dog with silouette of dog."></a>
+      <p class="footer-text">Much ruin diet lotsa pats long water shoob you are doin me a concern tungg</p>
+      <a class="footer-link" href="index.html">Home /</a>
+      <a class="footer-link" href="dogs.html">Dogs /</a>
+      <a class="footer-link" href="checkout.html">Contact</a>
+      <p class="footer-copy">&copy; 2018 Adoptadog, LLC | Seattle, WA<p>
+    </article>
+  </footer>
 
   </body>
 
