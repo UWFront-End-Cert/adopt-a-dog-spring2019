@@ -150,8 +150,8 @@ button {
   align-items: center;
   height: auto;
   width: calc(20% - 1rem);
-  max-width: 500px;
-  min-width: 300px;
+  /* max-width: 500px;
+  min-width: 300px; */
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 1rem;
