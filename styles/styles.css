@@ -177,4 +177,35 @@ footer > p {
 .form {
   display: flex;
   flex-direction: column;
+  vertical-align: baseline;
+  justify-content: space-between;
+  padding: 2em;
+
+}
+
+.form > label {
+  color: #003366;
+}
+
+.form > label, fieldset{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.postal{
+  display: flex;
+  flex-direction: row;
+  vertical-align: baseline;
+  justify-content: space-between;
+  padding: 2em;
+  color: #003366;
+}
+
+.radio {
+  border: 0;
+  vertical-align: baseline;
+  display: flex;
+  flex-direction: row;
+
 }
