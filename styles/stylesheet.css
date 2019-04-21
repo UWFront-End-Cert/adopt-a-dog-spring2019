@@ -110,6 +110,7 @@ h3 {
 
 .intro aside {
   width: calc(40% - 2rem);
+  height: auto;
   margin-left: 2rem;
 }
 
@@ -149,8 +150,8 @@ button {
   align-items: center;
   height: auto;
   width: calc(20% - 1rem);
-  max-width: 500px;
-  min-width: 300px;
+  max-width: 25em;
+  min-width: 15em;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 1rem;
@@ -170,15 +171,6 @@ button {
 }
 
 /* See More Dogs button styling */
-.see-more {
-  /* grid-column-start: 1;
-  grid-column-end: 4;
-  margin-left: 22em;
-  margin-bottom: 10em;
-  background-color: #e6e6e6;
-  padding: 1em 2em 1em 7em; */
-}
-
 .see-more a {
   color: #00394d;
   background-color: #e6e6e6;
@@ -189,26 +181,25 @@ button {
   margin-top: 1rem;
 }
 
-/* This is the styling for the Blog page */
 .blog {
-  display: inline-grid;
-  grid-template-columns: 1fr 3fr;
-  margin-top: 2em;
-  margin-left: 20em;
-  margin-right: 15em;
-  margin-bottom: 4em;
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
 }
 
 .blog aside {
-  margin-left: 4em;
-  width: 30em;
+  width: calc(40% - 2rem);
+  height: auto;
+  margin-left: 2rem;
 }
 
-.blog-header {
-  grid-column-start: 1;
-  color: #00394d;
-  margin-left: 13.5em;
-  margin-top: 2em;
+.blog img {
+  width: 25%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* This is the styling for the Checkout form */
@@ -358,24 +349,6 @@ footer {
   margin-top: 10em;
   padding: 5% 5%;
 }
-
-/* May change the footer to use a grid down the road. Keeping code just in case. */
-/* .grid-container-footer {
-  display: grid;
-  grid-column-gap: auto;
-}
-
-.grid-container-footer {
-  grid-template-columns: 30% 30% 30%
-  grid-template-rows: auto;
-}
-
-.grid-container-footer {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
-} */
 
 .footer-text {
   margin-bottom: 3em;
