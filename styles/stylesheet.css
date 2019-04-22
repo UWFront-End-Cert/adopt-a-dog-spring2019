@@ -1,0 +1,69 @@
+*{
+border: 0;
+padding: 0;
+margin: 0;
+}
+
+
+header {
+  background-color: #1c384f;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.logoimg {
+  width: 40%;
+  padding: 0;
+}
+
+.headertext {
+  color: #668c2c;
+  font-style: italic;
+  font-size: 1.8rem;
+  padding-bottom: 3rem;
+}
+
+/* figure out how to float to the top right of the header */
+
+.moveit {
+  float: right;
+}
+
+.cartimg {
+  width: 2%;
+
+}
+
+.totalcost {
+  width: 10%;
+
+}
+
+/* NAVIGATION */
+
+ul {
+  width: 100%;
+  background-color: #dbdbdb;
+  overflow: hidden;
+}
+
+li {
+   display: inline-block;
+   padding-left: 2%;
+ }
+
+ li a {
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 1rem;
+   color: #143363;
+   display: block;
+   padding: 15px 3px 15px 3px;
+ }
+
+ /* BODY */
+
+ .mainsection {
+
+ }
