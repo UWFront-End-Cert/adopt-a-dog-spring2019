@@ -339,7 +339,7 @@ select {
   line-height: .25;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 50em) {
 
   .container {
     flex-direction: column;
@@ -374,7 +374,7 @@ select {
     width: 25%;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 70em) {
   .about-adopt {
     flex-direction: column-reverse;
   }
