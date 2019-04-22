@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @media only screen and (max-width: 200px){
     #top-banner,#main-content,#bottom-banner{
         display: none;
@@ -127,6 +131,13 @@
         }   
     /*The grid-template-columns property can also be used to specify the size (width) of the columns.*/
 
+    #logo-top p{
+        font-size: 1rem;
+        color: limegreen;
+        grid-column: 2 / 6;
+        margin-top: -4%;
+    }
+
     #logo-top{
         grid-column-start: 2;
         grid-column-end: 6;
@@ -171,7 +182,8 @@
         padding-left: 0.3em;
     }
     #top-nav li.first{
-        border-left: none; padding-left: none;
+        border-left: none; 
+        padding-left: none;
     }
 
     #main-content{
@@ -237,7 +249,7 @@
         display: grid;
         grid-template-columns: 33% 33% 33%;
         background-color: darkslategrey;
-        text-align: center;
+        justify-items: center;
     }
     #logo-bot{
         grid-column: 2 / 3;
@@ -253,14 +265,16 @@
         grid-column: 2 / 3;
         padding: 2%;
     }
+    #bot-nav li.first{
+        border-left: none;
+        padding-left: none;
+    }
     #bot-nav li{
         display: inline;
         border-left: 2px solid white;
         padding-left: 0.3em;
     }
-    #bot-nav li.first{
-        border-left: none; padding-left: none;
-    }
+    
     #bot-nav li a{
         text-decoration: none;
         color: white;
@@ -269,4 +283,14 @@
     #sorry{
         display: none;
     }
+
+    #blog{
+        display: grid;
+        grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+    }
+    .blog-post{
+        grid-column: 2 / 12;
+        padding: 5%;
+    }
+
 }
