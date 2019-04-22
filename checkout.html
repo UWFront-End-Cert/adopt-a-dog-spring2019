@@ -26,15 +26,19 @@
       <h2 class="blue-title">Checkout</h2>
       <form class="contact" action="index.html" method="GET">
         <fieldset class= contact-info>
-          <label class="contact-info-input">Name
+          <label>Name
             <input type="text" name="customerName" value="">
           </label>
-          <label class="contact-info-input">Email Address
+          <label>Email Address
             <input type="text" name="customerEmail" value="">
           </label>
           <label class="contact-info-input">Street Address
             <input type="text" name="customerAddress" value="">
           </label>
+
+
+
+        <div class="container">
           <label class="contact-csz" id="contact-city">City
             <input type="text" name="customerCity" value="">
           </label>
@@ -96,20 +100,25 @@
           </label>
           <label class="contact-csz" id="contact-zip">Zip Code
             <input type="text" pattern="[0-9]{5}" name="customerZip" value="">
-          </label>      
+          </label> 
+        </div>
+          
+
+
+
       </fieldset>
-        <fieldset class="contact-info-input">
+        <fieldset class="contact-info-radio">
           <legend>First Time Adopter?</legend>
             <label>
               <input type="radio" name="firstTime" value="yes">Yes
             </label>
             <label>
-              <input type="radio" name="firstTime" value="no">
-            </label>No
+              <input type="radio" name="firstTime" value="no">No
+            </label>
         </fieldset>
         <fieldset class="pickup-location">
           <label>Pickup Location</label>
-            <select class="" name="pickupLocation">
+            <select name="pickupLocation">
               <option value="">&nbsp;</option>
               <option value="Ballard">Ballard</option>
               <option value="CapHill">CapHill</option>
@@ -118,7 +127,7 @@
             </select>
         </fieldset>
         <section class="checkout">
-          <p id="cart-title">Dogs Adopted</p>
+          <h3 class="blue-title" id="cart-title">Dogs Adopted</h3>
             <div class="dogs-selected">
               <img src="images/lucas-checkout.jpg" alt="a picture of a black outside looking up" width="75">
               <div class="cart-dog">

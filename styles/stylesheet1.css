@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
 
-h1, h2, h3 {
+h1, h2, h3, label, legend {
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -112,7 +112,7 @@ h3.blue-title {
   font-size: 1.75em;
   font-weight: 900;
   margin-top: 0em;
-  margin-bottom: 0em;
+  margin-bottom: .75em;
 }
 
 h3.blue-title-checkout {
@@ -242,13 +242,21 @@ div.gallery-item {
   width: 100%;
   padding: 1.25em;
   margin: .5em 0em 4em 0em;
-  color: #034177;
 }
 
-.contact-info-input {
+.contact-info label {
+  color: #034177;
+  font-size: 1.5em; 
+  font-weight: 900;
+}
+
+.contact-info-radio {
   color: #034177;
   font-size: 1.5em;
   width: 60%;
+  font-weight: 900;
+  margin-left: 0em;
+  padding-left: .75em;
 }
 
 fieldset {
@@ -263,34 +271,44 @@ select {
   width: 100%;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .contact-csz {
   display: inline-block;
   width: 15%;
   color: #034177;
   font-size: 1.5em;
+  font-weight: 900;
+}
+
+.contact-csz select {
+  padding: 1.25em;
+  width: 100%;
+  margin: .5em 0em 4em 0em;
 }
 
 .contact-csz#contact-city {
   width: 40%;
-  margin-right: 1.9em;
 }
 
 .contact-csz#contact-zip {
   width: 30%;
-  margin-left: 1.9em;
-  margin-right: 0em;
 }
 
 .pickup-location {
   color: #034177;
   font-size: 1.5em;
   width: 25%;
-  margin-bottom: 0em;
+  margin: .25em 0em 1em 0em;
+  padding-left: .75em;
+  font-weight: 900;
 }
 
 #cart-title {
-  color: #034177;
-  font-size: 1.5em;
+ font-weight: 900;
 }
 .dogs-selected {
   display: inline-block;
