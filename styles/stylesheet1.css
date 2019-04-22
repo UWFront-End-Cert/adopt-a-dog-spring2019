@@ -269,6 +269,7 @@ fieldset {
 select {
   padding: 1.25em;
   width: 100%;
+  margin: .5em auto 4em auto;
 }
 
 .container {
@@ -278,16 +279,15 @@ select {
 
 .contact-csz {
   display: inline-block;
-  width: 15%;
   color: #034177;
   font-size: 1.5em;
   font-weight: 900;
+  width: 15%;
 }
 
 .contact-csz select {
   padding: 1.25em;
   width: 100%;
-  margin: .5em 0em 4em 0em;
 }
 
 .contact-csz#contact-city {
@@ -310,13 +310,14 @@ select {
 #cart-title {
  font-weight: 900;
 }
-.dogs-selected {
+.dogs-selected, img {
   display: inline-block;
+  width: 25%;
 }
 
 .cart-dog {
   display: inline-block;
-  line-height: .25em;
+  line-height: .5em;
   padding-left: 1em;
   padding-right: 1em;
   vertical-align: top;
