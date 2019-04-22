@@ -1,7 +1,0 @@
-.dogs {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 25rem);
-    grid-auto-flow: row;
-    grid-gap: 3rem;
-}

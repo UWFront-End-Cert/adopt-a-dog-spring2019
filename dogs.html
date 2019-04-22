@@ -12,24 +12,28 @@
 </head>
 
 <body>
+  <a href="#main-content" class="hidden">Skip to main content</a>
   <header>
-    <div class="checkout">
-      <img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">
-      <p>$1234.56</p>
-      <!-- style to look like button   -->
-      <a href="checkout.html">Checkout</a>
-    </div>
-    <div class="header-logo">
-      <img class="dog-logo" src="images/adoptadog-logo.svg" alt="Dog Logo">
-      <p class="tag-line"><em>Seattle's premier dog adoption agency</em></p>
+    <div class="header-background">
+      <div class="header-logo">
+        <img class="dog-logo" src="images/adoptadog-logo.svg" alt="Dog Logo">
+        <p class="tag-line"><em>Seattle's premier dog adoption agency</em></p>
+      </div>
+      <div class="checkout">
+        <p><img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">$1234.56</p>
+        <!-- style to look like button   -->
+        <a href="checkout.html">Checkout</a>
+      </div>
     </div>
     <nav>
-      <a href="index.html">Home</a> /
-      <a href="dogs.html">Dogs</a> /
-      <a href="blog.html">Blog</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a> /
+        <a href="dogs.html">Dogs</a> /
+        <a href="blog.html">Blog</a>
+      </div>
     </nav>
   </header>
-  <main>
+  <main id="main-content">
     <h1>Here are all of our Dogs!</h1>
     <div class="dogs">
       <article class="dog">

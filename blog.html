@@ -7,31 +7,38 @@
   <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/blog.css">
   <title>Blog | Adoptadog</title>
 </head>
 
 <body>
+  <a href="#main-content" class="hidden">Skip to main content</a>
   <header>
-    <div class="checkout">
-      <img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">
-      <p>$1234.56</p>
-      <!-- style to look like button   -->
-      <a href="checkout.html">Checkout</a>
-    </div>
-    <div class="header-logo">
-      <img class="dog-logo" src="images/adoptadog-logo.svg" alt="Dog Logo">
-      <p class="tag-line"><em>Seattle's premier dog adoption agency</em></p>
+    <div class="header-background">
+      <div class="header-logo">
+        <img class="dog-logo" src="images/adoptadog-logo.svg" alt="Dog Logo">
+        <p class="tag-line"><em>Seattle's premier dog adoption agency</em></p>
+      </div>
+      <div class="checkout">
+        <p><img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">$1234.56 <span class="sr-only">This takes
+            you to the checkout page</span></p>
+        <a href="checkout.html">Checkout</a>
+      </div>
     </div>
     <nav>
-      <a href="index.html">Home</a> /
-      <a href="dogs.html">Dogs</a> /
-      <a href="blog.html">Blog</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a> /
+        <a href="dogs.html">Dogs</a> /
+        <a href="blog.html">Blog</a>
+      </div>
     </nav>
   </header>
-  <main>
+  <main id="main-content">
     <h1>Adoptadog Blog</h1>
     <div class="blog">
-      <img src="images/blog-1.jpg" alt="Girl and black dog sitting on the edge of a canyon">
+      <figure>
+        <img src="images/blog-1.jpg" alt="Girl and black dog sitting on the edge of a canyon">
+      </figure>
       <article class="blog-text">
         <h2>Traveling With Your Dog</h2>
         <p>Doggo ipsum long woofer dat tungg tho very hand that feed shibe long
@@ -51,7 +58,9 @@
       </article>
     </div>
     <div class="blog">
-      <img src="images/blog-2.jpg" alt="four happy dogs on leashes sitting like good dogs">
+      <figure>
+        <img src="images/blog-2.jpg" alt="four happy dogs on leashes sitting like good dogs">
+      </figure>
       <article class="blog-text">
         <h2>Traveling With Your Dog</h2>
         <p>Doggo ipsum long woofer dat tungg tho very hand that feed shibe long
@@ -71,8 +80,10 @@
       </article>
     </div>
     <div class="blog">
-      <img src="images/blog-3.jpg" alt="sillouette of a girl playing with her
+      <figure>
+        <img src="images/blog-3.jpg" alt="sillouette of a girl playing with her
       dog in the sunset">
+      </figure>
       <article class="blog-text">
         <h2>Traveling With Your Dog</h2>
         <p>Doggo ipsum long woofer dat tungg tho very hand that feed shibe long

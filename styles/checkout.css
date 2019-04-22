@@ -1,14 +1,33 @@
+label,
+input,
+select {
+  display: block;
+  margin: .5rem 0;
+}
+
+fieldset label {
+  display: inline-block;
+}
+
+input {
+  border: 1px solid #D3D3D3;
+}
+
 .in-cart {
   display: flex;
 }
 
 fieldset {
   border: none;
+  padding: 0;
 }
 
-.cart img, .cart-text, .in-cart {
+.cart img,
+.cart-text,
+.in-cart {
   margin: 0;
 }
+
 .cart {
   display: flex;
   margin: 1rem 0;
@@ -16,4 +35,22 @@ fieldset {
 
 .cart-text {
   padding: 2rem;
+}
+
+button {
+  width: 25%;
+}
+
+legend {
+  margin: 0
+}
+
+.radio-buttons label input {
+  display: inline;
+
+}
+
+.radio-buttons label {
+  margin-right: 2rem;
+  font-family: 'Work Sans', sans-serif;
 }
