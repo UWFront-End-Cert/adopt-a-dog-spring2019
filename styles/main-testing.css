@@ -1,0 +1,272 @@
+@media only screen and (max-width: 200px){
+    #top-banner,#main-content,#bottom-banner{
+        display: none;
+    }
+    #sorry{
+        display: absolute;
+    }
+}
+
+@media only screen and (min-width: 300px){
+    #top-banner{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: darkslateblue;
+        width: 100%;
+        }   
+    /*The grid-template-columns property can also be used to specify the size (width) of the columns.*/
+
+    #logo-top{
+        text-align: center;
+        align-content: center;
+    }
+    #logo-top img{
+        width: 100%;
+    }
+    #cart-summary{
+        display: none;
+        color: white;
+        align-content: end;
+        justify-items: center;
+    }
+    .cart-summary-obj2{
+        width: 5%;
+    }
+    .checkout-btn{
+        color: white;
+        background-color: limegreen;
+        border-color: limegreen;
+        font-size: .75rem;
+        font-weight: bold;
+    }
+    #top-nav{
+        background: white;
+        color: darkslateblue
+    }
+    #top-nav li{
+        display: inline;
+        border-left: 2px solid darkslateblue;
+    }
+    #top-nav li.first{
+        border-left: none; 
+        padding-left: none;
+    }
+
+    #main-content{
+        background-color: white;
+    }
+    .about-img img{
+        width: 80%;
+    }
+    .about-text{
+    }
+    .about-text-para{
+        width: 80%;
+    }
+    .dog-bio *{
+        width: 80%;
+    }
+    .dog-bio{
+        margin: 5%;
+    }
+    .adopt-btn{
+        width: 80%;
+        color: white;
+        background-color: limegreen;
+        border-color: limegreen;
+        font-size: .75rem;
+        font-weight: bold;
+    }
+    .more-dogs-btn{
+        width: 80%;
+        color: darkslateblue;
+        background-color: white;
+        border-style: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    #bottom-banner{
+        display: grid;
+        background-color: darkslategrey;
+        text-align: center;
+    }
+    #bottom-banner *{
+        width: 80%;
+    }
+    #logo-bot{
+        margin-top: 10%;
+    }
+    .footer-text{
+        color: white;
+    }
+    #bot-nav{
+    }
+    #bot-nav li{
+        display: inline;
+        border-left: 2px solid white;
+    }
+    #bot-nav li.first{
+        border-left: none; padding-left: none;
+    }
+    #bot-nav li a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    #sorry{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #top-banner{
+        display: grid;
+        grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+        grid-template-rows: auto auto auto;
+        background-color: darkslateblue;
+        }   
+    /*The grid-template-columns property can also be used to specify the size (width) of the columns.*/
+
+    #logo-top{
+        grid-column-start: 2;
+        grid-column-end: 6;
+        text-align: center;
+        align-content: center;
+    }
+    #cart-summary{
+        grid-column-start: 10;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        color: white;
+        align-content: end;
+    }
+    .cart-summary-obj2{
+        width: 33%;
+    }
+    .cart-summary-obj3{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .checkout-btn{
+        width: 100%;
+        color: white;
+        background-color: limegreen;
+        border-color: limegreen;
+        font-size: .75rem;
+        font-weight: bold;
+    }
+    #top-nav{
+        grid-column: 1 / 13;
+        grid-row: 3 / 4;
+        background: white;
+        color: darkslateblue
+    }
+    #top-nav li{
+        display: inline;
+        border-left: 2px solid darkslateblue;
+        padding-left: 0.3em;
+    }
+    #top-nav li.first{
+        border-left: none; padding-left: none;
+    }
+
+    #main-content{
+        display: grid;
+        grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+        background-color: white;
+        justify-content: center;
+    }
+    #about{
+        grid-column: 2 / 12;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        padding: 2%;
+
+    }
+    .about-img{
+        grid-column: 1 / 2;
+        padding: 2%;
+    }
+    .about-text{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        padding: 2%;
+        align-items: end;
+    }
+    .about-text-para{
+        width: 100%;
+    }
+
+    #dogs-list{
+        grid-column: 2 / 12;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        padding: 2%;
+        justify-content: center;
+    }
+    .dog-bio *{
+        width: 100%;
+    }
+    .dog-bio{
+        margin: 5%;
+    }
+    .adopt-btn{
+        width: 100%;
+        color: white;
+        background-color: limegreen;
+        border-color: limegreen;
+        font-size: .75rem;
+        font-weight: bold;
+    }
+    .more-dogs-btn{
+        width: 100%;
+        color: darkslateblue;
+        background-color: white;
+        border-style: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        grid-column-start: 6;
+        grid-column-end: 8;
+    }
+    #bottom-banner{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        background-color: darkslategrey;
+        text-align: center;
+    }
+    #logo-bot{
+        grid-column: 2 / 3;
+        padding: 2%;
+        margin-top: 10%;
+    }
+    .footer-text{
+        grid-column: 2 / 3;
+        padding: 2%;
+        color: white;
+    }
+    #bot-nav{
+        grid-column: 2 / 3;
+        padding: 2%;
+    }
+    #bot-nav li{
+        display: inline;
+        border-left: 2px solid white;
+        padding-left: 0.3em;
+    }
+    #bot-nav li.first{
+        border-left: none; padding-left: none;
+    }
+    #bot-nav li a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    #sorry{
+        display: none;
+    }
+}
