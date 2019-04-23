@@ -16,7 +16,7 @@
 }
 
 .tagline {
-  color: 	#81B642;
+  color: #81B642;
   font-size: 2vw;
   font-style: italic;
   font-weight: 200;
@@ -72,7 +72,7 @@
   width: 80%;
 }
 
-.blogimg {
+.blog-img {
   float: left;
   max-width: 20em;
 }
@@ -209,6 +209,14 @@ footer {
   background-color: #083C61;
   color: white;
   padding-top: 4em;
+}
+
+.footer-img {
+  width:500px;
+}
+
+.footer-text {
+  color: white;
 }
 
 .footerlinks {
