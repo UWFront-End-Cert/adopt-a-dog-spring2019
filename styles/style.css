@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 .header-img {
   background-image: url(../images/header-image.jpg);
   background-repeat: no-repeat;
@@ -41,11 +40,11 @@
   background-color: #81B642;
   border: none;
   color: white;
-  padding: 5px 18px;
+  padding: .5em 2em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .navbar {
@@ -98,7 +97,7 @@ h3 {
 }
 
 .doggo-card {
-  margin: 5px;
+  margin: 2em;
   border: 1px solid #ccc;
   float: left;
   width: 15em;
@@ -137,11 +136,11 @@ h4 {
   border: none;
   font-weight: bold;
   color: white;
-  padding: 10px 85px;
+  padding: 1em 5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
 }
@@ -157,11 +156,11 @@ h4 {
   border: none;
   color: #083C61;
   font-weight: bold;
-  padding: 10px 36px;
+  padding: 1em 3em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin-left: 4em;
   margin-bottom: 1em;
 }
@@ -184,8 +183,8 @@ h4 {
 input[type=text], input[type=email], input[type=number], select {
   width: 60%;
   display: block;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 1em 3em;
+  margin: 1em 0;
   margin-bottom: 2em;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -196,11 +195,11 @@ input[type=text], input[type=email], input[type=number], select {
   border: none;
   font-weight: bold;
   color: white;
-  padding: 10px 85px;
+  padding: 1em 5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
 }
