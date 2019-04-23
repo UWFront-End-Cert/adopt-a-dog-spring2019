@@ -159,29 +159,26 @@ footer .logo {
 
 /**GRID FOR DOG CARDS**/
 .four-col-grid div {
-  width: 90%;
-  min-width: 20.313em;
-  margin-bottom: 0.938em;
-  padding: 0 0 2.25em 0;
-  border: 1px solid #bbbbbb;
-  position: relative;
+  border: 1px solid #D3D3D3;
 }
 
 .four-col-grid {
-  /* Supports Grid */
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
-  grid-gap: 1em;
+  display: inline-grid;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  grid: repeat(2,auto) / repeat(4,18rem) ;
+  grid-gap: 4em 4em;
+  justify-content: start;
+  align-content: space-evenly;
 }
 
-.dog-card {
-  place-self: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.dog-card-img {
+.dog-img {
+  max-width:100%;
+  max-height:auto;
+  object-fit: contain;
+  margin: auto;
+  position: relative;
 }
 
 /**CHECKOUT**/
