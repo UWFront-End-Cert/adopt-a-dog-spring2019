@@ -1,4 +1,5 @@
 function image_handler(i) {
+  alert("WOKRING!");
   let dog_breed = "";
   const dog_name = document.getElementsByTag("h2")[i];
   const dog_price_string = document.getElementsByClass("price")[i];
