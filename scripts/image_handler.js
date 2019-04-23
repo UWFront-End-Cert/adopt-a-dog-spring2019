@@ -1,8 +1,10 @@
 function image_handler(i) {
-  alert("WOKRING!");
+  alert("WORKING!");
   let dog_breed = "";
-  const dog_name = document.getElementsByTag("h2")[i];
-  const dog_price_string = document.getElementsByClass("price")[i];
+  const dog_name_arr = document.getElementsByTag("h2");
+  const dog_name = dog_name_arr[i];
+  const dog_price_string_arr = document.getElementsByClass("price");
+  const dog_price_string = dog_price_string_arr[i];
   const dog_price_int = dog_price_string.slice(16);
   switch (dog_name) {
     case "Angus":
