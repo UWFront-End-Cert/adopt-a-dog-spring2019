@@ -356,7 +356,7 @@ fieldset input {
 
 input[type=text],
 input[type=email] {
-  border: 0.1em solid #D6D6D6;
+  border: 2px solid #D6D6D6;
   height: 2.2rem;
   width: 100%;
   margin-bottom: 3%;
@@ -364,7 +364,7 @@ input[type=email] {
 }
 
 select {
-  border: 1px solid #D6D6D6;
+  border: 2px solid #D6D6D6;
   font-family: 'Work Sans', sans-serif;
   font-size: 1rem;
   font-weight: 400;
