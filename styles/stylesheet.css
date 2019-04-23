@@ -25,7 +25,7 @@
 /**HEADER**/
 header {
   background-color: #083b5f; /*dark blue*/
-  padding: 1% 2% 1% 2%;
+  padding: 1% 2%;
 }
 
 header .logo {
@@ -48,7 +48,7 @@ header .logo {
 /**Button**/
 .button:link,.button:visited {
   background-color: #3ca721;
-  color: white;
+  color: #FFFFFF;
   padding: 12px 28px;
   text-align: center;
   text-decoration: none;
@@ -67,6 +67,16 @@ h2, h3, h4 {
   color: #083b5f
 }
 
+body {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+p{
+  margin-bottom: 10px;
+  line-height: 1.25em;
+}
+
 
 /**NAVIGATION**/
 ul {
@@ -83,7 +93,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -115,18 +125,18 @@ footer .logo {
 
 .footer-p {
   font-size: 1em;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 }
 
 .footer-copyright {
   font-size: 1em;
-  color: white;
+  color: #FFFFFF;
 }
 
 .footer-nav {
     display: block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -139,22 +149,23 @@ footer .logo {
 
 
 /**GRID FOR DOG CARDS**/
-.grid-container div {
-  border: 1px solid #bbbbbb;
+.four-col-grid div {
+  width: 90%;
+  min-width: 20.313em;
+  margin-bottom: 0.938em;
+  padding: 0 0 2.25em 0;border: 1px solid #bbbbbb;
+  position: relative;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+.four-col-grid {
+  /* Supports Grid */
   width: 100%;
   margin: 0 0 20px 0;
   padding: 0;
-}
-
-div + img {
-  width: 100%;
-  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 1em;
 }
 
 /**CHECKOUT**/
@@ -201,7 +212,7 @@ input[type=email]:focus {
 }
 
 input[type=submit] {
-  background-color: white;
+  background-color: #FFFFFF;
   cursor: pointer;
   transition: border 1s ease-in 1s;
 }
@@ -284,6 +295,6 @@ textarea:focus {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: white;
+	background: #FFFFFF;
 }
 /* END OF the container for the YES & NO CHECKBOX*/
