@@ -10,25 +10,31 @@
   background-image: url(../images/header-image.jpg);
   margin: 0;
   padding: 6%;
+  display: flex;
+  justify-content: space-between;
+
 }
-.main-header > h2 {
+.header-logo-tag > h2 {
   color: #418c27;
 }
-.main-header > p {
+.adoptadog-logo {
+  width: 85%;
+}
+.header-checkout {
+  text-align: right;
+}
+.header-checkout > p {
   color: #ffffff;
 }
-.main-header > a {
+.header-checkout > a {
   text-decoration: none;
   color: #ffffff;
   background-color: #418c27;
   padding: 1% 4%;
   border-radius: 1px;
 }
-.adoptadog-logo {
-  width: 35%;
-}
 .cart-icon {
-  width: 4%;
+  width: 40%;
 }
 
 /* Styling Nav Bar */
