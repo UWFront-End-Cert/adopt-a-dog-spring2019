@@ -209,3 +209,39 @@ footer > p {
   flex-direction: row;
 
 }
+
+/* Checkout Info */
+
+.adopted {
+  display: flex;
+  flex-direction: column;
+  vertical-align: baseline;
+  justify-content: space-around;
+  padding: 2em;
+  color: #003366;
+}
+
+.adopted-dog {
+  display: flex;
+  flex-direction: row;
+  vertical-align: baseline;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.adopted-dog > img {
+  width: 20%;
+  height: 20%;
+}
+
+.dog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 2em;
+}
+
+.dog-info > p {
+  color: grey;
+  size: 1em;
+}
