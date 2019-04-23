@@ -8,26 +8,20 @@
 </head>
 <body>
   <div class="grclass-container"><!--instead of using a div for this, there might be a HTML5 element you can use instead; (Maybe <span>?)-->
-      <section class="banner">
-          <div class="filler">
-            </div>
-        <div class="letterhead">
-          <img src="images/adoptadog-logo.svg" class="toplogo" alt= "profile of a dog in white">
-          Seattle's premiere dog adoption agency
+    <section class="banner">
+      <div class="letterhead">
+        <img src="images/adoptadog-logo.svg" class="toplogo" alt= "profile of a dog in white">
+        Seattle's premiere dog adoption agency
+      </div>
+      <div class="cart">
+        <div class="top-cart">
+          <img src="images/cart-icon.svg" class="carticon" alt="a white cart logo">$1234.56
         </div>
-        <div class="cart">
-          <div class="top-cart">
-            <img src="images/cart-icon.svg" class="carticon" alt="a white cart logo">
-            &nbsp;&nbsp;$1234.56
-          </div>
-          <div class="checkout-button">
-            Checkout
-          </div>
+        <div class="checkout-button">
+          Checkout
         </div>
-        <div class="filler">
-          </div>
-      </section>
-
+      </div>
+    </section>
     <section class="subbanner">
       <div >
         <p><a class="subtitle" href="index.html">Home&nbsp;&nbsp;/</a><a class="subtitle" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="subtitle" href="blog.html">&nbsp;&nbsp;Blog</a></p>
@@ -38,7 +32,6 @@
         <h2>Here are all of our dogs!</h2>
       </div>
     </section>
-
     <section class="profiles">
       <div class="profile-card">
         <div>
@@ -201,13 +194,14 @@
         </div>
       </div>      
     </section>
-    
     <section class="footer">
       <div class="basefield">
           <img src="images/adoptadog-logo.svg" class="bottomlogo" alt= "profile of a dog in white">
           <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis molestie leo <br><br></p>
-          <a class="footer-link" href="index.html">Home&nbsp;&nbsp;/</a><a class="footer-link" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="footer-link" href="contact.html">&nbsp;&nbsp;Contact</a><br><br>
-          <p class="copyright">© 2018 Adoptadog, LLC | Seattle, WA</p>
+          <div class="final-links">
+            <a class="footer-link" href="index.html">Home&nbsp;&nbsp;/</a><a class="footer-link" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="footer-link" href="contact.html">&nbsp;&nbsp;Contact</a><br><br>
+          </div>
+          <p class="copyright">&copy; 2018 Adoptadog, LLC | Seattle, WA</p>
       </div>
     </section>
   </div>

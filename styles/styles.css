@@ -33,6 +33,7 @@ a.subtitle:visited {
   left: 10%;
   top: 20%;
   display: flex;
+  /*does this need to say display: flex?*/
   flex-direction: column;
   color: #81B642;
   font-family: Merriweather, Times, serif;
@@ -53,12 +54,10 @@ a.subtitle:visited {
 .cart {
   position: absolute;
   right: 10%;
-  top: 10%;
+  top: 15%;
   display: flex;
   flex-direction: column;
-  justify-content: right;
-  margin-top: 2rem;
-   
+  justify-content: right;  
 }
 
 .top-cart {
@@ -109,7 +108,7 @@ h1 {
   font-weight: bold;
 }
 
-.welcome {
+.message {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -124,7 +123,7 @@ h1 {
 h2 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #093b60;
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: 900;
 }
 
@@ -265,9 +264,7 @@ a.footer-link:visited {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1rem;
-  
-  /*Wrap image, h3, and text; some padding*/
+  margin: 3rem;
 }
 
 .text {
@@ -283,27 +280,44 @@ a.footer-link:visited {
   /*Size, color (grey), and font*/
 }
 
+.checkout {
+  padding-left: 21%;
+}
+
 .formfield {
-  /*Not totally sure; font color and size; padding*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #093b60;
+  font-size: 1.25em;
+  font-weight: 900;
 }
 
 .dogsadopted {
-  /*same font as formfield*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #093b60;
+  font-size: 1.25em;
+  font-weight: 900;
 }
 
-.dogincart{
-  /*position with image and text*/
+.dog-in-cart{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem;
 }
 
-.adoptedname {
-  /*same font as formfield but smaller*/
+.adopted-name {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #093b60;
+  font-size: .75em;
+  font-weight: 900;
 }
 
 .outpic {
   /*Size small for cart*/
 }
 
-.cartcost {
+.cart-cost {
   /*Same font as in top right but grey and small*/
 }
 
@@ -313,6 +327,12 @@ a.footer-link:visited {
 
 .totalprice{
   /*grey, medium size, font*/
+}
+
+.top-forms{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
 input[type=submit] {
@@ -329,4 +349,58 @@ button, input, select, textarea {
   margin: 1rem;
 }
 
-/*Need to style city, state, and zip so that they're in one line and make Yes/No be on one line as well*/
+.large-field {
+  margin-left: 0;
+  width: 100%;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.city-field {
+  margin-left: 0;  
+}
+
+.state-field {
+  margin-left: 0;
+}
+
+.zip-field {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.button {
+  padding-right: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3C3C3C;
+  font-size: 80%;
+  font-weight: 300;  
+}
+
+/*Need to get text to the left of the buttons, not above them*/
+
+.button-zone {
+  padding-left: 0;
+  border-width: 0;
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pickup {
+  margin-left: 0;
+  width: 25%; 
+}
+
+.lower-cart {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}

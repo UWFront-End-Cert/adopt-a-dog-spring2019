@@ -9,98 +9,97 @@
 <body>
   <div class="grclass-container">
     <section class="banner">
-      <div class="letterhead">
-        <img src="images/adoptadog-logo.svg" class="toplogo" alt= "profile of a dog in white">
-        Seattle's premiere dog adoption agency
-      </div>
-      <div class="cart">
-        <div class="top-cart">
-          <img src="images/cart-icon.svg" class="carticon" alt="a white cart logo">
-          &nbsp;&nbsp;$1234.56
+        <div class="letterhead">
+          <img src="images/adoptadog-logo.svg" class="toplogo" alt= "profile of a dog in white">
+          Seattle's premiere dog adoption agency
         </div>
-        <div class="checkout-button">
-          Checkout
+        <div class="cart">
+          <div class="top-cart">
+            <img src="images/cart-icon.svg" class="carticon" alt="a white cart logo">$1234.56
+          </div>
+          <div class="checkout-button">
+            Checkout
+          </div>
         </div>
-      </div>
     </section>
     <section class="subbanner">
       <div >
         <p><a class="subtitle" href="index.html">Home&nbsp;&nbsp;/</a><a class="subtitle" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="subtitle" href="blog.html">&nbsp;&nbsp;Blog</a></p>
       </div>
     </section>
-    <section class="welcome">
+    <section class="checkout">
       <div>
         <h2>Checkout</h2>
       </div>
     </section>
-    <section>
-        <!--style the labels to have similar coloring as the theme. In addition, I might change their fonts-->
+    <section class="checkout">
         <div class="formfield">
             <form method="GET">
-                <label>Name
-                    <input type="text" name="applicantName">
-                </label>
-                <label> Email Address
-                    <input type="email" name="applicantEmail">
-                </label>
-                <label>Street Address
-                    <input type="text" name="streetAddress">
-                </label> 
-                <!–– making a type of container to hold city, state, and zip in the same line as you style this page ––>                      
-                <label>City
-                    <input type="text" name="city">
-                </label> 
-                <label>State
-                    <select name="state">
-                        <option value="">Please Select</option>
-                        <option value="classaho">classaho</option>
-                        <option value="oregon">Oregon</option>
-                        <option value="washington">Washington</option>
-                    </select>
-                </label>
-                <!--add a zip code label with input after state-->
-                <fieldset>
-                    <legend>First Time Adopter?
-                    </legend>
-                    <label class="button"> Yes
-                        <input type="radio" name="firsttime" value="yes">
-                        <span class="checkbutton"></span>
+                <div class="top-forms">
+                    <label >Name
+                        <input type="text" name="applicantName" class="large-field">
                     </label>
-                    <label class="button"> No
-                       <input type="radio" name="firsttime" value="no">
-                       <span class="checkbutton"></span>
+                    <label> Email Address
+                        <input type="email" name="applicantEmail" class="large-field">
                     </label>
-                </fieldset>
-                <label>Pickup Location
-                    <select name="pickup">
-                        <option value="">Please Select</option>
-                        <option value="ballard">Ballard</option>
-                        <option value="belltown">Bell Town</option>
-                        <option value="bellevue">Bellevue</option>
-                    </select>
-                </label>
+                    <label>Street Address
+                        <input type="text" name="streetAddress" class="large-field">
+                    </label>                     
+                    <div class="location">
+                        <label>City
+                            <input type="text" name="city" class="city-field">
+                        </label> 
+                        <label>State
+                            <select name="state" class="state-field">
+                                <option value="">Please Select</option>
+                                <option value="classaho">Idaho</option>
+                                <option value="oregon">Oregon</option>
+                                <option value="washington">Washington</option>
+                            </select>
+                        </label>
+                        <label>Zip Code
+                            <input type="text" name="zip" class="zip-field">
+                        </label>
+                    </div>
+                    <fieldset class="button-zone">
+                        <legend>First Time Adopter?
+                        </legend>
+                        <div class="button-wrapper">
+                            <label class="button"> Yes
+                                <input type="radio" name="firsttime" value="yes">
+                                <span class="checkbutton"></span>
+                            </label>
+                            <label class="button"> No
+                                <input type="radio" name="firsttime" value="no">
+                                <span class="checkbutton"></span>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <label>Pickup Location
+                        <select name="pickup" class="pickup">
+                            <option value="">Please Select</option>
+                            <option value="ballard">Ballard</option>
+                            <option value="belltown">Bell Town</option>
+                            <option value="bellevue">Bellevue</option>
+                        </select>
+                    </label>
+                </div>
             </form>
         </div>
-        </section>
-        <section>
             <div>
                 <p class="dogsadopted">Dogs Adopted</p>
             </div>
-            <div class="dogincart">
+            <div class="dog-in-cart">
                 <img src="images/lucas-checkout.jpg" class="outpic" alt="a small picture of your dog">
-                <p class="adoptedname">Lucas</p>
-                <p class="cartcost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="adopted-name">Lucas</p>
+                <p class="cart-cost"><b>Cost to Adopt:</b> $123.45</p>
             </div>
-            <div>
-                <p class="dogsadopted">Dogs Adopted</p>
-            </div>
-            <div class="dogincart">
+            
+            <div class="dog-in-cart">
                 <img src="images/duffy-checkout.jpg" class="outpic" alt="a small picture of your dog">
-                <p class="adoptedname">Duffy</p>
-                <p class="cartcost"><b>Cost to Adopt:</b> $123.45</p>
+                <p class="adopted-name">Duffy</p>
+                <p class="cart-cost"><b>Cost to Adopt:</b> $123.45</p>
             </div>
-        </section>
-        <section>
             <div >
                 <p class="totalcost">Total Adoption Cost</p>
                 <p class="totalprice">$1234.56</p>
@@ -115,8 +114,10 @@
             <div class="basefield">
                 <img src="images/adoptadog-logo.svg" class="bottomlogo" alt= "profile of a dog in white">
                 <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis molestie leo <br><br></p>
-                <a class="footer-link" href="index.html">Home&nbsp;&nbsp;/</a><a class="footer-link" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="footer-link" href="contact.html">&nbsp;&nbsp;Contact</a><br><br>
-                <p class="copyright">© 2018 Adoptadog, LLC | Seattle, WA</p>
+                <div class="final-links">
+                    <a class="footer-link" href="index.html">Home&nbsp;&nbsp;/</a><a class="footer-link" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="footer-link" href="contact.html">&nbsp;&nbsp;Contact</a><br><br>
+                </div>
+                <p class="copyright">&copy; 2018 Adoptadog, LLC | Seattle, WA</p>
             </div>
         </section>
   </div>
