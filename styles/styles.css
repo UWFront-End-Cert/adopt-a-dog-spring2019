@@ -43,10 +43,8 @@
 .checkout {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   font-weight: bold;
-  justify-content: center;
-  align-items: flex-start;
+  float: right;
 
 }
 
@@ -219,6 +217,14 @@ footer > p {
   justify-content: space-around;
   padding: 2em;
   color: #003366;
+}
+
+.adopted > button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4CAF50;
+  align-self: flex-start;
+  width: 10%;
 }
 
 .adopted-dog {
