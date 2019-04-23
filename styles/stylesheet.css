@@ -102,7 +102,7 @@ h2 {
   height: auto;
 }
 
-.flex-dog h2, .flex-dog h3, .flex-dog p, .flex-dog button {
+.flex-dog h2, .flex-dog h3, .flex-dog p {
   margin: 0.5rem 1rem;
 }
 
@@ -110,6 +110,11 @@ h2 {
   background-color: #55C632;
   color: #FFFFFF;
   padding: 0.5em 3.5em;
+}
+
+.flex-dog button {
+  width: 90%;
+  margin: 0.5em 0.5em 0.5em 1em;
 }
 
 .not-flex {
@@ -131,6 +136,10 @@ h2 {
   margin-left: 1.5em;
   color: #154360;
   font-weight: bold;
+}
+
+.cart-total {
+  color: #FFFFFF;
 }
 
 input, select {
