@@ -41,6 +41,7 @@ p{
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
+  transition: all .5s;
 }
 
 .action-button{
@@ -55,7 +56,13 @@ p{
   margin: auto;
   display: block;
 }
-/* let's add something nicer next iteration */
+
+.more-button:hover,
+.action-button:hover{
+  transform: scale(1.03, 1.03);
+  transition: all .5s;
+}
+
 .action-button:hover{
   background-color: var(--light-accent-color);
 }
@@ -139,6 +146,9 @@ header.page-header nav ul li a{
   color: var(--main-color);
 }
 
+header.page-header nav ul li a:hover{
+  color: var(--accent-color);
+}
 footer nav ul li a{
   color: rgb(255, 255, 255);
 }
