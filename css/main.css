@@ -97,6 +97,7 @@ header .tagline{
 
 .cart-bug .action-button{
   width: 100%;
+  max-width: 200px;
   margin-top: 10px;
 }
 
