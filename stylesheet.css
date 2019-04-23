@@ -3,7 +3,7 @@
 }
 
 body {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
@@ -11,6 +11,21 @@ header {
 	background-size: cover;
 	color: white;
 	height: 400px;
+	padding: 5rem;
+}
+
+.float-right {
+	float: right;
+	padding: 4em;
+}
+
+header button {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+	border-style: none;
+	height: 30px;
+	width: 110px;
 }
 
 header h1 {
@@ -23,6 +38,23 @@ header h3 {
 
 nav {
 	padding:1em;
+}
+
+.flexbox-container {
+  display: inline-flex;
+	flex-direction: row;
+  justify-content: center;
+	align-content: center;
+  padding: 10em;
+}
+
+article button {
+	background-color: green;
+  color: white;
+  font-weight: bolder;
+	border-style: none;
+	height: 30px;
+	width: 110px;
 }
 
 ul {
@@ -45,7 +77,6 @@ a {
 footer{
   padding-top: 20px;
   text-align: center;
-	background-size: cover;
   clear: both;
   color: white;
 	padding: 1rem;
