@@ -1,7 +1,7 @@
-function image_handler(i, name) {
+function image_handler(i) {
   let dog_breed = "";
   const dog_name = document.getElementsByTag("h2")[i];
-  const dog_price_string = document.getElemenetByClass("price")[i];
+  const dog_price_string = document.getElementsByClass("price")[i];
   const dog_price_int = dog_price_string.slice(16);
   switch (dog_name) {
     case "Angus":
