@@ -308,10 +308,6 @@ footer p {
 /* for-desktop { */
 @media (min-width: 1200px) {
 
-  body {
-    padding: 0 2rem;
-  }
-
   .home-dogs,
   .dogs {
     display: grid;
