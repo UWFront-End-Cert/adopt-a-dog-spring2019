@@ -17,7 +17,7 @@
         <div class="header-banner">
             <img src="./images/header-image.jpg" id="banner-image" alt="header-banner-image">
             <div class="title-alligner">
-                <img src="./images/adoptadog-logo.svg" class="logo-image" alt="adopt-a-dog logo">           <!--Logo-->
+                <img src="./images/adoptadog-logo.svg" id="logo-image" alt="adopt-a-dog logo">           <!--Logo-->
                 <h1>Seattle's premiere dog adoption agency</h1>
             </div>
             <div class="cart-alligner">
@@ -38,21 +38,21 @@
     <section class="main-content" id="checkout">
         <h2 class="page-title">Checkout</h2>
         <form>
-            <div class="checkout-label">Name</div><br>
+            <div id="checkout-label">Name</div><br>
             <input type="text" name="name"><br>
-            <div class="checkout-label">
+            <div id="checkout-label">
                 Email Address
             </div><br>
             <input type="email" name="email"><br>
-            <div class="checkout-label">
+            <div id="checkout-label">
                 Street Address
             </div><br>
             <input type="text" name="street address"><br>
-            <div class="checkout-label">
+            <div id="checkout-label">
                 City
             </div>
             <input type="text" name="city">
-            <div class="checkout-label">
+            <div id="checkout-label">
                 State
             </div>
             <p>
@@ -109,29 +109,29 @@
                     <option value="50">WY</option>
                 </select>
             </p>
-            <div class="checkout-label">
+            <div id="checkout-label">
                 Zip<br>
             </div>
             <input type="number" name="Zip Code"><br>
             <div class="radial">
-                <div class="checkout-label">
+                <div id="checkout-label">
                     First-Time Adopter?<br>
                 </div>
-                <input type="radio" name="first time adopter" value="yes"><label class="checkout-label">Yes</label>
-                <input type="radio" name="first time adopter" value="no"><label class="checkout-label">No</label><br><br>
+                <input type="radio" name="first time adopter" value="yes"><label id="checkout-label">Yes</label>
+                <input type="radio" name="first time adopter" value="no"><label id="checkout-label">No</label><br><br>
             </div>
-            <div class="checkout-label">
+            <div id="checkout-label">
                 Pick Up Location<br>
             </div>
             <p>
                 <select></select>
             </p><br>
-            <div class="checkout-label">
+            <div id="checkout-label">
                 Dogs Adopted:<br>
             </div>
-            <div class="grid-wrapper">
+            <article class="grid-wrapper">
                 <article>
-                    <img src="./images/lucas-checkout.jpg" height="100" width="100" alt="lucas">
+                    <img src="./images/lucas-checkout.jpg" height="100" width="100"alt="lucas">
                     <label class="name"><b>Lucas</b></label>
                     <br><label class="price"><b>Cost to Adopt:</b>$123.45</label>
                 </article>
@@ -140,8 +140,8 @@
                     <label class="name"><b>Duffy</b></label>
                     <br><label class="price"><b>Cost to Adopt:</b> $123.45</label>
                 </article>
-            </div>
-            <div class="checkout-label">
+            </article>
+            <div id="checkout-label">
                 Total Adoption Cost<br>
             </div>
             <label class="total">$1234.56</label><br>
@@ -149,7 +149,7 @@
         </form>
     </section>
     <footer>
-        <img src="./images/adoptadog-logo.svg" class="logo-image" alt="adopt-a-dog logo">           <!--Logo-->
+        <img src="./images/adoptadog-logo.svg" id="logo-image" alt="adopt-a-dog logo">           <!--Logo-->
         <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>esseque envenienihil imaximu scideru ptistusiasm consequunt<br></p>
         <nav>
             <a href="./index.html">Home / </a>
