@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+h1,h2,h3,h4 {
+  font-family: 'Merriweather', serif;
+  color: navy;
+}
+
+
 header {
   height: 30%;
   width: 100%;
@@ -13,6 +19,10 @@ header {
   flex-direction: row;
   align-content: space-between;
   justify-content: space-between;
+}
+
+header h2 {
+  color: #3fb63f;
 }
 
 .logo,.cart {
@@ -97,11 +107,12 @@ footer {
   height: 100%;
   margin-top: 4rem;
   padding: 5rem;
+  text-align: center;
 }
 
 
 
-button {
+button,#cart-button {
   width: 100%;
   height: 1.7rem;
   background-color: #3fb63f;
@@ -114,7 +125,7 @@ button {
 }
 
 .highlight {
-  height: 20rem;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -124,7 +135,8 @@ button {
 
 .high-dog {
   margin: 1rem;
-  width: 20rem;
+  width: 50%;
+  height: 80%;
   display: inline-block;
   margin-left: 0;
 }
@@ -133,7 +145,7 @@ button {
   margin: 1rem;
   width: 50%;
   margin-right: 0;
-  font-size: 130%
+  font-size: 115%
 }
 
 .dog-grid {
@@ -166,7 +178,7 @@ button {
 }
 
 #footer-logo {
-  width: 20%;
+  width: 30%;
 }
 
 input {
@@ -190,4 +202,8 @@ input {
 
 #form-submit {
   width: 10%;
+}
+
+.footer-element {
+  margin-bottom: 2rem;
 }
