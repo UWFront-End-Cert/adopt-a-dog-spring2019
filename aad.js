@@ -2,7 +2,6 @@ function Murphy() {
     alert("Murphy, Boxer, $123.45");
   }
 
-
 function Poppy() {
     alert("Poppy, Italian Anklebiter, $123.45");
   }
@@ -47,13 +46,13 @@ function Stella() {
     alert("Stella, Chiwawa, $123.45")
 }
 
-  let total = 0;
+let total = 0;
   
-  function adder(value) {
+function adder(value) {
     let innerTotal = 0;
     innerTotal += value;
     total += value;
-    alert(total, 'total')
-  }
+    alert(total)
+}
 
   
