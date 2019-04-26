@@ -81,6 +81,7 @@ margin-right: 1em;
   font-weight: bold;
   font-size: 75%;
   line-height: 30px;
+  border: none;
   /*do a search on Mozilla Developer's network on line-height. I'm a fan of the multiplier method for these; could =/* Unitless values: use this number multiplied
 by the element's font size
 line-height: 3.5;*/
@@ -125,6 +126,11 @@ h2 {
   color: #093b60;
   font-size: 2em;
   font-weight: 900;
+}
+
+.here{
+  display: flex;
+  padding-left: 21%;
 }
 
 .lead-in {
@@ -180,21 +186,16 @@ h3 {
   height: 30px;
   width: 180px;
   /*Percent again...*/
-  color: white;
   font-family: "Archivo Black", Geneva, sans-serif;
   font-weight: bold;
   font-size: 90%;
   line-height: 30px;
   text-align: center;
   margin: 10px;
-}
-
-a.checkout:visited {
+  border: none;
   color: white;
+  display: inline-block;
 }
-
-/*Not working: make adopt-button white and still white when visited*/
-/*the adopt buttons aren't links, but buttons that will do something*/
 
 .superfooter {
   display: flex;
@@ -280,9 +281,7 @@ a.footer-link:visited {
   /*Size, color (grey), and font*/
 }
 
-.checkout {
-  padding-left: 21%;
-}
+
 
 .formfield {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
