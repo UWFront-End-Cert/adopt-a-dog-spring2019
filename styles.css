@@ -55,9 +55,8 @@ img {
 }
 
 .intro  {
-  margin-bottom: 5%;
-  margin-left: 10%
-  margin-right: 10%;
+  padding-left: 8%;
+  padding-right:8;
 }
 
 .container {
@@ -65,7 +64,12 @@ img {
   flex-direction: column;
   justify-content: space-around;
   padding: 3%;
-  margin:3%;
+  margin: 3%;
+}
+
+.blog {
+  clear:both;
+  padding: 0% 8% 2% 8%;
 }
 
 .grid-container {
@@ -78,7 +82,7 @@ img {
 
 .img1 {
   float: left;
-  margin-right: 8%;
+  margin-right: 6%;
 }
 
 .profile {
@@ -88,12 +92,6 @@ img {
   margin: auto;
   font-size: 75%;
 }
-
-.see-more {
-  clear: both;
-  text-align: center;
-}
-
 
 footer {
   position: static;
