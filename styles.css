@@ -75,10 +75,9 @@ img {
 .grid-container {
   clear: both;
   display: grid;
-  grid-template-columns: 15% 15% 15% 15%;
+  grid-template-columns: 16% 16% 16% 16%;
   grid-gap: 6%;
-  padding: inherit;
-  margin-left:10%;
+  justify-content: space-evenly;
   }
 
 .img1 {
