@@ -36,10 +36,7 @@ header h1 {
     float: right;
     clear: both;
     background-color: #77ad3b;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding: 0.5em 3em;
     font-weight: 900;
     color: white;
     text-decoration: none;
@@ -130,27 +127,21 @@ h3.blue-title-checkout {
 }
 
 div.gallery-item {
-    float: left;
-    width: auto;
-    padding: 0em;
+    display: inline-flex;
+    flex-direction: column;
     margin: 1em;
     border: #f0f2f3 thick solid;
+    width: 22%;
   }
 
   .gallery-item img {
-    width: 15em;
-  }
-
-  .gallery::after {
-    content: "";
-    clear: both;
-    display: flex;
+    width: 100%;
   }
 
   .caption {
     padding: .5em;
     text-align: left;
-    width: 15em;
+    width: 100%;
   }
 
   .adopt-button {
@@ -339,6 +330,24 @@ select {
   line-height: .25;
 }
 
+@media (max-width: 70em) {
+  .about-adopt {
+    flex-direction: column-reverse;
+  }
+
+  .blog {
+    flex-direction: column-reverse;
+  }
+
+  section.gallery {
+    text-align: center;
+  }
+
+  div.gallery-item {
+    width: 35%;
+   }
+}
+
 @media (max-width: 50em) {
 
   .container {
@@ -373,14 +382,14 @@ select {
   .dogs-selected img {
     width: 25%;
   }
-}
-@media (max-width: 70em) {
-  .about-adopt {
-    flex-direction: column-reverse;
+
+  section.gallery {
+    text-align: center;
   }
 
-  .blog {
-    flex-direction: column-reverse;
-  }
-}
+  div.gallery-item {
+    width: 50%;
+   }
+
+ }
 
