@@ -257,6 +257,13 @@ input[type="submit"]{
 	padding: 1%;
 	margin: 5%;
 }
+.dog p:first-child{
+	font-weight: bold;
+}
+.dog p:nth-child(2){
+	font-style: italic;
+}
+
 #more-dogs {
 	margin: 2% 45% 5% 45%;
 	padding: .5% 3%;

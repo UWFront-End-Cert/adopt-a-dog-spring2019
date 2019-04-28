@@ -7,9 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>All Dogs Page</title>
 	<link rel="stylesheet" type="text/css" href="styles/adopt-dog.css">
+	<script src="scripts/adopt-dog.js"></script>
 </head>
 
-<body>
+<body onload="reset()">
 	<header>
 		<div class="head-checkout">
 			<div class="logo">
@@ -21,7 +22,7 @@
 			<div class="checkout">
 				<a href="#"><img src="images/cart-icon.svg" alt="checkout image"></a>$1234.56
 				<p>
-				<button type="button">Checkout</button>
+				<button onclick='checkOut()' type="button">Checkout</button>
 			</div>
 		</div>  <!-- for "head-checkout -->
 	
@@ -35,126 +36,298 @@
 	<section>
 		<h1>Hare are all of our Dogs! </h1>
 
-		<div class="clear dogs-flex-container">
+	<div class="clear dogs-flex-container">
+		<div>
+			<img onclick='dogInfo("murphy","beagle",100.10)' src="images/murphy-card.jpg" alt="murphy dog image">
+			<div class="dog">
+				<p>Murphy</p>
+				<p><strong>Cost to Adopt:</strong> $100.10</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.10)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("poppy","bullmastiff",100.20)'  src="images/poppy-card.jpg" alt="poppy dog image">
+			<div class="dog">
+				<p>Poppy </p>
+				<p><strong>Cost to Adopt:</strong> $100.20</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.20)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("jack","bloodhound",100.30)'  src="images/jack-card.jpg" alt="jack dog image">
+			<div class="dog">
+				<p>Jack</p>
+				<p><strong>Cost to Adopt:</strong> $100.30</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.30)' type="button">Adopt</button>
+			</div>
+		</div>
+		
+		<div>
+			<img onclick='dogInfo("duffy","akita",100.40)'  src="images/duffy-card.jpg" alt="duffy dog image">
+			<div class="dog">
+				<p>Duffy </p>
+				<p><strong>Cost to Adopt:</strong> $100.40</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.40)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div class="clear flex-elem">
+			<img onclick='dogInfo("lucas","boxer",100.50)'  src="images/lucas-card.jpg" alt="lucas dog image">
+			<div class="dog">
+				<p>Lucas</p>
+				<p><strong>Cost to Adopt:</strong> $100.50</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.50)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("jake","beagle",200.10)'  src="images/jake-card.jpg" alt="jake dog image">
+			<div class="dog">
+				<p>Jake </p>
+				<p><strong>Cost to Adopt:</strong> $200.10</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(200.10)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("angus","tervuren",200.20)'  src="images/angus-card.jpg" alt="angus dog image">
+			<div class="dog">
+				<p>Angus</p>
+				<p><strong>Cost to Adopt:</strong> $200.20</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(200.20)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("violet","greyhound",200.30)'  src="images/violet-card.jpg" alt="violet dog image">
+			<div class="dog">
+				<p>Violet </p>
+				<p><strong>Cost to Adopt:</strong> $200.30</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(200.30)' type="button">Adopt</button>
+			</div>
+		</div>
+
 			<div>
-				<img src="images/murphy-card.jpg" alt="murphy dog image">
+				<img onclick='dogInfo("piper","boxer",300.77)'  src="images/piper-card.jpg" alt="a boy huges a dog image">
 				<div class="dog">
-					<b>Murphy</b>
-					<p><strong>Cost to Adopt:</strong> $123.45
+					<p>Piper</p>
+					<p><strong>Cost to Adopt: $300.77</strong></p>
 					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
+					<button onclick='buyIt(300.77)' type="button">Adopt</button>
 				</div>
 			</div>
 
 			<div>
-				<img src="images/poppy-card.jpg" alt="poppy dog image">
+				<img onclick='dogInfo("maximus","beagle",300.88)'  src="images/maximus-card.jpg" alt="a boy huges a dog image">
 				<div class="dog">
-					<b>Poppy </b>
-					<p><strong>Cost to Adopt:</strong> $123.45
+					<p>Maximus</p>
+					<p><strong>Cost to Adopt: $300.88</strong></p>
 					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
+					<button onclick='buyIt(300.88)' type="button">Adopt</button>
 				</div>
 			</div>
 
 			<div>
-				<img src="images/jack-card.jpg" alt="jack dog image">
+				<img onclick='dogInfo("luna","greyhound",300.99)'  src="images/luna-card.jpg" alt="a boy huges a dog image">
 				<div class="dog">
-					<b>Jack</b>
-					<p><strong>Cost to Adopt:</strong> $123.45
+					<p>Luna </p>	
+					<p><strong>Cost to Adopt: $300.99</strong></p>
 					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
-				</div>
-			</div>
-			
-			<div>
-				<img src="images/duffy-card.jpg" alt="duffy dog image">
-				<div class="dog">
-					<b>Duffy </b>
-					<p><strong>Cost to Adopt:</strong> $123.45
-					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae
-					</p>
-					<button type="button">Adopt</button>
-				</div>
-			</div>
-
-			<div class="clear flex-elem">
-				<img src="images/lucas-card.jpg" alt="lucas dog image">
-				<div class="dog">
-					<b>Lucas</b>
-					<p><strong>Cost to Adopt:</strong> $123.45
-					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae
-					</p>
-					<button type="button">Adopt</button>
-				</div>
-			</div>
-
-			<div>
-				<img src="images/jake-card.jpg" alt="jake dog image">
-				<div class="dog">
-					<b>Jake </b>
-					<p><strong>Cost to Adopt:</strong> $123.45
-					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
-				</div>
-			</div>
-
-			<div>
-				<img src="images/angus-card.jpg" alt="angus dog image">
-				<div class="dog">
-					<b>Angus</b>
-					<p><strong>Cost to Adopt:</strong> $123.45
-					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
-				</div>
-			</div>
-
-			<div>
-				<img src="images/violet-card.jpg" alt="violet dog image">
-				<div class="dog">
-					<b>Violet </b>
-					<p><strong>Cost to Adopt:</strong> $123.45
-					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
-				</div>
-			</div>
-
-			<div>
-				<img src="images/piper-card.jpg" alt="a boy huges a dog image">
-				<div class="dog">
-					<b>Piper</b>
-					<p><strong>Cost to Adopt: $123.45</strong></p>
-					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
-				</div>
-			</div>
-
-			<div>
-				<img src="images/maximus-card.jpg" alt="a boy huges a dog image">
-				<div class="dog">
-					<b>Maximus</b>
-					<p><strong>Cost to Adopt: $123.45</strong></p>
-					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
-				</div>
-			</div>
-
-			<div>
-				<img src="images/luna-card.jpg" alt="a boy huges a dog image">
-				<div class="dog">
-					<b>Luna </b>	
-					<p><strong>Cost to Adopt: $123.45</strong></p>
-					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
+					<button onclick='buyIt(300.99)' type="button">Adopt</button>
 					</div>
 			</div>
 
 			<div>
-				<img src="images/stella-card.jpg" alt="a boy huges a dog image">
+				<img onclick='dogInfo("stella","akita",400.00)'  src="images/stella-card.jpg" alt="a boy huges a dog image">
 				<div class="dog">
-					<b>Stella</b>
-					<p><strong>Cost to Adopt: $123.45</strong></p>
+					<p>Stella</p>
+					<p><strong>Cost to Adopt: $400.00</strong></p>
 					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-					<button type="button">Adopt</button>
+					<button onclick='buyIt(400.00)' type="button">Adopt</button>
+				</div>
+			</div>  
+		</div> <!-- flex-container -->
+	</section>
+
+ 	<footer>
+		<img src="images/adoptadog-logo.svg" alt="dog LOGO">
+		<p>Aborpos nisto inci tet aut que volupti beruptiberro to ex </p>
+		<p>esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+		<nav>
+			<a href="index.html">Home</a> /
+			<a href="dogs.html">Dogs</a> / 
+			<a href="contact.html">Contact</a> 
+		</nav>
+		<p> &copy; 2018 Adoptadog, LLC | Seattle, WA</p>
+	</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="zxx"> 
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>All Dogs Page</title>
+	<link rel="stylesheet" type="text/css" href="styles/adopt-dog.css">
+	<script src="scripts/adopt-dog.js"></script>
+</head>
+
+<body onload="reset()">
+	<header>
+		<div class="head-checkout">
+			<div class="logo">
+				<figure>
+					<img src="images/adoptadog-logo.svg" alt="dog LOGO">
+					<figcaption>Seattle’s premiere dog adoption agency</figcaption>
+				</figure>
+			</div>
+			<div class="checkout">
+				<a href="#"><img src="images/cart-icon.svg" alt="checkout image"></a>$1234.56
+				<p>
+				<button onclick='checkOut()' type="button">Checkout</button>
+			</div>
+		</div>  <!-- for "head-checkout -->
+	
+		<nav class="clear">
+			<a href="index.html">Home</a> /
+			<a href="dogs.html">Dogs</a> / 
+			<a href="blog.html">Blog</a>
+		</nav>
+	</header>
+
+	<section>
+		<h1>Hare are all of our Dogs! </h1>
+
+	<div class="clear dogs-flex-container">
+		<div>
+			<img onclick='dogInfo("murphy","beagle",100.10)' src="images/murphy-card.jpg" alt="murphy dog image">
+			<div class="dog">
+				<p>Murphy</p>
+				<p><strong>Cost to Adopt:</strong> $100.10</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.10)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("poppy","bullmastiff",100.20)'  src="images/poppy-card.jpg" alt="poppy dog image">
+			<div class="dog">
+				<p>Poppy </p>
+				<p><strong>Cost to Adopt:</strong> $100.20</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.20)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("jack","bloodhound",100.30)'  src="images/jack-card.jpg" alt="jack dog image">
+			<div class="dog">
+				<p>Jack</p>
+				<p><strong>Cost to Adopt:</strong> $100.30</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.30)' type="button">Adopt</button>
+			</div>
+		</div>
+		
+		<div>
+			<img onclick='dogInfo("duffy","akita",100.40)'  src="images/duffy-card.jpg" alt="duffy dog image">
+			<div class="dog">
+				<p>Duffy </p>
+				<p><strong>Cost to Adopt:</strong> $100.40</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.40)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div class="clear flex-elem">
+			<img onclick='dogInfo("lucas","boxer",100.50)'  src="images/lucas-card.jpg" alt="lucas dog image">
+			<div class="dog">
+				<p>Lucas</p>
+				<p><strong>Cost to Adopt:</strong> $100.50</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(100.50)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("jake","beagle",200.10)'  src="images/jake-card.jpg" alt="jake dog image">
+			<div class="dog">
+				<p>Jake </p>
+				<p><strong>Cost to Adopt:</strong> $200.10</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(200.10)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("angus","tervuren",200.20)'  src="images/angus-card.jpg" alt="angus dog image">
+			<div class="dog">
+				<p>Angus</p>
+				<p><strong>Cost to Adopt:</strong> $200.20</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(200.20)' type="button">Adopt</button>
+			</div>
+		</div>
+
+		<div>
+			<img onclick='dogInfo("violet","greyhound",200.30)'  src="images/violet-card.jpg" alt="violet dog image">
+			<div class="dog">
+				<p>Violet </p>
+				<p><strong>Cost to Adopt:</strong> $200.30</p>
+				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+				<button onclick='buyIt(200.30)' type="button">Adopt</button>
+			</div>
+		</div>
+
+			<div>
+				<img onclick='dogInfo("piper","boxer",300.77)'  src="images/piper-card.jpg" alt="a boy huges a dog image">
+				<div class="dog">
+					<p>Piper</p>
+					<p><strong>Cost to Adopt: $300.77</strong></p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(300.77)' type="button">Adopt</button>
+				</div>
+			</div>
+
+			<div>
+				<img onclick='dogInfo("maximus","beagle",300.88)'  src="images/maximus-card.jpg" alt="a boy huges a dog image">
+				<div class="dog">
+					<p>Maximus</p>
+					<p><strong>Cost to Adopt: $300.88</strong></p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(300.88)' type="button">Adopt</button>
+				</div>
+			</div>
+
+			<div>
+				<img onclick='dogInfo("luna","greyhound",300.99)'  src="images/luna-card.jpg" alt="a boy huges a dog image">
+				<div class="dog">
+					<p>Luna </p>	
+					<p><strong>Cost to Adopt: $300.99</strong></p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(300.99)' type="button">Adopt</button>
+					</div>
+			</div>
+
+			<div>
+				<img onclick='dogInfo("stella","akita",400.00)'  src="images/stella-card.jpg" alt="a boy huges a dog image">
+				<div class="dog">
+					<p>Stella</p>
+					<p><strong>Cost to Adopt: $400.00</strong></p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(400.00)' type="button">Adopt</button>
 				</div>
 			</div>  
 		</div> <!-- flex-container -->
