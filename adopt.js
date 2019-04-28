@@ -109,7 +109,10 @@ function dogInfo12() {
 
 
 // Adopt button math
+let costDog = new Array();
+costDog["dog1"]=300;
+costDog["dog2"]=500;
+
 function addCost() {
-  let
 
 }
