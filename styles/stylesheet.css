@@ -180,7 +180,12 @@ button {
   margin-left: 1rem;
 }
 
-.dog-name {
+#dog-name {
+  margin-left: 1rem;
+}
+
+#breed {
+  font-weight: 700;
   margin-left: 1rem;
 }
 
