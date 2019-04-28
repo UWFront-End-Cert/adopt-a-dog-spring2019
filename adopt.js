@@ -1,0 +1,4 @@
+
+function dogInfoMurphy() {
+  alert('Murphy');
+}

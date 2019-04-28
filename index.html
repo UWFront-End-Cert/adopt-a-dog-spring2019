@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-  <!-- Adding Googlefont to better match what is showing in mockup -->
+    <script src="./adopt.js" charset="utf-8"></script>
+
+<!-- Adding Googlefont to better match what is showing in mockup -->
     <style>
       @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
     </style>
@@ -47,67 +49,67 @@
 <!-- This is all the content for the grid of dogs-->
   <section class="container-dogs">
     <article class="dog">
-      <img src="images/murphy-card.jpg" alt="Image of Murphy who is a brown dog with white muzzle.">
-      <h3 class="dog-copy">Murphy</h3>
+      <img src="images/murphy-card.jpg" onclick="dogInfoMurphy()" alt="Image of Murphy who is a brown dog with white muzzle.">
+      <h3 class="dog-name">Murphy</h3>
       <p class="dog-cost">Cost to Adopt: $123.45</p>
       <p class="dog-copy">Long doggo floofs very hand that feed shibe aqua doggo, noodle horse.</p>
-      <button class="dog-copy" type="button">Adopt</button>
+      <button class="dog-adopt" type="button" onclick="dogCost();">Adopt</button>
     </article>
 
     <article class="dog">
       <img src="images/poppy-card.jpg" alt="Image of Poppy who is a white dog with brown ears.">
-      <h3 class="dog-copy">Poppy</h3>
+      <h3 class="dog-name">Poppy</h3>
       <p class="dog-cost">Cost to Adopt: $123.45</p>
       <p class="dog-copy">Long doggo floofs very hand that feed shibe aqua doggo, noodle horse.</p>
-      <button class="dog-copy" type="button">Adopt</button>
+      <button class="dog-adopt" type="button">Adopt</button>
     </article>
 
     <article class="dog">
       <img src="images/jack-card.jpg" alt="Image of Jack who is a brown brown and white beagle.">
-      <h3 class="dog-copy">Jack</h3>
+      <h3 class="dog-name">Jack</h3>
       <p class="dog-cost">Cost to Adopt: $123.45</p>
       <p class="dog-copy">Long doggo floofs very hand that feed shibe aqua doggo, noodle horse.</p>
-      <button class="dog-copy" type="button">Adopt</button>
+      <button class="dog-adopt" type="button">Adopt</button>
     </article>
 
     <article class="dog">
       <img src="images/duffy-card.jpg" alt="Image of Duffy who is a brown dog with white face and chest.">
-      <h3 class="dog-copy">Duffy</h3>
+      <h3 class="dog-name">Duffy</h3>
       <p class="dog-cost">Cost to Adopt: $123.45</p>
       <p class="dog-copy">Long doggo floofs very hand that feed shibe aqua doggo, noodle horse.</p>
-      <button class="dog-copy" type="button">Adopt</button>
+      <button class="dog-adopt" type="button">Adopt</button>
     </article>
 
     <article class="dog">
       <img src="images/lucas-card.jpg" alt="Image of Lucas who is an all black dog.">
-      <h3 class="dog-copy">Lucas</h3>
+      <h3 class="dog-name">Lucas</h3>
       <p class="dog-cost">Cost to Adopt: $123.45</p>
       <p class="dog-copy">Long doggo floofs very hand that feed shibe aqua doggo, noodle horse.</p>
-      <button class="dog-copy" type="button">Adopt</button>
+      <button class="dog-adopt" type="button">Adopt</button>
     </article>
 
     <article class="dog">
       <img src="images/jake-card.jpg" alt="Image of Jake who is a golden retriever.">
-      <h3 class="dog-copy">Jake</h3>
+      <h3 class="dog-name">Jake</h3>
       <p class="dog-cost">Cost to Adopt: $123.45</p>
       <p class="dog-copy">Long doggo floofs very hand that feed shibe aqua doggo, noodle horse.</p>
-      <button class="dog-copy" type="button">Adopt</button>
+      <button class="dog-adopt" type="button">Adopt</button>
     </article>
 
     <article class="dog">
       <img src="images/angus-card.jpg" alt="Image of Angus who is a brown dog with white chest.">
-      <h3 class="dog-copy">Angus</h3>
+      <h3 class="dog-name">Angus</h3>
       <p class="dog-cost">Cost to Adopt: $123.45</p>
       <p class="dog-copy">Long doggo floofs very hand that feed shibe aqua doggo, noodle horse.</p>
-      <button class="dog-copy" type="button">Adopt</button>
+      <button class="dog-adopt" type="button">Adopt</button>
     </article>
 
     <article class="dog">
       <img src="images/violet-card.jpg" alt="Image of Violet who is a sweet dark brown puppy.">
-      <h3 class="dog-copy">Violet</h3>
+      <h3 class="dog-name">Violet</h3>
       <p class="dog-cost">Cost to Adopt: $123.45</p>
       <p class="dog-copy">Long doggo floofs very hand that feed shibe aqua doggo, noodle horse.</p>
-      <button class="dog-copy" type="button">Adopt</button>
+      <button class="dog-adopt" type="button">Adopt</button>
     </article>
   </section>
 
@@ -117,7 +119,7 @@
 
 <!-- This is the footer in only one section because it's all stacked, not on two sides in the mockup-->
   <footer>
-    <article class="grid-container-footer">
+    <article>
       <a href="index.html"><img src="images/adoptadog-logo.svg" alt="Logo for Adopt A Dog with silouette of dog."></a>
       <p class="footer-text">Much ruin diet lotsa pats long water shoob you are doin me a concern tungg</p>
       <a class="footer-link" href="index.html">Home /</a>
