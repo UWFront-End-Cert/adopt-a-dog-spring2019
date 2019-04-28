@@ -12,7 +12,7 @@ function buyIt(price){
 }
 function dogInfo(name,breed,cost){
 	let dogName = name.charAt(0).toUpperCase()+name.slice(1);
-	let log = dogName + " is  " + breed + "\nCost $" + cost + " to adopt.";
+	let log = dogName + " is " + breed + "\nCost $" + cost + " to adopt.";
 	console.log(log);
 	alert(log);
 }
