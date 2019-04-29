@@ -1,21 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-.sr-only{
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-.grid-container {
-  display: grid;
-  grid-gap: 2px;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  justify-content: space-evenly;
-}
 a:link, a:visited {
   color: white;
 }
@@ -30,43 +12,72 @@ a:link {
   justify-content: space-evenly;
 }
 .grid-item-header{
-  grid-column: 1 / 3;
-  grid-row: 1/4;
   background: #03a3df;
-  padding: 10px;
   background: #000000 url(images/header-image.jpg);
+  padding: 3rem;
+  margin-bottom: 0rem;
+  margin-top: 1.5rem;
+  display: block;
+  text-align:left;
+}
+
+.header{
+  float: right;
+  display: block;
+}
+
+.dog-logo{
+  width: 25%;
+  float: left;
 }
 .header{
   float: right;
 }
 .global-nav{
-  grid-column: 1 /3;
-  grid-row: 4/6;
+  height: 1rem;
   background-color: lightgray;
-}
-.grid-item-blog {
-  grid-column: 1 /3;
-  grid-row: 4/8;
+  padding: 1rem 3rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
 }
 
 .grid-item-welcome{
-  grid-column: 2 /3;
-  grid-row: 6/8;
-  padding: 30px 30px 30px 5px
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 2% 0 0;
+}
+
+.dog-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 5% 5% 5% 5%;
 }
 
 .dog{
-margin-top: 3px;
-margin-bottom: 3px;
-border-style: solid;
-border-width: thin;
-border-color: gray;
+  width: 12rem;
+  height: 100%;
+  margin-bottom: 2rem;
+  font-size: 60%;
+  border: 1px solid #e8e8e8;
 }
 
-.dog-blog{
-  grid-column: 2 /3;
-  grid-row: 6/8;
-  padding: 30px 30px 30px 5px
+.dog > img {
+  width: 100%;
+}
+
+.dog-button{
+  width: 10rem;
+  height: 2rem;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 125%;
+  align-self: center;
+
 }
 
 .dog-photo{
@@ -78,18 +89,17 @@ border-color: gray;
   width: 20rem;
   height: 20rem;
   float: left;
+  padding-right: 30px
 }
 .about-text {
   float: right;
 }
+
 .grid-item-about{
-  grid-column: 1 /3;
-  grid-row: 8/10;
+  display: flex;
+  justify-content: space-between;
 }
-.grid-item-dogs {
-  grid-column: 2 /3;
-  grid-row: 6/8;
-}
+
 #dog-logo{
   width: 25%;
 }
@@ -99,18 +109,17 @@ h2 {
 h3 {
   color: white;
 }
+h4 {
+  font-weight: bold;
+  color: navy;
+}
+
 #dog-footer-logo{
   width: 15%;
 }
 .grid-item-footer{
-  grid-column: 1 /3;
-  grid-row: 16/18;
   background-color: darkblue;
   padding: 3rem;
   margin-bottom: 0rem;
   clear: both;
-}
-.input {
-  grid-column: 2 /3;
-  grid-row: 6/8;
 }
