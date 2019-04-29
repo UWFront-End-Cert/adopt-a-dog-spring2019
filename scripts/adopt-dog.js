@@ -15,4 +15,10 @@ function dogInfo(name,breed,cost){
 	let log = dogName + " is " + breed + "\nCost $" + cost + " to adopt.";
 	console.log(log);
 	alert(log);
-}	
+}
+function checkOut(){
+	var subTotal = document.getElementById('cost');
+	subTotal.textContent = '$' + total;
+	subTotal.style.color = "magenta";
+	subTotal.style.fontSize = "xx-large"; 
+}
