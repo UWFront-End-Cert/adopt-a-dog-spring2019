@@ -24,6 +24,13 @@ header {
   align-self: flex-end;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2% 10% 0% 10%;
+}
+
 nav {
   width: 100%;
   background-color: rgb(217,217,217);
@@ -46,7 +53,7 @@ nav {
 h2 {
   font-weight: bold;
   color: rgb(13,73,132);
-  padding: 0 1% 4% 0;
+  padding: 2% 0% 2% 0%;
 }
 
 img {
@@ -54,9 +61,8 @@ img {
   height: auto;
 }
 
-.intro  {
-  padding-left: 8%;
-  padding-right:8;
+.intro {
+  padding: 0% 4% 2% 4%;
 }
 
 .container {
@@ -68,21 +74,21 @@ img {
 }
 
 .blog {
-  clear:both;
+  clear: both;
   padding: 0% 8% 2% 8%;
 }
 
 .grid-container {
-  clear: both;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  grid-gap: 4%;
-  justify-content: center;
+  grid-template-columns: 22% 22% 22% 22%;
+  grid-column-gap: 4%;
+  row-gap: 6%;
   }
 
 .img1 {
   float: left;
   margin-right: 6%;
+  display: block;
 }
 
 .profile {
@@ -93,9 +99,21 @@ img {
   font-size: 75%;
 }
 
+.see-more {
+  text-align: center;
+}
+
+.all-dogs {
+  padding: 2% 18% 2% 18%;
+}
+
+.button {
+  background-color: #3fb63f;
+}
+
 footer {
   position: static;
-  margin-top: 18%;
+  margin-top: 10%;
   width: 100%;
   border: 4rem;
   background-color: rgb(101,98,98);
