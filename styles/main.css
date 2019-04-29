@@ -257,7 +257,7 @@ footer p
 
     text-decoration: none;
 
-    color: white;
+    color:  #fff;
 }
 
 .second .after:after
@@ -383,7 +383,7 @@ select
 
     border: 1px solid #c0c0c0;
     /* styling */
-    background-color: white;
+    background-color:  #fff;
 
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -486,7 +486,7 @@ select.long
     height: 6px;
 
     border-radius: 50%;
-    background: white;
+    background:  #fff;
 }
 
 .dog-text
