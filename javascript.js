@@ -1,5 +1,5 @@
 function Murphy() {
-    alert("Murphy, Hound Dog, $123.45");
+    alert("Murphy, Hound Dog, $150.89");
   }
 
  function Poppy() {
@@ -7,7 +7,7 @@ function Murphy() {
   }
 
  function Jack() {
-    alert("Jack, Beagle, $123.45")
+    alert("Jack, Beagle, $100.00")
 }
 
  function Duffy() {
@@ -42,15 +42,15 @@ function Murphy() {
     alert("Luna, White Lab, $123.45")
 }
 
- function Stella() {
+  function Stella() {
     alert("Stella, Chihuaha, $123.45")
 }
 
-   let total = 0;
+let total = 0;
 
-   function adder(value) {
-    let innerTotal = 0;
-    innerTotal += value;
+  function adder(value) {
+    let cost = 0;
+    cost += value;
     total += value;
-    alert(total, 'total')
+    alert('Grand total: ' + '$' + total)
   }

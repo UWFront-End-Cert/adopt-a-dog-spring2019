@@ -109,6 +109,9 @@ img {
 
 .button {
   background-color: #3fb63f;
+  color: white;
+  font-weight: bold;
+  width: 100%;
 }
 
 footer {
