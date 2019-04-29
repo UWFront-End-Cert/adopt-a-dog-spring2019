@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles/main.css">
+		<title>Dog Adoption | Checkout</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="title">
+					<div class="left-side">
+						<img src="img/logo.svg" class="logo-img" alt="">
+						<p class="logo-text">Seattle's premiere dog adoption agency</p>
+					</div>
+					<div class="right-side">
+						<img src="img/cart-icon.svg" class="cart-img" alt="">
+						<span class="cart-price">$1234.56</span>
+						<a href="checkout.html" class="button-top">Checkout</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav class="nav-first">
+			<div class="container">
+				<a href="index.html">Home</a>
+				<span class="after"></span>
+				<a href="dogs.html">Dogs</a>
+				<span class="after"></span>
+				<a href="blog.html">Blog</a>
+			</div>
+		</nav>
+		<section class="checkout-second">
+			<div class="container">
+				<h2>Checkout</h2>
+				<form action="#">
+					<label for="name">Name</label><input type="text" name="Name" id="name">
+					<label for="email">Email</label><input type="email" name="Email" id="email">
+					<label for="adress">Street Adress</label><input type="text" name="Adress" id="adress">
+					<div class="form-row">
+						<div class="city-form"><label for="city">City</label><input type="text" name="City" id="city"></div>
+						<div class="state-form"><label for="state">State</label>
+						<select name="State" id="state">
+							<option disabled selected value>&#160;</option>
+							<option value="WA">WA</option>
+						</select></div>
+						<div class="zip-form"><label for="zip">Zip Code</label><input type="number" min="0" name="ZipCode" id="zip">
+					</div></div>
+					
+					<span class="label">First Time Adopter?</span>
+					<label class="radio-container">Yes
+						<input type="radio" name="First_Time?" value="yes">
+						<span class="checkmark"></span>
+					</label>
+					<label class="radio-container">No
+						<input type="radio" name="First_Time?" value="no">
+						<span class="checkmark"></span>
+					</label>
+					<label for="location">Pickup Location</label>
+					<select class="long" name="Pickup_Location" id="location">
+						<option disabled selected value>&#160;</option>
+						<option value="Hawaii">Hawaii</option>
+					</select>
+					<span class="label dog-text">Dogs Adopted</span>
+					<div class="adopted">
+						<div class="adopted-item">
+							<img src="img/check-1.jpg" alt="">
+							<div class="mini-container">
+								<h3>Lucas</h3>
+								<span class="bold">Cost to Adopt</span>
+								<span class="price">$ 123.45</span>
+							</div>
+						</div>
+						<div class="adopted-item">
+							<img src="img/check-2.jpg" alt="">
+							<div class="mini-container">
+								<h3>Duffy</h3>
+								<span class="bold">Cost to Adopt</span>
+								<span class="price">$ 123.45</span>
+								
+							</div>
+						</div>
+					</div>
+					<span class="label dog-text">Total Adoption Cost</span>
+					<span class="total">$1236.45</span>
+					<input type="submit" class="button" value="Submit">
+				</form>
+			</div>
+		</section>
+		<footer>
+			<img src="img/logo.svg" alt="logo">
+			<p>and typesetting industry. Lorem Ipsum has been the industryand typesetting industry. Lorem Ipsum has been the industry</p>
+			<nav class="second">
+				<a href="index.html">Home</a>
+				<span class="after"></span>
+				<a href="dogs.html">Dogs</a>
+				<span class="after"></span>
+				<a href="#">Contacts</a>
+			</nav>
+			<span class="left">© 2018 Adaptog, LLC</span><span>Seattle, WA</span>
+		</footer>
+		
+		
+	</body>
+</html>
