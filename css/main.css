@@ -211,6 +211,7 @@ ul.cards li{
 ul.cards li img{
   width: 100%;
   height: auto;
+  cursor: pointer;
 }
 
 ul.cards li h2,
