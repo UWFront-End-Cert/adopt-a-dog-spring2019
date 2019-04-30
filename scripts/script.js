@@ -5,7 +5,7 @@ function murphyInfo() {
 }
 
 function poppyInfo() {
-		alert("Poppy, Beagle, $123.45");
+		alert("Poppy, Shih Tzu, $123.45");
 }
 
 function jackInfo() {
@@ -46,4 +46,12 @@ function lunaInfo() {
 
 function stellaInfo() {
 		alert("Violet, Chihuahua, $123.45");
+}
+
+//index.html & dogs.html click handlers for ADOPT BUTTONS
+let total = 0;
+
+function adoptAlert() {
+		total += 123.45;
+	alert('This dog has been added to your cart. Total: $' + total);
 }
