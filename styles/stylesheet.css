@@ -27,7 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 5% 5%;
+  padding: 3rem 3rem;
 }
 
 .header-text {
@@ -46,9 +46,9 @@ header a {
 
 .checkout {
   background-color: #00cc00;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 /*Styling for navigation*/
@@ -108,7 +108,7 @@ h3 {
   align-content: space-between;
 }
 
-.intro aside {
+.intro-text {
   width: calc(40% - 2rem);
   height: auto;
   margin-left: 2rem;
@@ -155,9 +155,7 @@ button {
   width: 90%;
   font-size: 1rem;
   font-weight: 700;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 /* Styling the content in the container-dogs flexbox */
@@ -167,10 +165,7 @@ button {
   width: calc(20% - 1rem);
   max-width: 32rem;
   min-width: 18rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 2rem;
   border-style: solid;
   border-width: thin;
   border-color: #e6e6e6;
@@ -189,9 +184,20 @@ button {
   margin-left: 1rem;
 }
 
+/* Display "cost to adopt" phrase and price inline together */
+
 .dog-cost {
+  display: inline-block;
   font-weight: 700;
   margin-left: 1rem;
+}
+
+.amount {
+  display: inline-block;
+}
+
+.breed {
+  display: none;
 }
 
 /* See More Dogs button styling */
@@ -211,12 +217,13 @@ button {
 }
 
 /* Styling for the Blog page */
-/* .blog-header {
+.blog-header {
   display: flex;
+  color: #00394d;
   height: auto;
   flex-direction: row;
-  justify-content: center;
-} */
+  align-items: center;
+}
 
 .blog {
   display: flex;
@@ -235,7 +242,11 @@ button {
 .blog img {
   width: 25%;
   height: auto;
-  margin-top: 1rem;
+  min-width: 25rem;
+  max-width: 25rem;
+  min-height: 23rem;
+  max-height: 23rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -259,7 +270,7 @@ fieldset {
 }
 
 label {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 /* Getting labels on top of input fields */
@@ -269,13 +280,13 @@ label {
 
 .contact input {
   display: block;
-  width: 50%;
+  width: 46rem;
   height: 3rem;
 }
 
 .location select {
   display: block;
-  width: 10%;
+  width: 15rem;
   height: 3rem;
 }
 
@@ -310,12 +321,6 @@ label {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  /* align-content: space-between; */
-}
-
-.adopted aside {
-  margin-left: 1rem;
-  float: right;
 }
 
 .adopt-cost {
@@ -329,6 +334,7 @@ label {
   float: left;
   width: 8rem;
   height: 8rem;
+  margin-right: 1rem;
 }
 
 .adopted {
@@ -362,7 +368,7 @@ section {
 .adopt-value {
   font-family: 'Open Sans', 'Lato', sans-serif;
   color: #000000;
-  font-size: .5rem;
+  font-size: 0.5rem;
 }
 
 /* Submit button styling */
@@ -370,9 +376,9 @@ input[type=submit] {
   background-color: #00cc00;
   color: #ffffff;
   border: none;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  padding: .5rem 6rem;
+  padding: 0.5rem 6rem;
 }
 
 /* Footer styling for background, text, positioning, links, etc. */
@@ -391,7 +397,7 @@ footer {
   align-content: space-around;
   color: #ffffff;
   margin-top: 10rem;
-  padding: 5% 5%;
+  padding: 3rem 3rem;
 }
 
 .footer-text {
