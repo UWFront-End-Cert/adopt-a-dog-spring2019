@@ -1,6 +1,6 @@
 
-function doggoInfo(name, cost) {
-  alert('Name: ' + name + '\n' + 'Cost: ' + cost);
+function doggoInfo(name, breed, cost) {
+  alert('Name: ' + name + '\n' + 'Breed: ' + breed + '\n' + 'Cost: ' + cost);
 }
 
 let total = 0
