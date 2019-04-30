@@ -219,12 +219,13 @@ ul.cards li p{
   margin: 10px 5px;
 }
 
-ul.cards li a.action-button{
+ul.cards li button.action-button{
   width: calc(100% - 10px);
   margin: 0 5px 8px 5px;
   /* pin button to bottom of card for neater rows as content varies */
   position: absolute;
   bottom: 0;
+  cursor: pointer;
 }
 
 footer{
