@@ -20,7 +20,7 @@
 				</figure>
 			</div>
 			<div class="checkout">
-				<a href="#"><img src="images/cart-icon.svg" alt="checkout image"></a><em id="cost">$1234.56</em>
+				<a href="#"><img src="images/cart-icon.svg" alt="checkout image"></a><em id="cost">$0</em>
 				<p>
 				<button onclick='checkOut()' type="button">Checkout</button>
 			</div>
@@ -36,89 +36,90 @@
 	<section>
 		<h1>Hare are all of our Dogs! </h1>
 
-	<div class="clear dogs-flex-container">
-		<div>
-			<img onclick='dogInfo("murphy","beagle",100.10)' src="images/murphy-card.jpg" alt="murphy dog image">
-			<div class="dog">
-				<p>Murphy</p>
-				<p><strong>Cost to Adopt:</strong> $100.10</p>
-				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-				<button onclick='buyIt(100.10)' type="button">Adopt</button>
+		<div class="clear dogs-flex-container">
+			<div>
+				<img onclick='dogArray(["murphy","beagle",100.10])' src="images/murphy-card.jpg" alt="murphy dog image">
+				<div class="dog">
+					<p>Murphy</p>
+					<p><strong>Cost to Adopt:</strong> $100.10</p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(100.10)' type="button">Adopt</button>
+				</div>
 			</div>
-		</div>
-
-		<div>
-			<img onclick='dogInfo("poppy","bullmastiff",100.20)'  src="images/poppy-card.jpg" alt="poppy dog image">
-			<div class="dog">
-				<p>Poppy </p>
-				<p><strong>Cost to Adopt:</strong> $100.20</p>
-				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-				<button onclick='buyIt(100.20)' type="button">Adopt</button>
-			</div>
-		</div>
-
-		<div>
-			<img onclick='dogInfo("jack","bloodhound",100.30)'  src="images/jack-card.jpg" alt="jack dog image">
-			<div class="dog">
-				<p>Jack</p>
-				<p><strong>Cost to Adopt:</strong> $100.30</p>
-				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-				<button onclick='buyIt(100.30)' type="button">Adopt</button>
-			</div>
-		</div>
-		
-		<div>
-			<img onclick='dogInfo("duffy","akita",100.40)'  src="images/duffy-card.jpg" alt="duffy dog image">
-			<div class="dog">
-				<p>Duffy </p>
-				<p><strong>Cost to Adopt:</strong> $100.40</p>
-				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-				<button onclick='buyIt(100.40)' type="button">Adopt</button>
-			</div>
-		</div>
-
-		<div class="clear flex-elem">
-			<img onclick='dogInfo("lucas","boxer",100.50)'  src="images/lucas-card.jpg" alt="lucas dog image">
-			<div class="dog">
-				<p>Lucas</p>
-				<p><strong>Cost to Adopt:</strong> $100.50</p>
-				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-				<button onclick='buyIt(100.50)' type="button">Adopt</button>
-			</div>
-		</div>
-
-		<div>
-			<img onclick='dogInfo("jake","beagle",200.10)'  src="images/jake-card.jpg" alt="jake dog image">
-			<div class="dog">
-				<p>Jake </p>
-				<p><strong>Cost to Adopt:</strong> $200.10</p>
-				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-				<button onclick='buyIt(200.10)' type="button">Adopt</button>
-			</div>
-		</div>
-
-		<div>
-			<img onclick='dogInfo("angus","tervuren",200.20)'  src="images/angus-card.jpg" alt="angus dog image">
-			<div class="dog">
-				<p>Angus</p>
-				<p><strong>Cost to Adopt:</strong> $200.20</p>
-				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-				<button onclick='buyIt(200.20)' type="button">Adopt</button>
-			</div>
-		</div>
-
-		<div>
-			<img onclick='dogInfo("violet","greyhound",200.30)'  src="images/violet-card.jpg" alt="violet dog image">
-			<div class="dog">
-				<p>Violet </p>
-				<p><strong>Cost to Adopt:</strong> $200.30</p>
-				<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-				<button onclick='buyIt(200.30)' type="button">Adopt</button>
-			</div>
-		</div>
 
 			<div>
-				<img onclick='dogInfo("piper","boxer",300.77)'  src="images/piper-card.jpg" alt="a boy huges a dog image">
+				<img onclick='dogArray(["poppy","bullmastiff",100.20])' src="images/poppy-card.jpg" alt="poppy dog image">
+				<div class="dog">
+					<p>Poppy </p>
+					<p><strong>Cost to Adopt:</strong> $100.20</p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(100.20)' type="button">Adopt</button>
+				</div>
+			</div>
+
+			<div>
+				<img onclick='dogArray(["jack","bloodhound",100.30])' src="images/jack-card.jpg" alt="jack dog image">
+				<div class="dog">
+					<p>Jack</p>
+					<p><strong>Cost to Adopt:</strong> $100.30</p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(100.30)' type="button">Adopt</button>
+				</div>
+			</div>
+			
+			<div>
+				<img onclick='dogArray(["duffy","akita",100.40])' src="images/duffy-card.jpg" alt="duffy dog image">
+				<div class="dog">
+					<p>Duffy </p>
+					<p><strong>Cost to Adopt:</strong> $100.40</p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(100.40)' type="button">Adopt</button>
+				</div>
+			</div>
+
+			<div class="clear flex-elem">
+				<img onclick='dogArray(["lucas","boxer",100.50])' src="images/lucas-card.jpg" alt="lucas dog image">
+				<div class="dog">
+					<p>Lucas</p>
+					<p><strong>Cost to Adopt:</strong> $100.50</p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(100.50)' type="button">Adopt</button>
+				</div>
+			</div>
+
+			<div>
+				<img onclick='dogArray(["jake","beagle",200.10])' src="images/jake-card.jpg" alt="jake dog image">
+				<div class="dog">
+					<p>Jake </p>
+					<p><strong>Cost to Adopt:</strong> $200.10</p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(200.10)' type="button">Adopt</button>
+				</div>
+			</div>
+
+			<div>
+				<img onclick='dogArray(["angus","tervuren",200.20])' src="images/angus-card.jpg" alt="angus dog image">
+				<div class="dog">
+					<p>Angus</p>
+					<p><strong>Cost to Adopt:</strong> $200.20</p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(200.20)' type="button">Adopt</button>
+				</div>
+			</div>
+
+			<div>
+				<img onclick='dogArray(["violet","greyhound",200.30])' src="images/violet-card.jpg" alt="violet dog image">
+				<div class="dog">
+					<p>Violet </p>
+					<p><strong>Cost to Adopt:</strong> $200.30</p>
+					<p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
+					<button onclick='buyIt(200.30)' type="button">Adopt</button>
+				</div>
+			</div>
+
+
+			<div>
+				<img onclick='dogArray(["piper","boxer",300.77])' src="images/piper-card.jpg" alt="a boy huges a dog image">
 				<div class="dog">
 					<p>Piper</p>
 					<p><strong>Cost to Adopt: $300.77</strong></p>
@@ -128,7 +129,7 @@
 			</div>
 
 			<div>
-				<img onclick='dogInfo("maximus","beagle",300.88)'  src="images/maximus-card.jpg" alt="a boy huges a dog image">
+				<img onclick='dogArray(["maximus","beagle",300.88])' src="images/maximus-card.jpg" alt="a boy huges a dog image">
 				<div class="dog">
 					<p>Maximus</p>
 					<p><strong>Cost to Adopt: $300.88</strong></p>
@@ -138,7 +139,7 @@
 			</div>
 
 			<div>
-				<img onclick='dogInfo("luna","greyhound",300.99)'  src="images/luna-card.jpg" alt="a boy huges a dog image">
+				<img onclick='dogArray(["luna","greyhound",300.99])' src="images/luna-card.jpg" alt="a boy huges a dog image">
 				<div class="dog">
 					<p>Luna </p>	
 					<p><strong>Cost to Adopt: $300.99</strong></p>
@@ -148,7 +149,7 @@
 			</div>
 
 			<div>
-				<img onclick='dogInfo("stella","akita",400.00)'  src="images/stella-card.jpg" alt="a boy huges a dog image">
+				<img onclick='dogArray(["stella","akita",400.00])' src="images/stella-card.jpg" alt="a boy huges a dog image">
 				<div class="dog">
 					<p>Stella</p>
 					<p><strong>Cost to Adopt: $400.00</strong></p>
