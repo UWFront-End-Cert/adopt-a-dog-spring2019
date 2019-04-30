@@ -1,0 +1,51 @@
+//global variables
+let dogIDs = [];
+let feeTotal = 0;
+
+//create fee total cookie
+//document.cookie = "fees=0";
+init();
+
+
+//walk DOM, extract image filenames, set as ID's on card <li>'s
+//these ID's will correspond with ID's in XML data document
+//create array of dog card ID's
+function init(){
+  dogIDs = document.getElementById('cardlist').getElementsByTagName('li');
+  console.log(dogIDs.length);
+
+  return true;
+}
+
+//create connection to xml file
+
+
+
+
+//loop through array of ID's
+  //check for match with XML and card id's
+
+    //if valid, store XML dog data in variables
+
+      //find img and a for each card ID, assign onClick events with params
+
+
+    //else assign onClick event to alert "call for details"
+
+
+//image click functions
+
+//pop alert with name, breed and filenames
+
+
+//pop alert with "call for details"
+
+
+//button (<a>) click function
+  //add adoption fee to feeTotal
+
+  //update cookie
+
+  //create dollar formatted string from feeTotal
+
+  //pop alert with formatted fee total
