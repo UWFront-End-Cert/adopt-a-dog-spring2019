@@ -48,3 +48,23 @@ h2 {
 .third {
   background-color: blue;
 }
+
+.logo {
+  height: 15em;
+  width: 15em;
+}
+
+.header-img {
+  height: 25em;
+  width: 55em;
+}
+
+.cart-icon {
+  height: 2em;
+  width: 2em;
+}
+
+.dog-img {
+  height: 8em;
+  width: 8em;
+}
