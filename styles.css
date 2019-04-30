@@ -128,6 +128,8 @@ h2 {
 .blog-entry {
   clear: both;
   padding: 1rem 2rem;
+  max-width: 75rem;
+  margin: auto;
 }
 
 .blog-entry img {
@@ -358,7 +360,7 @@ input[type=text],
 input[type=email] {
   border: 2px solid #D6D6D6;
   height: 2.2rem;
-  width: 100%;
+  width: 70%;
   margin-bottom: 3%;
   padding: 1%;
 }
@@ -391,7 +393,7 @@ input[type=radio] {
 }
 
 .city-state-zip {
-  width: 100%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
