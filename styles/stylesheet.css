@@ -78,6 +78,9 @@
 .dog-card > img {
   width: 100%;
 }
+.dog-card > img:hover {
+  cursor: pointer;
+}
 .dog-card > h3 {
     color: #1c356d;
     padding: 0 5%;
