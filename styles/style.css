@@ -127,7 +127,7 @@
   margin: 0;
 }
 .top-text p{
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .dog-checkout{
@@ -202,16 +202,19 @@ span{
   padding-top: 2rem;
 }
 .foot-items{
-  max-width: 35%;
+  max-width: 100%;
   text-align: center;
 }
 .foot ul {
-  padding-left: 6rem;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style-type: none;
   overflow: hidden;
 }
 .foot li {
-  float: left;
+
 }
 .foot li a {
   display: block;
@@ -220,13 +223,13 @@ span{
   padding: 5px 5px;
   text-decoration: none;
 }
-.foot a:after {
-  padding-left: 6px;
+.foot a:before {
+  padding-right: 10px;
   content: "/";
   color: white;
 }
-.foot li:last-child a:after{
-  content: "";
+.foot li:first-child a:before{
+  content: " ";
 }
 .more input[type=button]{
   width: 15rem;
