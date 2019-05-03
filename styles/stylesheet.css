@@ -1,69 +1,133 @@
-*{
-border: 0;
-padding: 0;
-margin: 0;
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+html[Attributes Style] {
+    -webkit-locale: "en";
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+html {
+  display: block;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    max-width: 100%;
+    display: block;
+}
 
 header {
-  background-color: #1c384f;
+  display: flex;
+  justify-content: space-between;
   margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.logoimg {
-  width: 40%;
-  padding: 0;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  padding: 3em 4em 0;
+  background-image: url(C:/Users/Katelyn/Desktop/adopt-a-dog-spring2019-master/adopt-a-dog-spring2019/images/header-image.jpg);
+  background-size: cover;
+  color: #FFFFFF;
+  height: 36em;
 }
 
 .headertext {
-  color: #668c2c;
+  font-size: 1.9rem;
   font-style: italic;
-  font-size: 1.8rem;
-  padding-bottom: 3rem;
+  color: green;
 }
 
-/* figure out how to float to the top right of the header */
+.checkoutbox {
+  margin: 0;
+  display: block;
+}
 
-.moveit {
-  float: right;
+.logoimg {
+  width: 35em;
 }
 
 .cartimg {
-  width: 2%;
-
+  width: 2em;
+  margin-right: .5rem;
 }
 
-.totalcost {
-  width: 10%;
-
+.checkoutbutton {
+    background-color: green;
+    color: #FFFFFF;
+    height: 3em;
+    width: 100%;
+    padding: 1em 2em;
+    border-radius: 0.2em;
 }
 
 /* NAVIGATION */
 
-ul {
-  width: 100%;
-  background-color: #dbdbdb;
-  overflow: hidden;
+nav {
+  background-color: #d1d1d1;
+  height: 3.9rem;
+}
+
+nav ul {
+  padding: 18px 0;
+  width: 90%;
+  margin: auto;
 }
 
 li {
-   display: inline-block;
-   padding-left: 2%;
- }
+  padding: 18px 0;
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+}
 
- li a {
-   text-decoration: none;
-   font-weight: bold;
-   font-size: 1rem;
-   color: #143363;
-   display: block;
-   padding: 15px 3px 15px 3px;
- }
+li a {
+  text-decoration: none;
+  color: #1c4282;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1em;
+}
 
- /* BODY */
+/* MAIN SECTION */
 
- .mainsection {
+.mainsection {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+}
 
- }
+article {
+  display: block;
+  width: 50%;
+  padding: 2em;
+}
+
+h2 {
+  padding-bottom: 1em;
+  color: #1c4282;
+}
+
+/* DOG PROFILES */
+
+.dogprofiles {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  justify-content: center;
+  align-content: space-between;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+}
+
+.dog {
+  display: block;
+  width: 22em;
+  padding: 3em;
+}
+
+.dogpic {
+  width: 100%;
+}
