@@ -1,23 +1,20 @@
 .Body {
-bacoground-color: rgb(236,236,236);
+background-color: black;
 text-align: center;
 }
 
-.home-intro {
+.dogface {
+  position: relative;
   width: 100%;
   height: auto;
 }
-
-.dogface {
-  width: auto;
-  height: 15px;
-}
-
 .logotop {
- 	top: 10px;
- 	left: 10px;
+  size: 33%;
 }
 
+.nav{
+  color: rgb(236, 236,236);
+}
 img {
       height: 200px;
       width: inherit;
@@ -49,7 +46,10 @@ img {
 }
 
 .meet-me {
-  size: 2px;
+  height: 2px;
+  width: 11%; height: 50%;">&nbsp;</td>
+  padding: 15px
+
 }
 
 button, input, select, textarea {
@@ -59,9 +59,10 @@ button, input, select, textarea {
   display: block;
   margin: 1rem;
 }
+
 input[type=submit] {
   width:100%;
-  background-color:rgb(129,183,65);
+  background-color: rgb(129,183,65);
 }
 
 input {
