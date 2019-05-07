@@ -1,65 +1,76 @@
 <!DOCTYPE html>
-<html lang="zxx" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADOPTADOG</title>
+    <title>Adopt A Dog</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <!-- Per Google Fonts, this code is necessary in the HTML files. The CSS portion is in the stylesheet.css -->
   </head>
 
   <body>
-      <header>
-        <div class='float-right'>
-          <img src="images/cart-icon.svg" alt="Shopping cart icon." width="30">
-          $1234.56<br>
-          <button>Checkout</button>
-        </div>
-        <img src="images/adoptadog-logo.svg" alt="Profile of a brown dog, staring at something." width="175">
-        <h1>ADOPTADOG</h1>
-        <h3>Seattle's premier dog adoption agency.</h3>
-      </header>
+    <header>
+      <div class="header-banner">
+        <img src="images/cart-icon.svg" alt="An icon of a shopping cart, displayed next to 'checkout'." width="30">
+        <strong>$1234.56</strong>
+        <button>Checkout</button>
+      </div>
 
-      <nav>
+      <img class="logo" src="images/adoptadog-logo.svg" alt="Logo of a silhouette of a sitting dog, and the words 'Adoptadog' next to it." width="300">
+      <h1><em>Seattle's premiere dog adoption agency</em></h1>
+    </header>
+
+    <nav class="top-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>|</li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li>|</li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2 class="blog-intro">Adoptadog Blog</h2>
+      <article class="blog-post">
+        <img src="images/blog-1.jpg" alt="man wraps his arm around his black dog while sitting in a canyon" width="200">
+        <h2>Traveling With Your Dog</h2>
+        <p>Team Rocket Razor Leaf Suicune Heatran Kyurem Articuno Tangrowth. Boulder Badge Vine Whip Kricketune MysteryBerry Hariyama Vermilion City Vaporeon. Earthquake Wooper Mismagius Giovanni Dewgong Plain Badge Lucario. Dragon Plusle Raichu Grovyle Prinplup Meowth Heatmor. Ut labore et dolore magna aliqua Misdreavus Duskull Sableye Houndour Staraptor Timburr.
+        </p>
+      </article>
+
+      <article class="blog-post">
+        <img src="images/blog-2.jpg" alt="four tall dogs of varying breeds sit at attention facing the individual who is holding their leashes" width="200">
+        <h2>How To Walk Multiple Dogs</h2>
+        <p>Grass Water Armaldo Typhlosion Yanma Registeel Crobat. Ivysaur Shaymin Bastiodon James Tentacool Marshtomp Sawk. Ut enim ad minim veniam Unfezant Dragonite Psyduck Azelf Gliscor Soda Pop. Velit esse cillum dolore eu fugiat nulla pariatur Oshawott Pokeball Ludicolo Wooper Helix Fossil Starmie. Celadon Department Store Leech Life Pokemon, it's you and me Monferno Tympole Silcoon oh, you're my best friend.
+        </p>
+        <p>Silver Spinda Cobalion Haxorus Dragonair Sawk Calcium. Squirtle Dewott Aggron Pokemon The Movie 2000 Poochyena Cherrim Kingler. Glacier Badge Weedle Tympole Happiny Claydol Ferrothorn Pokemon. Ut enim ad minim veniam Spinarak Riolu Azurill Brock Yanma Scraggy. Sunt in culpa Dusknoir blast off at the speed of light Sneasel oh, you're my best friend Slowbro Girafarig.
+        </p>
+      </article>
+
+      <article class="blog-post">
+        <img src="images/blog-3.jpg" alt="little girl holds up a ball in front of her sitting dog" width="200">
+        <h2>Teach Your Dog To Fetch!</h2>
+        <p>Water Gun make it double Primeape Chinchou Cacnea Manaphy Wartortle. Misty Quagsire Jynx Town Map Meloetta Tyrogue Barboach. Water Gun Machamp Yellow Dratini Nidorino Haunter Keldeo. Blizzard Bidoof Pineco Blizzard Silver Marowak Volcano Badge. Normal in a world we must defend Volcarona Pokemon Garchomp Leavanny Alomomola.
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      <img src="images/adoptadog-logo.svg" alt="Logo of a silhouette of a sitting dog, and the words 'Adoptadog' next to it." width="300">
+      <p>Gingerbread cupcake marshmallow I love sugar plum gingerbread liquorice. Gummi bears chocolate bar jelly beans gingerbread I love bonbon marshmallow.</p>
+      <nav class="bottom-nav">
         <ul>
-          <li><a href="index.html" target="_blank">Home</a>|</li>
-          <li><a href="dogs.html" target="_blank">Dogs</a>|</li>
-          <li><a href="blog.html" target="_blank">Blog</a>|</li>
+          <li><a href="index.html">Home</a></li>
+          <li>|</li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li>|</li>
+          <li><a href="">Contact</a></li>
         </ul>
       </nav>
-
-      <section class="flexbox-container">
-        <h2>Adoptadog Blog</h2>
-        <article>
-          <img src="images/blog-1.jpg" alt="Man and dog, sitting somewhere in the canyons, as man has his arm around the dog." width="1">
-          <h3>Traveling with Your Dog</h3>
-          <p>Tamagotchi alanis morissette flannel shirts business casual crib super mario world. You’ve got mail pop punk converse rad pixie cut royal stewart tartan. Fresh crop tops mtv minesweeper, lunchables deep blue grunge cheetos. Yin yang bucket hats dotcom bubble hush puppies, christina aguilera overalls with one strap undone mario lemieux once you pop you can’t stop be kind rewind hotmail.</p>
-        </article>
-
-        <article>
-          <img src="images/blog-2.jpg" alt="Four different breeds of dogs, sitting, as they stare at something while being excited." width="1">
-          <h3>How to Walk Multiple Dogs</h3>
-          <p>Tamagotchi alanis morissette flannel shirts business casual crib super mario world. You’ve got mail pop punk converse rad pixie cut royal stewart tartan. Fresh crop tops mtv minesweeper, lunchables deep blue grunge cheetos. Yin yang bucket hats dotcom bubble hush puppies, christina aguilera overalls with one strap undone mario lemieux once you pop you can’t stop be kind rewind hotmail.</p>
-        </article>
-
-        <article>
-          <img src="images/blog-3.jpg" alt="Silhouette of a girl with a ball in hand, and a dog, playing fetch." width="200">
-          <h3>Teach Your Dog to Fetch!</h3>
-          <p>Tamagotchi alanis morissette flannel shirts business casual crib super mario world. You’ve got mail pop punk converse rad pixie cut royal stewart tartan. Fresh crop tops mtv minesweeper, lunchables deep blue grunge cheetos. Yin yang bucket hats dotcom bubble hush puppies, christina aguilera overalls with one strap undone mario lemieux once you pop you can’t stop be kind rewind hotmail.</p>
-        </article>
-      </section>
-
-      <footer>
-          <img src="images/adoptadog-logo.svg" class='logo' alt="Adoptadog logo.">
-          <p>Cuis aute irure dolor in reprehenderit in voluptate.</p>
-          <nav>
-            <ul>
-              <li><a href="index.html" class="">Home</a> |</li>
-              <li><a href="dogs.html" class="">Dogs</a> |</li>
-              <li><a href="contact.html" class="">Contact</a> |</li>
-            </ul>
-          </nav>
-          <p>&copy; 2019 Adoptadog, LLC | Seattle, WA</p>
-      </footer>
+      <h3>&copy; 2019 Adoptadog, LLC | Seattle, WA</h3>
+    </footer>
+    <script src="script/script.js" charset="utf-8"></script>
     </body>
-  </html>
+    </html>

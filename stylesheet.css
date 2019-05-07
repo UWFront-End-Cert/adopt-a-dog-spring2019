@@ -1,83 +1,231 @@
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
+	padding: 0em 2em;
+}
+
+h1 {
+	color: limegreen;
 }
 
 header {
-	background-image: url("images/header-image.jpg");
-	background-size: cover;
-	color: white;
-	height: 400px;
-	padding: 5rem;
-}
-
-.float-right {
-	float: right;
-	padding: 4em;
-}
-
-header button {
-  background-color: green;
+  background-image: url("images/header-image.jpg");
+  padding: 7em;
   color: white;
-  font-weight: bolder;
-	border-style: none;
-	height: 30px;
-	width: 110px;
 }
 
-header h1 {
+.header-banner {
+  float: right;
+  width: 100px;
 }
 
-header h3 {
-  color: green;
-	font-style: italic;
+header.logo {
+  clear: both;
 }
 
 nav {
-	padding:1em;
+  background-color: lightgray;
+  padding: 0.3em;
 }
 
-.flexbox-container {
-  display: inline-flex;
-	flex-direction: row;
-  justify-content: center;
-	align-content: center;
-  padding: 10em;
-}
-
-article button {
-	background-color: green;
-  color: white;
-  font-weight: bolder;
-	border-style: none;
-	height: 30px;
-	width: 110px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-	display:inline;
+nav ul li {
+  display: inline;
+  margin: 0.5em;
+  color: #006699;
 }
 
 a {
-	color: black;
-	padding: 1%;
-	text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-footer{
-  padding-top: 20px;
-  text-align: center;
+a:visited {
+	color: #006699;
+}
+
+.intro, .blog-post {
+  margin: 2em 6.5em 1em 6.5em;
+  display: inline-block;
+}
+
+.intro img, .blog-post img {
+  float: left;
+  width: 30%;
+}
+
+.intro p, .intro h1, .blog-post p, .blog-post h2{
+  margin: 1em 2em;
+  display: table;
+  position: relative;
+  left: 2rem;
+  width: 60%;
+}
+
+.intro h1 {
+  color: #154360;
+}
+
+.flex-top {
+  width: 100%;
+  margin: 1.5em 3.5em 0 3.5em;
+}
+
+.blog-intro {
+  margin: 2em 3.5em 0 4.25em;
+}
+
+h2 {
+  color: #154360;
+  margin-top: 2em;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
   clear: both;
-  color: white;
-	padding: 1rem;
+}
+
+.flex-dog {
+  width: 20%;
+  border: 2px solid #D3D3D3;
+  margin: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.flex-dog img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-dog h2, .flex-dog h3, .flex-dog p {
+  margin: 0.5rem 1rem;
+}
+
+.flex-dog button, .checkout-submit {
+  background-color: limegreen;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.flex-dog button {
+  width: 90%;
+  margin: 0.5em 0.5em 0.5em 1em;
+}
+
+.noflexpls {
+  display: block;
+  width: 15%;
+  margin: 2em;
+  font-size: 1em;
+  color: #154360;
+  font-weight: bolder;
+  padding: 0.5em;
+}
+
+.checkout {
+  margin: 2em 6.5em 1em 4em;
+}
+
+.checkout label, legend {
+  font-size: 1.5em;
+  margin-left: 1.5em;
+  color: #154360;
+  font-weight: bold;
+}
+
+input, select {
+  position: relative;
+  left: 2em;
+  width: 70%;
+  height: 2.5em;
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.inline-radio, .inline-radio input {
+  display: inline;
+  width: 5%;
+}
+
+fieldset {
+  border: 0;
+  position: relative;
+  right: 2em;
+}
+
+.inline-radio label {
+  font-size: 4rem;
+  color: #000000;
+}
+
+.city input {
+  width: 35%;
+}
+
+.state select, .location select{
+  width: 14%;
+}
+
+.zip input {
+  width: 21%;
+}
+
+.adopted, .adopted h3 {
+  display: inline-block;
+  padding: 0 1.5em;
+}
+
+.adopted p {
+  display: inline;
+  position: relative;
+  right: 5em;
+  bottom: -2em;
+  margin-bottom: 3em;
+}
+
+.checkout-submit {
+  font-weight: bolder;
+  width: 15%;
+}
+
+footer {
+  background-color: #006699;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1rem;
+  padding: 2.5em;
+}
+
+footer {
+  margin-top: 2.5em;
+}
+
+footer p {
+  width: 25rem;
+  margin: 1em auto;
+  line-height: 1.5em;
+}
+
+.bottom-nav ul li{
+  color: #FFFFFF;
+}
+
+.bottom-nav a:visited{
+  color: #FFFFFF;
+}
+
+.bottom-nav {
+  background-color: #006699;
+  margin-bottom: 0.5em;
+}
+
+footer h3 {
+  margin: 0;
 }

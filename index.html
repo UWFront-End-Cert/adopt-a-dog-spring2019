@@ -1,106 +1,130 @@
 <!DOCTYPE html>
-<html lang="zxx" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADOPTADOG</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <!-- Per Google Fonts, this code is necessary in the HTML files. The CSS portion is in the stylesheet.css -->
+    <title>Adopt a Dog</title>
   </head>
 
   <body>
-      <header>
-        <div class='float-right'>
-          <img src="images/cart-icon.svg" alt="Shopping cart icon." width="30">
-          $1234.56<br>
-          <button>Checkout</button>
-        </div>
-        <img src="images/adoptadog-logo.svg" alt="Profile of a brown dog, staring at something." width="175">
-        <h1>ADOPTADOG</h1>
-        <h3>Seattle's premier dog adoption agency.</h3>
-      </header>
+    <header>
+      <div class="header-banner">
+        <img src="images/cart-icon.svg" alt="An icon of a shopping cart, displayed next to 'checkout'." width="30">
+        <strong>$1234.56</strong>
+        <form action="checkout.html">
+          <input type="submit" value="Checkout" />
+        </form>
+      </div>
 
-      <nav>
+      <img class="logo" src="images/adoptadog-logo.svg" alt="Logo of a silhouette of a sitting dog, and the words 'Adoptadog' next to it." width="300">
+      <h1><em>Seattle's premiere dog adoption agency</em></h1>
+    </header>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>|</li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li>|</li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+
+    <section class="intro">
+      <img src="images/home-intro.jpg" alt="Man embracing a golden retriever, that's smiling widely." width="200">
+      <h1>Adopt a Dog</h1>
+      <p>Marshmallow candy oat cake liquorice bear claw sugar plum. Biscuit powder dessert tart cookie danish tart. Marzipan dragée caramels gummies chocolate toffee sesame snaps. Tiramisu icing bonbon soufflé gingerbread oat cake apple pie dessert. Ice cream sweet powder. Topping gummies cheesecake jelly. Bonbon powder cookie gingerbread cookie cake. Biscuit cake macaroon jelly beans dragée wafer topping. Donut chocolate cake apple pie. Lollipop marzipan jelly-o jelly-o danish carrot cake gingerbread jelly. Cheesecake chocolate cake bonbon chocolate bar tootsie roll pastry jelly-o. Jelly fruitcake cookie. Dragée gummies macaroon bear claw cheesecake jelly.
+      </p>
+    </section>
+
+    <section class="flexbox-container">
+      <h2 class="flex-top">Selection of Dogs</h2>
+      <!-- W3 HTML code check states that a h2 header is necessary -->
+      <article class="flex-dog">
+        <img src="images/murphy-card.jpg" alt="Light brown dog, staring at something with curiosity." width="175" onclick="alert('Murphy, $123.45')">
+        <h2>Murphy</h2>
+        <h3><strong>Cost to Adopt:</strong> $123.45</h3>
+        <p>Lemon drops soufflé apple pie. Soufflé jelly cheesecake. I love jelly I love toffee sesame snaps tootsie roll cake.
+        </p>
+        <button onclick="addToTotal(123.45)">Adopt</button>
+      </article>
+
+      <article class="flex-dog">
+        <img src="images/poppy-card.jpg" alt="White/tan shih-tzu that's walking with a smile." width="175" onclick="alert('Poppy, $123.45')">
+        <h2>Poppy</h2>
+        <h3><strong>Cost to Adopt:</strong>$123.45</h3>
+        <p>Lemon drops soufflé apple pie. Soufflé jelly cheesecake. I love jelly I love toffee sesame snaps tootsie roll cake.
+        </p>
+        <button onclick="addToTotal(123.45)">Adopt</button>
+      </article>
+
+      <article class="flex-dog">
+        <img src="images/jack-card.jpg" alt="Beagle that's looking up at something to its right." width="175" onclick="alert('Jack, $123.45')">
+        <h2>Jack</h2>
+        <h3><strong>Cost to Adopt:</strong> $123.45</h3>
+        <p>TLemon drops soufflé apple pie. Soufflé jelly cheesecake. I love jelly I love toffee sesame snaps tootsie roll cake.</p>
+        <button onclick="addToTotal(123.45)">Adopt</button>
+      </article>
+
+      <article class="flex-dog">
+        <img src="images/duffy-card.jpg" alt="White and tan dog with blue eyes that's staring intently at the camera, pitbull." width="175" onclick="alert('Duffy, $123.45')">
+        <h2>Duffy</h2>
+        <h3><strong>Cost to Adopt:</strong> $123.45</h3>
+        <p>Lemon drops soufflé apple pie. Soufflé jelly cheesecake. I love jelly I love toffee sesame snaps tootsie roll cake.</p>
+        <button onclick="addToTotal(123.45)">Adopt</button>
+      </article>
+
+      <article class="flex-dog">
+        <img src="images/lucas-card.jpg" alt="Black dog with reddish/tan eyes, staring and smiling with it's mouth wide open." width="175" onclick="alert('Lucas, $123.45')">
+        <h2>Lucas</h2>
+        <h3><strong>Cost to Adopt:</strong> $123.45</h3>
+        <p>Lemon drops soufflé apple pie. Soufflé jelly cheesecake. I love jelly I love toffee sesame snaps tootsie roll cake.</p>
+        <button onclick="addToTotal(123.45)">Adopt</button>
+      </article>
+
+      <article class="flex-dog">
+        <img src="images/jake-card.jpg" alt="Yellow dog with a brown/tan collar." width="175" onclick="alert('Jake, $123.45')">
+        <h2>Jake</h2>
+        <h3><strong>Cost to Adopt:</strong> $123.45</h3>
+        <p>Lemon drops soufflé apple pie. Soufflé jelly cheesecake. I love jelly I love toffee sesame snaps tootsie roll cake.</p>
+        <button onclick="addToTotal(123.45)">Adopt</button>
+      </article>
+
+      <article class="flex-dog">
+        <img src="images/angus-card.jpg" alt="Brown dog with a small face, that's smiling at the camera." width="175" onclick="alert('Angus, $123.45')">
+        <h2>Angus</h2>
+        <h3><strong>Cost to Adopt:</strong> $123.45</h3>
+        <p>Lemon drops soufflé apple pie. Soufflé jelly cheesecake. I love jelly I love toffee sesame snaps tootsie roll cake.</p>
+        <button onclick="addToTotal(123.45)">Adopt</button>
+      </article>
+
+      <article class="flex-dog">
+        <img src="images/violet-card.jpg" alt="Small milk brown puppy, looking up." width="175" onclick="alert('Violet, $123.45')">
+        <h2>Violet</h2>
+        <h3><strong>Cost to Adopt:</strong> $123.45</h3>
+        <p>Lemon drops soufflé apple pie. Soufflé jelly cheesecake. I love jelly I love toffee sesame snaps tootsie roll cake.</p>
+        <button onclick="addToTotal(123.45)">Adopt</button>
+      </article>
+      <button class="noflexpls">See More Dogs</button>
+    </section>
+
+    <footer>
+      <img src="images/adoptadog-logo.svg" alt="Logo of a silhouette of a sitting dog, and the words 'Adoptadog' next to it." width="300">
+      <p>Gingerbread cupcake marshmallow I love sugar plum gingerbread liquorice. Gummi bears chocolate bar jelly beans gingerbread I love bonbon marshmallow.</p>
+      <nav class="bottom-nav">
         <ul>
-          <li><a href="index.html" target="_blank">Home</a>|</li>
-          <li><a href="dogs.html" target="_blank">Dogs</a>|</li>
-          <li><a href="blog.html" target="_blank">Blog</a>|</li>
+          <li><a href="index.html">Home</a></li>
+          <li>|</li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li>|</li>
+          <li><a href="">Contact</a></li>
         </ul>
       </nav>
-
-      <section>
-          <img src="images/home-intro.jpg" alt="Picture of a man hugging a smiling golden retriever." width="1">
-          <h4>Adopt a Dog</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-      </section>
-
-      <section class="flexbox-container">
-        <h3>Selection of Dogs</h3>
-        <article>
-          <img src="images/murphy-card.jpg" alt="Picture of a brown boxer." width="150">
-          <h2>Eevee</h2>
-          <h3><strong>Cost to Adopt:</strong>$123.45</h3>
-          <p>Forrest gump cheetos track jackets vcr. Fargo warheads maxin’ flip flops, dawson’s creek this is your brain on drugs eminem khaki overalls. Real world the macarena pagers full house. Vhs tapes pop punk ok simpson glow in the dark stickers. Once you pop you can’t stop pizza bagels ain’t no thang home skillet hoop earrings.</p>
-          <button>Adopt</button>
-        </article>
-
-        <article>
-          <img src="images/duffy-card.jpg" alt="Pitbull that is white and brown." width="150">
-          <h2>Bulbasaur</h2>
-          <h3><strong>Cost to Adopt:</strong>$123.45</h3>
-          <p>Forrest gump cheetos track jackets vcr. Fargo warheads maxin’ flip flops, dawson’s creek this is your brain on drugs eminem khaki overalls. Real world the macarena pagers full house. Vhs tapes pop punk ok simpson glow in the dark stickers. Once you pop you can’t stop pizza bagels ain’t no thang home skillet hoop earrings.</p>
-          <button>Adopt</button>
-        </article>
-
-        <article>
-          <img src="images/lucas-card.jpg" alt="Black German Shephard." width="150">
-          <h2>Squirtle</h2>
-          <h3><strong>Cost to Adopt:</strong>$123.45</h3>
-          <p>Forrest gump cheetos track jackets vcr. Fargo warheads maxin’ flip flops, dawson’s creek this is your brain on drugs eminem khaki overalls. Real world the macarena pagers full house. Vhs tapes pop punk ok simpson glow in the dark stickers. Once you pop you can’t stop pizza bagels ain’t no thang home skillet hoop earrings.</p>
-          <button>Adopt</button>
-        </article>
-
-        <article>
-          <img src="images/jack-card.jpg" alt="Yellow/golden labrador." width="150">
-          <h2>Pikachu</h2>
-          <h3><strong>Cost to Adopt:</strong>$123.45</h3>
-          <p>Forrest gump cheetos track jackets vcr. Fargo warheads maxin’ flip flops, dawson’s creek this is your brain on drugs eminem khaki overalls. Real world the macarena pagers full house. Vhs tapes pop punk ok simpson glow in the dark stickers. Once you pop you can’t stop pizza bagels ain’t no thang home skillet hoop earrings.</p>
-          <button>Adopt</button>
-        </article>
-
-        <article>
-          <img src="images/angus-card.jpg" alt="Brown boxer that is smiling." width="150">
-          <h2>Charmander</h2>
-          <h3><strong>Cost to Adopt:</strong>$123.45</h3>
-          <p>Forrest gump cheetos track jackets vcr. Fargo warheads maxin’ flip flops, dawson’s creek this is your brain on drugs eminem khaki overalls. Real world the macarena pagers full house. Vhs tapes pop punk ok simpson glow in the dark stickers. Once you pop you can’t stop pizza bagels ain’t no thang home skillet hoop earrings.</p>
-          <button>Adopt</button>
-        </article>
-
-        <article>
-          <img src="images/violet-card.jpg" alt="Labrador puppy that is dark brown." width="150">
-          <h2>Umbreon</h2>
-          <h3><b>Cost to Adopt:</b>$123.45</h3>
-          <p>Forrest gump cheetos track jackets vcr. Fargo warheads maxin’ flip flops, dawson’s creek this is your brain on drugs eminem khaki overalls. Real world the macarena pagers full house. Vhs tapes pop punk ok simpson glow in the dark stickers. Once you pop you can’t stop pizza bagels ain’t no thang home skillet hoop earrings.</p>
-          <button>Adopt</button>
-        </article>
-
-        <button>See More Dogs</button>
-      </section>
-
-      <footer>
-          <img src="images/adoptadog-logo.svg" class='logo' alt="Adoptadog logo.">
-          <p>Cuis aute irure dolor in reprehenderit in voluptate.</p>
-          <nav>
-            <ul>
-              <li><a href="index.html" class="">Home</a> |</li>
-              <li><a href="dogs.html" class="">Dogs</a> |</li>
-              <li><a href="contact.html" class="">Contact</a> |</li>
-            </ul>
-          </nav>
-          <p>&copy; 2019 Adoptadog, LLC | Seattle, WA</p>
-      </footer>
-    </body>
-  </html>
+      <h3>&copy; 2019 Adoptadog, LLC | Seattle, WA</h3>
+    </footer>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
