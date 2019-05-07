@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title> Checkout Page </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Adoptable Dogs Page </title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
-   <header class= "dogface">
-        <div  width="30%" class="checkout">
-        </div>
-         <img class="home-intro" src="C:\Users\JoJo\Desktop\html200\adopt-a-dog-spring2019\images\header-image.jpg" alt= "brown dog looking through cracked blinds with sunlight beaming through">
-      	<h2 class= "Logotop"> </h2>
-        <img class="home-intro" src="C:\Users\JoJo\Desktop\html200\adopt-a-dog-spring2019\images\adoptadog-logo.svg" alt= "adoptadog white logo">
-  </header>
-        <div  width="30%" class="buttons">
+  <header>
+    <div class="header">
+      <img class= "dogface" src="C:\Users\JoJo\Desktop\html200\adopt-a-dog-spring2019\images\header-image.jpg" alt= "brown dog looking through cracked blinds with sunlight beaming through">
+           <img class="logo" src="C:\Users\JoJo\Desktop\html200\adopt-a-dog-spring2019\images\adoptadog-logo.svg" alt= "adoptadog white logo">
+        <h2 class="logo" style="color:rgb(132,187,66);"> Seattle's premiere dog adoption agency </h2>
+    </div>
+    </header>
+
+    <div class="buttons">
+      <nav>
+           <a href="index.html">Home  /</a>
+        </nav>
           <nav>
-               <a href="index.html">Home  /</a>
-            </nav>
-              <nav>
-                  <a href="dogs.html">Dogs  /</a>
-                  </nav>
-              <nav>
-                  <a href="blog.html">Blog</a>
-                  </nav>
-         </div>
-         <h1> Checkout </h1>
+              <a href="dogs.html">Dogs  /</a>
+              </nav>
+          <nav>
+              <a href="blog.html">Blog</a>
+              </nav>
+      </div>
+
+         <h1 style="color:rgb(9,60,96);"> Checkout </h1>
          <form method="AdoptMe">
-                <label>Name
+                <label style="color:rgb(9,60,96);"> <h2> Name  </h2>
                   <input type="text" name="applicantName">
                 </label>
-
-                <label>Email Address
+                <br>
+                <label style="color:rgb(9,60,96);"> <h2> Email Address </h2>
                   <input type="email" name="applicantEmail">
                 </label>
-                <label>Street Address
+                  <br>
+                <label style="color:rgb(9,60,96);"> <h2>Street Address </h2>
                   <input type="Text" name="applicantStreetAddress">
                 </label>
-                <label>City
+                  <br>
+                <label style="color:rgb(9,60,96);"> <h2>City </h2>
                   <input type="Text" name="applicantCity">
                 </label>
-                <label>State
+                <label style="color:rgb(9,60,96);"> <h2>State  </h2>
                   <select name="State">
                     <option value=""> Please select </option>
                     <option value="few"> less than 10</option>
@@ -47,20 +51,23 @@
                     <option value="many"> more than 16</option>
                   </select>
                 </label>
-                <label>Zip Code
+
+                <label style="color:rgb(9,60,96);"> <h2> Zip Code </h2>
                   <input type="Text" name="applicantZipCode">
                 </label>
-                <fieldset>
-                  <legend> First Time Adopter?
+                  <br>
+
+                  <legend style="color:rgb(9,60,96);"> <h2>First Time Adopter? </h2>
                   </legend>
-                  <label>Yes
+                  <label> Yes
                     <input type="radio" name="special" value="yes">
                   </label>
                   <label>No
                     <input type="radio" name="special" value="no">
                   </label>
-                </fieldset>
-                <label>Pickup Location
+                    <br>
+                  <br>
+                <label style="color:rgb(9,60,96);"> <h2>Pickup Location </h2>
                   <select name="Pickup">
                     <option value=""> Adoption Center </option>
                     <option value="few"> 5 mile radius</option>
@@ -68,7 +75,7 @@
                     <option value="many"> Airport</option>
                   </select>
                 </label>
-                <h3>Dogs Adopted</h3>
+                <h2 style="color:rgb(9,60,96);">Dogs Adopted</h2>
                 <div>
 
                   <img class="dogsadopted" src ="C:\Users\JoJo\Desktop\html200\adopt-a-dog-spring2019\images\lucas-checkout.jpg" alt= "older black lab">
@@ -77,7 +84,7 @@
 
                 </div>
 
-                <h3>Total Adoption Cost</h3>
+                <h2 style="color:rgb(9,60,96);">Total Adoption Cost</h2>
 
                 <input type="submit" value="Submit">
 
@@ -86,10 +93,10 @@
 
 
 
-    <footer class= "blue">
-           <img class="footimg" src ="C:\Users\JoJo\Desktop\html200\adopt-a-dog-spring2019\images\adoptadog-logo.svg" alt= "adoptadog white logo">
+    <footer class="blue">
+          <img class= "footing" src ="C:\Users\JoJo\Desktop\html200\adopt-a-dog-spring2019\images\adoptadog-logo.svg" alt= "adoptadog white logo">
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
            <p>2018 Adoptadog, LLC. | Seattle, WA </p>
-    </footer>
+      </footer>
   </body>
   </html>

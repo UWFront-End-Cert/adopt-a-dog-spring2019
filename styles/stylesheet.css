@@ -1,76 +1,144 @@
-.Body {
-background-color: black;
-text-align: center;
+body {
+  background-color: rgb(236,236,236);
+  align-items: center;
+  margin: 1rem;
 }
 
 .dogface {
-  position: relative;
+  height: 280px;
   width: 100%;
-  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  border-color: rgb(29, 71, 152);
 }
-.logotop {
-  size: 33%;
+.header {
+  position: relative;
+  margin: 5px;
+  width: auto;
+}
+.logo {
+  position: relative;
+  margin: 5px;
+  width: 33%;
+}
+.buttons {
+  font-family: inherit;
+  font-size: 100%;
+  font-color: rgb(9,60,96);
+  text-align: center;
+  box-sizing: 100%;
+  border-style: solid;
+  border-color: rgb( 236,236,236);
+  background-color: rgb( 236,236,236);
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(236, 236,236);
+  width: 100%;
+  position: absolute;
+  margin-top: 45px;
+  }
+
+.red-shirt {
+  float:left;
+  width: 25%;
+  margin-left: 10px;
 }
 
-.nav{
-  color: rgb(236, 236,236);
-}
-img {
+.img {
       height: 200px;
       width: inherit;
 }
 
-.footimg {
-  height: 200px;
-  width: inherit;
-  position: center;
+.input [type=submit] {
+  width:100%;
+  background-color: rgb(129,183,65);
+  border-radius: 15px;
+}
+.adopt{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+  background-color: white;
+  margin-top: 70px;
+  margin-left: 5px;
+  margin-right:5px;
 }
 
+.box {
+  height:100%;
+  width:20%;
+  border: 4px solid rgb(236,236,236);
+  background-color: white;
+  opacity: .8;
+  padding: 14px 16px;
+}
+.dog {
+  width: 100%;
+  height: 20%;
+}
+.blog {
+  padding-top: 5px;
+  background-color: white;
+  width: 100%
+  float: left;
+  justify-content: space-around;
+  position: relative;
+  margin-top:110px;
+  text-align: left;
+  padding-bottom: 150px;
+}
+.blogpic {
+  width: 20%;
+  float: left;
+  position: relative;
+  justify-content: space-around;
+}
+.Travel {
+  width: 100%;
+  justify-content: space-around;
+}
+.Walk-Multiple{
+  width: 100%;
+  position: relative;
+  justify-content: space-around;
+}
+.Fetch{
+  width: 100%;
+  position: relative;
+  justify-content: space-around;
+}
 .dogsadopted {
   width: auto;
   height: 20%;
 }
 
 .adopt {
-  .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
     align-content: space-between;
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right:5px;
   }
 
 .blue {
-  color: rgb (9,60,96);
-  position: bottom;
-  width:auto;
-}
-
-.meet-me {
-  height: 2px;
-  width: 11%; height: 50%;">&nbsp;</td>
-  padding: 15px
-
-}
-
-button, input, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-  display: block;
-  margin: 1rem;
-}
-
-input[type=submit] {
+  background-color: rgb(9,60,96);
+  position: absolute;
+  text: center;
   width:100%;
-  background-color: rgb(129,183,65);
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right:5px;
 }
-
-input {
-  border-radius: 15px;
-}
-fieldset {
-  border:none;
-}
-fieldset input {
-  display: inline;
+.footing {
+  height: 100px;
+  width: inherit;
+  position: center;
+  padding-top: 15px;
 }
