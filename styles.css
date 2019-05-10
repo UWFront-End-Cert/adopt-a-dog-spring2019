@@ -5,7 +5,7 @@
 }
 
 body {
-  max-width: 80rem;
+  max-width: 90rem;
   margin: auto;
 }
 
@@ -18,6 +18,8 @@ header {
   height: 20%;
   position: relative;
   overflow: hidden;
+  background-image:url("images/header-image.jpg");
+  background-size: 100%;
 }
 
 .header-logo {
@@ -65,7 +67,7 @@ header h1 {
 nav {
   background-color: #ECECEC;
   max-height: 5rem;
-  padding: 2em 13%;
+  padding: 2em 5%;
 }
 
 nav a {
@@ -99,13 +101,12 @@ h2 {
 
 .main-content {
   overflow: hidden;
-  margin: 4% auto;
-  max-width: 85%;
+  margin: 1.5rem;
 }
 
 .main-content img {
-  float: left;
   margin: 0 5% 4% 0;
+  width: 100%;
 }
 
 .main-content h2 {
@@ -151,20 +152,208 @@ h2 {
   font-size: 1rem;
 }
 
-.four-card-row {
-  max-width: 85%;
-  margin: 2% auto;
+/* Responsive Styles Start */
+
+@media screen and (min-width: 1024px) {
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 0.6rem;
+  padding: 0.6rem;
+  }
+
+  .home-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.6rem;
+    padding: 0.6rem;
+  }
+
+  .home-page-contents {
+    width: 70%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 4rem;
+  }
+
+  aside {
+    width: 30%;
+    float: right;
+    padding-right: 1.5rem;
+    overflow: hidden;
+  }
+
+  aside img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+  }
+
+  aside article {
+    margin-bottom: 4rem;
+  }
+
+  aside h3 {
+    font-family: 'Arbutus Slab', serif;
+    font-size: 2rem;
+    color: #093C60;
+  }
+
+  aside h4 {
+    font-family: 'Arbutus Slab', serif;
+    font-size: 1.3rem;
+    color: #093C60;
+    margin-bottom: 0rem;
+  }
+
+  aside p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 2% auto;
+    line-height: 2rem;
+    padding-bottom: 0.6rem;
+  }
+
+  aside a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #38A3C0;
+  }
+
+  aside a:hover {
+    text-decoration: none;
+  }
+
+  aside a:visited {
+    text-decoration: none;
+  }
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    padding: 0.6rem;
+  }
+
+  .home-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    padding: 0.6rem;
+  }
+
+  .home-page-contents {
+    width: 100%;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  aside {
+    display: none;
+  }
 }
+
+@media screen and (min-width: 468px) and (max-width: 767px) {
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.6rem;
+    padding: 0.6rem;
+  }
+
+  .home-cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.6rem;
+    padding: 0.6rem;
+  }
+
+  .home-page-contents {
+    width: 100%;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .header-logo {
+    max-width: 15rem;
+}
+
+  header h1 {
+    font-size: 0.9rem;
+  }
+
+  aside {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.6rem;
+    padding: 0.6rem;
+  }
+
+  .home-cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.6rem;
+    padding: 0.6rem;
+  }
+
+  .home-page-contents {
+    width: 100%;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .header-logo {
+    max-width: 12rem;
+}
+
+  header h1 {
+    font-size: 0.7rem;
+  }
+
+  .checkout-button {
+    font-size: 0.6rem;
+    min-width: 15%;
+  }
+
+  .cart-img {
+    max-width: 1.5rem;
+  }
+
+  aside {
+    display: none;
+  }
+}
+
+/* Responsive Styles End */
 
 .card {
-  flex: 0 1 23%;
-  text-align: left;
+  border-radius: 4px;
   border: 2px solid #EDEDED;
 }
 
@@ -274,55 +463,6 @@ footer p {
   font-weight: 400;
   font-size: 1rem;
 }
-
-
-/* Mobile Styles */
-
-@media screen and (max-width: 800px) {
-  .header-logo {
-      max-width: 16rem;
-  }
-  .cart-img {
-      top: 2rem;
-      right: 1.2rem;
-  }
-  .checkout-button {
-      font-size: 0.7rem;
-      max-width: 20%;
-      top: 4rem;
-      right: 1.2rem;
-      text-align: center;
-      display: inline-block;
-  }
-  .cards {
-      width: 90%;
-      display: block;
-      text-align: center;
-      margin-right: auto;
-      margin-left: auto;
-  }
-  .card {
-      margin-top: 3%;
-      margin-bottom: 3%;
-  }
-  .card img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 2%;
-      width: 100%;
-  }
-  .card p {
-      margin-top: 3%;
-  }
-  .card-button {
-      max-width: 50%;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 1.5rem;
-  }
-}
-
 
 /* Form Styles */
 
