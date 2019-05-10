@@ -6,8 +6,31 @@ body {
 	font-size: 20px;
 }
 .clear {
-	clear:left; 
+	clear:both; 
 }
+section {
+	float: left;
+	width: 65%;
+}
+aside {
+	float: right;
+	width: 33%;
+}
+article {
+	width: 70%;
+	margin-bottom: 10%;
+}
+.main{
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+.aside{
+	float: right;
+	width: 30%;
+	height: 100%
+}
+
 a:link {
 	text-decoration: none
 }
@@ -24,9 +47,13 @@ a:link {
 	margin-right: 1% 
 }
 .intro-img {
-	float: left;
-	width: 30%; 
+	width: 100%; 
+	height: 25em;
 	margin-right:5%; 
+}
+aside img {
+    width: 90%;
+    height: 10em;
 }
 .checkout-dog img { 
 	float: left;  
@@ -86,7 +113,7 @@ nav {
 	padding-left:10%; 
 	height: 3rem;
 }
-section {  
+main {  
 	padding-left: 10%; 
 	padding-right:10%;
 }
@@ -208,8 +235,9 @@ input[type="submit"]{
 	display: flex;  
 	flex-wrap: wrap;
 	font-size: 80%;
-	padding-left: 10%; 
-	padding-right:10%; 
+	/*padding-left: 10%; 
+	  padding-right:10%; 
+	*/
 } 
 .dogs-flex-container {
 	display: flex;  
@@ -217,7 +245,12 @@ input[type="submit"]{
 	font-size: 80%;
 }
 
-.flex-container > div, .dogs-flex-container > div {
+.flex-container > div {
+	width: 30%;
+	margin: 1%;
+	border: 1px solid grey;
+}
+.dogs-flex-container > div {
 	width: 22%;
 	margin: 1%;
 	border: 1px solid grey;
@@ -233,10 +266,16 @@ input[type="submit"]{
 
  /* For mobile  */
 @media (max-width: 767px) {
+	section {
+		width: 100%;
+	}
+	aside {
+		display: none;
+	}
  .flex-container > div, .dogs-flex-container > div {
-    width: 100%;
-	border: 1px solid purple;
-  }
+		width: 100%;
+		border: 1px solid purple;
+	}
 }
 
 .dog {
@@ -256,7 +295,7 @@ input[type="submit"]{
 	text-align: center;
 	display: inline-block;
 	background: lightgrey;
-	width: 20%;
+	width: 30%;
 	font-size: 80%;
 }
 
