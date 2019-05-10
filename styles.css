@@ -39,7 +39,7 @@ header h1 {
   height: auto;
   position: absolute;
   top: 2.2rem;
-  right: 4rem;
+  right: 10%;
 }
 
 .checkout-button {
@@ -61,7 +61,7 @@ header h1 {
   display: block !important;
   position: absolute;
   top: 4rem;
-  right: 4rem;
+  right: 10%;
 }
 
 nav {
@@ -438,8 +438,9 @@ footer {
 }
 
 footer img {
-  max-width: 35%;
-  min-width: 20rem;
+  max-width: 35rem;
+  min-width: 15rem;
+  width: 35%;
   height: auto;
   padding-top: 2rem;
 }
