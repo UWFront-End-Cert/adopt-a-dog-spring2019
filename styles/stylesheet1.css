@@ -102,8 +102,8 @@ header h1 {
 
 nav.navigation {
     background-color: lightgray;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding: 1.5em 0em;
+    margin-bottom: 3em;
 }
 
 nav a {
@@ -540,7 +540,7 @@ select {
 
   #checkout {
     display: block;
-    width: 1.5em;
+    width: 1em;
     float: right;
   }
 
