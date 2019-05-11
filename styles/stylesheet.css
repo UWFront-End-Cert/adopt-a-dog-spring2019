@@ -103,24 +103,25 @@ h3 {
 .intro {
   display: flex;
   height: auto;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-content: space-between;
+  margin-left: 10%;
 }
 
 .intro-text {
-  width: calc(40% - 2rem);
+  width: 60%;
   height: auto;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .intro img {
-  width: 25%;
-  height: auto;
-  min-width: 25rem;
+  width: 60%;
+  /* height: 30%; */
+  /* min-width: 25rem;
   max-width: 25rem;
   min-height: 23rem;
-  max-height: 23rem;
+  max-height: 23rem; */
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -136,6 +137,7 @@ h3 {
 
 .container-dogs {
   display: flex;
+  width: 75%;
   height: auto;
   flex-direction: row;
   flex-wrap: wrap;
@@ -147,6 +149,17 @@ h3 {
   width: 100%;
 }
 
+.all-our-dogs {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.all-our-dogs img {
+  width: 100%;
+}
 /* Styling for the Adopt buttons */
 button {
   background-color: #00cc00;
@@ -383,7 +396,7 @@ input[type=submit] {
 
 /* Footer styling for background, text, positioning, links, etc. */
 footer {
-  clear:both;
+  clear: both;
 }
 
 footer {
