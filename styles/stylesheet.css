@@ -102,6 +102,8 @@ h3 {
 /* Styling for the introduction on index (home) page */
 .intro {
   display: flex;
+  width: 65%;
+  float: left;
   height: auto;
   flex-direction: column;
   justify-content: center;
@@ -110,20 +112,37 @@ h3 {
 }
 
 .intro-text {
-  width: 60%;
+  width: 100%;
   height: auto;
   /* margin-left: 2rem; */
 }
 
 .intro img {
-  width: 60%;
-  /* height: 30%; */
+  height: auto;
+  width: 100%;
   /* min-width: 25rem;
   max-width: 25rem;
   min-height: 23rem;
   max-height: 23rem; */
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+
+.blog-preview {
+  display: inline-block;
+  clear:both;
+  position: absolute;
+  width: 20%;
+  /* float: left; */
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-preview img {
+  margin-top: 2rem;
 }
 
 /* Flex of dogs for index (home) page */
@@ -138,6 +157,7 @@ h3 {
 .container-dogs {
   display: flex;
   width: 75%;
+  float: left;
   height: auto;
   flex-direction: row;
   flex-wrap: wrap;
@@ -198,7 +218,6 @@ button {
 }
 
 /* Display "cost to adopt" phrase and price inline together */
-
 .dog-cost {
   display: inline-block;
   font-weight: 700;
@@ -214,12 +233,12 @@ button {
 }
 
 /* See More Dogs button styling */
-.see-more {
-  display: flex;
+/* .see-more {
+  display: inline-block;
   justify-content: center;
-}
+} */
 
-.see-more a {
+/* .see-more a {
   color: #00394d;
   background-color: #e6e6e6;
   padding: 1rem;
@@ -227,7 +246,7 @@ button {
   font-weight: 700;
   display: inline-block;
   margin-top: 1rem;
-}
+} */
 
 /* Styling for the Blog page */
 .blog-header {
