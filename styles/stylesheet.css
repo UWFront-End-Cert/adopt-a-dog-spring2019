@@ -9,12 +9,14 @@ Blue font used in navigation and headers (#00394d)
 Light grey used for nav bar and borders (#e6e6e6)
  */
 
+/* Adding media query to hide blog preview on home page on smaller screens */
 @media screen and (max-width: 767px) {
   .blog-preview {
     visibility: hidden;
   }
 }
 
+/* Adding media query to add/remove margins and change image width on smaller screens */
 @media screen and (min-width: 769px) {
   .blog {
     margin-left: 10%;
