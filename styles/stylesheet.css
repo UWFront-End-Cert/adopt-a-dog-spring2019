@@ -9,6 +9,12 @@ Blue font used in navigation and headers (#00394d)
 Light grey used for nav bar and borders (#e6e6e6)
  */
 
+@media screen and (max-width: 767px) {
+  .blog-preview {
+    visibility: hidden;
+  }
+}
+
 /* Setting the body text to be sans-serif, will use specific class styling as required for serif text */
 body {
   font-family: 'Open Sans', 'Lato', sans-serif;
@@ -127,7 +133,7 @@ h3 {
   margin-bottom: 2rem;
 }
 
-
+/* Adding blog preview styling to the home page */
 .blog-preview {
   display: inline-block;
   clear:both;
@@ -244,7 +250,7 @@ button {
   background-color: #e6e6e6;
   font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding: 1rem 4rem 1rem 4rem;
 }
 
