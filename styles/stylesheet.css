@@ -15,6 +15,24 @@ Light grey used for nav bar and borders (#e6e6e6)
   }
 }
 
+@media screen and (min-width: 769px) {
+  .blog {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .blog-header {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blog-image {
+    width: 90%;
+  }
+}
+
 /* Setting the body text to be sans-serif, will use specific class styling as required for serif text */
 body {
   font-family: 'Open Sans', 'Lato', sans-serif;
@@ -125,10 +143,6 @@ h3 {
 .intro img {
   height: auto;
   width: 100%;
-  /* min-width: 25rem;
-  max-width: 25rem;
-  min-height: 23rem;
-  max-height: 23rem; */
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -179,6 +193,7 @@ h3 {
   width: 100%;
 }
 
+/* Flex of dogs for dogs page */
 .all-our-dogs {
   display: flex;
   height: auto;
@@ -190,6 +205,7 @@ h3 {
 .all-our-dogs img {
   width: 100%;
 }
+
 /* Styling for the Adopt buttons */
 button {
   background-color: #00cc00;
@@ -255,37 +271,20 @@ button {
 }
 
 /* Styling for the Blog page */
+
 .blog-header {
-  display: flex;
   color: #00394d;
-  height: auto;
-  flex-direction: row;
-  align-self: center;
+  margin-left: 10%;
 }
 
 .blog {
-  display: flex;
-  height: auto;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
+  display: inline-block;
+  width: 70%;
 }
 
-.blog aside {
-  width: calc(40% - 2rem);
-  height: auto;
-  margin-left: 2rem;
-}
-
-.blog img {
-  width: 25%;
-  height: auto;
-  min-width: 25rem;
-  max-width: 25rem;
-  min-height: 23rem;
-  max-height: 23rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.blog-image {
+  float: left;
+  margin: 1rem 2rem 2rem 0rem;
 }
 
 /* This is the styling for the Checkout form */
