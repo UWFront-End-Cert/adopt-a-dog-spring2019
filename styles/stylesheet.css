@@ -17,7 +17,7 @@ Light grey used for nav bar and borders (#e6e6e6)
 }
 
 /* Adding media query to add/remove margins and change image width on smaller screens */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .blog {
     margin-left: 10%;
   }
@@ -29,9 +29,9 @@ Light grey used for nav bar and borders (#e6e6e6)
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .blog-image {
-    width: 90%;
+    width: 70%;
   }
 }
 
@@ -68,6 +68,7 @@ header a {
 
 .cart {
   width: 2rem;
+  margin-left: 2rem;
 }
 
 .checkout {
@@ -75,6 +76,7 @@ header a {
   font-size: 0.75rem;
   font-weight: 700;
   padding: 0.5rem 2rem;
+  margin-left: 2rem;
 }
 
 /*Styling for navigation*/
@@ -224,12 +226,39 @@ button {
   align-items: center;
   height: auto;
   width: calc(20% - 1rem);
-  max-width: 32rem;
-  min-width: 18rem;
+  /* max-width: 32rem;
+  min-width: 18rem; */
   margin: 1rem 2rem;
   border-style: solid;
   border-width: thin;
   border-color: #e6e6e6;
+}
+
+@media screen and (min-width: 760px) and (max-width: 800px) {
+  .dog {
+    min-width: 13rem;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1700px){
+  .dog {
+    max-width: 32rem;
+    min-width: 18rem;
+  }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 1980px){
+  .dog {
+    min-width: 20rem;
+    max-width: 20rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 759px){
+  .dog {
+    max-width: 32rem;
+    min-width: 18rem;
+  }
 }
 
 .dog-copy {
