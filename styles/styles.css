@@ -75,9 +75,44 @@ a {
   text-decoration: none;
 }
 
-main.container {
+.container {
   max-width: 900px;
   margin: auto;
+}
+
+aside {
+  width: 25%;
+  float: right;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  aside {
+    display: none;
+  }
+}
+
+.blog-preview {
+  padding: 1rem 0;
+}
+
+.blog-preview h4, p, span {
+  margin: 0;
+}
+
+.blog-preview-image {
+  height: 10rem;
+}
+
+.home {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .home {
+    width: 70%;
+    display: inline-block;
+  }
 }
 
 .intro-image {
@@ -134,7 +169,19 @@ footer img.logo {
   padding: 0.9375rem;
   margin-bottom: 0.9375rem;
   text-align: center;
-  max-width: 20%;
+  
+}
+
+@media (min-width: 481px) and (max-width: 839px){
+  .dog-cards .card {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 840px) {
+  .dog-cards .card {
+    max-width: 20%;
+  }
 }
 
 .dog-cards img {
