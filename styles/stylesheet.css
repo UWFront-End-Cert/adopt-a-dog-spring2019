@@ -9,14 +9,14 @@ Blue font used in navigation and headers (#00394d)
 Light grey used for nav bar and borders (#e6e6e6)
  */
 
-/* Media query to hide blog preview on home page on smaller screens */
+/* Media  to hide blog preview on home page on smaller screens */
 @media screen and (max-width: 767px) {
   .blog-preview {
     visibility: hidden;
   }
 }
 
-/* Media queries to add/remove margins and change image width on smaller screens */
+/* Media Queries to add/remove margins and change image width on smaller screens */
 @media screen and (min-width: 768px) {
   .blog {
     margin-left: 10%;
@@ -90,7 +90,7 @@ ul {
   font-size: 1.5rem;
 }
 
-/* Media query for font size in navigation on smaller screens */
+/* Media Query for font size in navigation on smaller screens */
 @media screen and (max-width: 350px) {
   ul {
     font-size: 1rem;
@@ -191,7 +191,7 @@ h3 {
   margin-left: 8rem;
 }
 
-/* Media queries for screen size changes for margins for "Here are all of our Dogs header" */
+/* Media Queries for screen size changes for margins for "Here are all of our Dogs header" */
 @media screen and (min-width: 300px) and (max-width: 350px) {
   .all-dogs {
     margin-left: 2rem;
@@ -267,7 +267,7 @@ button {
   border-color: #e6e6e6;
 }
 
-/* Media queries for screen size changes for dog cards on home and all dogs pages */
+/* Media Queries for screen size changes for dog cards on home and all dogs pages */
 @media screen and (min-width: 300px) and (max-width: 759px){
   .dog {
     max-width: 32rem;
