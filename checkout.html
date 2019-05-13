@@ -2,43 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adopt a Dog</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-
-    <div class="grid-item-header">
-      <img class="dog-logo" src="images/adoptadog-logo.svg" alt="a brown dog"><br>
-      <br><br><br><h2>Seattle's Premiere Dog Adoption Agency</h2>
-      <div class="header">
-        <i class="fas fa-shopping-cart"></i>
-        <h3><a href="checkout.html">Checkout</a></h3>
+    <header>
+      <img src="images/adoptadog-logo.svg" alt="a brown dog"><br><br><br><br><br>
+      <h2>Seattle's Premiere Dog Adoption Agency</h2>
+      <div class="checkout">
+        <i class="fas fa-shopping-cart"></i><br>
+        <a href="checkout.html" class="button">Checkout</a>
       </div>
-    </div>
-    <div class="global-nav">
+    </header>
+    <nav class="global-nav">
       <a class="header-link" href="index.html">Home /</a>
       <a class="header-link" href="dogs.html">  &nbsp;&nbsp;Dogs  /</a>
       <a class="header-link" href="blog.html">  &nbsp;&nbsp;Blog    /</a>
-    </div>
+    </nav>
+
   <br><br>
   <form class="input" method="GET">
     <label>Name
       <input type="text" name="Name"/>
-    </label>
+    </label><br><br><br>
 
     <label>Email Address
       <input type="email" name="userEmail"/>
-    </label>
+    </label><br><br><br>
 
     <label>Street Address
       <input type="text" name="userStreet"/>
-    </label>
+    </label><br><br><br>
 
     <label>City
       <input type="text" name="userCity"/>
-    </label>
+    </label><br><br><br>
 
     <label>State
       <select name="state">
@@ -46,11 +45,11 @@
         <option value="oregon">OR</option>
         <option value="california">CA</option>
       </select>
-    </label><
+    </label><br><br><br>
 
     <label>Zip Code
       <input type="text" name="userZip"/>
-    </label>
+    </label><br><br><br>
 
     <fieldset>
       <legend>First Time Adopter?</legend>
@@ -62,7 +61,7 @@
       <input type="radio" name="special" value="no">
       No
     </label>
-    </fieldset>
+  </fieldset><br><br><br>
 
     <label>Pickup Location
       <select name="region">
@@ -72,11 +71,11 @@
         <option value="cap-hill">Cap Hill</option>
         <option value="ballard">Ballard</option>
       </select>
-    </label>
+    </label><br><br><br>
 
-    Dogs Adopted
+    Dogs Adopted<br>
 
-    Total Adoption Cost
+    Total Adoption Cost<br><br><br>
 
     <input type="submit" value="Submit"/>
   </form>
@@ -92,6 +91,5 @@
         <p>&copy; 2018 Adoptadog, LLC || Seattle, WA</p>
       </div>
 
-    </div>
 </body>
 </html>
