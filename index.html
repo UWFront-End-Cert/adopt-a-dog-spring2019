@@ -5,6 +5,7 @@
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>Adopt A Dog</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <div class="grclass-container">
@@ -27,37 +28,80 @@
         <p><a class="subtitle" href="index.html">Home&nbsp;&nbsp;/</a><a class="subtitle" href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;/</a><a class="subtitle" href="blog.html">&nbsp;&nbsp;Blog</a></p>
       </div>
     </section>
-    <section class="message">
-      <div>
-        <img src="images/home-intro.jpg" class="hugpicture" alt="a dog appears to smile as it receives a hug">
-      </div>
-      <div class="lead-in">
-        <h2>Adopt A Dog</h2>
-        <p >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus sit amet lorem semper vehicula. Etiam nunc neque, sollicitudin et est at, auctor accumsan urna. Suspendisse at nisl eget justo suscipit maximus. Aenean auctor urna nec est efficitur tristique. Cras pellentesque purus vel congue aliquam. Duis fringilla, lorem class vehicula sollicitudin, risus quam placerat ligula, aliquam laoreet risus augue sed mi. Aenean tincclassunt, risus eget egestas efficitur, justo quam posuere justo, non elementum sem odio et felis. Praesent fringilla faucibus pellentesque. Nullam sit amet sapien fringilla
-        </p>
-      </div>
-    </section>
-    <section class="profiles">
-      <div class="profile-card">
-        <div>
-          <img src="images/murphy-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="Murphy()">
-        </div>
-        <div>
-          <h3>Murphy</h3>
-          <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
-          <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
-        </div>
-        <div>
-          <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
-        </div>
-      </div>
-      <div class="profile-card">
+    <section class="main-body">
+      <section class="center">
+        <section class="message">
+          <div class="message-image">
+            <img src="images/man-hugging-dog.png" class="hugpicture" alt="a dog appears to smile as it receives a hug">
+          </div>
+          <div class="lead-in">
+            <h2>Adopt A Dog</h2>
+            <p >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus sit amet lorem semper vehicula. Etiam nunc neque, sollicitudin et est at, auctor accumsan urna. Suspendisse at nisl eget justo suscipit maximus. Aenean auctor urna nec est efficitur tristique. Cras pellentesque purus vel congue aliquam. Duis fringilla, lorem class vehicula sollicitudin, risus quam placerat ligula, aliquam laoreet risus augue sed mi. 
+            </p>
+          </div>
+        </section>
+        <section class="profiles">
+          <div class="profile-card">
+            <div>
+              <img src="images/murphy-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="info('Murphy', 'Boxer')">
+            </div>
+            <div>
+              <h3>Murphy</h3>
+              <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
+              <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
+            </div>
+            <div>
+              <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+            </div>
+          </div>
+          <div class="profile-card">
+              <div>
+                <img src="images/poppy-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="info('Poppy', 'Italian Anklebiter')">
+              </div>
+              <div>
+                <h3>Poppy</h3>
+                <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
+                <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
+              </div>
+              <div>
+                <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+              </div>
+            </div>
+          <div class="profile-card">
+            <div>
+              <img src="images/jack-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="info('Jack', 'Gargantuan Dwarf Hound')">
+            </div>
+            <div>
+              <h3>Jack</h3>
+              <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
+              <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
+            </div>
+            <div>
+              <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+            </div>
+          </div>
+        </section>
+        <section class="profiles">
+          <div class="profile-card">
+            <div>
+              <img src="images/duffy-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="info('Duffy', 'Telepathic Cur')">
+            </div>
+            <div>
+              <h3>Duffy</h3>
+              <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
+              <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
+            </div>
+            <div>
+              <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+            </div>
+          </div>
+          <div class="profile-card">
           <div>
-            <img src="images/poppy-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="Poppy()">
+            <img src="images/lucas-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="info('Lucas', 'White-Nosed Goof')">
           </div>
           <div>
-            <h3>Poppy</h3>
+            <h3>Lucas</h3>
             <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
             <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
           </div>
@@ -65,93 +109,47 @@
             <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
           </div>
         </div>
-      <div class="profile-card">
-        <div>
-          <img src="images/jack-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="Jack()">
+          <div class="profile-card">
+            <div>
+              <img src="images/jake-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="info('Jake', 'Blueblood Fetcher')">
+            </div>
+            <div>
+              <h3>Jake</h3>
+              <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
+              <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
+            </div>
+            <div>
+              <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+            </div>
+          </div>
+        </section>
+        <div class="superfooter">
+          <div class="moredogs">
+              <a class="more" href="dogs.html">See More Dogs</a>
+          </div>
         </div>
-        <div>
-          <h3>Jack</h3>
-          <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
-          <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
+      </section>
+      <aside class="blog-preview">
+        <h2>From Our Blog</h2>
+        <div class="miniblog">
+          <img src="images/blog-1.jpg" class="mini-blog-pic" alt="text here">
+          <h3>Travelling With Your Dog</h3>
+          <p class="mini-blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ex in erat porta ornare sed et libero. </p>
+          <a class="mini-blog-link" href="blog.html">Read more>></a>
         </div>
-        <div>
-          <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+        <div class="miniblog">
+          <img src="images/blog-2.jpg" class="mini-blog-pic" alt="text here">
+          <h3>How To Walk Multiple Dogs</h3>
+          <p class="mini-blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ex in erat porta ornare sed et libero. </p>
+          <a class="mini-blog-link" href="blog.html">Read more>></a>
         </div>
-      </div>
-      <div class="profile-card">
-        <div>
-          <img src="images/duffy-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="Duffy()">
+        <div class="miniblog">
+          <img src="images/blog-3.jpg" class="mini-blog-pic" alt="text here">
+          <h3>Teach Your Dog to Fetch!</h3>
+          <p class="mini-blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ex in erat porta ornare sed et libero. </p>
+          <a class="mini-blog-link" href="blog.html">Read more>></a>
         </div>
-        <div>
-          <h3>Duffy</h3>
-          <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
-          <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
-        </div>
-        <div>
-           <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
-         </div>
-      </div>
-    </section>
-    <section class="profiles">
-      <div class="profile-card">
-       <div>
-        <img src="images/lucas-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="Lucas()">
-      </div>
-      <div>
-        <h3>Lucas</h3>
-        <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
-        <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
-      </div>
-      <div>
-        <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
-      </div>
-     </div>
-      <div class="profile-card">
-        <div>
-          <img src="images/jake-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="Jake()">
-        </div>
-        <div>
-          <h3>Jake</h3>
-          <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
-          <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
-        </div>
-        <div>
-          <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
-        </div>
-      </div>
-      <div class="profile-card">
-        <div>
-          <img src="images/angus-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="Angus()">
-        </div>
-        <div>
-          <h3>Angus</h3>
-          <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
-          <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
-        </div>
-        <div>
-         <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
-        </div>
-      </div>
-      <div class="profile-card">
-        <div>
-          <img src="images/violet-card.jpg" class="profilepicture" alt="one of our many wonderful dogs" onclick="Violet()">
-        </div>
-        <div>
-          <h3>Violet</h3>
-          <p class="cost"><b>Cost to Adopt:</b>&nbsp;$123.45</p>
-          <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
-        </div>
-        <div>
-            <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="superfooter">
-        <div class="moredogs">
-            <a class="more" href="dogs.html">See More Dogs</a>
-        </div>
-      </div>
+      </aside>
     </section>
     <section class="footer">
       <div class="basefield">

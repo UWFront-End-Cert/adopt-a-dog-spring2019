@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Merriweather:400,400i');
 
-.flex-container {
+@media screen and (max-width: 767px) {
+  .profiles {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .profiles {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+    .profiles {
+      max-width: 1600px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+  .main-body {
     display: flex;
-    /*Need to decide on columns, rows, or other approach*/
-    /*May also need to figure out if you can do multiple grids in one page and if so whether that is best approach here*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*Note to instructors: I don't like this choice. It seems like there's a better way to do it but when I keep the .main-body on flex at all times, things overlap at smaller screen sizes. I haven't figured out a better soluation.*/
+  }
 }
 
 a:link {
@@ -66,6 +87,9 @@ a.subtitle:visited {
   font-weight: bold;
 }
 
+.checkout {
+  padding-left: 21%;
+}
 
 .carticon {
 width: 1.5em;
@@ -111,14 +135,49 @@ h1 {
 
 .message {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1rem;
+  align-items: center;
 }
 
+.message-image{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .hugpicture {
-  width: 85%;
+  width: 72%;
+  height: 72%;
+}
+
+.blog-preview{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.miniblog {
+  height: 20%;
+  width: 250px;
+}
+
+.mini-blog-pic{
+  height: 25%;
+}
+
+.mini-blog-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .8em;
+  color: #3C3C3C;
+}
+
+.mini-blog-link{
+  color: #58b5c9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .8em;
 }
 
 h2 {
@@ -136,7 +195,11 @@ h2 {
 .lead-in {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #3C3C3C;
-  width: 33%;
+  width: 72%;
+}
+
+.center {
+  width: 65%;
 }
 
 .profiles {
@@ -146,6 +209,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   justify-content: center;
+
 }
 
 .profile-card {
@@ -270,7 +334,11 @@ a.footer-link:visited {
 
 .text {
   width: 40rem;
-  margin: 30px;
+  margin: 0px 30px 30px 30px;
+}
+
+.blog-title {
+  margin-top: 0px;
 }
 
 .blogpic {
@@ -278,10 +346,10 @@ a.footer-link:visited {
 }
 
 .blogtext {
-  /*Size, color (grey), and font*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .9em;
+  color: #3C3C3C;
 }
-
-
 
 .formfield {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -297,35 +365,53 @@ a.footer-link:visited {
   font-weight: 900;
 }
 
+.final-cart {
+  display: flex;
+  flex-direction: row;
+}
+
 .dog-in-cart{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 3rem;
+  margin: .5rem;
 }
 
 .adopted-name {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #093b60;
-  font-size: .75em;
+  font-size: 1.25em;
   font-weight: 900;
+  margin-top: 0px;
+  margin-left: 10px;
+  
 }
 
 .outpic {
-  /*Size small for cart*/
+  width: 65px;
+  height: 65px;
 }
 
 .cart-cost {
-  /*Same font as in top right but grey and small*/
+  color:#3C3C3C;
+  font-family: "Archivo Black", Geneva, sans-serif;
+  font-weight: bold;
+  font-size: .65em;
+  margin-left: 10px;
 }
 
 .totalcost{
-  /*same font color and size and .dogsadopted*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #093b60;
+  font-size: 1.25em;
+  font-weight: 900;
 }
 
 .totalprice{
-  /*grey, medium size, font*/
+  color:#3C3C3C;
+  font-family: "Archivo Black", Geneva, sans-serif;
+  font-size: 1em;
 }
 
 .top-forms{
@@ -338,6 +424,10 @@ input[type=submit] {
   display: block;
   width: 20%; /*or some other size*/
   background-color: 	#81B642;
+  margin-left: 0px;
+  color: white;
+  font-family: "Archivo Black", Geneva, sans-serif;
+  font-weight: bold;
 }
 
 button, input, select, textarea {
