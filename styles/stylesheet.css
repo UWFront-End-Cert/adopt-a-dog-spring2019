@@ -191,7 +191,7 @@ h3 {
   margin-left: 8rem;
 }
 
-/* Media queries for screen size changes for margins for Here are all of our Dogs header */
+/* Media queries for screen size changes for margins for "Here are all of our Dogs header" */
 @media screen and (min-width: 300px) and (max-width: 350px) {
   .all-dogs {
     margin-left: 2rem;
@@ -207,6 +207,12 @@ h3 {
 @media screen and (min-width: 401px) and (max-width: 415px) {
   .all-dogs {
     margin-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .all-dogs {
+    margin-left: 14rem;
   }
 }
 
