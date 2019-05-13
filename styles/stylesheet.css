@@ -46,17 +46,17 @@ a {
   font-weight: bold;
 }
 
-.home-intro, .blog-post {
+.blog-post {
   margin: 2em 6.5em 1em 6.5em;
   display: inline-block;
 }
 
-.home-intro img, .blog-post img {
+.blog-post img {
   float: left;
   width: 30%;
 }
 
-.home-intro p, .home-intro h1, .blog-post p, .blog-post h2{
+.blog-post p, .blog-post h2{
   margin: 1em 2em;
   display: table;
   position: relative;
@@ -66,11 +66,87 @@ a {
 
 .home-intro h1 {
   color: #154360;
+  clear: both;
+}
+
+.home-intro p {
+  clear: both;
+  width: 100%;
+}
+
+.home-intro img {
+  width: 50%;
+}
+
+.home-intro, .flexbox-container {
+  float: left;
+  width: 60%;
+  margin: 1em 1em 1em 5em;
+}
+
+aside {
+  float: right;
+  width: 20%;
+  margin: 1em 5em 1em 2.5em;
+}
+
+aside article {
+  margin: 1em 0.5em;
+}
+@media screen and (max-width: 767px) {
+  aside {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  .home-intro {
+    float: none;
+  }
+  aside {
+    float: none;
+    width: auto;
+  }
+  aside img {
+    width: 100%;
+  }
+
+  aside img, aside h3, aside p {
+    margin: 0.5em auto;
+    text-align: center;
+  }
+  .flexbox-container {
+    float: none;
+    width: 100%;
+    margin: 1em;
+    justify-content: space-evenly;
+  }
+  .all-dogs .flex-dog {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .flexbox-container {
+    float: none;
+    width: 100%;
+    margin: 1em;
+    justify-content: space-evenly;
+  }
+  .all-dogs .flex-dog {
+    width: 100%;
+  }
+}
+
+aside a {
+  text-decoration: none;
+  color: #3EC9EB;
 }
 
 .above-flex {
-  width: 100%;
-  margin: 1.5em 3.5em 0 3.5em;
+  width: 70%;
+  margin: 1em;
+  text-align: left;
 }
 
 .blog-title {
@@ -82,19 +158,86 @@ h2 {
   margin-top: 2em;
 }
 
+.no-float-h2 {
+  width: 100%;
+}
+
+.all-dogs {
+  float: none;
+  width: 100%;
+  margin: 1em;
+  justify-content: space-evenly;
+}
+
+.all-dogs .flex-dog {
+  width: 20%;
+}
+
 .flexbox-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
   align-items: flex-start;
-  clear: both;
+  clear: left;
 }
 
 .flex-dog {
-  width: 20%;
+  width: 28%;
+  height: auto;
   border: 0.25em solid #D3D3D3;
   margin: 2em 1em;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 0.5em;
+  }
+  .logo, header h1 {
+    margin: 0.5em auto;
+    width: 100%;
+    font-size: 2em;
+  }
+  .float-right {
+    padding-right: 5em;
+    font-size: 1em;
+  }
+  .home-intro {
+    width: 100%;
+    margin: 0.5em auto;
+    text-align: center;
+  }
+  .flex-dog {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .all-dogs .flex-dog {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-height: 1024px){
+  .flex-dog {
+    width: 45%;
+  }
+  .all-dogs .flex-dog {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .flex-dog {
+    width: 25%;
+  }
+  .all-dogs .flex-dog {
+    width: ;
+  }
 }
 
 .flex-dog img {
@@ -119,8 +262,8 @@ h2 {
 
 .not-flex {
   display: block;
-  width: 15%;
-  margin: 2em;
+  width: 30%;
+  margin: 1.5em 9em;
   font-size: 1em;
   color: #154360;
   font-weight: bolder;
@@ -208,6 +351,7 @@ footer {
 
 footer {
   margin-top: 2.5em;
+  clear: both;
 }
 
 footer p {
