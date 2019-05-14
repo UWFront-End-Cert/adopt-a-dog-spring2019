@@ -64,7 +64,7 @@
 /* Styling Dog Cards */
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: minmax(5%, auto); */
   grid-gap: 5%;
   padding: 0 12% 10% 12%;
@@ -150,6 +150,15 @@
   grid-column: 1 / 4;
   grid-row: 4 / 6;
   line-height: 1.5;
+}
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: minmax(5%, auto); */
+  grid-gap: 5%;
+  padding-bottom: 10%;
+  /* margin-bottom: 10%; */
 }
 
 .see-more-dogs {
@@ -284,15 +293,21 @@ p.adoption-total {
 
 /* Media Queries */
 @media (max-width: 767px) {
-  .cards {
+  .cards, .home-cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1%;
   }
+  .home-content-left {
+    grid-column: 1 / 4;
+  }
+  .home-content-right {
+    display: none;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .cards {
+@media (min-width: 768px) and (max-width: 1025px) {
+  .cards, .home-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10%;
