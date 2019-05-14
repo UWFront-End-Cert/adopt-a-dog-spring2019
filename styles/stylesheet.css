@@ -346,6 +346,19 @@ p.adoption-total {
     color: #225fc1;
     border: solid;
     padding: 1rem;
+    font-weight: bold;
+  }
+
+  .blog-post {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0;
+  }
+  .blog-post > img {
+    margin-bottom: 5%;
+  }
+  .blog-content > p {
+    margin: 5% 0;
   }
 
 }
