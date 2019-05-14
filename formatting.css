@@ -7,15 +7,22 @@ body, html {
 .header-banner {
     position: relative;
     text-align: center;
-    background-color: darkgrey;
+    background-color: #050585;
     width: 100%;
 }
 
-.header-banner .title-alligner {
-    position: absolute;
-    top: 25%;
-    left: 13%;    
-    width: 45%;
+.aside-link {
+    color: lightblue;
+}
+.blog-aside {
+    width: 80%;
+}
+
+aside {
+    #display: flex;
+    float: right;
+    width: 25%;
+    justify-content: flex-end;
 }
 
 .shopping-grid-squares .shopping-grid-squares-text button {
@@ -44,23 +51,7 @@ body, html {
     margin-bottom: 1em;
 }
 
-#input-index {
-    background-color: lightgrey;
-    color: #000066;
-    padding: 0.5em 2em;
-    font-size: 1.5em;
-    font-weight: bold;
-    height: 3em;
-    border: none;
-    border-radius: 8px;
-}
 
-#index-form {
-    width: 25%;
-    padding: 4em 0em 8em;
-    align-content: center;
-    transform: translate(162%, 0%);
-}
 
 
 .footer-banner {
@@ -81,12 +72,25 @@ body, html {
     }
     .grid-wrapper {
         display: grid;
-        grid-template-columns: 21.7% 21.7% 21.7% 21.7%;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 5%;
+        background-color: #fff;
+        color: #444;
+        padding: 3% 0%;
+
+    }
+    
+    #grid-wrapper-main {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
         grid-gap: 4em;
         background-color: #fff;
         color: #444;
         padding: 3% 0%;
+        width: 70%;
+        
     }
+    
     .shopping-grid-squares .item-image {
         width: 100%;
         height: 10em;
@@ -171,16 +175,45 @@ body, html {
         margin-right: 15px;
         float: left;
     }
+    footer #f-logo-image {
+        width: 25%;
+        padding-top: 3em;
+    }
+    #front-page article {
+        width: 70%;
+        padding-bottom: 2em;
+        margin-top: 2em;
+        padding-top: 2em;
+        padding-right: 2em;
+        overflow: hidden;
+    }
+    #input-index {
+        background-color: lightgrey;
+        color: #000066;
+        padding: 0.5em 2em;
+        font-size: 1.5em;
+        font-weight: bold;
+        height: 3em;
+        border: none;
+        border-radius: 8px;
+    }
+
+    #index-form {
+        width: 25%;
+        padding: 4em 0em 8em;
+        align-content: center;
+        transform: translate(162%, 0%);
+    }
 }
 /*Tablet*/
 @media screen and (max-width: 1024px) and (min-width: 450px){
     
-.header-banner .title-alligner {
-    position: absolute;
-    top: 25%;
-    left: 13%;    
-    width: 45%;
-}
+    .header-banner .title-alligner {
+        position: absolute;
+        top: 25%;
+        left: 13%;    
+        width: 45%;
+    }
     .main-content {
         padding: 0% 5%;
     }
@@ -191,6 +224,7 @@ body, html {
         background-color: #fff;
         color: #444;
         padding: 3% 0%;
+
     }
     .shopping-grid-squares .item-image {
         width: 100%;
@@ -277,16 +311,44 @@ body, html {
         margin-right: 15px;
         float: left;
     }
+    footer #f-logo-image {
+        width: 50%;
+        padding-top: 3em;
+    }
+    #front-page article {
+        width: 50%;
+        padding-bottom: 2em;
+        margin-top: 2em;
+        padding-top: 2em;
+        padding-right: 2em;
+        overflow: hidden;
+    }
+    #input-index {
+        background-color: lightgrey;
+        color: #000066;
+        padding: 0.5em 2em;
+        font-size: 1.5em;
+        font-weight: bold;
+        height: 3em;
+        border: none;
+        border-radius: 8px;
+    }
+
+    #index-form {
+        width: 25%;
+        padding: 4em 0em 8em;
+        align-content: center;
+        transform: translate(162%, 0%);
+    }
 }
 /*Mobile*/
 @media screen and (max-width: 450px){
     
     .header-banner .title-alligner {
         position: absolute;
-        top: 6%;
-        left: 10%;    
+        top: 12.5%;
+        left: 13%;    
         width: 45%;
-        height: 40%;
     }
     .main-content {
         padding: 0% 2%;
@@ -299,22 +361,20 @@ body, html {
         color: #444;
         padding: 0%;
     }
-    .shopping-grid-squares .item-image {
+    .shopping-grid-squares #item-image {
         width: 100%;
         height: 10%;
     }
-    .header-banner .title-alligner #logo-image {
+    .header-banner .title-alligner .logo-image {
         width: 100%;
-        height: 12.5em;
+        height: 17em;
     }
     h1 {
-        font-size: 2em;
-        color: #339900;
-        color: olivedrab;
+        display: none;
     }
     .header-banner #banner-image {
         visibility: hidden !important;
-        height: 20em;
+        height: 10em;
     }
     .nav-bar {
         width: 100%;
@@ -333,7 +393,7 @@ body, html {
     }
     .shopping-grid-squares .shopping-grid-squares-text {
         padding: 0% 10%;
-        font-size: .5em;
+        font-size: 1em;
     }
     footer {
         align-content: center;
@@ -341,13 +401,12 @@ body, html {
         background-color: #050585;
         color: #FFFFFF;
         padding-bottom: 3em;
-        font-size: 1.5em;
+        font-size: 1em;
     }
     .header-banner .cart-alligner {
         position: absolute;
         top: 30%;
         right: 5%;
-        -webkit-transform: translate(-24%, -10%);
         color: #FFFFFF;
         font-size: 1em;
     }
@@ -378,10 +437,45 @@ body, html {
         margin-bottom: 1em;
     }
     article p {
-        visibility: hidden !important;
+        display: none;
     }
     article img {
         float: left;
+    }
+    footer #f-logo-image {
+        width: 75%;
+        padding-top: 3em;
+    }
+    aside {
+        display: none;
+    }
+    article {
+
+        width: 100%;
+
+        padding-bottom: 2em;
+
+        padding-top: 2em;
+
+        overflow: hidden;
+
+    }
+    #input-index {
+        background-color: lightgrey;
+        color: #000066;
+        padding: 0.5em 2em;
+        font-size: 1.5em;
+        font-weight: bold;
+        height: 3em;
+        border: none;
+        border-radius: 8px;
+    }
+
+    #index-form {
+        width: 25%;
+        padding: 4em 0em 8em;
+        align-content: center;
+        transform: translate(80%, 0%);
     }
 }
 
@@ -411,7 +505,7 @@ h3 {
     overflow: hidden;
 }
 
-.cart-items #descrip {
+.cart-items .descrip {
     font-size: 1.5em;
 }
 
@@ -447,32 +541,18 @@ header {
 }
 
 
-footer #logo-image {
-    width: 25%;
-    padding-top: 3em;
-}
-
-article {
-    width: 100%;
-    padding-bottom: 2em;
-    padding-top: 2em;
-    overflow: hidden;
-}
-
-
-
 
 
 heading {
     font-size: 4em;
 }
 
-#checkout input {
+.checkout input {
     width: 66%;
     font-size: 3em;
 }
 
-#checkout-label {
+.checkout-label {
     font-size: 2em;
     color: #330066;
     font-weight: bolder;
