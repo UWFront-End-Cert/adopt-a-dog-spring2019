@@ -12,6 +12,7 @@ Light grey used for nav bar and borders (#e6e6e6)
 /* Media  to hide blog preview on home page on smaller screens */
 @media screen and (max-width: 767px) {
   .blog-preview {
+    position: absolute;
     visibility: hidden;
   }
 }
