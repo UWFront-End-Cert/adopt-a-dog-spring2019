@@ -7,24 +7,56 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <header class="header-container">
-      <img class="logo" src="images/adoptadog-logo.svg" alt="adoptadoglogo">
-      <img class="cart" src="images/cart-icon.svg" alt="cart icon">
-      <h1>Seattle's premiere dog adoption agency</h1>
+    <header class="header-background">
+      <div class="header-title">
+        <img class="logo" src="images/adoptadog-logo.svg" alt="adoptadoglogo">
+        <p class="header-text">Seattle's premiere dog adoption agency</p>
+      </div>
+        <div class="checkout">
+          <p><img class="cart" src="images/cart-icon.svg" alt="cart icon">$1234.56</p>
+          <a href="checkout.html" class="button">Checkout</a>
+        </div>
     </header>
     <nav>
       <a href="index.html">Home </a> / <a href="dogs.html">Dogs</a> /
-      <a href="blog.html">Blog</a> /
-      <a href="checkout.html">Checkout</a>
+      <a href="blog.html">Blog</a>
     </nav>
-  <section class="flex-container">
-    <h2 class="first-header">Adopt A Dog</h2>
-      <aside class="intro">
-        <img class="img1" src="images/home-intro.jpg" alt="happy dog">
-        <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus
-am aut amet ant fugiatum, utem non reptat ad magnienecto volorent fugia nonsedi gendand itatquos as magnimpor aut molor autatia ad est officimus accae et omnia cus, od qui ate</p><br>
+  <section class="main-content">
+      <a href="blog.html" class="mobile-blog">Read Our Blog >> </a>
+    <aside class="blog-preview">
+      <h1>From Our Blog</h1>
+        <article class="preview">
+          <img class="preview-img" src="images/blog-1.jpg" alt="dog and girl grand canyon">
+          <h2>Traveling With Your Dog</h2>
+          <p>Iciustiam, et ad quiaes cum que
+excea sinciendi qui offic temquas
+doluptios dolupta tiandebis nem ut.</p>
+          <a href="blog.html" class="read">Read More >></a>
+        </article>
+        <article class="preview">
+          <img class="preview-img" src="images/blog-2.jpg" alt="dogs on leashes">
+          <h2>How To Walk Multiple Dogs</h2>
+          <p>Iciustiam, et ad quiaes cum que
+excea sinciendi qui offic temquas
+doluptios dolupta tiandebis nem ut.</p>
+          <a href="blog.html" class="read">Read More >></a>
+        </article>
+        <article class="preview">
+          <img class="preview-img" src="images/blog-3.jpg" alt="dog game of fetch">
+          <h2>Teach Your Dog To Fetch</h2>
+          <p>Iciustiam, et ad quiaes cum que
+excea sinciendi qui offic temquas
+doluptios dolupta tiandebis nem ut.</p>
+          <a href="blog.html" class="read">Read More >></a>
+        </article>
       </aside>
-    <div class="grid-container">
+  <div class="home-intro">
+    <img class="first-image" src="images/home-intro.jpg" alt="happy dog">
+    <h1>Adopt A Dog</h1>
+      <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur arum qui officae videbiti corporeium faccull oribus es quidignis ipietus explam sus
+am aut amet ant fugiatum, utem non reptat ad magnienecto volorent fugia nonsedi gendand itatquos as magnimpor aut molor autatia ad est officimus accae et omnia cus, od qui ate</p><br>
+  </div>
+    <div class="home-grid">
       <article class="profile">
         <img src="images/murphy-card.jpg" alt="murphy" onclick="Murphy()">
         <h3>Murphy</h3>
@@ -67,21 +99,7 @@ am aut amet ant fugiatum, utem non reptat ad magnienecto volorent fugia nonsedi 
           <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
           <button class="button" type="button" onclick="adder(123.45)">Adopt Me</button>
       </article>
-      <article class="profile">
-        <img src="images/angus-card.jpg" alt="angus" onclick="Angus()">
-        <h3>Angus</h3>
-          <p>Cost to Adopt: $123.45</p>
-          <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-          <button class="button" type="button" onclick="adder(123.45)">Adopt Me</button>
-      </article>
-      <article class="profile">
-        <img src="images/violet-card.jpg" alt="violet" onclick="Violet()">
-        <h3>Violet</h3>
-          <p>Cost to Adopt: $123.45</p>
-          <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-          <button class="button" type="button" onclick="adder(123.45)">Adopt Me</button>
-      </article><br>
-      <button class="see-more" type="button">See More Dogs</button>
+      <a href="dogs.html" class="see-more">See More Dogs</a>
       </div>
   </section>
 
