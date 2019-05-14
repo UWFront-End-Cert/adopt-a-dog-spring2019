@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -8,7 +8,6 @@ h1,h2,h3,h4 {
   font-family: 'Merriweather', serif;
   color: navy;
 }
-
 
 header {
   height: 30%;
@@ -48,17 +47,16 @@ header h2 {
 nav {
   text-decoration: none;
   color: white;
-
 }
 
-a {
+nav a {
   text-decoration: none;
   margin-right: 1rem;
   margin-left: 1rem;
   font-weight: bold;
 }
 
-a:visited {
+nav a:visited {
   text-decoration: none;
   color: white;
 }
@@ -72,13 +70,14 @@ a:visited {
   display: flex;
   align-items: center;
   margin-bottom: 2.5rem;
-
 }
 
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
   align-items: center;
 }
 
@@ -87,14 +86,43 @@ img {
   height: auto;
 }
 
+.lanes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+}
 
 .canvas {
   width: 70%;
   height: 100%;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   align-content: center;
+}
+
+.blog-preview {
+  height: 100%;
+  width: 20%;
+  margin-left: 3rem;
+}
+
+.blog-desc {
+  width: 100%;
+  margin-bottom: 2rem;
+  font-size: 1.5vw;
+}
+
+.blog-link {
+  color: blue;
+  font-size: 70%;
+}
+
+@media only screen and (max-width: 700px) {
+  .blog-preview {
+    display: none;
+  }
 }
 
 footer {
@@ -109,8 +137,6 @@ footer {
   padding: 5rem;
   text-align: center;
 }
-
-
 
 button,#cart-button {
   width: 100%;
@@ -130,7 +156,7 @@ button,#cart-button {
   flex-direction: row;
   justify-content: space-between;
   align-content: space-between;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .high-dog {
@@ -145,23 +171,41 @@ button,#cart-button {
   margin: 1rem;
   width: 50%;
   margin-right: 0;
-  font-size: 115%
+  font-size: 1.5vw;
 }
 
 .dog-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-between;
+  align-content: space-around;
+  justify-content: space-around;
 }
 
+
 .dog-card {
-  width: 12rem;
   height: 100%;
   margin-bottom: 1rem;
   font-size: 60%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width: 400px) {
+  .dog-card {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .dog-card {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .dog-card {
+    width: 30%;
+  }
 }
 
 .dog-info {
@@ -174,7 +218,7 @@ button,#cart-button {
 }
 
 #more-dogs {
-  width: 10rem;
+  width: 100%;
 }
 
 #footer-logo {
