@@ -1,3 +1,10 @@
+@media print {
+  body img {
+    display: none;
+  }
+}
+
+
 header, footer {
     background-color: #002244;
 }

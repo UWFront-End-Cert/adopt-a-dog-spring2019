@@ -46,3 +46,27 @@ body {
     vertical-align: top;
     width: 40%;
   }
+
+  .top-section-main-flex {
+    display: flex;
+  }
+
+  .top-section-left-column {
+    flex: 75%;
+  }
+
+  .top-section-right-column {
+    flex: 25%;
+    background-color: wheat;
+    padding: 5%;
+  }
+  .flex-large-blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-image-blog {
+    width: 60%;
+  }
