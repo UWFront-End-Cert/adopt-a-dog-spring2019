@@ -340,6 +340,13 @@ textarea:focus {
     }
 }
 
+@media screen and (max-width: 600px) {
+  li a {
+    float: none;
+    width: 100%;
+  } /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+}
+
 @media screen and (max-width: 700px) {
   .four-col-grid {
     grid-template-columns: 1fr 1fr;
@@ -349,6 +356,14 @@ textarea:focus {
 @media screen and (max-width:460px) {
   .four-col-grid {
     grid-template-columns: 1fr;
+  }
+
+  .blog-picture {
+    display: none;
+  }
+
+  .blog-text {
+    display: none;
   }
 }
   @media print {
