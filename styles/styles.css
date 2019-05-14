@@ -23,6 +23,7 @@ body {
 }
 
 .header-background {
+  background: linear-gradient(to top, #073B60, #000000);
   background-image: url("../images/header-image.jpg");
   background-size: cover;
   color: #FFFFFF;
@@ -229,10 +230,10 @@ input,
 }
 
 footer {
-  background-color: #073B60;
+  background: linear-gradient(#073B60, #000000);
   text-align: center;
   font-family: arial;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-top: 3rem;
 }
 
