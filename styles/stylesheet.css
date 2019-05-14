@@ -195,6 +195,10 @@
   color: #225fc1;
 }
 
+.home-blog-link {
+  display: none;
+}
+
 /* Styling for Dogs page */
 .dog-intro > h2 {
   padding: 5% 12%;
@@ -332,6 +336,18 @@ p.adoption-total {
   .main-footer > p:first-child {
     display: none;
   }
+  .home-blog-link {
+    display: block;
+    text-align: center;
+    margin: 10%;
+  }
+  .home-blog-link > a {
+    text-decoration: none;
+    color: #225fc1;
+    border: solid;
+    padding: 1rem;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1025px) {
