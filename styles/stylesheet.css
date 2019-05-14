@@ -1,7 +1,7 @@
 /* Styling for ALL pages */
 * {
   box-sizing: border-box;
-  /* margin: 0; */
+  margin: 0;
   font-family: 'Merriweather', sans-serif;
 }
 
@@ -83,11 +83,11 @@
 }
 .dog-card > h3 {
     color: #1c356d;
-    padding: 0 5%;
+    padding: 5%;
 }
 .dog-card > p {
   line-height: 1.5;
-  padding: 0 5%;
+  padding: 5%;
 }
 .dog-card > button {
   /* text-align: center; */
@@ -95,7 +95,7 @@
   background-color: #418c27;
   color: #ffffff;
   padding: 5%;
-  margin-bottom: 4%;
+  margin: 5% 0;
   width: 70%;
   border-radius: .3em;
   letter-spacing: .1em;
@@ -125,6 +125,9 @@
 .home-content-right {
   grid-column: 3 / 4;
 }
+.home-content-right > h2 {
+  margin-bottom: 5%;
+}
 
 .home-intro {
   display: grid;
@@ -133,18 +136,18 @@
   /* grid-gap: 10%; */
   /* padding: 3% 12%; */
   color: #1c356d;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .home-intro > img {
   grid-column: 1 / 4;
   grid-row: 1 / 3;
   width: 100%;
   align-self: center;
-  margin-bottom: 5%;
 }
 .home-intro > h2 {
   grid-column: 1 / 3;
   grid-row: 3 / 4;
+  margin: 5% 0;
 }
 .home-intro > p {
   grid-column: 1 / 4;
@@ -181,6 +184,12 @@
 .blog-post-home {
   margin-bottom: 3rem;
 }
+.blog-content-home {
+  margin: 3% 0;
+}
+.blog-content-home > p {
+  margin: 3% 0;
+}
 .blog-content-home > a {
   text-decoration: none;
   color: #225fc1;
@@ -188,7 +197,7 @@
 
 /* Styling for Dogs page */
 .dog-intro > h2 {
-  padding: 1% 12%;
+  padding: 5% 12%;
   color: #1c356d;
 }
 
@@ -209,7 +218,10 @@
   padding-left: 2%;
 }
 .blog-content > h3 {
-  margin-top: 0;
+  margin-bottom: 2%;
+}
+.blog-content > aside {
+  margin-top: 2%;
 }
 
 /* Styling for Checkout page */
@@ -255,8 +267,21 @@ input:focus {
   outline: none;
 }
 
+.submit {
+  margin-top: 3rem;
+}
+
+.adopted-dogs > h3 {
+  margin: 2% 0;
+}
+.adopted {
+  margin: 2% 0;
+}
 .adopted .adopted-info {
   display: inline-block;
+}
+.adopted-info {
+  margin-left: 2%;
 }
 .adopted-info > p {
   color: #000000;
@@ -277,7 +302,7 @@ p.adoption-total {
   width: 30%;
 }
 .main-footer > p {
-  padding: 0 30%;
+  padding: 2% 30%;
   text-align: center;
   line-height: 1.5;
 }
@@ -304,6 +329,9 @@ p.adoption-total {
   .home-content-right {
     display: none;
   }
+  .main-footer > p:first-child {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1025px) {
@@ -313,7 +341,10 @@ p.adoption-total {
     grid-column-gap: 10%;
     grid-row-gap: 5%;
   }
+  .see-more-dogs {
+    margin-top: 30%;
+  }
   .main-footer {
-    margin-top: 100%;
+    margin-top: 80%;
   }
 }
