@@ -4,13 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt a Dog Homepage</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <script src="JS/dogImageclick.js"></script>
-    <script src="JS/checkout.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles2.css">
+    <script src="JS/dogImageclick.js" charset="utf-8"></script>
+    <script src="JS/checkout.js" charset="utf-8"></script>
   </head>
   <body>
-
-<!-- header layout -->
     <header class="header">
       <div class ="header-grid-container">
         <div class="header-icon">
@@ -36,10 +34,10 @@
 
 <!-- new home page layout  -->
 
-    <section>
+<!--    <section>
       <div class="home-column">
           <div class="home-left">
-            <div class="home-grid-container-2">
+            <div class="home-grid-container">
               <div class="home-pic">
                 <img class="homepic" src="images/home-intro.jpg"  alt="Man Hugging a Dog">
               </div>
@@ -51,101 +49,50 @@
 
             <div class="dog-previews">
               <div class="dog-preview">
-                  <img class="card-home" src="images/murphy-card.jpg" onclick="postInfo('Murphy, Mix, $49.99')" alt="Murphy Pic">
+                  <img class="card" src="images/murphy-card.jpg" onclick="postInfo('Murphy, Mix, $49.99')" alt="Murphy Pic">
                   <h2>Murphy</h2>
                   <br><a class="pricing">Costs to Adopt:</a> $49.99
                   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit risus, tempor eu neque vel, placerat eleifend diam. Pellentesque urna.
                   <input class="button-home" type=button onClick="addPrice(49.99)" value='Adopt'>
               </div>
               <div class="dog-preview">
-                  <img class="card-home" src="images/poppy-card.jpg"  onclick="postInfo('Poppy, Yorkshire Terrier, $39.99')" alt="Poppy Pic">
+                  <img class="card" src="images/poppy-card.jpg"  onclick="postInfo('Poppy, Yorkshire Terrier, $39.99')" alt="Poppy Pic">
                   <h2>Poppy</h2>
                   <br><a class="pricing">Costs to Adopt:</a> $39.99
                   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit risus, tempor eu neque vel, placerat eleifend diam. Pellentesque urna.
                   <input class="button-home" type=button onClick="addPrice(39.99)" value='Adopt'>
               </div>
               <div class="dog-preview">
-                  <img class="card-home" src="images/jack-card.jpg" onclick="postInfo('Jack, Beagle, $39.99')" alt="Jack Pic">
+                  <img class="card" src="images/jack-card.jpg" onclick="postInfo('Jack, Beagle, $39.99')" alt="Jack Pic">
                   <h2>Jack</h2>
                   <br><a class="pricing">Costs to Adopt:</a> $39.99
                   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit risus, tempor eu neque vel, placerat eleifend diam. Pellentesque urna.
-                  <input class="button-home" type=button onClick="addPrice(39.99)" value='Adopt'>
-              </div>
-              <div class="dog-preview">
-                  <img class="card-home" src="images/duffy-card.jpg" onClick="postInfo('Duffy, Staffordshire Terrier, $29.99')" alt="Duffy Pic">
-                  <h2>Duffy</h2>
-                  <br><a class="pricing">Costs to Adopt:</a> $29.99
-                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit risus, tempor eu neque vel, placerat eleifend diam. Pellentesque urna.
-                  <input class="button-home" type=button onClick="addPrice(29.99)" value='Adopt'>
-              </div>
-              <div class="dog-preview">
-                  <img class="card-home" src="images/lucas-card.jpg" onclick="postInfo('Lucas, Shepard Mix, $39.99')" alt="Lucas Pic">
-                  <h2>Lucas</h2>
-                  <br><a class="pricing">Costs to Adopt:</a> $39.99
-                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit risus, tempor eu neque vel, placerat eleifend diam. Pellentesque urna.
-                  <input class="button-home" type=button onClick="addPrice(39.99)" value='Adopt'>
-              </div>
-              <div class="dog-preview">
-                  <img class="card-home" src="images/jake-card.jpg" Onclick="postInfo('Jake, Labrador, $39.99')" alt="Jake Pic">
-                  <h2>Jake</h2>
-                  <br><a class="pricing">Costs to Adopt:</a> $39.99
-                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit risus, tempor eu neque vel, placerat eleifend diam. Pellentesque urna.
-                  <input class="button-home" type=button onClick="addPrice(39.99)" value='Adopt'>
-              </div>
-              <div class="dog-preview">
-                  <img class="card-home" src="images/angus-card.jpg" Onclick="postInfo('Angus, Boxer, $39.99')" alt="Angus Pic">
-                  <h2>Angus</h2>
-                  <br><a class="pricing">Costs to Adopt:</a> $39.99
-                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit risus, tempor eu neque vel, placerat eleifend diam. Pellentesque urna.
-                  <input class="button-home" type=button onClick="addPrice(39.99)" value='Adopt'>
-              </div>
-              <div class="dog-preview">
-                  <img class="card-home" src="images/violet-card.jpg"  Onclick="postInfo('Violet, Labrador, $39.99')" alt="Violet Pic">
-                  <h2>Violet</h2>
-                  <br><a class="pricing">Costs to Adopt:</a> $39.99
-                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit risus, tempor eu neque vel, placerat eleifend diam. Pellentesque urna.
-                  <input class="button-home" type=button onClick="addPrice(39.99)" value='Adopt'>
+                  <input class="" type=button onClick="addPrice(39.99)" value='Adopt'>
               </div>
             </div>
           </div>
+
 
 
           <div class="home-right">
             <div>
               <h2>From Our Blog</h2>
-              <div class="blog-home">
-                <img src="images/blog-1.jpg" alt="Blog Image">
-              </div>
-              <div class="blog-des-home">
-                <h2>Traveling With Your Dog</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing .....</p>
-                <a class="header-links" href="blog.html">Read More >></a>
-                <br></br>
-              </div>
-              <div class="blog-home">
-                <img src="images/blog-2.jpg"  alt="Blog Image">
-              </div>
-              <div class="blog-des-home">
-                <h2>How to Walk Multiple Dogs</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing .....</p>
-                <a class="header-links" href="blog.html">Read More >></a>
-                <br></br>
-              </div>
-              <div class="blog-home">
-                <img src="images/blog-3.jpg"  alt="Blog Image">
-              </div>
-              <div class="blog-des-home">
-                <h2>Teach Your Dog To Fetch!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing ...... </p>
-                <a class="header-links" href="blog.html">Read More >></a>
-              </div>
+            </div>
+            <div >
+              <img src="images/blog-1.jpg" alt="Blog Image">
+            </div>
+            <div>
+              <h2>Traveling With Your Dog</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse velit dolor, mollis at lorem sed, efficitur feugiat leo. </p>
             </div>
           </div>
       </div>
-    </Section>
+    </section>
+
+-->
 
 <!-- old section -->
-<!--    <section>
+    <section>
       <div class="home-grid-container">
         <div class="home-pic">
           <img class="homepic" src="images/home-intro.jpg"  alt="Man Hugging a Dog">
@@ -215,9 +162,9 @@
           <input class="button" type=button onClick="addPrice(39.99)" value='Adopt'>
       </div>
     </div>
--->
 
-<!-- footer layout -->
+
+
     <footer class="footer">
       <img class="footer-img" src="images/adoptadog-logo.svg"  alt="Logo">
       <p class="footer-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lorem tortor, auctor vitae hendrerit quis. </p>
