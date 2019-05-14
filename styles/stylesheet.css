@@ -67,6 +67,32 @@ h2, h3, h4 {
   color: #083b5f
 }
 
+/**More button**/
+#more {
+  display: none;
+}
+
+#initial-dog-cards {
+  display: none;
+}
+
+#myBtn:link {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  background-color: #3ca721;
+  color: #FFFFFF;
+  padding: 12px 28px;
+  text-align: center;
+  display: inline-block;
+  font-family:  "Hind Siliguri", sans-serif;
+  font-size: 1em;
+}
+
+#myBtn:hover, #myBtn:active {
+  background-color: #b6dde3;
+}
+
 body {
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -76,7 +102,6 @@ p{
   margin-bottom: 10px;
   line-height: 1.25em;
 }
-
 
 /**NAVIGATION**/
 ul {
@@ -169,7 +194,7 @@ footer .logo {
   margin-left: auto;
   grid: repeat(2,auto) / repeat(4,auto) ;
   grid-gap: 4em 4em;
-  justify-content: start;
+  justify-content: center;
   align-content: space-evenly;
 }
 
@@ -307,3 +332,27 @@ textarea:focus {
 	background: #FFFFFF;
 }
 /* END OF the container for the YES & NO CHECKBOX*/
+
+/*Media Queries*/
+@media screen and (max-width: 900px) {
+  .four-col-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .four-col-grid {
+    grid-template-columns: 1fr 1fr;
+    }
+  }
+
+@media screen and (max-width:460px) {
+  .four-col-grid {
+    grid-template-columns: 1fr;
+  }
+}
+  @media print {
+    p {
+      color: black;
+      }
+  }
