@@ -9,25 +9,6 @@ Blue font used in navigation and headers (#00394d)
 Light grey used for nav bar and borders (#e6e6e6)
  */
 
-/* Media Queries to add/remove margins and change image width on smaller screens */
-@media screen and (min-width: 768px) {
-  .blog {
-    margin-left: 10%;
-  }
-}
-
-@media screen and (max-width: 769px) {
-  .blog-header {
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .blog-image {
-    width: 70%;
-  }
-}
-
 /* Setting the body text to be sans-serif, will use specific class styling as required for serif text */
 body {
   font-family: 'Open Sans', 'Lato', sans-serif;
@@ -351,6 +332,25 @@ button {
 .blog-image {
   float: left;
   margin: 1rem 2rem 2rem 0rem;
+}
+
+/* Media Queries to add/remove margins and change image width on smaller screens for blog items */
+@media screen and (min-width: 768px) {
+  .blog {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .blog-header {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-image {
+    width: 70%;
+  }
 }
 
 /* This is the styling for the Checkout form */
