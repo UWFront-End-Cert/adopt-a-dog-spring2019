@@ -12,37 +12,31 @@
   </head>
 
   <body>
-    <header>
-
-      <div class="header">
-        <div class="title">
-          <img id="logo"src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
-          <h1>Seattle's premiere dog adoption agency</h1>
-        </div>
-
-        <div class="checkout">
-          <div class="cart">
-            <img src="images/cart-icon.svg" alt="Cart Icon" >
-            <p>$1234.56</p>
-          </div>
-            <a href="checkout.html"> Checkout</a>
-        </div>
+    <header class="header">
+      <div class="title">
+        <img id="logo"src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
+        <h1>Seattle's premiere dog adoption agency</h1>
       </div>
-
-
-      <nav class="top-navigation">
-        <a href="index.html"> Home</a>
-        <a href="dogs.html"> Dogs</a>
-        <a href="blog.html"> Blog</a>
-      </nav>
+      <div class="checkout">
+        <img class="cart" src="images/cart-icon.svg" alt="Cart Icon" >
+        <p>$1234.56</p>
+        <a href="checkout.html"> Checkout</a>
+      </div>
     </header>
 
+    <nav class="top-navigation">
+      <p class="nav-links">
+        <a href="index.html">Home</a>  /
+        <a href="dogs.html">Dogs</a>  /
+        <a href="blog.html">Blog</a>
+      </p>
+    </nav>
 
     <section>
-      <h1>Here are all our Dogs!</h1>
+      <h1 id="doggo">Here are all our Dogs!</h1>
 
-      <div class="grid">
-        <article class="doggo-grid">
+      <div class="dog-list">
+        <article class="dog-item">
           <img src="images/murphy-card.jpg" alt="Murphy" onclick="murphy()">
           <h3>Murphy</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -50,7 +44,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/poppy-card.jpg" alt="Poppy" onclick="poppy()">
           <h3>Poppy</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -58,7 +52,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/jack-card.jpg" alt="Jack" onclick="jack()">
           <h3>Jack</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -66,7 +60,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/duffy-card.jpg" alt="Duffy" onclick="duffy()">
           <h3>Duffy</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -74,7 +68,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/lucas-card.jpg" alt="Lucas" onclick="lucas()">
           <h3>Lucas</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -82,7 +76,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/jake-card.jpg" alt="Jake" onclick="jake()">
           <h3>Jake</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -90,7 +84,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/angus-card.jpg" alt="Angus" onclick="angus()">
           <h3>Angus</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -98,7 +92,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/violet-card.jpg" alt="Violet" onclick="violet()">
           <h3>Violet</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -106,7 +100,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/piper-card.jpg" alt="Piper" onclick="piper()">
           <h3>Piper</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -114,7 +108,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/maximus-card.jpg" alt="Maximus" onclick="maximus()">
           <h3>Maximus</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -122,7 +116,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/luna-card.jpg" alt="Luna" onclick="luna()">
           <h3>Luna</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -130,7 +124,7 @@
           <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
         </article>
 
-        <article class="doggo-grid">
+        <article class="dog-item">
           <img src="images/stella-card.jpg" alt="Stella" onclick="stella()">
           <h3>Stella</h3>
           <p><strong>Cost to Adopt:</strong> $123.45</p>
@@ -140,7 +134,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer class= "footer">
       <img id="logo-footer" src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
       <p>Pellentesque a sem porttitor, vestibulum ligula hendrerit, rutrum lorem. Vivamus feugiat ut ex ac porttitor. Curabitur bibendum risus nisi. Sed sagittis purus nec cursus iaculis. Vestibulum ornare metus at velit lobortis, vitae gravida ex dignissim. Fusce vestibulum auctor rhoncus.</p>
       <div class="footer-navigation">

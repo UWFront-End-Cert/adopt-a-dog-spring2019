@@ -12,44 +12,44 @@
   </head>
 
   <body>
-    <header>
 
-      <div class="header">
-        <div class="title">
-          <img id="logo"src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
-          <h1>Seattle's premiere dog adoption agency</h1>
-        </div>
-
-        <div class="checkout">
-          <div class="cart">
-            <img src="images/cart-icon.svg" alt="Cart Icon" >
-            <p>$1234.56</p>
-          </div>
-            <a href="checkout.html"> Checkout</a>
-        </div>
+    <header class="header">
+      <div class="title">
+        <img id="logo"src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
+        <h1>Seattle's premiere dog adoption agency</h1>
       </div>
-
-
-      <nav class="top-navigation">
-        <a href="index.html"> Home</a>
-        <a href="dogs.html"> Dogs</a>
-        <a href="blog.html"> Blog</a>
-      </nav>
+      <div class="checkout">
+        <img class="cart" src="images/cart-icon.svg" alt="Cart Icon" >
+        <p>$1234.56</p>
+        <a href="checkout.html"> Checkout</a>
+      </div>
     </header>
+
+    <nav class="top-navigation">
+      <p class="nav-links">
+        <a href="index.html">Home</a>  /
+        <a href="dogs.html">Dogs</a>  /
+        <a href="blog.html">Blog</a>
+      </p>
+    </nav>
 
     <div class="main">
 
-      <section>
-        <h1>Adopt A Dog</h1>
-        <article>
-          <img src="images/home-intro.jpg" alt="Man hugging a golden retreiver ">
-          <h1>Adopt A Dog</h1>
-          <p class="clean-text" >Quisque rhoncus iaculis neque, a gravida odio scelerisque eu. Maecenas scelerisque, justo in sollicitudin dapibus, sem elit vulputate orci, eu laoreet tellus metus sed ex. Proin suscipit posuere magna. Cras dictum non sapien sed fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere nibh ac fermentum cursus. Maecenas porta, dui rutrum consequat sodales, odio lectus pellentesque felis, sed dictum tortor risus et odio. Nulla non nisi sed risus bibendum molestie. Duis mollis auctor sem.</p>
-        </article>
-      </section>
+      <div class="main-left">
 
-      <section>
-        <div class="grid">
+        <section class="intro">
+          <article class="intro-body">
+            <h1>Adopt A Dog</h1>
+            <img src="images/home-intro.jpg" alt="Man hugging a golden retreiver ">
+            <p class="clean-text" >Quisque rhoncus iaculis neque, a gravida odio scelerisque eu. Maecenas scelerisque, justo in sollicitudin dapibus, sem elit vulputate orci, eu laoreet tellus metus sed ex. Proin suscipit posuere magna. Cras dictum non sapien sed fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere nibh ac fermentum cursus. Maecenas porta, dui rutrum consequat sodales, odio lectus pellentesque felis, sed dictum tortor risus et odio. Nulla non nisi sed risus bibendum molestie. Duis mollis auctor sem.</p>
+          </article>
+        </section>
+
+        <section class="sneaky-blog">
+          <a href="blog.html">View Our Blog</a>
+        </section>
+
+        <section class="grid">
           <article class="doggo-grid">
             <img src="images/murphy-card.jpg" alt="Murphy" onclick="murphy()">
             <h3>Murphy</h3>
@@ -98,28 +98,52 @@
             <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
           </article>
 
-          <article class="doggo-grid">
-            <img src="images/angus-card.jpg" alt="Angus" onclick="angus()">
-            <h3>Angus</h3>
-            <p><strong>Cost to Adopt:</strong> $123.45</p>
-            <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-            <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
-          </article>
 
-          <article class="doggo-grid">
-            <img src="images/violet-card.jpg" alt="Violet" onclick="violet()">
-            <h3>Violet</h3>
-            <p><strong>Cost to Adopt:</strong> $123.45</p>
-            <p>Sed augue erat, pharetra ac laoreet in, consectetur non nibh. Nam maximus mattis felis ultricies semper. Maecenas ac elit eu nunc feugiat maximus. Sed ut purus sagittis, congue nisi aliquet, efficitur nisi. Donec sed dolor eu velit egestas cursus. Nam dui mauris, commodo sed magna ac, lacinia eleifend nulla. Proin eleifend, neque sed lacinia aliquet, libero velit vulputate orci, ut mollis ex diam ac turpis. Mauris rutrum dictum magna quis lobortis.</p>
-            <button type="button" name="button" onclick="cost(123.45)"> Adopt</button>
-          </article>
-        </div>
+        </section>
 
-        <a id="more-doggo" href="dogs.html"> See More Dogs</a>
-      </section>
+        <section class="more-dog">
+          <a id="more-doggo" href="dogs.html"> See More Dogs</a>
+        </section>
+
+      </div>
+
+
+      <aside class="main-right">
+        <h2 id="aside-title">From Our Blog</h2>
+
+        <article class="blog-sample">
+          <img src="images/blog-1.jpg" alt="Man hugging a golden retreiver ">
+          <div class="blog-article">
+            <h3>Traveling With Your Dog</h3>
+            <p>Quisque rhoncus iaculis neque, a gravida odio scelerisque eu. Maecenas scelerisque, justo in sollicitudin dapibus, sem elit vulputate orci, eu laoreet tellus metus sed ex. Proin suscipit posuere magna. Cras dictum non sapien sed fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere nibh ac fermentum cursus. Maecenas porta, dui rutrum consequat sodales, odio lectus pellentesque felis, sed dictum tortor risus et odio. Nulla non nisi sed risus bibendum molestie. Duis mollis auctor sem.</p>
+            <a href="blog.html">Read More >></a>
+          </div>
+        </article>
+
+        <article class="blog-sample">
+          <img src="images/blog-2.jpg" alt="Man hugging a golden retreiver ">
+          <h3>How To Walk Multiple Dogs</h3>
+          <div class="blog-article">
+            <p>Quisque rhoncus iaculis neque, a gravida odio scelerisque eu. Maecenas scelerisque, justo in sollicitudin dapibus, sem elit vulputate orci, eu laoreet tellus metus sed ex. Proin suscipit posuere magna. Cras dictum non sapien sed fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere nibh ac fermentum cursus. Maecenas porta, dui rutrum consequat sodales, odio lectus pellentesque felis, sed dictum tortor risus et odio. Nulla non nisi sed risus bibendum molestie. Duis mollis auctor sem.</p>
+            <a href="blog.html">Read More >></a>
+          </div>
+        </article>
+
+        <article class="blog-sample">
+          <img src="images/blog-3.jpg" alt="Man hugging a golden retreiver ">
+          <div class="blog-article">
+            <h3>Teach Your Dog To Fetch</h3>
+            <p>Quisque rhoncus iaculis neque, a gravida odio scelerisque eu. Maecenas scelerisque, justo in sollicitudin dapibus, sem elit vulputate orci, eu laoreet tellus metus sed ex. Proin suscipit posuere magna. Cras dictum non sapien sed fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere nibh ac fermentum cursus. Maecenas porta, dui rutrum consequat sodales, odio lectus pellentesque felis, sed dictum tortor risus et odio. Nulla non nisi sed risus bibendum molestie. Duis mollis auctor sem.</p>
+            <a href="blog.html">Read More >></a>
+          </div>
+        </article>
+      </aside>
+
+      </div>
+
     </div>
 
-    <footer>
+    <footer class= "footer">
       <img id="logo-footer" src="images/adoptadog-logo.svg" alt="German Shepard shilouette facing right">
       <p>Pellentesque a sem porttitor, vestibulum ligula hendrerit, rutrum lorem. Vivamus feugiat ut ex ac porttitor. Curabitur bibendum risus nisi. Sed sagittis purus nec cursus iaculis. Vestibulum ornare metus at velit lobortis, vitae gravida ex dignissim. Fusce vestibulum auctor rhoncus.</p>
       <div class="footer-navigation">
