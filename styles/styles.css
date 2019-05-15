@@ -392,7 +392,6 @@
 
 .dog-info > p {
   color: grey;
-  size: 1em;
 }
 
 
@@ -460,7 +459,7 @@
     width: 80%;
   }
   .blog-sample {
-    width 40%;
+    width: 40%;
   }
 
   .more-dog {
