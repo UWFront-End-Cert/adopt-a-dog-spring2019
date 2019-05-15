@@ -249,12 +249,8 @@ footer {
       .home-grid {
         display: grid;
         grid-template-columns: 50% 50%;
-        width: 100%;
+        max-width: 73%;
         row-gap: 1%;
-      }
-
-      .home-intro {
-        padding: 2% 2% 2% 2%;
       }
 
       .dogs-grid {
@@ -263,6 +259,11 @@ footer {
         width: 100%;
         row-gap: 1%;
       }
+
+      .home-intro {
+        padding: 2% 2% 2% 2%;
+      }
+
   }
 
 /* Tablet Landscape */
@@ -281,16 +282,12 @@ footer {
       .home-grid {
         display: grid;
         grid-template-columns: 50% 50%;
-        width: 100%;
+        max-width: 100%;
         row-gap: 1%;
       }
 
       .home-intro {
         padding: 2% 2% 2% 2%;
-        margin-right: auto;
       }
 
-      aside {
-        display: none;
-      }
   }
