@@ -24,7 +24,7 @@ header {
 
 .main-content {
   margin-top: 1%;
-  padding: 2% 12% 2% 12%;
+  padding: 2% 10% 2% 10%;
 }
 
 .blog-preview {
@@ -106,7 +106,6 @@ img {
 
 .home-intro {
   margin-right: 32%;
-  padding: 2% 2% 2% 2%;
 }
 
 .preview {
@@ -117,9 +116,8 @@ img {
 .home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+  column-gap: 2%;
   row-gap: 6%;
-  margin-right: 32%;
   }
 
 .dogs-grid {
