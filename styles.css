@@ -42,7 +42,7 @@ nav {
   font-size: 1em;
 }
 
-h2, h3, a {
+h3, a {
   text-decoration: none;
   font-weight: bolder;
   color: rgb(13,73,132);
@@ -60,7 +60,7 @@ h2, h3, a {
   padding: 2%;
 }
 
-.header-text {
+h1 {
   color: #3fb63f;
   font-family: Neuton;
   font-style: italic;
@@ -84,7 +84,7 @@ button .checkout a {
   margin-right: 2%;
 }
 
-h1 {
+h2 {
   font-weight: bold;
   color: rgb(13,73,132);
   padding: 2% 0% 2% 0%;
@@ -188,7 +188,7 @@ footer {
 }
 
 .all-dogs {
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 .blog-title {
@@ -211,6 +211,7 @@ footer {
 
   .home-intro {
     margin-right: auto;
+    padding: 2% 0% 0% 0%;
   }
 
   .home-grid {
@@ -231,13 +232,6 @@ footer {
     aside {
       display: none;
     }
-
-    .mobile-blog {
-      display: block;
-      color: rgb(85, 157, 167);
-      text-decoration: none;
-      font-size: 1rem;
-    }
   }
 
 /* Tablet Portrait */
@@ -248,10 +242,15 @@ footer {
 
       .home-grid {
         display: grid;
-        grid-template-columns: 50% 50%;
-        max-width: 73%;
-        row-gap: 1%;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        row-gap: 2%;
       }
+
+      .main-content {
+        padding: 0% 0% 0% 0%;
+      }
+
 
       .dogs-grid {
         display: grid;
@@ -259,11 +258,6 @@ footer {
         width: 100%;
         row-gap: 1%;
       }
-
-      .home-intro {
-        padding: 2% 2% 2% 2%;
-      }
-
   }
 
 /* Tablet Landscape */
@@ -279,15 +273,14 @@ footer {
         row-gap: 1%;
       }
 
+      .main-content {
+        padding: 0% 0% 0% 0%;
+      }
+
       .home-grid {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         max-width: 100%;
-        row-gap: 1%;
+        row-gap: 2%;
       }
-
-      .home-intro {
-        padding: 2% 2% 2% 2%;
-      }
-
   }
