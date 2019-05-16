@@ -99,8 +99,13 @@ a.footer-nav:hover {
 
 header {
   background-image: url(images/header-image.jpg);
-  padding: 1em 1em 7em 4em;
-  margin: -1em -1em 0em -1em;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -1em -1em -1em -1em;
+  padding: 1em 1em 1em 1em;
 }
 
 nav {
@@ -240,7 +245,7 @@ img.checkout {
 }
 
 .adopt-button {
-  background-color: #81B742;
+  background: radial-gradient(circle, #81B742 2%, white 99%);
   border: none;
   border-radius: 4px;
   color: #ECECEC;
@@ -251,7 +256,7 @@ img.checkout {
 }
 
 .adopt-button:hover {
-  background-color: #093C60;
+  background: radial-gradient(circle, #093C60 2%, white 99%);
   color: #ECECEC;
 }
 
@@ -412,6 +417,12 @@ input[type=submit] {
   img.front-img {
     width: 100%;
   }
+  
+  button.adopt-button {
+    width: 85%;
+    padding: .6em;
+    font-size: 1.2em;
+  }
 
 }
 
@@ -425,6 +436,10 @@ input[type=submit] {
     font-size: 1em;
   }
 
+  h2 {
+    font-size: 1em;
+  }
+
   div.dog-box {
     width: 100%;
     margin-bottom: 2em;
@@ -434,12 +449,35 @@ input[type=submit] {
     border-radius: 4px;
   }
 
+  img.checkout {
+    display: none;
+  }
+
   img.front-img {
     width: 100%;
   }
 
+  img.header-img {
+    width: 14em;
+  }
+
+  button.checkout-button {
+    display: none;
+  }
 
   aside.blog-aside {
     display: none;
   }
+
+  header {
+    height: 12em;
+  }
+
+  button.adopt-button {
+    width: 85%;
+    padding: .6em;
+    font-size: 1.2em;
+  }
+
+
 }
