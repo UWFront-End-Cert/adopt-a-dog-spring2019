@@ -89,7 +89,7 @@ body {
   justify-content: space-around;
   position: relative;
   margin-top:110px;
-  text-align: left;
+  text-align: center;
   padding-bottom: 150px;
 }
 .blogpic {
@@ -120,7 +120,7 @@ body {
 .adopt {
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
+    justify-content: center;
     align-content: space-between;
     margin-top: 100px;
     margin-left: 5px;
