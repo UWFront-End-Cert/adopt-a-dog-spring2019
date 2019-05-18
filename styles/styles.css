@@ -3,12 +3,14 @@ body {
 }
 
 header {
-  background: url("../images/header-image.jpg") no-repeat top;
   color: #81B741;
   font-size: 1.25rem;
   height: 20rem;
   padding-top: 3rem;
   box-sizing: border-box;
+  background-image: linear-gradient(to left, rgba(8,59,95,.3), rgba(8,59,95,0.6)), url(../images/header-image.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 header img.logo {
