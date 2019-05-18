@@ -24,7 +24,11 @@
 
 /**HEADER**/
 header {
-  background-color: #083b5f; /*dark blue*/
+  background-image: url("images/header-image.jpg");
+
+  background: linear-gradient(to right, #083b5f, #ffffff); /*dark blue*/
+  background-size: cover;
+  background-position: center center;
   padding: 1% 2%;
 }
 
