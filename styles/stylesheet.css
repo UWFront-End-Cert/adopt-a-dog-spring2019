@@ -46,7 +46,7 @@ header a {
 
 .cart {
   width: 2rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .checkout {
@@ -54,7 +54,7 @@ header a {
   font-size: 0.75rem;
   font-weight: 700;
   padding: 0.5rem 2rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 /*Styling for navigation*/
