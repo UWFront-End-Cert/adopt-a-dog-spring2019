@@ -3,10 +3,12 @@
 }
 
 /* ***Colors used in styling site:***
-Green color used in header and for CTAs (#00cc00)
-White font color (#ffffff)
-Blue font used in navigation and headers (#00394d)
-Light grey used for nav bar and borders (#e6e6e6)
+Green (#00cc00)
+White (#ffffff)
+Blue (#00394d)
+Light grey (#e6e6e6)
+Yellow (#e6e600)
+Black (#000000)
  */
 
 /* Setting the body text to be sans-serif, will use specific class styling as required for serif text */
@@ -21,7 +23,9 @@ a {
 
 /* Styling the header for images, fonts, etc. */
 header {
-  height: 30rem;
+  height: 25rem;
+/* Background gradient in case a browser doesn't suppor the image */
+  background: linear-gradient(#e6e600, #000000);
   background-image: url("../images/header-image.jpg");
   background-size: cover;
   display: flex;
@@ -46,7 +50,7 @@ header a {
 }
 
 .checkout {
-  background-color: #00cc00;
+  background: linear-gradient(to right, #00cc00, #00394d);
   font-size: 0.75rem;
   font-weight: 700;
   padding: 0.5rem 2rem;
@@ -229,7 +233,7 @@ h3 {
 
 /* Styling for the Adopt buttons */
 button {
-  background-color: #00cc00;
+  background: linear-gradient(to right, #00cc00, #00394d);
   border: none;
   color: #ffffff;
   width: 90%;
@@ -476,10 +480,10 @@ section {
 
 /* Submit button styling */
 input[type=submit] {
-  background-color: #00cc00;
+  background: linear-gradient(to right, #00cc00, #00394d);
   color: #ffffff;
   border: none;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 700;
   padding: 0.5rem 6rem;
 }
