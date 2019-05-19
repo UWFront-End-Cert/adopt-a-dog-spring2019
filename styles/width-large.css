@@ -2,6 +2,14 @@ body {
     background-color: red;
   }
   
+  header {
+    background: linear-gradient(to right, blue, red);
+    background-image: url("../images/mtndog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
   .header-item-1 {
     width: 5%;
     float: right;

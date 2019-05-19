@@ -2,6 +2,14 @@ body {
     background-color: gray;
   }
 
+  header {
+    background: linear-gradient(to right, red, gray);
+    background-image: url("../images/wyatt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
   .header-item-1 {
     width: 10%;
     float: right;

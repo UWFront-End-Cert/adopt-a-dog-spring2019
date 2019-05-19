@@ -2,6 +2,14 @@ body {
     background-color: blue;
 }
 
+header {
+  background: linear-gradient(to right, gray, blue);
+  background-image: url("../images/han.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
 .header-item-1 {
   width: 5%;
   float: right;
