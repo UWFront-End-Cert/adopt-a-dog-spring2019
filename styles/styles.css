@@ -409,15 +409,27 @@
 /*Blog Stylings*/
 
 .blog-body {
-  
+  padding: 1.5% 12% 0% 12%;
+  margin: auto;
 }
 
 .article {
+  display: grid;
+  grid-template-columns: repeat(2, 25%);
+  grid-gap: 3%;
+  margin-bottom: 10%;
+  align-content: center;
+  color: #1c356d;
+  }
 
+.article > img {
+  width: 100%;
+  height: 100%;
 }
 
 .context {
-
+  margin: 3% 0;
+  color: #1c356d;
 }
 
 /*Media Styling*/
@@ -476,7 +488,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1025px) {
-  .dog-list, .grid {
+  .dog-list, .grid, .article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10%;
@@ -485,6 +497,10 @@
   }
   .blog-sample {
     width: 40%;
+  }
+
+  .article > img {
+    height: 50%;
   }
 
   .more-dog {
