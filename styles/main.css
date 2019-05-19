@@ -15,7 +15,8 @@ header
 {
     height: 50vh;
 
-    background: url(../img/bg-main.jpg) no-repeat center top/cover;
+    background: url(../img/bg-main.jpg)  no-repeat center top/cover, linear-gradient(to right, #000 0%, #c48b8b 100%) ;
+    
 }
 
 .title
@@ -83,7 +84,7 @@ a[href='checkout.html'],
     color: #fff;
     border: none;
     border-radius: 5px;
-    background: #80b641;
+    background: linear-gradient(to right, #000 0%, #c48b8b 100%);
 }
 
 /* header ends */
@@ -637,20 +638,23 @@ select.long
         width: 20%;
         margin: 10px auto;
     }
-    
+
     footer img,
-    footer p {
+    footer p
+    {
         width: 50%;
     }
 }
-@media only screen 
-and (max-device-height : 860px) 
+@media only screen
+and (max-device-height : 860px)
 and (min-device-height : 767px)
 and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 1) {
- header {
-    height: 60vh;
-    } 
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    header
+    {
+        height: 60vh;
+    }
 }
 
 @media (max-width: 728px)
@@ -685,12 +689,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
         margin-top: 15%;
     }
 }
-@media only screen 
-and (max-device-height : 568px) 
+@media only screen
+and (max-device-height : 568px)
 and (min-device-height : 567px)
 and (max-device-width : 320px)
-and (-webkit-min-device-pixel-ratio: 1){
-    header {
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    header
+    {
         height: 60vh;
     }
 }
