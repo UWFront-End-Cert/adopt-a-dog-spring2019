@@ -6,11 +6,6 @@
   font-family: 'Merriweather', sans-serif;
 }
 
-/*Gradient*/
-.linear-gradient {
-  background: linear-gradient(45deg, black, white);
-}
-
 /*Header*/
 
 .header {
@@ -202,7 +197,7 @@
 }
 .doggo-grid > h3 {
   color: #1c356d;
-  font-size: 4em,
+  font-size: 4em;
   padding: 0 5%;
 }
 .doggo-grid > p {
