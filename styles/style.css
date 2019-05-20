@@ -1,13 +1,22 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .header-img {
   background-image: url(../images/header-image.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  height: 20em;
+  position: relative;
+  margin: auto;
 }
+
+/* @media screen and (min-width: 480px) {
+  .header-img {
+    height: 20em;
+  }
+} */
 
 .logo {
   max-width: 40%;
@@ -17,7 +26,7 @@
 
 .tagline {
   color: #81B642;
-  font-size: 2vw;
+  font-size: 2.2vw;
   font-style: italic;
   font-weight: 200;
   margin: 0;
@@ -27,9 +36,9 @@
 .cart-total {
   color: white;
   position: absolute;
-  left: 80%;
-  top: 3em;
-  width: 12em;
+  left: 70%;
+  top: 10%;
+  width: 8vw;
 }
 
 .cart-icon {
@@ -40,7 +49,7 @@
   background-color: #81B642;
   border: none;
   color: white;
-  padding: .5em 2em;
+  padding: .5vw 2vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -60,44 +69,40 @@
   font-weight: bold;
   padding-right: 1em;
   padding-left: 1em;
+  font-size: 1em;
 }
 
 .blog-container {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: auto auto;
   padding-bottom: 1em;
 }
 
-.blog {
-  margin: auto;
-  width: 80%;
+.blog-img-container {
 }
 
 .blog-img {
-  float: left;
   max-width: 20em;
 }
 
 .blogtext {
-  padding-left: 17em;
-  margin-left: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
+  padding-left: 10px;
+  max-width: 80%;
 }
 
 h3 {
   color: #083C61;
 }
 
-.centering-container {
-  display: inline-block;
-}
-
-.dogs-list-container {
-  margin: auto;
-  width: 80%;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
 }
 
 .doggo-card {
-  margin: 2em;
+  margin: 3em;
   border: 1px solid #ccc;
   float: left;
   width: 15em;
