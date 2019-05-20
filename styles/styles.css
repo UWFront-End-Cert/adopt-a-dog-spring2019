@@ -34,10 +34,13 @@ a:link {
 a:visited {
   text-decoration: none;
 }
-  
+
 .banner {
   background-color: #093b60;
-  height: 18em;
+  background-image: url("../images/header-image.jpg");
+  background-size: cover;
+  background-position: right top;
+  height: 25em;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -106,9 +109,6 @@ margin-right: 1em;
   font-size: 75%;
   line-height: 30px;
   border: none;
-  /*do a search on Mozilla Developer's network on line-height. I'm a fan of the multiplier method for these; could =/* Unitless values: use this number multiplied
-by the element's font size
-line-height: 3.5;*/
   text-align: center;
   margin: 10px;
 }  
@@ -209,13 +209,10 @@ h2 {
   justify-content: space-around;
   align-items: center;
   justify-content: center;
-
 }
 
 .profile-card {
   width: 200px;
-  /*You'll want to use a percent for this. You can constrain how small or large it gets with max-width and min-width*/
-  /*I'm probably missing something, but I disagree. I rewrote it with %s and it gets weird when sized down. For these cards, I'm finding px most effective.*/
   height: 375px;
   margin: 25px;
   border: 2px solid #ebebeb;
@@ -223,7 +220,6 @@ h2 {
 
 .profilepicture {
   width: 200px;
-  /*Percent here will be helpful, you can set it for a percentage of the container.*/
 }
 
 h3 {
@@ -246,10 +242,10 @@ h3 {
 }
 
 .adopt-button {
-  background-color: #81B642;
+  background: linear-gradient(to right, #81B642, #285573 90%);
   height: 30px;
   width: 180px;
-  /*Percent again...*/
+  
   font-family: "Archivo Black", Geneva, sans-serif;
   font-weight: bold;
   font-size: 90%;
@@ -281,6 +277,10 @@ h3 {
   line-height: 50px;
   text-align: center;
   margin: 10px;
+}
+
+.more {
+  color: #093b60;
 }
 
 a.more:visited {
