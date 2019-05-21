@@ -230,7 +230,6 @@ div.gallery-item {
   padding-left: 1rem;
 }
 
-<<<<<<< HEAD
   .adopt-button {
     display: flex;
     justify-content: center;
@@ -244,11 +243,6 @@ div.gallery-item {
     font-size: 1em;
     border: none;
   }
-=======
-.caption h3 {
-  padding-top: .5em;
-}
->>>>>>> ebd8faa9afecc771a40f026fcc42b824dee3ea16
 
 .adopt-button {
   display: flex;
