@@ -67,6 +67,7 @@ aside img {
 }
 
 header.head {
+  background-image: linear-gradient(to bottom right, #034177 50%, #77ad3b);
   background-image: url(../images/header-image.jpg);
   background-size: cover;
   padding: 2em 4em 4em;
@@ -235,7 +236,7 @@ div.gallery-item {
   .adopt-button {
     display: flex;
     justify-content: center;
-    background-color: #77ad3b;
+    background-image: linear-gradient(to bottom right, #034177 5%, #77ad3b);
     padding: 5% 35% 5% 35%;
     margin-left: auto;
     margin-right: auto;
