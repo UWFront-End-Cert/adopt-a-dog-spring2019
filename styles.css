@@ -6,13 +6,12 @@ a:link {
 }
 
 header {
-  background: #03a3df;
-  background: #000000 url(images/header-image.jpg);
+  background:linear-gradient(to bottom right, green, black);
+  background: url(images/header-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 5rem 5rem;
-  margin-bottom: 0rem;
-  margin-top: 1.5rem;
-  display: block;
-  text-align:left;
 }
 
 header > img {
@@ -56,7 +55,8 @@ header > h2 {
 .welcome-image {
   float: left;
   padding-right: 30px;
-  width: 30em;
+  height: 500px;
+  width: auto;
 }
 .about-text {
   float: right;
