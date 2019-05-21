@@ -8,29 +8,28 @@
 }
 
 header {
-  background-color: rgb(13,73,132);
-  color: rgb(7,196,47);
-}
-
-.header-background {
+  background: linear-gradient(to right, rgb(13,73,132), rgb(217,217,217));
   background-image: url("images/header-image.jpg");
   background-size: cover;
-  color: #FFFFFF;
+  background-repeat: no-repeat;
+  color: rgb(255,255,255);
   height: 28rem;
-  padding: 4% 1% 0% 1%;
+  padding: 2% 1% 0% 1%;
   display: flex;
   justify-content: space-between;
 }
 
 .main-content {
   margin-top: 1%;
+  margin-left: 2%;
   padding: 2% 10% 2% 10%;
 }
 
 .blog-preview {
   float: right;
   width: 32%;
-  padding-left: 4rem;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 nav {
@@ -55,7 +54,7 @@ h3, a {
 }
 
 .cart {
-  width: 15%;
+  width: 16%;
   margin-right: 2%;
   padding: 2%;
 }
@@ -71,16 +70,15 @@ h1 {
   display: inline;
 }
 
-button .checkout a {
+button .checkout {
   font-weight: bold;
   background-color: #3fb63f;
   color: white;
   width: 100%;
-  padding: 1.5% 10%;
 }
 
 .cart-icon {
-  width: 6%;
+  width: 8%;
   margin-right: 2%;
 }
 
@@ -118,6 +116,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2%;
   row-gap: 6%;
+  margin-right: 4%;
   }
 
 .dogs-grid {
@@ -145,6 +144,8 @@ img {
   float: left;
   margin-right: 6%;
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .preview-img {
@@ -238,6 +239,11 @@ footer {
     and (max-width: 1024px)
     and (orientation: portrait) {
 
+      .first-image {
+        max-width: 98%;
+        height: auto;
+      }
+
       .home-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -264,6 +270,11 @@ footer {
     and (max-width: 1024px)
     and (orientation: landscape) {
 
+      .first-image {
+        max-width: 98%;
+        height: auto;
+      }
+
       .dogs-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -279,6 +290,6 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 100%;
-        row-gap: 2%;
+        row-gap: 1%;
       }
   }
