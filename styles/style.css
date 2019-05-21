@@ -4,12 +4,14 @@
 }
 
 .header-img {
+  background: linear-gradient(to right, #ECECEC, #083C61);
   background-image: url(../images/header-image.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 15%;
   background-size: cover;
   position: relative;
   margin: auto;
+
 }
 
 .logo {
