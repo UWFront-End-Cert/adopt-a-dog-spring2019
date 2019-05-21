@@ -66,6 +66,10 @@ header > h2 {
   color: navy;
 }
 
+.blog > img {
+  width: 100%;
+}
+
 .dog {
   width: 12rem;
   height: 100%;
