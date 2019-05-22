@@ -10,15 +10,33 @@ h1,h2,h3,h4 {
 }
 
 header {
-  height: 30%;
+  height: 25%;
   width: 100%;
-  background-image: url("images/h.jpg");
+  background-image: linear-gradient(gray, black);
+  background-image:url("images/h.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
   color: white;
   display: flex;
   flex-direction: row;
   align-content: space-between;
   justify-content: space-between;
 }
+
+
+@media(max-width: 900px){
+   header {
+        background-image:url("images/h-medium.jpg");
+    }
+}
+
+@media(max-width: 600px){
+   header {
+        background-image:url("images/h-small.jpg");
+    }
+}
+
 
 header h2 {
   color: #3fb63f;
@@ -65,7 +83,7 @@ nav a:visited {
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 15%;
-  width: 100%;
+  width: 85%;
   background-color: gray;
   display: flex;
   align-items: center;
