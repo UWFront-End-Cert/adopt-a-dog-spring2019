@@ -106,6 +106,10 @@ h3 {
   color: #083C61;
 }
 
+.prev-blog-title {
+
+}
+
 .content-grid {
   display: grid;
   grid-template-columns: auto auto;
@@ -163,23 +167,28 @@ h3 {
 }
 
 .doggo-bloggo-container {
+  display: grid;
   margin: auto;
-  width: 80%;
+  width: 70%;
 }
 
 .bloggo-card{
   display: inline-block;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 h1 {
   color: #083C61;
+  margin-top: 1em;
+  margin-left: 2em;
 }
 
 .bloggoimg {
   float: left;
-  margin-right: 2em;
-  margin-bottom: 4em;
-  max-width: 15em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  max-width: 10em;
 }
 
 h4 {
