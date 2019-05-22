@@ -17,7 +17,6 @@
         grid-template-columns: 100%;
         background: url(../images/header-image.jpg) no-repeat center top;
         background-size: cover;
-        background-image: linear-gradient(to left, white, blue)
         }   
     /*The grid-template-columns property can also be used to specify the size (width) of the columns.*/
 
