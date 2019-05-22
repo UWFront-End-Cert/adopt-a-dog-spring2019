@@ -77,6 +77,17 @@ a:visited {
   margin: 2em 3.5em 0 4.25em;
 }
 
+aside {
+  float: right;
+  width: 20%;
+  margin: 2em 5em 2em;
+
+}
+
+aside article {
+  margin: 1em 0.5em;
+}
+
 h2 {
   color: #154360;
   margin-top: 2em;
@@ -88,7 +99,8 @@ h2 {
   justify-content: center;
   align-content: center;
   align-items: flex-start;
-  clear: both;
+  clear: left;
+  margin-left: 0px;
 }
 
 .flex-dog {
@@ -228,4 +240,102 @@ footer p {
 
 footer h3 {
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  aside {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  .intro {
+    float: none;
+  }
+  aside {
+    float: none;
+    width: auto;
+  }
+  aside img {
+    width: 100%;
+  }
+
+  aside img, aside h3, aside p {
+    margin: 0.5em auto;
+  }
+  .flexbox-container {
+    float: none;
+    width: 100%;
+    margin: 1em;
+    margin-left: 0px;
+    justify-content: space-evenly;
+  }
+  .flex-dog {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    background-position: center top;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .flexbox-container {
+    float: none;
+    width: 100%;
+    margin: 1em;
+    margin-left: 0px;
+    justify-content: space-evenly;
+  }
+  .flex-dog {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 0.5em;
+  }
+  .intro {
+    width: 100%;
+    margin: 0.5em auto;
+    text-align: center;
+  }
+  .flex-dog {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    background-size: cover;
+    background-position: center top;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-position: right top;
+    background-size: cover;
+  }
+  .flex-dog {
+    width: 45%;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .flex-dog {
+    width: 25%;
+  }
 }
