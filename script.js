@@ -31,7 +31,6 @@ document.getElementById('adoptionForm').onsubmit = function () {
         console.log(document.getElementById('adoptionNo').value);
         };
     let sel = document.getElementById('pickup');
-        console.log(sel.selectedIndex);
         console.log(sel.options[sel.selectedIndex].value);
     return false;
 };
