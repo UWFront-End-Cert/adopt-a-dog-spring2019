@@ -16,7 +16,6 @@ header
     height: 50vh;
 
     background: url(../img/bg-main.jpg)  no-repeat center top/cover, linear-gradient(to right, #000 0%, #c48b8b 100%) ;
-    
 }
 
 .title
@@ -123,38 +122,14 @@ img[src='img/home-intro2.jpg']
     display: none;
 }
 
-.block-1
-{
-    display: flex;
-
-    margin-top: 70px;
-}
-
 .second-side
 {
     margin-left: 50px;
 }
 
-.second-side h2,
-.second-side h3,
-.aside-body h2
-{
-    margin-top: 0;
-
-    text-align: left;
-    text-align: left;
-
-    color: #093c60;
-}
-
-.second-side h3
-{
-    font-size: 2em;
-}
-
 .read-more
 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
 
     text-decoration: none;
@@ -183,9 +158,7 @@ p
 {
     margin-top: 70px;
 
-    -webkit-box-shadow: 3px 3px 5px 0 rgba(120,120,120,1);
-       -moz-box-shadow: 3px 3px 5px 0 rgba(120,120,120,1);
-            box-shadow: 3px 3px 5px 0 rgba(120,120,120,1);
+    box-shadow: 3px 3px 5px 0 rgba(120,120,120,1);
 
     flex-basis: 22%;
 }
@@ -207,14 +180,23 @@ p
 
     cursor: pointer;
 }
-
-h3
+h2
 {
-    margin: 0 0 10px;
-    padding: 0;
+    font-size: 2.2em;
+
+    letter-spacing: 1px;
 
     color: #093c60;
 }
+h3
+{
+    font-size: 1.7em;
+
+    margin: 0;
+
+    color: #093c60;
+}
+
 
 .bold
 {
@@ -263,30 +245,22 @@ h3
 
     flex-basis: 30%;
 }
-.aside-body h2
-{
-    font-size: 3em;
-}
-.aside-body img
+
+
+.aside-body .first-side img
 {
     width: 100%;
 }
 
-.first-side img
-{
-    display: block;
-
-    width: 100%;
-    margin: auto;
-}
 .logo-text
 {
     line-height: 1.7em;
 }
 .block-1
 {
-    display: block;
+    margin-top: 70px;
 }
+
 img[src='img/home-intro.jpg']
 {
     display: none;
@@ -297,7 +271,7 @@ img[src='img/home-intro2.jpg']
 
     width: 100%;
 }
-.second-side
+.aside-body .second-side
 {
     margin: 1em 0 0;
 }
@@ -305,6 +279,13 @@ img[src='img/home-intro2.jpg']
 .item
 {
     flex-basis: 29%;
+}
+
+.blog-second .block-1
+{
+    display: flex;
+
+    justify-content: space-between;
 }
 
 /* end of section */
@@ -365,12 +346,7 @@ footer .left:after
 }
 
 /* Dogs second */
-h2
-{
-    font-size: 2.5em;
 
-    letter-spacing: 1px;
-}
 
 .dogs-second .item
 {
@@ -616,6 +592,21 @@ select.long
 
 
 /* *** MEDIA STYLES *** */
+@media (max-width: 1150px){
+
+    .blog-second .block-1 {
+        display: block;
+    }
+    .blog-second{
+        text-align: center;
+
+    }
+    .blog-second .block-1 img {
+        width: 50%;
+        margin-bottom: 2em;
+    }
+
+}
 @media (max-width: 1101px)
 {
     .title
