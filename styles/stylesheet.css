@@ -209,3 +209,103 @@ figure {
   margin-left: 0;
   margin-bottom: 1em;
 }
+
+/* CHECKOUT PAGE */
+
+form {
+  width: 20%;
+  padding-left: 3em;
+}
+
+.checkout-header {
+  padding-left: 3em;
+}
+
+.form-header {
+  font-size: 1rem;
+  color: #193b72;
+  margin: 0;
+}
+
+.dog-price {
+  font-size: 0.8rem;
+  color: #193b72;
+}
+
+button, input, select, textarea {
+font-family: inherit;
+font-size: 100%;
+}
+
+input, textarea, select, button {
+margin: 0.4em;
+border-radius: 0.3em;
+outline: none;
+background-color: #ffffff;
+box-sizing: border-box;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: #FFFFFF;
+  height: 3em;
+  width: 100%;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  cursor: pointer;
+  width: 16%;
+}
+
+input[name=zipcode] {
+  width: 22%;
+  box-sizing: border-box;
+  display: inline;
+}
+
+input[name=city] {
+  width: 22%;
+  box-sizing: border-box;
+  display: inline;
+}
+
+
+.form-header-bottom {
+  font-size: 1rem;
+  color: #193b72;
+  margin: 0;
+  padding: 2em 0;
+}
+
+.dogs-adopted {
+  display: flex;
+  width: 100%;
+}
+
+.adopted-dog {
+  margin-bottom: 3em;
+  font-size: 0.8rem;
+  color: #193b72;
+  font-weight; bold;
+}
+
+.final-info {
+  padding: 1em;
+  font-size: 0.8rem;
+  color: #193b72;
+  font-weight: bold;
+}
