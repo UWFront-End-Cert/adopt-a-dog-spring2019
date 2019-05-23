@@ -18,6 +18,7 @@ html {
 body {
     font-family: "Arial", sans-serif;
     display: block;
+    max-width: 1900px;
 }
 
 a {
@@ -38,27 +39,27 @@ header {
   height: 36em;
 }
 
-.headertext {
+.header-text {
   font-size: 1.9rem;
   font-style: italic;
   color: green;
 }
 
-.checkoutbox {
+.checkout-box {
   margin: 0;
   display: block;
 }
 
-.logoimg {
+.logo-img {
   width: 35em;
 }
 
-.cartimg {
+.cart-img {
   width: 2em;
   margin-right: .5rem;
 }
 
-.checkoutbuttontop {
+.checkout-button-top {
     background-color: green;
     color: #FFFFFF;
     height: 3em;
@@ -97,7 +98,7 @@ li a {
 
 /* MAIN SECTION */
 
-.mainsection {
+.main-section {
     width: 90%;
     margin: 1.25em auto;
     display: flex;
@@ -121,7 +122,7 @@ h2 {
 
 /* DOG PROFILESf */
 
-.dogprofiles {
+.dog-profiles {
   display: flex;
   width: 90%;
   justify-content: center;
@@ -150,25 +151,25 @@ h2 {
   text-align: center;
 }
 
-.dogpic {
+.dog-pic {
   width: 100%;
 }
 
-.costtoadopt {
+.cost-to-adopt {
   font-weight:bold;
 }
 
-.profileheader {
+.profile-header {
   color: #1c4282;
   font-weight: bold;
 }
 
-.seemore {
+.see-more {
   margin: auto;
   width: 20%;
 }
 
-.seemorebutton {
+.see-more-button {
   background-color: #e3e4e5;
   color: #1c4282;
   font-weight: bold;
@@ -180,7 +181,7 @@ h2 {
 
 /* FOOTER */
 
-.footersection {
+.footer-section {
   background: linear-gradient(#073B60, #000000);
   text-align: center;
   font-family: arial;
@@ -189,6 +190,22 @@ h2 {
   padding: 2em;
 }
 
-.footerlogo {
+.footer-logo {
   width: 30%;
+}
+
+/*BLOG PAGE */
+
+.blog-section {
+  padding-left: 3em;
+}
+
+.blog {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+figure {
+  margin-left: 0;
+  margin-bottom: 1em;
 }
