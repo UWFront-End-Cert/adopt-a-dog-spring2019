@@ -29,17 +29,17 @@
 
     <h2>Checkout</h2>
 
-    <form method="GET">
+    <form method="GET" id="adoptionForm">
         <label>Name
-            <input type="text" name="contactName">
+            <input type="text" name="contactName" id="name">
         </label>
 
         <label>Email Address
-            <input type="email" name="contactEmail">
+            <input type="email" name="contactEmail" id="email">
         </label>
 
         <label>Street Address
-            <input type="text" name="contactLocation">
+            <input type="text" name="contactLocation" id="streetAddress">
         </label>
 
         <div class="city-state-zip">
@@ -112,19 +112,19 @@
         <fieldset>
             <legend>First Time Adopter?</legend>
             <label class="radio-option">Yes
-                <input type="radio" name="special" value="yes">
+                <input type="radio" name="special" value="yes" id="adoptionYes">
             </label>
             <label class="radio-option">No
-                <input type="radio" name="special" value="no">
+                <input type="radio" name="special" value="no" id="adoptionNo">
             </label>
         </fieldset>
 
         <label>Pickup Location
-            <select>
-                <option value="#" selected="selected">Seattle</option>
-                <option value="#">Tacoma</option>
-                <option value="#">Everett</option>
-                <option value="#">Bellevue</option>
+            <select id="pickup">
+                <option value="Seattle" id="Seattle" selected="selected">Seattle</option>
+                <option value="Tacoma" id="Tacoma">Tacoma</option>
+                <option value="Everett" id="Everett">Everett</option>
+                <option value="Bellevue" id="Bellevue">Bellevue</option>
             </select>
         </label>
 
@@ -133,12 +133,13 @@
 
         <label>Total Adoption Cost</label>
 
-        <input type="submit" id="submit" value="Submit">
+        <input type="submit" id="submit" value="Submit" onclick="submitForm()">
     </form>
 
     <footer>
         <img src="images/adoptadog-logo.svg" alt="Dog logo">
-        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam
+            consequunt</p>
         <nav>
             <a href="index.html">Home&nbsp;&nbsp;</a>
             <a href="dogs.html">&nbsp;&nbsp;Dogs&nbsp;&nbsp;</a>
@@ -146,6 +147,8 @@
         </nav>
         <p>&copy; 2019 Adopt A Dog, LLC | Seattle, WA</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
