@@ -145,6 +145,14 @@ nav a#first-nav  {
   padding-bottom: 2em;
 }
 
+.main-content-blog {
+  grid-area: content;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
+
 .about-adopt {
   width: 100%;
 }
@@ -320,7 +328,6 @@ footer p {
 
 .blog img {
   padding-left: .5em;
-  width: 100%;
   margin: auto;
 }
 
@@ -489,6 +496,11 @@ select {
   header h1 {
     font-size: 2em;
   }
+
+  .blog img {
+    padding-left: 0em;
+    width: 100%;
+  }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -586,6 +598,11 @@ section.gallery {
   header h1 {
     font-size: 1em;
   }
+
+  .blog img {
+    padding-left: 0em;
+    width: 100%;
+  }
  }
 
  @media print {
@@ -604,4 +621,4 @@ section.gallery {
     page-break-inside: avoid;
   }
  }
-
+ 
