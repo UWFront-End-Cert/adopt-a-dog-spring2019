@@ -36,38 +36,41 @@
 
       <div class="row">
         <div class="col-50">
-          <label>Name: <input type="text" name="applicantName"></label>
-          <label>Email Address: <input type="text" name="applicantEmail"></label>
-          <label>Street Address: <input type="text" name="applicantAddress"></label>
+          <label>Name: <input type="text" name="applicantName" id="applicantName"></label>
+          <label>Email Address: <input type="text" name="applicantEmail" id="applicantEmail"></label>
+          <label>Street Address: <input type="text" name="applicantAddress" id="applicantAddress"></label>
         </div>
       </div>
 
       <div class="row">
         <div class="col-25">
-          <label>City: <input type="text" name="applicantCity"></label>
+          <label>City: <input type="text" name="applicantCity" id="applicantCity"></label>
           </div>
         <div class="col-10">
-          <label>State: <input type="text" name="applicantState"></label>
+          <label>State: <input type="text" name="applicantState" id="applicantState"></label>
           </div>
         <div class="col-10">
-          <label>Zip Code: <input type="text" name="applicantZip"></label>
+          <label>Zip Code: <input type="text" name="applicantZip" id="applicantZip"></label>
           </div>
       </div>
 
       <div class="row">
         <div class="col-50">
           <h3>First Time Adopter?</h3>
-          <label class="radio-label">
-            <input type="radio" name="new" value="yes">Yes</label>
-          <label class="radio-label">
-            <input type="radio" name="new" value="no">No</label>
+          <form name="firstTime">
+          </form>
+          <form name="firstTimeAdopter">
+            <label class="radio-label">Yes <input type="radio" name="newAdopter" value="Yes"></label>
+            <label class="radio-label">No <input type="radio" name="newAdopter" value="No"></label>
+          </form>
         </div>
       </div>
+
 
       <div class="row">
         <div class="col-50">
           <h3>Pickup Location:</h3>
-          <select name="pickup">
+          <select name="pickup" id="pickup">
             <option style="display:none"> &nbsp; </option>
             <option value="OR">Portland, OR</option>
             <option value="WA">Seattle, WA</option>
@@ -114,6 +117,8 @@
     <p class="footer-p">&copy; 2018 Adoptadog, LLC &nbsp;|&nbsp; Seattle, WA</p>
     </section>
   </footer>
+  <script src="./scripts/checkout.js" charset="utf-8"></script>
+
 </body>
 
 </html>
