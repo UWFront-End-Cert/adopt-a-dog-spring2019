@@ -33,9 +33,117 @@
 	</header>
 
 	<div class="form-container">
+		<form method="get" action="action_page.php">
+			<h3>Checkout</h3>
 
-	 <script src="./contact.js"></script>
+			<div class="row">
+				<div class="col-100">
+					<label for="name">Name</label>
+				</div>
+				<div class="col-100">
+					<input type="text" id="name" name="fullname">
+				</div>
+			</div>
 
+			<div class="row">
+				<div class="col-100">
+					<label for="email">Email Address</label>
+				</div>
+				<div class="col-100">
+					<input type="text" id="email" name="email">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-100">
+					<label for="address">Street Address</label>
+				</div>
+				<div class="col-100">
+					<input type="text" id="address" name="address">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-40">
+					<label  for="city">City</label>
+				</div>
+				<div class="col-25">
+					<label  for="state">State</label>
+				</div>
+				<div class="col-25">
+					<label for="zipcode">Zip Code</label>
+				</div>
+			</div>	
+
+			<div class="row">
+				<div class="col-40">
+					<input type="text" id="city" name="city">
+				</div>
+				<div class="col-25">
+					<select id="state"  name="State">
+						<option value="">. </option>
+						<option value=""> .</option>
+						<option value="">. </option>
+					</select>
+				</div>
+				<div class="col-25">
+					<input type="text" id="zipcode" name="zipcode">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-100">
+					<label>First Time Adopter?</label>
+				</div>
+				<div class="col-100">
+					<input name="instructor-name" type="radio" value="yes" checked>Yes
+					<input name="instructor-name" type="radio" value="no">No
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-100">	
+					<label>Pick up Location</label>
+				</div>
+				<div class="col-40">
+					<select id="location"  name="location">
+						<option value="">. </option>
+						<option value=""> .</option>
+						<option value="">. </option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row">
+				<label>Dogs Adopted</label>
+			</div>
+				
+			<div class="checkout-container">
+				<div class="row">
+				<div class="col-50">	
+						<div class="checkout-dog">
+							<img src="images/lucas-card.jpg" alt="lucus dog image" class="checkout-dog">
+							<p><strong>Lucas</strong></p>
+							<p class="cost"><strong>Cost to Adopt:</strong>$123.45 </p>
+						</div>
+				</div>
+				<div class="col-50">	
+						<div class="checkout-dog">
+							<img src="images/duffy-card.jpg" alt="duffy dog image" class="checkout-dog">
+							<p><strong>Duffy</strong></p>
+							<p class="cost"><strong>Cost to Adopt:</strong>$123.45 </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="total-cost">
+				<label >Toal Adoption Cost</label>
+				<p class="cost"> $123.45 </p>
+				<input type="submit" value="Submit">
+			</div>					
+
+		</form>
 	</div>
 
 	<footer>
@@ -52,5 +160,4 @@
 	</footer>
 
 </body>
-
 </html>
