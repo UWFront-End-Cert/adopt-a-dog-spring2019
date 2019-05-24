@@ -21,19 +21,19 @@
     <h1>Checkout</h1>
     <form method="GET">
       <label>Name
-        <input type="text" name="name" required>
+        <input id="name" type="text" name="name" required>
       </label>
       <label>Email Address
-        <input type="email" name="emailAddress" required>
+        <input id="email" type="email" name="emailAddress" required>
       </label>
       <label>Street Address
-        <input type="text" name="streetAddress" required>
+        <input id="address" type="text" name="streetAddress" required>
       </label>
       <label>City
-        <input type="text" name="city" required>
+        <input id="city" type="text" name="city" required>
       </label>
       <label>State
-        <select name="state">
+        <select id="state" name="state">
           <option value="" label="Select One"></option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
@@ -88,7 +88,7 @@
         </select>
       </label>
       <label>Zip Code
-        <input type="text" name="zipCode" required>
+        <input id="zip" type="text" name="zipCode" required>
       </label>
       <fieldset class="checkbox">
         <legend>First Time Adopter?</legend>
@@ -100,7 +100,7 @@
         </label>
       </fieldset>
       <label>Pickup Location
-        <select name="pickupLocation" required>
+        <select id="pickupLocation" name="pickupLocation" required>
           <option value="" label="Select One"></option>
           <option value="Location 1">Location 1</option>
           <option value="Location 2">Location 2</option>
@@ -126,7 +126,7 @@
       <div class="total">
         <span>Total Adoption Cost</span>
         <span>$1234.56</span>
-        <input type="submit" class="large" value="Submit">
+        <input onclick="successMessage()" type="submit" class="large" value="Submit">
       </div>
     </form>
   </main>
@@ -142,5 +142,6 @@
       © 2018 Adoptadog, LLC | Seattle, WA
     </p>
   </footer>
+  <script src="scripts/form-script.js" charset="utf-8"></script>
 </body>
 </html>
