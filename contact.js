@@ -1,3 +1,4 @@
+console.log('hi');
 const fields = [
     { type: 'text',  item: 'fullname',  label: 'Name'   },
     { type: 'text',  item: 'email',     label: 'Email address'  },
