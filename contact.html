@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Contact Page</title>
 	<link rel="stylesheet" type="text/css" href="styles/adopt-dog.css">
+	<script src="scripts/contact.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
 	</header>
 
 	<div class="form-container">
-		<form method="get" action="action_page.php">
+		<form action="" id="dogForm" onsubmit="sConsole(event)">
 			<h3>Checkout</h3>
 
 			<div class="row">
@@ -41,7 +42,7 @@
 					<label for="name">Name</label>
 				</div>
 				<div class="col-100">
-					<input type="text" id="name" name="fullname">
+					<input type="text" id="name" name="fullname" value="your name">
 				</div>
 			</div>
 
@@ -50,7 +51,7 @@
 					<label for="email">Email Address</label>
 				</div>
 				<div class="col-100">
-					<input type="text" id="email" name="email">
+					<input type="text" id="email" name="email" value="xyz@email.com">
 				</div>
 			</div>
 
@@ -59,7 +60,7 @@
 					<label for="address">Street Address</label>
 				</div>
 				<div class="col-100">
-					<input type="text" id="address" name="address">
+					<input type="text" id="address" name="address" value="your address">
 				</div>
 			</div>
 
@@ -71,23 +72,24 @@
 					<label  for="state">State</label>
 				</div>
 				<div class="col-25">
-					<label for="zipcode">Zip Code</label>
+					<label for="zip">Zip Code</label>
 				</div>
 			</div>	
 
 			<div class="row">
 				<div class="col-40">
-					<input type="text" id="city" name="city">
+					<input type="text" id="city" name="city" value="your city">
 				</div>
 				<div class="col-25">
 					<select id="state"  name="State">
-						<option value="">. </option>
-						<option value=""> .</option>
-						<option value="">. </option>
+						<option value="CA">CA</option>
+						<option value="OR">OR</option>
+						<option value="WA" selected>WA</option>
 					</select>
 				</div>
+				
 				<div class="col-25">
-					<input type="text" id="zipcode" name="zipcode">
+					<input type="text" id="zip" name="zipcode" value="nnnnn">
 				</div>
 			</div>
 
@@ -96,20 +98,22 @@
 					<label>First Time Adopter?</label>
 				</div>
 				<div class="col-100">
-					<input name="instructor-name" type="radio" value="yes" checked>Yes
-					<input name="instructor-name" type="radio" value="no">No
+					<label class="radio-option">Yes</label>
+					<input name="first-time" type="radio" id="firstYes" value="yes" checked>
+					<label class="radio-option">No</label>
+					<input name="first-time" type="radio" id="firstNo"  value="no">
 				</div>
 			</div>
-
+			
 			<div class="row">
 				<div class="col-100">	
 					<label>Pick up Location</label>
 				</div>
 				<div class="col-40">
-					<select id="location"  name="location">
-						<option value="">. </option>
-						<option value=""> .</option>
-						<option value="">. </option>
+					<select id="loc"  name="location">
+						<option value="Bellevue" id="bel" selected="Bellevue">Bellevue</option>
+						<option value="Lynnwood" id="lyn">Lynnwood</option>
+						<option value="Seattle" id="sea">Seattle</option>
 					</select>
 				</div>
 			</div>
@@ -140,8 +144,8 @@
 			<div class="total-cost">
 				<label >Toal Adoption Cost</label>
 				<p class="cost"> $123.45 </p>
-				<input type="submit" value="Submit">
-			</div>					
+				<input type="submit" id="submit" value="Submit" >
+			</div>
 
 		</form>
 	</div>
@@ -158,6 +162,6 @@
 		</nav>
 		<p> &copy; 2018 Adoptadog, LLC | Seattle, WA</p>
 	</footer>
-
+	
 </body>
 </html>
