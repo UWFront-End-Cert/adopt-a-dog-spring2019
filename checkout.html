@@ -43,25 +43,25 @@
     <!-- Contact form elements -->
     <fieldset class="contact">
       <label>Name
-        <input type="text" name="contactName" required>
+        <input type="text" name="contactName">
       </label>
 
       <label>Email Address
-        <input type="email" name="contactEmail" required>
+        <input type="email" name="contactEmail">
       </label>
 
       <label>Street Address
-        <input type="text" name="contactStreet" required>
+        <input type="text" name="contactStreet">
       </label>
     </fieldset>
 
     <fieldset class="other-contact">
       <label>City
-        <input type="text" name="contactCity" required>
+        <input type="text" name="contactCity">
       </label>
 
       <label>State
-        <select name="contactState" required>
+        <select name="contactState">
           <option value="">Please select</option>
           <option value="WA">Washington</option>
           <option value="OR">Oregon</option>
@@ -70,7 +70,7 @@
       </label>
 
       <label>ZIP Code
-        <input type="text" name="contactZIP" required>
+        <input type="text" name="contactZIP">
       </label>
     </fieldset>
 
@@ -92,7 +92,7 @@
 
     <fieldset class="location">
       <label>Pickup Location
-        <select name="pickupState" required>
+        <select name="pickupState">
           <option value="">Please select</option>
           <option value="WA">Washington</option>
           <option value="OR">Oregon</option>
@@ -127,7 +127,7 @@
     <section class="form-cost">
       <p>Total Adoption Cost<p>
       <p class="value">$1234.56</p>
-      <input type="submit" value="Submit">
+      <input onclick="submitAlert()" type="submit" value="Submit">
     </section>
   </form>
 
@@ -143,7 +143,7 @@
     </article>
   </footer>
 
-  <script src="./adopt.js"></script>
+  <script src="./submit.js"></script>
 
   </body>
 
