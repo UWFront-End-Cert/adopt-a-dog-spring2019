@@ -1,4 +1,4 @@
-const blog = document.getElementById('main');
+const blog = document.getElementById('blog');
 
 //create image Array
 const imgArray = [
@@ -21,11 +21,11 @@ const infoArray =[
 
 const m = document.createElement('main');
 m.innerHTML = '<h1>Adoptadog Blog</h1>';
-document.body.appendChild(m);
+blog.appendChild(m);
 
 const c = document.createElement('div');
 c.className = "blog-container";
-m.appendChild(c);
+
 
 for (let i=0; i < headerArray.length; i++) {
 	const img = document.createElement('img');
@@ -35,9 +35,11 @@ for (let i=0; i < headerArray.length; i++) {
 
 	const d = document.createElement('div');
 	d.setAttribute('class','blog');
-	d.append(img);  // didn't display image
+	d.appendChild(img);  // didn't display image
 	d.innerHTML = headerArray[i].text + infoArray[i].info;
-	d.append(img);
+	d.appendChild(img);
 
 	c.appendChild(d);
 }
+
+m.appendChild(c);

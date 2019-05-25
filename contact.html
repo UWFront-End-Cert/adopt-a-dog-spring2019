@@ -7,7 +7,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Contact Page</title>
 	<link rel="stylesheet" type="text/css" href="styles/adopt-dog.css">
-	<script src="scripts/contact.js"></script>
 </head>
 
 <body>
@@ -34,7 +33,7 @@
 	</header>
 
 	<div class="form-container">
-		<form action="" id="dogForm" onsubmit="sConsole(event)">
+		<form method="GET" id="dogForm" >
 			<h3>Checkout</h3>
 
 			<div class="row">
@@ -144,7 +143,7 @@
 			<div class="total-cost">
 				<label >Toal Adoption Cost</label>
 				<p class="cost"> $123.45 </p>
-				<input type="submit" id="submit" value="Submit" >
+				<input type="submit" id="submit" value="Submit" onclick="sConsole(event)" >
 			</div>
 
 		</form>
@@ -162,6 +161,6 @@
 		</nav>
 		<p> &copy; 2018 Adoptadog, LLC | Seattle, WA</p>
 	</footer>
-	
+	<script src="scripts/contact.js"></script>
 </body>
 </html>
