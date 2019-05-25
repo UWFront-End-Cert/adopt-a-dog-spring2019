@@ -340,6 +340,18 @@ button {
   width: 70%;
 }
 
+#article1 {
+  display:inline-block;
+}
+
+#article2 {
+  display:inline-block;
+}
+
+#article3 {
+  display:inline-block;
+}
+
 .blog-image {
   float: left;
   margin: 1rem 2rem 2rem 0rem;
