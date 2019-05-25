@@ -335,7 +335,7 @@ button {
   margin-left: 10%;
 }
 
-.blog {
+#blog {
   display: inline-block;
   width: 70%;
 }
@@ -347,7 +347,7 @@ button {
 
 /* Media Queries to add/remove margins and change image width on smaller screens for blog items */
 @media screen and (min-width: 768px) {
-  .blog {
+  #blog {
     margin-left: 10%;
   }
 }
