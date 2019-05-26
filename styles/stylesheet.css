@@ -498,10 +498,11 @@ section {
 }
 
 /* Submit button styling */
-input[type=submit] {
+.submitForm {
   background: linear-gradient(to right, #00cc00, #00394d);
   color: #ffffff;
   border: none;
+  width: 20%;
   font-size: 1rem;
   font-weight: 700;
   padding: 0.5rem 6rem;
