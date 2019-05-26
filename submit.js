@@ -19,6 +19,22 @@ function submitAlert() {
   let formCity = selectCity.value;
     console.log('City: ' + formCity);
 
+  let selectState = document.querySelector('select[name="contactState"]');
+  let formState = selectState.value;
+    console.log('State: ' + formState);
+
+  let selectZIP = document.querySelector('input[name="contactZIP"]');
+  let formZIP = selectZIP.value;
+    console.log('ZIP code: ' + formZIP);
+
+  let selectFirstTime = document.querySelector('input[name="firstTime"]:checked');
+  let formFirstTime = selectFirstTime.value;
+    console.log('First Time Adopter?: ' + formFirstTime);
+
+  let selectPickupState = document.querySelector('select[name="pickupState"]');
+  let formPickupState = selectPickupState.value;
+    console.log('Pickup Location: ' + formPickupState);
+
   form.addEventListener('submit', function(e) {
     e.preventDefault();
   });
