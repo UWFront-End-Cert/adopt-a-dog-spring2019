@@ -376,7 +376,7 @@ button {
   }
 }
 
-/* This is the styling for the Checkout form */
+/* ******CHECKOUT FORM STYLING****** */
 form h1 {
   font-family: "Times New Roman", Times, serif;
   color: #00394d;
@@ -389,6 +389,13 @@ form {
   color: #00394d;
   margin-top: 2rem;
   margin-left: 10rem;
+}
+
+@media screen and (max-width: 415px) {
+  form {
+    width: 100%;
+    margin-left: 1rem;
+  }
 }
 
 fieldset {
@@ -408,6 +415,12 @@ label {
   display: block;
   width: 46rem;
   height: 3rem;
+}
+
+@media screen and (max-width: 415px) {
+  .contact input{
+    width: 100%;
+  }
 }
 
 .location select {
@@ -449,6 +462,12 @@ label {
   justify-content: flex-start;
 }
 
+@media screen and (max-width: 415px) {
+  .container-adopted {
+    display: block;
+  }
+}
+
 .adopt-cost {
   font-family: 'Open Sans', 'Lato', sans-serif;
   font-size: .5em;
@@ -461,6 +480,13 @@ label {
   width: 8rem;
   height: 8rem;
   margin-right: 1rem;
+}
+
+@media screen and (max-width: 415px) {
+  .adopted img{
+    width: 4rem;
+    height: 4rem;
+  }
 }
 
 .adopted {
@@ -506,6 +532,12 @@ section {
   font-size: 1rem;
   font-weight: 700;
   padding: 0.5rem 6rem;
+}
+
+@media screen and (max-width: 415px) {
+  .submitForm {
+    width: 80%;
+  }
 }
 
 /* Footer styling for background, text, positioning, links, etc. */
