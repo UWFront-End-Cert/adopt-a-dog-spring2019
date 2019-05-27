@@ -50,13 +50,13 @@
       </label>
 
       <label>Email
-        <input type="email" name="applicantEmail">
+        <input type="email" id="txtEmail" onclick="emailValid(email)" name="applicantEmail">
       </label>
 
       <label>Message
         <textarea name="applicantMessage" rows="4" cols="50">Type your message here.</textarea><!--row is how tall and cols is how wide it is-->
       </label>
-      <input type="submit"  value="Send">
+      <input type="submit"  onclick="show_alert()" value="Send">
 
     </form>
 
@@ -76,5 +76,8 @@
           <sub>&#169; Adoptadog, LLC | Seattle, WA</sub>
       </p>
     </footer>
+
+    <script src="scripts/script.js"></script><!--JAVASCRIPT-->
+
   </body>
 </html>
