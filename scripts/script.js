@@ -72,3 +72,43 @@ function buttonMore () {
     moreText.style.display = "inline";
   }
 }
+
+//Generate blog posts dynamically
+
+const el = document.getElementsByClassName('blog-grid');
+
+let blogArr = [];
+
+//Blog Entry 1
+const blogEntry1 = document.createElement('div');
+blogEntry1.innerHTML = '<h1>Entry 1</h1>';
+blogEntry1.setAttribute('class', 'entry');
+
+console.log(blogEntry1);
+
+const blogEntry1Img = document.createElement('img');
+blogEntry1Img.setAttribute('src', 'images/blog-1.jpg');
+blogEntry1Img.setAttribute("alt", "girl with dog overlooking the Grand Canyon");
+blogEntry1Img.setAttribute('class', 'blog-picture');
+
+const blogEntry1Header = document.createElement('h3');
+blogEntry1Header.textcontent = 'Lorem Ipsum';
+
+const blogEntry1Content = document.createElement('p');
+blogEntry1Content.textcontent = "Lorem ipsum";
+blogEntry1Img.setAttribute('class', 'blog-text');
+
+blogEntry1.appendChild(blogEntry1Img);
+blogEntry1.appendChild(blogEntry1Header);
+blogEntry1.appendChild(blogEntry1Content);
+
+//Blog Entry 2
+
+//Blog Entry 3
+
+
+for (let i = 0; i < blogArr.length; i++) {
+	el.appendChild(blogArr[i]); //last thing you want. will loop over thing arr; everything and add it to this element
+}
+
+//Alert for form & Console log the values inside the form, you can build a string or build an object.

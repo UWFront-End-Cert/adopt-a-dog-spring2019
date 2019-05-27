@@ -24,7 +24,7 @@
 
 /**HEADER**/
 header {
-  background-image: url('images/header-image.jpg');
+  background-image: url('adopt-a-dog-spring2019/images/header-image.jpg');
   background: linear-gradient(to right, #083b5f, #ffffff); /*dark blue*/
   background-size: cover;
   background-position: center center;
@@ -183,6 +183,11 @@ footer .logo {
 
 .index-main > figure {
   align-self: flex-start;
+}
+
+/*Blog*/
+.blog-entry {
+  display: flex;
 }
 
 /**GRID FOR DOG CARDS**/
