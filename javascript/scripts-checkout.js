@@ -56,11 +56,11 @@ let customerInfo = [
         value: zip.value
     },
     {
-        title: 'First time adopter?',
+        title: 'first time adopter?',
         value: adopter.value
     },
     {
-        title: 'Pickup Location?',
+        title: 'pickup location?',
         value: pickupLocation.value
     }
 ];
