@@ -2,6 +2,13 @@
 
 function show_alert() {
 	alert("The form has been submitted.");
+
+  let formInput = [];
+  let data = document.getElementsByTagName ('input');
+
+  formInput.push(data.value);
+
+  console.log(formInput);
 }//Alert for form & Console log the values inside the form, you can build a string or build an object.
 
 //Validate email
@@ -20,3 +27,16 @@ function emailValid (inputText) {
 		return false;
 	}
 } //Code c/o https://www.codeproject.com/Tips/492632/Email-Validation-in-JavaScript
+
+
+/*Validate that form fields have been filled out
+
+function validateForm() {
+  var x = document.forms["checkout-form"]["applicantName"] ["applicantEmail"] ["applicantCity"] ["applicantAddress"].value;
+
+  if (x == "") {
+    alert("All fields must be filled out.");
+    return false;
+  }
+}
+*/

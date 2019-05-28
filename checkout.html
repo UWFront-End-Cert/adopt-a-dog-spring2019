@@ -42,7 +42,7 @@
 
     <!--MAIN CONTENT-->
     <h2>Checkout</h2>
-    <form method="GET">
+    <form name="checkout-form" method="post" onsubmit="return validateForm()">
           <label>Name
             <input type="text" name="applicantName">
           </label>
@@ -52,11 +52,11 @@
           </label>
 
           <label>Address
-            <input type="text" name="applicantEmail">
+            <input type="text" name="applicantAddress">
           </label>
 
           <label>City
-            <input type="text" name="applicantEmail">
+            <input type="text" name="applicantCity">
           </label>
 
           <label>State
