@@ -8,8 +8,7 @@ submitButton.setAttribute('class', 'adopt-button-checkout');
 submitButton.textContent = 'Submit';
 form.appendChild(submitButton);
 
-
-
+//runs once form is submitted
 form.addEventListener('submit', function(event) {
 
 const name = document.getElementById('name');
@@ -21,13 +20,15 @@ const zip = document.getElementById('zip');
 const adopter = adopt();
 const pickupLocation = document.getElementById('pickup-location');
 
+//when form is submitted, this 
 function adopt() {
     if (document.getElementById('yes-first').checked) {
         return document.getElementById('yes-first');
       }
-    else if (document.getElementById('no-first').checked) {
+    if (document.getElementById('no-first').checked) {
         return document.getElementById('no-first');
-    }
+    } 
+    else return 'null';
 }
 
 let customerInfo = [
