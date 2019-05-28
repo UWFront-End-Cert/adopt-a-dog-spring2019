@@ -104,8 +104,12 @@ blogSection.appendChild(newBlogImage);
 blogSection.appendChild(newBlogContent);
 blogMain.appendChild(newHR);
 
+console.log('Title: ', newTitle);
+console.log('Image URL: ', newImage);
+console.log('Blog Content: ', newContent);
+
 var clearForm = document.getElementById('blog-form-id');
 clearForm.reset();
 
-alert('Thank you for your blog post')
+alert('Thank you for your blog post');
 });
