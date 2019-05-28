@@ -20,9 +20,16 @@ function thankYou() {
   let city = document.getElementById("city").value;
   let state = document.getElementById("state").value;
   let zip = document.getElementById("zip").value;
-  let first = document.getElementById("first").value;
   let pickup = document.getElementById("pickup").value;
-  let myArr = [name, email, street, city, state, zip, first, pickup]
+  let myArr = [name, email, street, city, state, zip, pickup]
   console.log(myArr);
+  const formDataContacts = document.querySelector('form').elements.firstadopt;
+  for (var i = 0; i < formDataContacts.length; i++) {
+    if (formDataContacts[i].checked) {
+      console.log(formDataContacts[i].value);
+    }
+  }
+ 
+
   alert("Thank you. The form information has been received.");
 }
