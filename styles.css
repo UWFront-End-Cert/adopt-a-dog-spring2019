@@ -156,6 +156,7 @@ img {
 .blog {
   clear: both;
   padding: 0% 8% 2% 8%;
+  margin-top: 4%;
 }
 
 .see-more {
@@ -192,6 +193,7 @@ footer {
 
 .blog-title {
   margin-left: 8%;
+  margin-bottom: -4%;
 }
 
 .mobile-blog {
