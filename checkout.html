@@ -35,31 +35,31 @@
     </section>
     <section class="checkout">
         <div class="formfield">
-            <form method="GET">
+            <form action="" id="form">
                 <div class="top-forms">
                     <label >Name
-                        <input type="text" name="applicantName" class="large-field">
+                        <input type="text" name="applicantName" class="large-field" id="name">
                     </label>
                     <label> Email Address
-                        <input type="email" name="applicantEmail" class="large-field">
+                        <input type="email" name="applicantEmail" class="large-field" id="email">
                     </label>
                     <label>Street Address
-                        <input type="text" name="streetAddress" class="large-field">
+                        <input type="text" name="streetAddress" class="large-field" id="street">
                     </label>                     
                     <div class="location">
                         <label>City
-                            <input type="text" name="city" class="city-field">
+                            <input type="text" name="city" class="city-field" id="city">
                         </label> 
                         <label>State
-                            <select name="state" class="state-field">
+                            <select name="state" class="state-field" id="state">
                                 <option value="">Please Select</option>
-                                <option value="classaho">Idaho</option>
+                                <option value="idaho">Idaho</option>
                                 <option value="oregon">Oregon</option>
                                 <option value="washington">Washington</option>
                             </select>
                         </label>
                         <label>Zip Code
-                            <input type="text" name="zip" class="zip-field">
+                            <input type="text" name="zip" class="zip-field" id="zip">
                         </label>
                     </div>
                     <fieldset class="button-zone">
@@ -67,17 +67,17 @@
                         </legend>
                         <div class="button-wrapper">
                             <label class="button"> Yes
-                                <input type="radio" name="firsttime" value="yes">
+                                <input type="radio" name="firsttime" value="yes" id="first">
                                 <span class="checkbutton"></span>
                             </label>
                             <label class="button"> No
-                                <input type="radio" name="firsttime" value="no">
+                                <input type="radio" name="firsttime" value="no" id="notfirst">
                                 <span class="checkbutton"></span>
                             </label>
                         </div>
                     </fieldset>
                     <label>Pickup Location
-                        <select name="pickup" class="pickup">
+                        <select name="pickup" class="pickup" id="pickup">
                             <option value="">Please Select</option>
                             <option value="ballard">Ballard</option>
                             <option value="belltown">Bell Town</option>
@@ -112,7 +112,7 @@
             </div>
             <div>
                 <form>
-                    <input type="submit" value="Submit">
+                    <input onclick="thankYou()" type="submit" value="Submit">
                 </form>
             </div>
         </section>
