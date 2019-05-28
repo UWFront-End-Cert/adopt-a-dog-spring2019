@@ -29,7 +29,5 @@ function thankYou() {
       console.log(formDataContacts[i].value);
     }
   }
- 
-
   alert("Thank you. The form information has been received.");
 }
