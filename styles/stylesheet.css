@@ -372,10 +372,15 @@ fieldset {
   margin-bottom: 3em;
 }
 
+form {
+  border: black solid 0.25em;
+}
+
 .checkout-submit {
   font-weight: bolder;
   width: 15%;
 }
+
 
 footer {
   background-color: #154360;

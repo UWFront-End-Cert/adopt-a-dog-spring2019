@@ -30,23 +30,23 @@
       <form method="GET" class="checkout">
 
         <label>Name:
-          <input type="text" name="fullName">
+          <input type="text" name="fullName" id="name">
         </label>
 
         <label>Email Address:
-          <input type="email" name="userEmail">
+          <input type="email" name="userEmail" id="email">
         </label>
 
         <label>Street Address:
-          <input type="text" name="userAddress">
+          <input type="text" name="userAddress" id="address">
         </label>
 
         <label class="city">City:
-          <input type="text" name="userCity">
+          <input type="text" name="userCity" id="city">
         </label>
 
         <label class="state">State:
-          <select class="states">
+          <select class="states" class="data" id="state">
             <option value="AL">Alabama</option>
           	<option value="AK">Alaska</option>
           	<option value="AZ">Arizona</option>
@@ -102,23 +102,23 @@
         </label>
 
         <label class="zip">Zip Code:
-          <input type="text" name="zipCode">
+          <input type="text" name="zipCode" id="zip-code">
         </label>
 
         <fieldset>
           <legend>First Time Adopter?</legend>
           <label class="inline-radio">
-            <input type="radio" name="adopterStatus" value="yes">
+            <input type="radio" name="adopterStatus" value="yes" class="adopter-status">
             Yes
           </label>
           <label class="inline-radio">
-            <input type="radio" name="adopterStatus" value="no">
+            <input type="radio" name="adopterStatus" value="no" class="adopter-status">
             No
           </label>
         </fieldset>
 
         <label class="location">Pick Up Location:
-          <select class="location">
+          <select class="location" id="location">
             <option value="Seattle">SEA</option>
             <option value="Bellevue">BEL</option>
             <option value="Tacoma">TAC</option>
@@ -157,5 +157,6 @@
       </nav>
       <h3>&copy; Adoptadog, LLC | Seattle, WA</h3>
     </footer>
+    <script src="script/checkout.js" charset="utf-8"></script>
   </body>
 </html>
