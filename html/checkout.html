@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="styles/checkout.css">
+  <link rel="stylesheet" href="../dist/global.css">
+  <!-- <link rel="stylesheet" href="styles/checkout.css"> -->
   <title>Checkout | Adoptadog</title>
 </head>
 
@@ -16,17 +16,18 @@
   <header>
     <div class="header-background">
       <div class="header-logo">
-        <img class="dog-logo" src="images/adoptadog-logo.svg" alt="Dog Logo">
+        <img class="dog-logo" src="../images/adoptadog-logo.svg" alt="Dog Logo">
         <p class="tag-line"><em>Seattle's premier dog adoption agency</em></p>
       </div>
       <div class="checkout">
-        <p><img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">$1234.56</p>
+        <p><img class="cart-icon" src="../images/cart-icon.svg" alt="cart icon">$1234.56
+        </p>
         <a href="checkout.html">Checkout</a>
       </div>
     </div>
     <nav>
       <div class="nav-links">
-        <a href="index.html">Home</a> /
+        <a href="../index.html">Home</a> /
         <a href="dogs.html">Dogs</a> /
         <a href="blog.html">Blog</a>
       </div>
@@ -34,7 +35,8 @@
   </header>
   <main id="main-content">
     <h1>Checkout</h1>
-    <form method="GET" onsubmit="alert('Congratulations, you are officially a dog parent!');">
+    <form method="GET"
+      onsubmit="alert('Thank you. The form information has been received.');">
       <label> Name
         <input type="text" name="name" required>
       </label>
@@ -105,7 +107,8 @@
           </select>
         </label>
         <label> Zip Code
-          <input type="number" name="zipCode" pattern="[0-9]{5}" placeholder="5-digit zip">
+          <input type="number" name="zipCode" pattern="[0-9]{5}"
+            placeholder="5-digit zip">
         </label>
       </fieldset>
       <fieldset class="radio-buttons">
@@ -126,14 +129,15 @@
       <label>Dogs Adopted
         <div class="cart">
           <div class="in-cart">
-            <img src="images/lucas-checkout.jpg" alt="Lucas the black farmdog">
+            <img src="../images/lucas-checkout.jpg" alt="Lucas the black farmdog">
             <div class="cart-text">
               <h3>Lucas</h3>
               <p><strong>Cost to adopt:</strong> $123.45</p>
             </div>
           </div>
           <div class="in-cart">
-            <img src="images/duffy-checkout.jpg" alt="Duffy the white and brown pitbul">
+            <img src="../images/duffy-checkout.jpg"
+              alt="Duffy the white and brown pitbul">
             <div class="cart-text">
               <h3>Duffy</h3>
               <p><strong>Cost to adopt:</strong> $123.45</p>
@@ -148,12 +152,13 @@
   </main>
   <footer>
     <div>
-      <img class="dog-logo" src="images/adoptadog-logo.svg" alt="Dog Logo">
-      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam
+      <img class="dog-logo" src="../images/adoptadog-logo.svg" alt="Dog Logo">
+      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil
+        imaximu scideru ptistiusam
         consequunt</p>
       <p class="footer-links">
-        <a href="#">Home</a>/
-        <a href="#"> Dogs</a>/
+        <a href="../index.html">Home</a>/
+        <a href="dogs.html"> Dogs</a>/
         <a href="#"> Contact</a>
       </p>
       <p class="copywrite">
