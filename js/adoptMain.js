@@ -139,6 +139,8 @@ for (let i = 0; i < blogContent.length; i++) {
 const form = document.getElementById('checkout-form');
 const submitButton = document.getElementById('submit');
 
+let formInfo = [];
+
 let name = document.getElementById('name');
 let email = document.getElementById('email');
 let address = document.getElementById('address');
@@ -147,8 +149,6 @@ let state = document.getElementById('state');
 let zipcode = document.getElementById('zipcode');
 // const firstTimeAdopter = document.getElementById('');
 const pickupLocation = document.getElementById('pickupLocation');
-
-let forInfo = [];
 
 function submitForm() {
   event.preventDefault();
