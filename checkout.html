@@ -22,22 +22,22 @@
         <a href="dogs.html">Dogs</a> /
         <a href="blog.html">Blog</a>
       </nav>
-  <section class="checkout-form">
-    <h2>Checkout</h2>
-    <form>
+  <section>
+    <h2 id="form-title">Checkout</h2>
+    <form method="GET" id="checkout-form" onsubmit="submitValues()">
       Name:<br>
-      <input type="text" name="fullname"><br>
+      <input type="text" name="fullname" id="name"><br>
       Email Address:<br>
-      <input type="email" name="email"><br>
+      <input type="email" name="email" id="email"><br>
       Street Address:<br>
-      <input type="text" name="streetaddress">
+      <input type="text" name="streetaddress" id="address">
       <br>
-      City: <input type="text" name="city">
-      State: <input type="text" name="state">
-      Zip Code:<input type="text" name="zip"><br>
+      City: <input type="text" name="city" id="city">
+      State: <input type="text" name="state" id="state">
+      Zip Code:<input type="text" name="zip" id="zip"><br>
       First Time Adopter?<br>
-      <input type="radio" name="answer">Yes
-      <input type="radio" name="answer">No
+      <input type="radio" name="first_adoption" value"yes">Yes
+      <input type="radio" name="first_adoption" value="no">No
       <br>
       Pickup Location:<br>
       <select>

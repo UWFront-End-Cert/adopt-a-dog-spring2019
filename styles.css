@@ -175,7 +175,11 @@ img {
   font-size: 1rem;
 }
 
-.checkout-form {
+#checkout-form {
+  padding-left: 8%;
+}
+
+#form-title {
   padding-left: 8%;
 }
 
