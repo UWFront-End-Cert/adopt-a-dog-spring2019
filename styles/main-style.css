@@ -83,4 +83,18 @@ nav {
     text-align: center;
   }
 
+  .form-class {
+    text-align: left;
+  }
+
+  .inner-form-class {
+    margin: 5px 5px 0px 5px;
+    font-size: 14px;
+  }
+
+  .submitBlog {
+    margin: 5px 5px 0px 5px;
+    padding: 5px;
+    font-size: 14px;
+  }
   
