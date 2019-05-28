@@ -29,7 +29,8 @@ function addToCart(name, dogCost) {
 
 //  BLOG POSTS  //
 const blogSection = document.getElementsByClassName('blog-main');
-console.log(blogSection);
+
+// console.log(blogSection);
 
 // 1st Post
 const blogPostA = document.createElement('article');
@@ -58,7 +59,7 @@ postAContent.appendChild(postAAside);
 blogPostA.appendChild(imageA);
 blogPostA.appendChild(postAContent);
 
-console.log(blogPostA);
+// console.log(blogPostA);
 
 // 2nd Post
 const blogPostB = document.createElement('article');
@@ -87,7 +88,7 @@ postBContent.appendChild(postBAside);
 blogPostB.appendChild(imageB);
 blogPostB.appendChild(postBContent);
 
-console.log(blogPostB);
+// console.log(blogPostB);
 
 // 3rd Post
 const blogPostC = document.createElement('article');
@@ -116,5 +117,52 @@ postCContent.appendChild(postCAside);
 blogPostC.appendChild(imageC);
 blogPostC.appendChild(postCContent);
 
-console.log(blogPostC);
+// console.log(blogPostC);
+
+//  Add to Blog Content Array
+const blogContent = [];
+
+blogContent.push(blogPostA);
+blogContent.push(blogPostB);
+blogContent.push(blogPostC);
+
+// console.log(blogContent);
+
+//  Generate on page via for loop
+for (let i = 0; i < blogContent.length; i++) {
+  blogSection[0].appendChild(blogContent[i]);
+}
+
+
+//  FORM  //
+
+const form = document.getElementById('checkout-form');
+const submitButton = document.getElementById('submit');
+
+let name = document.getElementById('name');
+let email = document.getElementById('email');
+let address = document.getElementById('address');
+let city = document.getElementById('city');
+let state = document.getElementById('state');
+let zipcode = document.getElementById('zipcode');
+// const firstTimeAdopter = document.getElementById('');
+const pickupLocation = document.getElementById('pickupLocation');
+
+let forInfo = [];
+
+function submitForm() {
+  event.preventDefault();
+  alert('Thank you!  Your information has been received.');
+  formInfo.push(name).value;
+  formInfo.push(email).value;
+  formInfo.push(address).value;
+  formInfo.push(city).value;
+  formInfo.push(state).value;
+  formInfo.push(zipcode).value;
+  formInfo.push(pickupLocation).value;
+  
+  console.log(formInfo);
+  
+}
+
 
