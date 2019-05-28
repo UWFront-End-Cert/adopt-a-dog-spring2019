@@ -174,5 +174,3 @@ function emailValid (inputText) {
 		return false;
 	}
 } //Code c/o https://www.codeproject.com/Tips/492632/Email-Validation-in-JavaScript
-
-//Checkout Forms

@@ -48,7 +48,7 @@
           </label>
 
           <label>Email
-            <input type="email" name="applicantEmail">
+            <input type="email" id="checkoutEmail" onclick="emailValid(email)" name="applicantEmail">
           </label>
 
           <label>Address
@@ -145,7 +145,7 @@
 
       <!--NEED SECTION FOR DOGS ADOPTED!!!!!-->
 
-      <a href="checkout.html" class="button">Submit</a><!--PROPER CSS NEEDED-->
+      <a href="checkout.html" class="button" onclick="show_alert()">Submit</a><!--PROPER CSS NEEDED-->
     </form>
 
 
@@ -165,5 +165,8 @@
           <sub>&#169; Adoptadog, LLC | Seattle, WA</sub>
       </p>
     </footer>
+
+    <script src="scripts/checkout.js"></script><!--JAVASCRIPT-->
+
   </body>
 </html>
