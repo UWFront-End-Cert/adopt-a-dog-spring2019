@@ -10,3 +10,7 @@ let total = 0;
     total += value;
     alert('Grand total: ' + '$' + total)
   }
+
+function submitForm() {
+  alert('Thank you. The form information has been received');
+}

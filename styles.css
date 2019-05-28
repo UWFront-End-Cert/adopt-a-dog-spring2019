@@ -175,6 +175,13 @@ img {
   font-size: 1rem;
 }
 
+.checkout-form {
+  padding-left: 8%;
+}
+
+.adopted-dogs {
+  max-width: 15%;
+}
 
 footer {
   position: fixed;
