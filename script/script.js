@@ -6,28 +6,17 @@ function imgClick(name, breed, age) {
 Cost is ${age}`);
 }
 
-function adoptClick(){
-
+$('.button').click(function(){
 	total = total + price;
+	$('.cart-price').text('$'+total);
 	alert("This dog is added to your cart. Total cost: $"+total);
-}
-
-function buttonClick(){
-
-	console.log("Name: "+form.name.value);
-	console.log("Email: "+form.email.value);
-	console.log("Address: "+form.address.value);
-	console.log("City: "+form.city.value);
-	console.log("State: "+form.state.value);
-	console.log("Zip Code: "+form.zip.value);
-	console.log("Location: "+form.location.value);
-	console.log("First Time?: "+form.first_time.value);
-};
-
-form.addEventListener('submit', function(event) {
-	event.preventDefault();
-	alert("Thank you. The form information has been received.");
-});
+})
 
 
+$('.item').hover(function(e){
+	$('img', this).addClass('img-hover');
+},
+function() {
+    $('img', this).removeClass( "img-hover" );
+  });
 
