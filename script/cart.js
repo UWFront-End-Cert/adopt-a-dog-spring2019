@@ -9,14 +9,19 @@ function dogDescription(name, attribute, price) {
 function addToTotal(price) {
   cartTotal += price;
   alert(`Your cart total is: $${cartTotal}`);
+  $('.total').text(`$${cartTotal}`);
 }
 
-document.querySelector('form').addEventListener('submit', function (e) {
-  e.preventDefault();
-  const formData = new FormData(this);
-  const entires = formData.entries();
 
-  for (var input of entires) {
-    console.log(input[0] + ': ' + input[1]);
-  }
+$('form').submit(function (e) {
+  e.preventDefault();
+  // get all the inputs into an array.
+  var $inputs = $('form :input');
+
+  // get an associative array of just the values.
+  var values = {};
+  $inputs.each(function () {
+    values[this.name] = $(this).val();
+  });
+  console.log(values);
 });
