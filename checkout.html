@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt a Dog Checkout</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="JS/checkout.js" charset="utf-8"></script>
   </head>
   <body>
     <header class="header">
@@ -33,48 +34,51 @@
 
     <section>
       <h2>Checkout</h2>
+<!--
       <form method="GET">
+-->
+      <form action="" onsubmit="event.preventDefault(); sConsole();">
         <label>Name
-          <input type="text" name="Name">
+          <input type="text" name="Name" id="data">
         </label>
 
         <label>Email Address
-          <input type="email" name="Email">
+          <input type="email" name="Email" id="data">
         </label>
 
         <label>Street Address
-          <input type="text" name="Street Address">
+          <input type="text" name="Street Address" id="data">
         </label>
 
         <label>City
-          <input type="text" name="City">
+          <input type="text" name="City" id="data">
         </label>
 
         <label>State
-          <input type="text" name="State">
+          <input type="text" name="State" id="data">
         </label>
 
         <label>Zip Code
-          <input type="number" name="Zip Code">
+          <input type="number" name="Zip Code" id="data">
         </label>
 
         <fieldset>
           <legend>First Time Adopter?</legend>
           <label>
-            <input type="checkbox" name="type" value="Yes">
+            <input type="checkbox" name="type" value="Yes" id="data">
             Yes
           </label>
           <label>
-            <input type="checkbox" name="type" value="No">
+            <input type="checkbox" name="type" value="No" id="data">
             No
           </label>
         </fieldset>
 
         <label>Pickup Location
           <select name="location">
-            <option value="TBD">TBD</option>
-            <option value="TBD">TBD</option>
-            <option value="TBD">TBD</option>
+            <option value="TBD" id="data">TBD</option>
+            <option value="TBD" id="data">TBD</option>
+            <option value="TBD" id="data">TBD</option>
           </select>
         </label>
 
@@ -98,7 +102,7 @@
         <h1>Total Adoption Cost</h1>
         <p> $1234.56</p>
 
-
+        <script src="JS/dogImageclick.js" charset="utf-8"></script>
         <input type="submit" value="Submit!">
       </form>
       </section>
