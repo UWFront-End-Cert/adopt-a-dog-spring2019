@@ -64,6 +64,18 @@ header a {
   margin-left: 1rem;
 }
 
+.right-header {
+  display: inline-block;
+}
+
+.right-header img {
+  float: left;
+}
+
+#cart-total {
+  color: white;
+}
+
 /*Styling for navigation*/
 ul {
   list-style-type: none;
