@@ -17,7 +17,7 @@ function addCost(buttonEl) {
 
   totalPrice = totalPrice + parseFloat(amountEl.innerHTML);
 
-    $('#cart-total').replaceWith(' ' + '$' + totalPrice);
+    $('#cart-total').html(' ' + '$' + totalPrice);
 
-    alert(totalPrice);
+    alert('Your cart total is: ' + '$' + parseFloat(totalPrice));
 }
