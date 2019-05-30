@@ -261,7 +261,11 @@ button {
 }
 
 .dog-image {
-  outline: 4px solid orange;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+          transition:         transform 2s ease-in-out;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 /* Media Queries for screen size changes for dog cards on home and all dogs pages */
