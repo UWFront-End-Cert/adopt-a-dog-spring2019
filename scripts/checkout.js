@@ -1,7 +1,7 @@
 //Contact Forms
 
 function show_alert() {
-	alert("The form has been submitted.");
+	alert("Your information has been submitted."); }//Alert for form & Console log the values inside the form, you can build a string or build an object.
 
   let formInput = [];
   let data = document.getElementsByTagName ('input');
@@ -9,7 +9,6 @@ function show_alert() {
   formInput.push(data.value);
 
   console.log(formInput);
-}//Alert for form & Console log the values inside the form, you can build a string or build an object.
 
 //Validate email
 function emailValid (inputText) {

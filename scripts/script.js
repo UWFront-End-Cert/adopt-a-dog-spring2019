@@ -82,7 +82,7 @@ let blogArr = [];
 //Blog Entry 1
 const blogEntry1 = document.createElement('div');
 blogEntry1.innerHTML = '<h1>Entry 1</h1>';
-blogEntry1.setAttribute('class', 'entry');
+blogEntry1.setAttribute('class', 'entry'); //FOR CSS
 
 console.log(blogEntry1);
 
