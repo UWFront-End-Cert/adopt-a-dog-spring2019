@@ -128,13 +128,17 @@ nav a#first-nav  {
   float: right;
   font-weight: 900;
   font-size: 1em;
-  line-height: 1.5;
-  padding-left: .5em;
-  text-align: right;
+  line-height: 2;
+  text-align: end;
+}
+
+.checkout-total {
+  display: inline;
 }
 
 .cart img {
-  width: 10%;
+  width: 20%;
+  padding: 0 .5em;
 }
 
 .main-content {

@@ -6,6 +6,6 @@ let cartTotal = 0;
 
 function addToCart(fee) {
     cartTotal += fee;
-    alert(cartTotal);
-    return cartTotal;
+    alert('Your total is: $' + cartTotal.toFixed(2));
+    return  cartTotal;
 }
