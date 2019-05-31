@@ -15,6 +15,7 @@ header {
   background-image: url("images/header-image.jpg");
   padding: 7em;
   color: white;
+  background: linear-gradient(to right, #090979, #00d4ff);
 }
 
 .header-banner {
