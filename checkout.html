@@ -39,17 +39,17 @@
         </label>
 
         <label>Street Address
-            <input type="text" name="contactLocation" id="streetAddress">
+            <input type="text" name="streetAddress" id="streetAddress">
         </label>
 
         <div class="city-state-zip">
 
             <label>City
-                <input type="text" id="city" name="contactLocation">
+                <input type="text" id="city" name="city">
             </label>
 
             <label>State
-                <select id="state">
+                <select id="state" name="state">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -105,22 +105,22 @@
             </label>
 
             <label>Zip Code
-                <input type="text" id="zip" name="contactLocation">
+                <input type="text" id="zip" name="zipCode">
             </label>
         </div>
 
         <fieldset>
             <legend>First Time Adopter?</legend>
             <label class="radio-option">Yes
-                <input type="radio" name="special" value="yes" id="adoptionYes">
+                <input type="radio" name="firstAdoption" value="yes" id="adoptionYes">
             </label>
             <label class="radio-option">No
-                <input type="radio" name="special" value="no" id="adoptionNo">
+                <input type="radio" name="firstAdoption" value="no" id="adoptionNo">
             </label>
         </fieldset>
 
         <label>Pickup Location
-            <select id="pickup">
+            <select id="pickup" name="pickupLocation">
                 <option value="Seattle" id="Seattle" selected="selected">Seattle</option>
                 <option value="Tacoma" id="Tacoma">Tacoma</option>
                 <option value="Everett" id="Everett">Everett</option>
@@ -133,7 +133,7 @@
 
         <label>Total Adoption Cost</label>
 
-        <input type="submit" id="submit" value="Submit" onclick="submitForm()">
+        <input type="submit" id="submit" value="Submit">
     </form>
 
     <footer>
@@ -148,7 +148,8 @@
         <p>&copy; 2019 Adopt A Dog, LLC | Seattle, WA</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="jquery.js"></script>
 
 </body>
 
