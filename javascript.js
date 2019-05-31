@@ -11,13 +11,21 @@ let total = 0;
     alert('Grand total: ' + '$' + total)
   }
 
-let formValues = [];
-let info = document.getElementsByTagName('input');
+let form = document.forms[0];
 
-formValues.push(info.value);
+function formValues () {
+      console.log(document.getElementById('name').value);
+      console.log(document.getElementById('email').value);
+      console.log(document.getElementById('address').value);
+      console.log(document.getElementById('city').value);
+      console.log(document.getElementById('state').value);
+      console.log(document.getElementById('zip').value);
+  }
 
-console.log(formValues);
+form.addEventListener('submit', function(e) {
+     e.preventDefault();
+   });
 
 function submitForm() {
   alert('Thank you. The form information has been received');
-}
+  }
