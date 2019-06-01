@@ -14,14 +14,14 @@
         <img src="images/adoptadog-logo.svg" class="toplogo" alt= "profile of a dog in white">
         Seattle's premiere dog adoption agency
       </div>
-      <div class="cart">
+      <span class="cart">
         <div class="top-cart">
-          <img src="images/cart-icon.svg" class="carticon" alt="a white cart logo">$1234.56
+          <img src="images/cart-icon.svg" class="carticon" alt="a white cart logo"><p>$</p><p id="displayTotal"></p>
         </div>
         <div class="checkout-button">
           Checkout
         </div>
-      </div>
+      </span>
     </section>
     <section class="subbanner">
       <div>
@@ -52,7 +52,7 @@
               <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
             </div>
             <div>
-              <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+              <button class="adopt-button" onclick="addTotal()">Adopt</button>
             </div>
           </div>
           <div class="profile-card">
@@ -65,7 +65,7 @@
                 <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
               </div>
               <div>
-                <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+                <button class="adopt-button" onclick="addTotal()">Adopt</button>
               </div>
             </div>
           <div class="profile-card">
@@ -78,7 +78,7 @@
               <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
             </div>
             <div>
-              <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+              <button class="adopt-button" onclick="addTotal()">Adopt</button>
             </div>
           </div>
         </section>
@@ -93,7 +93,7 @@
               <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
             </div>
             <div>
-              <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+              <button class="adopt-button" onclick="addTotal()">Adopt</button>
             </div>
           </div>
           <div class="profile-card">
@@ -106,7 +106,7 @@
             <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
           </div>
           <div>
-            <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+            <button class="adopt-button" onclick="addTotal()">Adopt</button>
           </div>
         </div>
           <div class="profile-card">
@@ -119,7 +119,7 @@
               <p class="bio">Fusce vel elementum dolor. Nam dictum, purus nec commodo sodales, purus ligula faucibus felis, rhoncus interdum tellus libero ut leo. Ut pharetra magna</p>
             </div>
             <div>
-              <button class="adopt-button" onclick="adder(123.45)">Adopt</button>
+              <button class="adopt-button" onclick="addTotal()">Adopt</button>
             </div>
           </div>
         </section>
@@ -131,9 +131,9 @@
       </section>
       <aside class="blog-preview">
         <h2>From Our Blog</h2>
-        <div class="miniblog">
+        <div class="miniblog" >
           <img src="images/blog-1.jpg" class="mini-blog-pic" alt="text here">
-          <h3>Travelling With Your Dog</h3>
+          <h3 id="test">Travelling With Your Dog</h3>
           <p class="mini-blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id ex in erat porta ornare sed et libero. </p>
           <a class="mini-blog-link" href="blog.html">Read more>></a>
         </div>
@@ -162,6 +162,7 @@
       </div>
     </section>
   </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="aad.js" charset="utf-8"></script>
 </body>
 </html>

@@ -27,6 +27,11 @@
   }
 }
 
+.half-width {
+  width: 50%;
+  margin: 0 auto;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -39,7 +44,7 @@ a:visited {
   background-color: #093b60;
   background-image: url("../images/header-image.jpg");
   background-size: cover;
-  background-position: right top;
+  background-position: right -100px;
   height: 25em;
   position: relative;
   display: flex;
@@ -57,7 +62,6 @@ a.subtitle:visited {
   left: 10%;
   top: 20%;
   display: flex;
-  /*does this need to say display: flex?*/
   flex-direction: column;
   color: #81B642;
   font-family: Merriweather, Times, serif;
@@ -79,8 +83,7 @@ a.subtitle:visited {
   position: absolute;
   right: 10%;
   top: 15%;
-  display: flex;
-  flex-direction: column;
+  display: block;
   justify-content: right;  
 }
 
@@ -88,6 +91,9 @@ a.subtitle:visited {
   color: white;
   font-family: "Archivo Black", Geneva, sans-serif;
   font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .checkout {
@@ -216,6 +222,11 @@ h2 {
   height: 375px;
   margin: 25px;
   border: 2px solid #ebebeb;
+}
+
+.hover-picture {
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
 }
 
 .profilepicture {
