@@ -38,11 +38,15 @@ header span {
 }
 
 .cart-img {
-	display: inline;
 	max-width: 2rem;
 	height: auto;
+}
+
+.checkout-div {
+	display: block !important;
 	position: absolute;
-	top: 2.2rem;
+	min-width: 15%;
+	top: 2rem;
 	right: 10%;
 }
 
@@ -283,6 +287,12 @@ h2 {
 	header h1 {
 		font-size: 0.9rem;
 	}
+	.checkout-div {
+		font-size: 0.8rem;
+	}
+	.cart-img {
+		max-width: 1.4rem;
+	}
 	aside {
 		display: none;
 	}
@@ -316,12 +326,15 @@ h2 {
 	header h1 {
 		font-size: 0.7rem;
 	}
+	.checkout-div {
+		font-size: 0.6rem;
+	}
 	.checkout-button {
 		font-size: 0.6rem;
 		min-width: 15%;
 	}
 	.cart-img {
-		max-width: 1.5rem;
+		max-width: 1.2rem;
 	}
 	aside {
 		display: none;
