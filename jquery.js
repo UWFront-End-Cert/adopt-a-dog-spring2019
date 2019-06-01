@@ -11,8 +11,11 @@ $('.card img').mouseover(function () {
 $(function () {
     $('#adoptionForm').on('submit', function (e) {
         e.preventDefault();
-        var data = $("#adoptionForm :input").serializeArray();
-        console.log(data);
+        var result = {};
+        $.each($('form').serializeArray(), function () {
+            result[this.name] = this.value;
+        });
+        console.log(result);
         alert('Thank you! The form information has been received.');
     });
 });
