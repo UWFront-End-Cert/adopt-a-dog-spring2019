@@ -32,6 +32,11 @@ header h1 {
 	color: #75B441;
 }
 
+header span {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
 .cart-img {
 	display: inline;
 	max-width: 2rem;
