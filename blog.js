@@ -1,3 +1,5 @@
+//This didn't really turn out. I've held on to my original blog page: blog-with-html-posts.html
+
 const title1 = document.createElement ('h3');
 
 title1.textContent = 'Travelling With Your Dog';
