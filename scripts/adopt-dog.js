@@ -9,6 +9,7 @@ function buyIt(price){
 	count ++;
 	total +=  price;
 	alert('Total number of dogs: ' + count + '\nYour total is $' + total.toFixed(2));
+    $('#cost').html('$' + total);
 }
 function dogArray(dog){
 	let dogName = dog[0].charAt(0).toUpperCase()+dog[0].slice(1);
