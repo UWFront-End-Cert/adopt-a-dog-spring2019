@@ -174,6 +174,10 @@ footer img.logo {
   
 }
 
+.card.selected {
+  border: 3px solid #81B741;
+}
+
 @media (min-width: 481px) and (max-width: 839px){
   .dog-cards .card {
     max-width: 40%;

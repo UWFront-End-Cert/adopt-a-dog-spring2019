@@ -1,25 +1,46 @@
-
-
-
+/* using js
 function successMessage() {
   alert('Thank you. The form information has been received.');
   let formData = []
-  let user = document.getElementById('name');
-  let email = document.getElementById('email');
-  let address = document.getElementById('address');
-  let city = document.getElementById('city');
-  let state = document.getElementById('state');
-  let zip = document.getElementById('zip');
-  let adopterStatus = document.querySelector('input[name="adopterStatus"]:checked').value
-  let pickupLocation = document.getElementById('pickupLocation');
-  formData.push(user.value);
-  formData.push(email.value);
-  formData.push(address.value);
-  formData.push(city.value);
-  formData.push(state.value);
-  formData.push(zip.value);
+  let user = $('#name');
+  let email = $('#email');
+  let address = $('#address');
+  let city = $('#city');
+  let state = $('#state');
+  let zip = $('#zip');
+  let adopterStatus = document.querySelector('input[name="adopterStatus"]:checked')
+  let pickupLocation = $('#pickupLocation');
+  formData.push(user);
+  formData.push(email);
+  formData.push(address);
+  formData.push(city);
+  formData.push(state);
+  formData.push(zip);
   formData.push(adopterStatus);
-  formData.push(pickupLocation.value);
+  formData.push(pickupLocation);
   console.log(formData);
+} 
+*/
 
+// using jquery
+function successMessage() {
+  alert('Thank you. The form information has been received.');
+  let formData = []
+  let user = $('#name').val();
+  let email = $('#email').val();
+  let address = $('#address').val();
+  let city = $('#city').val();
+  let state = $('#state').val();
+  let zip = $('#zip').val();
+  let adopterStatus = $('input[name="adopterStatus"]:checked').val()
+  let pickupLocation = $('#pickupLocation').val();
+  formData.push(user);
+  formData.push(email);
+  formData.push(address);
+  formData.push(city);
+  formData.push(state);
+  formData.push(zip);
+  formData.push(adopterStatus);
+  formData.push(pickupLocation);
+  console.log(formData);
 }
