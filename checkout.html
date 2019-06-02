@@ -13,8 +13,8 @@
           <h1>Seattle's premiere dog adoption agency</h1>
         </div>
           <div class="checkout">
-            <p><img class="cart" src="images/cart-icon.svg" alt="cart icon">$1234.56</p>
-            <a href="checkout.html" class="button">Checkout</a>
+            <img class="cart" src="images/cart-icon.svg" alt="cart icon"><span id="number">$1234.56</span><br>
+            <a href="checkout.html" id="checkout-button">Checkout</a>
           </div>
       </header>
       <nav>
@@ -24,22 +24,22 @@
       </nav>
   <section>
     <h2 id="form-title">Checkout</h2>
-    <form method="get" id="checkout-form" onsubmit="formValues()">
-      Name:<br>
+    <form method="get" id="checkout-form" onsubmit="submitForm()">
+      <label>Name:  </label><br>
       <input type="text" name="fullname" id="name"><br>
-      Email Address:<br>
+      <label>Email Address:  </label><br>
       <input type="email" name="email" id="email"><br>
-      Street Address:<br>
+      <label>Street Address:  </label><br>
       <input type="text" name="streetaddress" id="address">
       <br>
-      City: <input type="text" name="city" id="city">
-      State: <input type="text" name="state" id="state">
-      Zip Code:<input type="text" name="zip" id="zip"><br>
-      First Time Adopter?<br>
+      <label>City:  </label> <input type="text" name="city" id="city">
+      <label>State:  </label> <input type="text" name="state" id="state">
+      <label>Zip Code:  </label><input type="text" name="zip" id="zip"><br>
+      <label>First Time Adopter?</label><br>
       <input type="radio" name="first_adoption" value"yes">Yes
       <input type="radio" name="first_adoption" value="no">No
       <br>
-      Pickup Location:<br>
+      <label>Pickup Location:  </label><br>
       <select>
         <option value="Seattle">Seattle</option>
         <option value="Bellevue">Bellevue</option>
@@ -54,7 +54,7 @@
           <p>Cost to Adopt: $123.45</p>
     <aside>
       <h3>Total Adoption Cost</h3>
-      <input type="submit" value="Submit" onclick="submitForm()">
+      <input type="submit" value="Submit" id="submit-button" onclick="submitForm()">
     </aside>
     </form>
   </section>
@@ -66,6 +66,7 @@ esseque invenienihil imaximu scideru ptistiusam consequunt</p>
       <p>Homes / Dog / Contact</p>
       <p>2018 © Adoptadog LLC, LLC | Seattle, WA</p>
     </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="javascript.js" charset="utf-8"></script>
   </body>
 

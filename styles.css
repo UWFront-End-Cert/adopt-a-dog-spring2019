@@ -41,7 +41,7 @@ nav {
   font-size: 1em;
 }
 
-h3, a {
+h3, a, label {
   text-decoration: none;
   font-weight: bolder;
   color: rgb(13,73,132);
@@ -49,8 +49,8 @@ h3, a {
 }
 
 .logo {
-  max-height: 66%;
-  max-width: 60%;
+  max-height: 75%;
+  max-width: 50%;
 }
 
 .cart {
@@ -70,11 +70,22 @@ h1 {
   display: inline;
 }
 
-button .checkout {
+#checkout-button {
   font-weight: bold;
+  font-size: 1rem;
   background-color: #3fb63f;
   color: white;
-  width: 100%;
+  max-width: 100%;
+  padding: 2% 14%;
+}
+
+#submit-button {
+  font-weight: bold;
+  font-size: 1.25rem;
+  background-color: #3fb63f;
+  color: white;
+  max-width: 50%;
+  padding: .25% 6%;
 }
 
 .cart-icon {
@@ -103,7 +114,7 @@ img {
 }
 
 .home-intro {
-  margin-right: 32%;
+  margin-right: 30%;
 }
 
 .preview {
@@ -116,7 +127,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2%;
   row-gap: 6%;
-  margin-right: 4%;
+  padding-right: 4%;
   }
 
 .dogs-grid {
@@ -126,11 +137,16 @@ img {
   }
 
 .profile {
-  box-shadow: 0 .25rem .25rem 0 rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-color: rgb(217,217,217);
+  border-width: thin;
   max-width: 14rem;
-  padding: 2%;
   margin: auto;
   font-size: .75rem;
+}
+
+.box-shadow {
+  box-shadow: 0 1rem 2rem 0 #3fb63f;
 }
 
 .button {
@@ -184,15 +200,16 @@ img {
 }
 
 .adopted-dogs {
-  max-width: 15%;
+  max-width: 8%;
+  display: inline-block;
 }
 
 footer {
-  position: fixed;
+  position: relative;
   margin-top: 10%;
   width: 100%;
   border: 4rem;
-  background-color: rgb(101,98,98);
+  background-color: rgb(13,73,132);
   padding: 2%;
   color: white;
   text-align: center;
@@ -205,10 +222,6 @@ footer {
 .blog-title {
   margin-left: 8%;
   margin-bottom: -4%;
-}
-
-.mobile-blog {
-  display: none;
 }
 
 /* mobile-grid */
@@ -232,14 +245,6 @@ footer {
     min-width: 100%;
     justify-content: center;
   }
-
-    .profile {
-      box-shadow: 0 .25rem .25rem 0 rgba(0, 0, 0, 0.2);
-      max-width: 100%;
-      padding: 2%;
-      margin: auto;
-      font-size: 1rem;
-    }
 
     aside {
       display: none;
