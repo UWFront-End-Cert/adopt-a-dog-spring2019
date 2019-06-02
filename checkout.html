@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Adoptable Dogs Page </title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
     <script src="script/script.js"> </script>
   <header>
-    <div class="header">
-      <img class= "dogface" src="/images/header-image.jpg" alt= "brown dog looking through cracked blinds with sunlight beaming through">
-           <img class="logo" src="/images/adoptadog-logo.svg" alt= "adoptadog white logo">
-        <h2 class="logo" style="color:rgb(132,187,66);"> Seattle's premiere dog adoption agency </h2>
-    </div>
-    </header>
+    <header>
+  		<div class="header">
+  			<img alt="Shopping Cart logo" class="logo" src="./images/cart-icon.svg"> <img alt="adoptadog white logo" class="logo" src="./images/adoptadog-logo.svg">
 
-    <div class="buttons">
+  			<h2 class="logo"> Seattle's premiere dog adoption agency</h2>
+  		</div>
+  	</header>
+
+
+    <div class="navigation">
       <nav>
            <a href="index.html">Home  /</a>
         </nav>
@@ -27,24 +29,24 @@
               </nav>
       </div>
 
-         <h1 style="color:rgb(9,60,96);"> Checkout </h1>
+         <h1 class="h2"> Checkout </h1>
          <form method="AdoptMe">
-                <label style="color:rgb(9,60,96);"> <h2> Name  </h2>
+                <label class="h2"> <h2> Name  </h2>
                   <input type="text" name="applicantName">
                 </label>
                 <br>
-                <label style="color:rgb(9,60,96);"> <h2> Email Address </h2>
+                <label class="h2"> <h2> Email Address </h2>
                   <input type="email" name="applicantEmail">
                 </label>
                   <br>
-                <label style="color:rgb(9,60,96);"> <h2>Street Address </h2>
+                <label class="h2"> <h2>Street Address </h2>
                   <input type="Text" name="applicantStreetAddress">
                 </label>
                   <br>
-                <label style="color:rgb(9,60,96);"> <h2>City </h2>
+                <label class="h2"> <h2>City </h2>
                   <input type="Text" name="applicantCity">
                 </label>
-                <label style="color:rgb(9,60,96);"> <h2>State  </h2>
+                <label class="h2"> <h2>State  </h2>
                   <select name="State">
                     <option value=""> Please select </option>
                     <option value="few"> less than 10</option>
@@ -53,12 +55,12 @@
                   </select>
                 </label>
 
-                <label style="color:rgb(9,60,96);"> <h2> Zip Code </h2>
+                <label class="h2"> <h2> Zip Code </h2>
                   <input type="Text" name="applicantZipCode">
                 </label>
                   <br>
 
-                  <legend style="color:rgb(9,60,96);"> <h2>First Time Adopter? </h2>
+                  <legend class="h2"> <h2>First Time Adopter? </h2>
                   </legend>
                   <label> Yes
                     <input type="radio" name="special" value="yes">
@@ -68,7 +70,7 @@
                   </label>
                     <br>
                   <br>
-                <label style="color:rgb(9,60,96);"> <h2>Pickup Location </h2>
+                <label class="h2"> <h2>Pickup Location </h2>
                   <select name="Pickup">
                     <option value=""> Adoption Center </option>
                     <option value="few"> 5 mile radius</option>
@@ -76,7 +78,7 @@
                     <option value="many"> Airport</option>
                   </select>
                 </label>
-                <h2 style="color:rgb(9,60,96);">Dogs Adopted</h2>
+                <h2 class="h2">Dogs Adopted</h2>
                 <div>
 
                   <img class="dogsadopted" src ="./images/lucas-checkout.jpg" alt= "older black lab">
@@ -85,7 +87,7 @@
 
                 </div>
 
-                <h2 style="color:rgb(9,60,96);">Total Adoption Cost</h2>
+                <h2 class="h2">Total Adoption Cost</h2>
 
                 <input type="submit" value="Submit">
 
@@ -94,7 +96,7 @@
 
 
 
-    <footer class="blue">
+      <footer class="blue">
           <img class= "footing" src ="/images/adoptadog-logo.svg" alt= "adoptadog white logo">
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
            <p>2018 Adoptadog, LLC. | Seattle, WA </p>
