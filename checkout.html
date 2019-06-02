@@ -7,17 +7,16 @@
 </head>
 <body>
     <script src="script/script.js"> </script>
-  <header>
+
     <header>
   		<div class="header">
-  			<img alt="Shopping Cart logo" class="logo" src="./images/cart-icon.svg"> <img alt="adoptadog white logo" class="logo" src="./images/adoptadog-logo.svg">
-
+  			<img alt="Shopping Cart logo" class="cart" src="./images/cart-icon.svg"> <img alt="adoptadog white logo" class="logo" src="./images/adoptadog-logo.svg">
+        <button class="button" onclick="location.href = './checkout.html';">Checkout</button>
   			<h2 class="logo"> Seattle's premiere dog adoption agency</h2>
   		</div>
   	</header>
 
-
-    <div class="navigation">
+		<div class="navigation">
       <nav>
            <a href="index.html">Home  /</a>
         </nav>
@@ -29,6 +28,7 @@
               </nav>
       </div>
 
+      <div>
          <h1 class="h2"> Checkout </h1>
          <form method="AdoptMe">
                 <label class="h2"> <h2> Name  </h2>
@@ -80,25 +80,35 @@
                 </label>
                 <h2 class="h2">Dogs Adopted</h2>
                 <div>
-
-                  <img class="dogsadopted" src ="./images/lucas-checkout.jpg" alt= "older black lab">
-
-                  <img class="dogsadopted" src ="./images/duffy-checkout.jpg" alt= "white and brown pitbull">
+                  <div>
+                    <img class="dogsadopted" src ="./images/lucas-checkout.jpg" alt= "older black lab">
+                    <h2 class="h2">Lucas</h2>
+                    <strong>Cost to Adopt:</strong> $123.45<br>
+                  </div>
+                  <div>
+                    <img class="dogsadopted" src ="./images/duffy-checkout.jpg" alt= "white and brown pitbull">
+                    <h2 class="h2">Duffy</h2>
+                    <strong>Cost to Adopt:</strong> $123.45<br>
+                  </div>
 
                 </div>
-
+                  <div>
                 <h2 class="h2">Total Adoption Cost</h2>
+                <strong>Cost to Adopt:</strong> $246.90<br>
+                <br>
+                <button class="button" onclick ="alert('$246.9‬0')">Adopt Me</button>
 
-                <input type="submit" value="Submit">
-
-    </form>
-
+              </form>
+        </div>
 
 
 
       <footer class="blue">
-          <img class= "footing" src ="/images/adoptadog-logo.svg" alt= "adoptadog white logo">
+          <img class= "footing" src ="./images/adoptadog-logo.svg" alt= "adoptadog white logo">
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+          <br>
+
            <p>2018 Adoptadog, LLC. | Seattle, WA </p>
       </footer>
   </body>
