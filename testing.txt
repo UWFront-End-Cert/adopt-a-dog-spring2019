@@ -9,13 +9,12 @@ Testing was done on a cadence as follows:
 *Each addition of an element on the html pages was tested in the Chrome browser at the time it was added
 *As each page was fully finished in html it was tested in Chrome
 *As each element was styled with CSS, it was tested in Chrome
-*Once all the elements were finished and styling was finished for the Chrome browser at a single resolution, testing began for different screen sizes and devices
-*
+*Once all the elements were finished and styling was finished for the Chrome browser at a single resolution, testing began for different screen sizes
+*Once media queries were added to accommodate different devices and screen sizes, the site was tested on actual devices
+*As changes were made for various devices and screen sizes for various elements, the entire site was regression tested: first in Chrome with the screen size being accommodated and then on various screen sizes and devices
+*Once fully tested and as responsive as my skills would allow me to get the site, the entire site was tested on all the browsers, the iPhone, and the iPad. Final adjustments were made and retested.
 
-
-
-
-
+Tested details are as follows:
 ******************************************************
 Operating Systems/Devices used for testing:
 ******************************************************
