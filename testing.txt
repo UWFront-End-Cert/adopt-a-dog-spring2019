@@ -14,7 +14,9 @@ Testing was done on a cadence as follows:
 *As changes were made for various devices and screen sizes for various elements, the entire site was regression tested: first in Chrome with the screen size being accommodated and then on various screen sizes and devices
 *Once fully tested and as responsive as my skills would allow me to get the site, the entire site was tested on all the browsers, the iPhone, and the iPad. Final adjustments were made and retested.
 
-Tested details are as follows:
+The entire site was tested a final time in all the browsers and on the devices.
+
+
 ******************************************************
 Operating Systems/Devices used for testing:
 ******************************************************
