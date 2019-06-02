@@ -1,6 +1,22 @@
 Testing for Adopt A Dog website
 
 ******************************************************
+Testing recap
+******************************************************
+The user persona targeted an older woman with only an iPhone and an iPad, however it was determine this site would be tested on all available devices and systems, as well as all available browsers. Several browsers were downloaded to the PC for testing, however there was no Mac available and the only browser available on the mobile devices was Safari.
+
+Testing was done on a cadence as follows:
+*Each addition of an element on the html pages was tested in the Chrome browser at the time it was added
+*As each page was fully finished in html it was tested in Chrome
+*As each element was styled with CSS, it was tested in Chrome
+*Once all the elements were finished and styling was finished for the Chrome browser at a single resolution, testing began for different screen sizes and devices
+*
+
+
+
+
+
+******************************************************
 Operating Systems/Devices used for testing:
 ******************************************************
 *PC / Windows 10 / 64-bit
@@ -44,3 +60,23 @@ Form submission
 *Confirm the form submits correctly
 *Verify the alert pops on submitting the form
 *Confirm the form fields entries are logged to the console on submit
+
+Responsive
+*Verify the site changes correctly at various break points in different screen sizes
+*Confirm the elements stack correctly on different screen sizes
+*Use the device toggles in Chrome dev tools to see how the site will respond for different devices
+
+
+******************************************************
+Testing done on iPhone and iPad
+******************************************************
+*Using Safari, view the site on actual devices to ensure it renders as expected
+*Confirm the content stacks as expected on different sized screens
+*Confirm alerts and calculations, and affects continue to work as expected
+
+
+******************************************************
+Not tested
+******************************************************
+*The site was not tested on a Mac (due to unavailability)
+*The site was not tested on the Chrome browser for the iPad or iPhone (not available on the devices used)
