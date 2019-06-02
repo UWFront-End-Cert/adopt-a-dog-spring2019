@@ -24,6 +24,15 @@ $('.dog-tile').hover(
 );
 */
 
+$('nav').hover (
+	function() {
+		$('a',this).css({"font-size":"1.5em"});
+	},
+	function(){
+		$('a',this).css({"font-size":"1em"});
+	}
+);
+
 $('.dog-tile').hover(
    function () {
 		$('img', this).addClass('small');
@@ -35,10 +44,14 @@ $('.dog-tile').hover(
 
 $('.dog-tile').hover(
    function () {
-	  $(this).css({"background-color":"lightgreen"});
+	  $(this).css({"background-color":"lightgreen",
+				   "color": "purple",
+				   "font-size": "1.5em"});
    }, 
    function () {
-	  $(this).css({"background-color":"white"});
+	  $(this).css({"background-color":"white",
+				   "color": "black",
+				   "font-size": "1em"});
    }
 );
 
@@ -50,5 +63,4 @@ $('div').on('click',function(){
 						);
 });
 */
-
 
