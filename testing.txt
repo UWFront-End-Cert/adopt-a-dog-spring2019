@@ -18,7 +18,7 @@ Opera Version: 60.0.3255.109
 
 
 ******************************************************
-Browser developer tools
+Browser developer tools used in testing
 ******************************************************
 Chrome Dev tools (for Console, Elements, Toggle devices)
 Window Resizer utility
@@ -26,5 +26,21 @@ Firefox Dev tools
 
 
 ******************************************************
-
+Testing performed on the PC
 ******************************************************
+***On the PC, testing was done for all browsers listed above:
+General page/link functionality
+*Ensure all pages of the site open correctly
+*Test all links on the Site to ensure they all work correctly
+*View all images on the site to ensure no broken images
+*Test hovering over the doc images to confirm the changes occur
+
+Alerts and calculations are working properly
+*Click the Adopt buttons to confirm the cart total continues to grow
+*Verify the cart total at the top of the Index and Dogs pages total correctly
+*Click each dog image to verify the correction information is alerted
+
+Form submission
+*Confirm the form submits correctly
+*Verify the alert pops on submitting the form
+*Confirm the form fields entries are logged to the console on submit
