@@ -5,6 +5,31 @@ body {
 	margin: 0;
 	font-size: 20px;
 }
+/* jquery testing */
+.large-headline {
+	font-size: 3rem;
+	color: red;
+}
+.half-width{
+	width: 50%;
+	margin: 0 auto;
+}
+.dog-tile {
+	background: white;
+}
+.zoom {
+  transform: scale(1.8); 
+  background: lightgreen;
+}
+.small {
+  transform: scale(.8); 
+  background: lightyellow;
+}
+.tile-border{
+	background: grey;
+	outline: 4px solid purple;
+}
+/*--- end jquery testing ---*/
 .clear {
 	clear:both; 
 }
@@ -59,6 +84,7 @@ aside img {
 	float: left;  
 	width: 30%; 
 	padding-right: 1%; }
+
 .blog img {
 	float: left;  
 	width: 30%; 
@@ -228,8 +254,8 @@ input[type="submit"]{
 }
  
 .blog-container > div {
-	margin-top: 1%; 
-	margin-bottom:1%; 
+	margin-top: 5%; 
+	margin-bottom:5%; 
 	overflow:auto;
 	width:100%;
 }
@@ -285,6 +311,7 @@ input[type="submit"]{
 	padding: 1%;
 	margin: 5%;
 }
+
 .dog p:first-child{
 	font-weight: bold;
 }
