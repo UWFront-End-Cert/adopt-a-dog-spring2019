@@ -37,5 +37,7 @@ $('form').submit(function(e) {
     console.log($( '#state :selected' ).val());
     console.log($('#zip:input').val()); 
     console.log($('input:checked').val());
-    console.log($( '#pickup-location :selected' ).val())
+    console.log($( '#pickup-location :selected' ).val());
+    alert('Thank you. The form information has been received');
   });
+
