@@ -413,7 +413,7 @@ form {
 
 @media screen and (max-width: 1024px) {
   form {
-    width: 100%;
+    width: 90%;
     margin-left: 1rem;
   }
 }
@@ -437,9 +437,9 @@ label {
   height: 3rem;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 1024px) {
   .contact input{
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -554,9 +554,10 @@ section {
   padding: 0.5rem 6rem;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 1024px) {
   .submitForm {
-    width: 80%;
+    width: 50%;
+    padding: 0.5rem 3rem;
   }
 }
 
