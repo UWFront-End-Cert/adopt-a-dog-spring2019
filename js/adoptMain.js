@@ -162,7 +162,8 @@ function submitForm() {
   formInfo.push(pickupLocation).value;
   
   console.log(formInfo);
-  
 }
 
+
+//  DOG CARDS  //
 
