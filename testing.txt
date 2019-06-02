@@ -1,3 +1,30 @@
 Testing for Adopt A Dog website
 
-**************************************
+******************************************************
+Operating Systems/Devices used for testing:
+******************************************************
+*PC / Windows 10 / 64-bit
+*iPhone 6s Plus / iOS 12.2
+*iPad Pro / iOS 12.2
+
+
+******************************************************
+Browsers/Versions tested
+******************************************************
+Chrome Version: 74.0.3729.169 (Official Build) (64-bit)
+Firefox Version: 67.0 (64-bit)
+Microsoft Edge Version: 42.17134.1.0
+Opera Version: 60.0.3255.109
+
+
+******************************************************
+Browser developer tools
+******************************************************
+Chrome Dev tools (for Console, Elements, Toggle devices)
+Window Resizer utility
+Firefox Dev tools
+
+
+******************************************************
+
+******************************************************
