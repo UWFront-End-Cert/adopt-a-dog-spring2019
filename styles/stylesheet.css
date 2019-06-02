@@ -209,6 +209,10 @@ h2 {
   margin: 2em 1em;
 }
 
+.dog-border {
+  border: 7px double #26CE75;
+}
+
 @media screen and (max-width: 576px) {
   header {
     padding: 0.5em;

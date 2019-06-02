@@ -1,4 +1,4 @@
-const form = document.querySelector('form');
+/*const form = document.querySelector('form');
 form.addEventListener('submit', function(event) {
   event.preventDefault();
   alert('Thank you. The form information has been received.');
@@ -20,4 +20,10 @@ form.addEventListener('submit', function(event) {
     adoptStatus: adoptStatus.value,
     location: location.value
   });
-});
+});*/
+
+$('form').submit(function(e) {
+  e.preventDefault();
+  alert('Thank you. The form information has been received.');
+  console.log($('form').serialize());
+})
