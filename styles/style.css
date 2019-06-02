@@ -93,6 +93,7 @@
 
 .blog-img {
   max-width: 20em;
+  margin-left: 2%;
 }
 
 .blogtext {
@@ -104,10 +105,12 @@
 
 h3 {
   color: #083C61;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .prev-blog-title {
-
+  margin: auto;
 }
 
 .content-grid {
@@ -162,8 +165,14 @@ h3 {
   width: 15em;
 }
 
+.doggo-card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
 .card-text {
-  margin-left: 1em;
+  margin-left: 1em
 }
 
 .doggo-bloggo-container {
@@ -195,18 +204,22 @@ h4 {
   color: #083C61;
 }
 
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .adopt-btn {
   background-color: #81B642; /* Green */
   border: none;
   font-weight: bold;
   color: white;
-  padding: 1em 5em;
-  text-align: center;
-  text-decoration: none;
+  padding: .8em 3em;
   display: inline-block;
+  text-decoration: none;
   font-size: 1em;
-  margin-left: 1em;
-  margin-bottom: 1em;
+  margin: 1em;
 }
 
 .btm-link {

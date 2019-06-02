@@ -1,25 +1,25 @@
+// **************** REFACTORED TO JQUERY ******************
 // form page alert:
-
-document.addEventListener('submit', function(event) {
-
-  // get form data
-  // document.getElementById('checkoutForm').elements.value
-  const formValue = document.getElementById('checkoutForm').elements
-
-  // create array object
-  const formData = []
-
-  // loop over form elements and push values to array
-  for (let i = 0; i < formValue.length; i += 1) {
-    formData.push(formValue[i].value);
-  }
-  // log data for debugging
-  console.log(formData);
-
-  // alert form submitted
-  event.preventDefault();
-  alert('Thank you. The form information has been received');
-});
+// document.addEventListener('submit', function(event) {
+//
+//   // get form data
+//   // document.getElementById('checkoutForm').elements.value
+//   const formValue = document.getElementById('checkoutForm').elements
+//
+//   // create array object
+//   const formData = []
+//
+//   // loop over form elements and push values to array
+//   for (let i = 0; i < formValue.length; i += 1) {
+//     formData.push(formValue[i].value);
+//   }
+//   // log data for debugging
+//   console.log(formData);
+//
+//   // alert form submitted
+//   event.preventDefault();
+//   alert('Thank you. The form information has been received');
+// });
 
 
 

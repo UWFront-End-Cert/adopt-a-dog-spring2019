@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Adopt-a-dog | Dog Adoption</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/animate.js"></script>
+
   </head>
   <body>
   <div class="header-img">
@@ -13,7 +16,7 @@
     <h2 class="tagline">Seattle's premiere dog adoption agency</h2>
     <div class="cart-total">
       <img class="cart-icon" src="images/cart-icon.svg" alt="Shopping cart icon.">
-      $1234.56
+      <p id=cart-total>$0.00</p>
       <p><a class="checkout-btn" href="checkout.html">Checkout</a></p>
     </div>
   </div>
@@ -42,80 +45,96 @@
         <img class="card-img" src="images/murphy-card.jpg" alt="A picture of Murphy"  onclick="doggoInfo('Murphy', 'Boxer', '$123.45')">
         <div class="card-text">
         <h4>Murphy</h4>
-        <p><strong>Cost to Adopt: </strong>$123.45</p>
+        <p><strong>Cost to Adopt: </strong>$200.00</span></p>
         <p>Most angery pupper I have ever seen pupperino many pats fat boi, boof waggy wags. What a nice floof doggorino clouds blep he made many woofs woofer big ol pupper.</p>
         </div>
-        <a class="adopt-btn" onclick="doggoCost(123.45)">Adopt</a>
+        <div class="btn-wrapper">
+          <a class="adopt-btn" value="200.00">Adopt</a>
+        </div>
       </div>
 
       <div class="doggo-card">
         <img class="card-img" src="images/poppy-card.jpg" alt="A picture of Poppy" onclick="doggoInfo('Poppy', 'Yorkie', '$123.45')">
         <div class="card-text">
           <h4>Poppy</h4>
-          <p><strong>Cost to Adopt: </strong>$123.45</p>
+          <p><strong>Cost to Adopt: </strong>$230.00</span></p>
           <p>Most angery pupper I have ever seen pupperino many pats fat boi, boof waggy wags. What a nice floof doggorino clouds blep he made many woofs woofer big ol pupper.</p>
         </div>
-        <a class="adopt-btn" onclick="doggoCost(123.45)">Adopt</a>
+        <div class="btn-wrapper">
+          <a class="adopt-btn" value="230.00">Adopt</a>
+        </div>
       </div>
 
       <div class="doggo-card">
         <img class="card-img" src="images/jack-card.jpg" alt="A picture of Jack" onclick="doggoInfo('Jack', 'Beagle', '$123.45')">
         <div class="card-text">
           <h4>Jack</h4>
-          <p><strong>Cost to Adopt: </strong>$123.45</p>
+          <p><strong>Cost to Adopt: </strong>$250.00</span></p>
           <p>Most angery pupper I have ever seen pupperino many pats fat boi, boof waggy wags. What a nice floof doggorino clouds blep he made many woofs woofer big ol pupper.</p>
         </div>
-        <a class="adopt-btn" onclick="doggoCost(123.45)">Adopt</a>
+        <div class="btn-wrapper">
+          <a class="adopt-btn" value="250.00">Adopt</a>
+        </div>
       </div>
 
       <div class="doggo-card">
         <img class="card-img" src="images/duffy-card.jpg" alt="A picture of Duffy" onclick="doggoInfo('Duffy', 'Pitbull', '$123.45')">
         <div class="card-text">
           <h4>Duffy</h4>
-          <p><strong>Cost to Adopt: </strong>$123.45</p>
+          <p><strong>Cost to Adopt: </strong>$200.00</span></p>
           <p>Most angery pupper I have ever seen pupperino many pats fat boi, boof waggy wags. What a nice floof doggorino clouds blep he made many woofs woofer big ol pupper.</p>
         </div>
-        <a class="adopt-btn" onclick="doggoCost(123.45)">Adopt</a>
+        <div class="btn-wrapper">
+          <a class="adopt-btn" value="200.00">Adopt</a>
+        </div>
       </div>
 
       <div class="doggo-card">
         <img class="card-img" src="images/lucas-card.jpg" alt="A picture of Lucas" onclick="doggoInfo('Lucas', 'Mutt', '$123.45')">
         <div class="card-text">
           <h4>Lucas</h4>
-          <p><strong>Cost to Adopt: </strong>$123.45</p>
+          <p><strong>Cost to Adopt: </strong>$215.00</span></p>
           <p>Most angery pupper I have ever seen pupperino many pats fat boi, boof waggy wags. What a nice floof doggorino clouds blep he made many woofs woofer big ol pupper.</p>
         </div>
-        <a class="adopt-btn" onclick="doggoCost(123.45)">Adopt</a>
+        <div class="btn-wrapper">
+          <a class="adopt-btn" value="215.00">Adopt</a>
+        </div>
       </div>
 
       <div class="doggo-card">
         <img class="card-img" src="images/jake-card.jpg" alt="A picture of Jake" onclick="doggoInfo('Jake', 'Golden Retriever', '$123.45')">
         <div class="card-text">
           <h4>Jake</h4>
-          <p><strong>Cost to Adopt: </strong>$123.45</p>
+          <p><strong>Cost to Adopt: </strong>$150.00</span></p>
           <p>Most angery pupper I have ever seen pupperino many pats fat boi, boof waggy wags. What a nice floof doggorino clouds blep he made many woofs woofer big ol pupper.</p>
         </div>
-        <a class="adopt-btn" onclick="doggoCost(123.45)">Adopt</a>
+        <div class="btn-wrapper">
+          <a class="adopt-btn" value="150.00">Adopt</a>
+        </div>
       </div>
 
       <div class="doggo-card">
         <img class="card-img" src="images/angus-card.jpg" alt="A picture of Angus" onclick="doggoInfo('Angus', 'Boxer', '$123.45')">
         <div class="card-text">
           <h4>Angus</h4>
-          <p><strong>Cost to Adopt: </strong>$123.45</p>
+          <p><strong>Cost to Adopt: </strong>$200.00</span></p>
           <p>Most angery pupper I have ever seen pupperino many pats fat boi, boof waggy wags. What a nice floof doggorino clouds blep he made many woofs woofer big ol pupper.</p>
         </div>
-        <a class="adopt-btn" onclick="doggoCost(123.45)">Adopt</a>
+        <div class="btn-wrapper">
+          <a class="adopt-btn" value="200.00">Adopt</a>
+        </div>
       </div>
 
       <div class="doggo-card">
         <img class="card-img" src="images/violet-card.jpg" alt="A picture of Violet" onclick="doggoInfo('Violet', 'Chocolate Lab', '$123.45')">
         <div class="card-text">
           <h4>Violet</h4>
-          <p><strong>Cost to Adopt: </strong>$123.45</p>
+          <p><strong>Cost to Adopt: </strong>$235.00</span></p>
           <p>Most angery pupper I have ever seen pupperino many pats fat boi, boof waggy wags. What a nice floof doggorino clouds blep he made many woofs woofer big ol pupper.</p>
         </div>
-        <a class="adopt-btn" onclick="doggoCost(123.45)">Adopt</a>
+        <div class="btn-wrapper">
+          <a class="adopt-btn" value="235.00">Adopt</a>
+        </div>
       </div>
 
     </div>
@@ -161,5 +180,6 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
   </body>
 </html>
