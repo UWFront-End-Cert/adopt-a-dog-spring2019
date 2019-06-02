@@ -351,6 +351,10 @@ footer p {
   margin: .5em 0em 4em 0em;
 }
 
+.form-info {
+  color: inherit;
+}
+
 .contact-info label {
   color: #034177;
   font-size: 1.5em; 

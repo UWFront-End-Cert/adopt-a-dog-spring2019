@@ -26,16 +26,16 @@ $(function(){
 
   //checkout page
 
-$('form').append('<button class="adopt-button-checkout" type="button">Submit</button>');
+$('form').append('<button class="adopt-button-checkout" type="submit">Submit</button>');
 
-let inputValues = $('input').find('*').val();
-
-$('button').on("click", function() {
+$('form').submit(function(e) {
     event.preventDefault();
-    console.log($('input').find('*').val());
-    console.log(inputValues);
-
-    console.log($('form').serializeArray());
-
-});
-
+    console.log($('#name:input').val());
+    console.log($('#email:input').val());
+    console.log($('#address:input').val());
+    console.log($('#city:input').val());
+    console.log($( '#state :selected' ).val());
+    console.log($('#zip:input').val()); 
+    console.log($('input:checked').val());
+    console.log($( '#pickup-location :selected' ).val())
+  });
