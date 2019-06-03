@@ -8,6 +8,7 @@ $('.adopt-btn').click(function(e){
     total = total.toFixed(2)
     console.log(total)
     $('#cart-total').text('$' + total)
+    alert('Added to cart.')
   });
 
 // *********REFACTORED FORM DATA HANDLER TO JQUERY
