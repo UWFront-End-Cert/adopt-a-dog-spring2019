@@ -5,17 +5,19 @@
 <head>
     <title>Blog - Adopt-a-Dog</title>
     <link rel="stylesheet" type="text/css" href="formatting.css">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">   
+    <script src="./scripts/image_handler.js" type="text/javascript"></script>
+    <script src="./scripts/cart_handler.js" type="text/javascript"></script>
+    <script src="./scripts/blog.js" type="text/javascript"></script>
     <meta name="description" content="Adopt-a-Dog, LLC">
     <meta name="keywords" content="Dogs, Adoption, Seattle">
     <meta name="author" content="Adam Sirkis">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body onload="blogTitle()">
     <header>
         <div class="header-banner">
-            <img src="./images/header-image.jpg" id="banner-image" alt="header-banner-image">
             <div class="title-alligner">
                 <img src="./images/adoptadog-logo.svg" id="logo-image" alt="adopt-a-dog logo">           <!--Logo-->
                 <h1>Seattle's premiere dog adoption agency</h1>
@@ -36,7 +38,6 @@
         </nav>
     </header>
     <section  class="main-content">
-        <h2 class="page-title">Adoptadog Blog</h2>
         <article>
             <img src="./images/blog-1.jpg"  class="blog-images" alt="blog-1">
             <h3>Traveling with Your Dog</h3>
