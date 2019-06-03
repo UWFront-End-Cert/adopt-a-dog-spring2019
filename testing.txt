@@ -14,7 +14,9 @@ Testing was done on a cadence as follows:
 *As changes were made for various devices and screen sizes for various elements, the entire site was regression tested: first in Chrome with the screen size being accommodated and then on various screen sizes and devices
 *Once fully tested and as responsive as my skills would allow me to get the site, the entire site was tested on all the browsers, the iPhone, and the iPad. Final adjustments were made and retested.
 
-The entire site was tested a final time in all the browsers and on the devices.
+The entire site was tested a final time in all the browsers and on the devices. Changes made along the way were mostly to accommodate various screen/device sizes. Styling was updated to include media queries and to use ems, rems, and percentages as much as possible to allow for screens to resize and elements to not be fixed to specific pixels. Margins and padding were adjusted because what worked on larger screens (like 1920x1200) and ensured everything was centered, didn't necessarily keep the centering on smaller screens/devices.
+
+Changes were made to ensure the blog posts were created from Jquery instead of hard-coded in the html. Functionality and calculations were added to: change the dog images on hover, calculate dog costs when Adopt buttons were clicked, alert dog information on clicking the dog images, produce and alert on the form and console log form values inputted, and everything was styled to match the mockups provided.
 
 
 ******************************************************
