@@ -15,4 +15,5 @@ $('.adopt-btn').click(function(e){
 $('form').submit(function(event){
   console.log($(this).serializeArray());
   event.preventDefault();
+  alert('Thank you. The form information has been received');
 });
