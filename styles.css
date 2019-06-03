@@ -49,6 +49,7 @@ p.light{
   color: #ECECEC;
   text-align: right;
   font-size: .8em;
+  display: inline-block;
 }
 
 p.footer-p {
@@ -228,6 +229,12 @@ img.footer-img {
 img.dog-img {
   max-width: 100%;
   position: static;
+  cursor: help;
+}
+
+img.dog-img-fade {
+  opacity: .5;
+  transition: opacity 1s;
 }
 
 img.dog-checkout {
@@ -239,6 +246,8 @@ img.dog-checkout {
 
 img.checkout {
   width: 1em;
+  padding: 0;
+  margin: 0;
 }
 
 .centered-button {
@@ -247,7 +256,7 @@ img.checkout {
 }
 
 .adopt-button {
-  background: radial-gradient(circle, #81B742 2%, white 99%);
+  background: #81B742;
   border: none;
   border-radius: 4px;
   color: #ECECEC;
@@ -258,7 +267,7 @@ img.checkout {
 }
 
 .adopt-button:hover {
-  background: radial-gradient(circle, #093C60 2%, white 99%);
+  background: #093C60;
   color: #ECECEC;
 }
 
@@ -348,6 +357,9 @@ div.row {
   flex: 10%;
   padding-left: 1em;
 }
+
+
+
 
 input[type=text] {
   border: 1px solid #ECECEC;
@@ -480,6 +492,5 @@ input[type=submit] {
     padding: .6em;
     font-size: 1.2em;
   }
-
 
 }
