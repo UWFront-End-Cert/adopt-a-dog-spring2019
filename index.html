@@ -11,7 +11,10 @@
       <img src="images/adoptadog-logo.svg" alt="adoptadog logo"><br><br><br><br><br>
       <h2>Seattle's Premiere Dog Adoption Agency</h2>
       <div class="checkout">
-        <i class="fas fa-shopping-cart"></i><br>
+        <div id="checkout-image-and-total">
+          <i class="fas fa-shopping-cart"></i>
+          <span id="checkout-total">$0</span>
+        </div>
         <a href="checkout.html" class="button">Checkout</a>
       </div>
     </header>
@@ -36,7 +39,7 @@
           <h4>Murphy</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -44,7 +47,7 @@
           <h4>Poppy</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -52,7 +55,7 @@
           <h4>Jack</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -60,7 +63,7 @@
           <h4>Duffy</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -68,7 +71,7 @@
           <h4>Lucas</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -76,7 +79,7 @@
           <h4>Jake</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -84,7 +87,7 @@
           <h4>Angus</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -92,7 +95,7 @@
           <h4>Violet</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
           <a href="dogs.html">See More Dogs</a>
         </article>
 
@@ -101,7 +104,7 @@
           <h4>Piper</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -109,7 +112,7 @@
           <h4>Maximus</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -117,7 +120,7 @@
           <h4>Luna</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
 
         <article class="dog">
@@ -125,7 +128,7 @@
           <h4>Stella</h4>
           <p>Cost to Adopt: $123.45</p>
           <p>Cras sit amet purus nec felis dapibus tempus.</p>
-          <button class="dog-button" onclick="addToTotal(123.45)">Adopt</button>
+          <button class="dog-button" price="123.45">Adopt</button>
         </article>
       </div>
     </section>
@@ -167,5 +170,8 @@
       <p>&copy; 2018 Adoptadog, LLC || Seattle, WA</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <script src="js/dog-info.js" charset="utf-8"></script>
 </body>

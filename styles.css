@@ -27,6 +27,12 @@ header > h2 {
 .checkout {
   float: right;
   display: block;
+  color: white;
+}
+
+#checkout-image-and-total {
+  margin-left: 3em;
+  margin-bottom: 1em
 }
 
 .fa-shopping-cart {
@@ -80,6 +86,9 @@ header > h2 {
 
 .dog > img {
   width: 100%;
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
 }
 
 .dog-button {

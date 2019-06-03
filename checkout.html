@@ -28,48 +28,48 @@
     </label><br><br><br>
 
     <label>Email Address
-      <input type="email" name="userEmail"/>
+      <input type="email" name="Email"/>
     </label><br><br><br>
 
     <label>Street Address
-      <input type="text" name="userStreet"/>
+      <input type="text" name="Street"/>
     </label><br><br><br>
 
     <label>City
-      <input type="text" name="userCity"/>
+      <input type="text" name="City"/>
     </label><br><br><br>
 
     <label>State
-      <select name="state">
-        <option value="">WA</option>
-        <option value="oregon">OR</option>
-        <option value="california">CA</option>
+      <select name="State">
+        <option value="Washington" selected="selected">WA</option>
+        <option value="Oregon">OR</option>
+        <option value="California">CA</option>
       </select>
     </label><br><br><br>
 
     <label>Zip Code
-      <input type="text" name="userZip"/>
+      <input type="text" name="Zip Code"/>
     </label><br><br><br>
 
     <fieldset>
       <legend>First Time Adopter?</legend>
     <label>
-      <input type="radio" name="special" value="yes">
+      <input type="radio" name="First Time Adopter" value="Yes" checked="checked">
       Yes
     </label>
     <label>
-      <input type="radio" name="special" value="no">
+      <input type="radio" name="First Time Adopter" value="No">
       No
     </label>
   </fieldset><br><br><br>
 
     <label>Pickup Location
-      <select name="region">
-        <option value="">Belltown</option>
-        <option value="fremont">Fremont</option>
-        <option value="queen-anne">Queen Anne</option>
-        <option value="cap-hill">Cap Hill</option>
-        <option value="ballard">Ballard</option>
+      <select name="Pickup Location">
+        <option value="Belltown" selected="selected">Belltown</option>
+        <option value="Fremont">Fremont</option>
+        <option value="Queen Anne">Queen Anne</option>
+        <option value="Cap Hill">Cap Hill</option>
+        <option value="Ballard">Ballard</option>
       </select>
     </label><br><br><br>
 
@@ -77,7 +77,7 @@
 
     Total Adoption Cost<br><br><br>
 
-    <input type="submit" value="Submit" onclick="displayThankYou()"/>
+    <input id="submit-button" type="submit" value="Submit"/>
   </form>
 
 
@@ -91,6 +91,9 @@
         <p>&copy; 2018 Adoptadog, LLC || Seattle, WA</p>
       </div>
 
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
       <script src="js/checkout.js" charset="utf-8"></script>
 </body>
 </html>
