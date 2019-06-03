@@ -1,8 +1,33 @@
-Testing for Adopt A Dog website
+***********************************************************************************************
+******USER PERSONA (ALSO ADDED TO "Lesson 10a Share Your User Persona" DISCUSSION THREAD)******
+***********************************************************************************************
 
-******************************************************
-Testing recap
-******************************************************
+*Persona: Older woman
+
+*Name: Margaret "Peggy" Simms
+
+*Age: 77
+
+*Marital Status: Married for 50 years, widowed for 5 years
+
+*Children/grandchildren: 3 children, 2 grandchildren
+
+*Hobbies: Gardening, French cuisine, Brunch with the gals who think she's a hoot
+
+*Technical: Has a cell phone (she guesses it's an iPhone since the kids gave it to here when she got the iPad) that she uses to talk to and text her children and grandchildren, has a three-year old iPad the kids gave her for Christmas one year
+
+*Why adopting a dog?: The kids have been worried about her lately because they all live out-of-state. She's active in her garden and has friends but since she lives alone, they want her to remarry so they don't have to worry about her being alone. She told them she would get a dog for companionship and safety. But not a husband.
+
+*Why online?: Peggy doesn't have the patience to go to a store and deal with a bunch of young people who think they know what she'd like. She wants to get the information about the dogs and make her choice. There will be enough work to do once she has the dog and she just wants the buying to be easy.
+
+
+*******************************************
+******TESTING FOR ADOPT A DOG WEBSITE******
+*******************************************
+
+------------------------------------------------------
+------Testing recap------
+------------------------------------------------------
 The user persona targeted an older woman with only an iPhone and an iPad, however it was determine this site would be tested on all available devices and systems, as well as all available browsers. Several browsers were downloaded to the PC for testing, however there was no Mac available and the only browser available on the mobile devices was Safari.
 
 Testing was done on a cadence as follows:
@@ -19,34 +44,34 @@ The entire site was tested a final time in all the browsers and on the devices. 
 Changes were made to ensure the blog posts were created from Jquery instead of hard-coded in the html. Functionality and calculations were added to: change the dog images on hover, calculate dog costs when Adopt buttons were clicked, alert dog information on clicking the dog images, produce and alert on the form and console log form values inputted, and everything was styled to match the mockups provided.
 
 
-******************************************************
-Operating Systems/Devices used for testing:
-******************************************************
+-------------------------------------------------------
+------Operating Systems/Devices used for testing:------
+-------------------------------------------------------
 *PC / Windows 10 / 64-bit
 *iPhone 6s Plus / iOS 12.2
 *iPad Pro / iOS 12.2
 
 
-******************************************************
-Browsers/Versions tested
-******************************************************
+------------------------------------
+------Browsers/Versions tested------
+------------------------------------
 Chrome Version: 74.0.3729.169 (Official Build) (64-bit)
 Firefox Version: 67.0 (64-bit)
 Microsoft Edge Version: 42.17134.1.0
 Opera Version: 60.0.3255.109
 
 
-******************************************************
-Browser developer tools used in testing
-******************************************************
+---------------------------------------------------
+------Browser developer tools used in testing------
+---------------------------------------------------
 Chrome Dev tools (for Console, Elements, Toggle devices)
 Window Resizer utility
 Firefox Dev tools
 
 
-******************************************************
-Testing performed on the PC
-******************************************************
+---------------------------------------
+------Testing performed on the PC------
+---------------------------------------
 ***On the PC, testing was done for all browsers listed above:
 General page/link functionality
 *Ensure all pages of the site open correctly
@@ -70,16 +95,16 @@ Responsive
 *Use the device toggles in Chrome dev tools to see how the site will respond for different devices
 
 
-******************************************************
-Testing done on iPhone and iPad
-******************************************************
+-------------------------------------------
+------Testing done on iPhone and iPad------
+-------------------------------------------
 *Using Safari, view the site on actual devices to ensure it renders as expected
 *Confirm the content stacks as expected on different sized screens
 *Confirm alerts and calculations, and affects continue to work as expected
 
 
-******************************************************
-Not tested
-******************************************************
+----------------------
+------Not tested------
+----------------------
 *The site was not tested on a Mac (due to unavailability)
 *The site was not tested on the Chrome browser for the iPad or iPhone (not available on the devices used)
