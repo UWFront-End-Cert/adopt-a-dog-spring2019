@@ -19,7 +19,7 @@
         <h2>Seattle's premiere dog adoption agency</h2>
       </div>
       <div class="header-box">
-        <p class="light"><img class="checkout" src="images/cart-icon.svg" alt="Icon of a shopping cart">&nbsp;$1,234.56</p>
+        <img class="checkout" src="images/cart-icon.svg" alt="Icon of a shopping cart">&nbsp; &nbsp;<p class="light" id="displayCost">&nbsp;$1,234.56</p>
         <button class="checkout-button">Checkout</button>
       </div>
     </div>
@@ -72,8 +72,8 @@
           <h3>Pickup Location:</h3>
           <select name="pickup" id="pickup">
             <option style="display:none"> &nbsp; </option>
-            <option value="OR">Portland, OR</option>
-            <option value="WA">Seattle, WA</option>
+            <option value="Portland">Portland, OR</option>
+            <option value="Seattle">Seattle, WA</option>
           </select>
         </div>
       </div>
@@ -117,6 +117,7 @@
     <p class="footer-p">&copy; 2018 Adoptadog, LLC &nbsp;|&nbsp; Seattle, WA</p>
     </section>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
   <script src="./scripts/checkout.js" charset="utf-8"></script>
 
 </body>

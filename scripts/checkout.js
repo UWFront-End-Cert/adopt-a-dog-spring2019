@@ -1,6 +1,5 @@
 
-document.querySelector('form').addEventListener('submit', function(event) {
-     event.preventDefault();
+$('form').submit(function() {
      var strText1 = document.getElementById("applicantName").value;
      var strText2 = document.getElementById("applicantEmail").value;
      var strText3 = document.getElementById("applicantAddress").value;
@@ -13,7 +12,9 @@ document.querySelector('form').addEventListener('submit', function(event) {
      console.log(result);
    });
 
-document.querySelector('form').addEventListener('submit', function(event) {
-     event.preventDefault();
-     alert('Thank you. \nThe form information has been received.');
-   });
+
+$(document).ready(function(){
+  $('form').submit(function(){
+    alert('Thank you. \nThe form information has been received.');
+  });
+});
