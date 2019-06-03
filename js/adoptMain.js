@@ -1,36 +1,29 @@
+//  DOG CARD IMAGES  //
+$('.dog-card').hover(function(e) {
+  $('img', this).toggleClass('.image-hover');
+})
+
+$('.dog-card').hover(function(e) {
+  $('button', this).addClass('.adopt-hover');
+})
+
+//  CART ALERT  //
 let cartTotal = 0;
-// let dogCost = 0;
 const dogsInCart = [];
 
 function dogDescription(name, breed, cost) {
-  alert(`This is ${name}, a ${breed} breed.  $${cost} to adopt!`)
+  alert(`This is ${name}, a ${breed} breed.  $${cost} to adopt!`);
 }
 
-
-//  CART  //
-function addToCart(name, dogCost) {
-  let check = dogsInCart.includes(name);
-  if (check == false) {
-    cartTotal += dogCost;
-    alert(`Your cart total is $${cartTotal.toFixed(2)}`);
-    dogsInCart.push(name);
-    console.log(dogsInCart);
-  } 
-  else {
-    alert(`You have already adopted ${name}.`);
-  }
+function addToCart(dogCost) {
+  cartTotal += dogCost;
+  alert(`Your cart total is $${cartTotal.toFixed(2)}`);
+  $('.cart-total').text(`$${cartTotal.toFixed(2)}`);
 }
-
-// function addToCart(dogCost) {
-//   cartTotal += dogCost;
-//   alert(`Your cart total is $${cartTotal.toFixed(2)}`);
-// }
 
 
 //  BLOG POSTS  //
 const blogSection = document.getElementsByClassName('blog-main');
-
-// console.log(blogSection);
 
 // 1st Post
 const blogPostA = document.createElement('article');
@@ -59,8 +52,6 @@ postAContent.appendChild(postAAside);
 blogPostA.appendChild(imageA);
 blogPostA.appendChild(postAContent);
 
-// console.log(blogPostA);
-
 // 2nd Post
 const blogPostB = document.createElement('article');
 blogPostB.setAttribute('class', 'blog-post');
@@ -87,8 +78,6 @@ postBContent.appendChild(postBAside);
 
 blogPostB.appendChild(imageB);
 blogPostB.appendChild(postBContent);
-
-// console.log(blogPostB);
 
 // 3rd Post
 const blogPostC = document.createElement('article');
@@ -117,8 +106,6 @@ postCContent.appendChild(postCAside);
 blogPostC.appendChild(imageC);
 blogPostC.appendChild(postCContent);
 
-// console.log(blogPostC);
-
 //  Add to Blog Content Array
 const blogContent = [];
 
@@ -126,44 +113,58 @@ blogContent.push(blogPostA);
 blogContent.push(blogPostB);
 blogContent.push(blogPostC);
 
-// console.log(blogContent);
-
 //  Generate on page via for loop
 for (let i = 0; i < blogContent.length; i++) {
   blogSection[0].appendChild(blogContent[i]);
 }
 
 
-//  FORM  //
+//  CONSOLE LOG FORM DATA  //
+// const form = document.getElementById('checkout-form');
+// const submitButton = document.getElementById('submit');
 
-const form = document.getElementById('checkout-form');
-const submitButton = document.getElementById('submit');
+// function submitForm() {
+//   event.preventDefault();
+//   alert('Thank you!  Your information has been received.');
+//   let formInfo = [];
+//   let name = document.getElementById('#name');
+//   let email = document.getElementById('#email');
+//   let address = document.getElementById('#address');
+//   let city = document.getElementById('#city');
+//   let state = document.getElementById('#state');
+//   let zipcode = document.getElementById('#zipcode');
+//   // let firstTimeAdopter = document.getElementById('');
+//   let pickupLocation = document.getElementById('#pickup-location');
+//   formInfo.push(name).value;
+//   formInfo.push(email).value;
+//   formInfo.push(address).value;
+//   formInfo.push(city).value;
+//   formInfo.push(state).value;
+//   formInfo.push(zipcode).value;
+//   formInfo.push(pickupLocation).value;
+  
+//   console.log(formInfo);
+// }
 
-let formInfo = [];
-
-let name = document.getElementById('name');
-let email = document.getElementById('email');
-let address = document.getElementById('address');
-let city = document.getElementById('city');
-let state = document.getElementById('state');
-let zipcode = document.getElementById('zipcode');
-// const firstTimeAdopter = document.getElementById('');
-const pickupLocation = document.getElementById('pickupLocation');
-
+// With jQuery
 function submitForm() {
   event.preventDefault();
-  alert('Thank you!  Your information has been received.');
-  formInfo.push(name).value;
-  formInfo.push(email).value;
-  formInfo.push(address).value;
-  formInfo.push(city).value;
-  formInfo.push(state).value;
-  formInfo.push(zipcode).value;
-  formInfo.push(pickupLocation).value;
-  
+  alert(`Thank you!  Your information was received.`);
+  const formInfo = [];
+  let name = $('#name').val();
+  let email = $('#email').val();
+  let address = $('#address').val();
+  let city = $('#city').val();
+  let state = $('#state').val();
+  let zipcode = $('#zipcode').val();
+  // let firstTimeAdopter = document.getElementById('');
+  let pickupLocation = $('#pickup-location').val();
+  formInfo.push(name);
+  formInfo.push(email);
+  formInfo.push(address);
+  formInfo.push(city);
+  formInfo.push(state);
+  formInfo.push(zipcode);
+  formInfo.push(pickupLocation);
   console.log(formInfo);
 }
-
-
-//  DOG CARDS  //
-

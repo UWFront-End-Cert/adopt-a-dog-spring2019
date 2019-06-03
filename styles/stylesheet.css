@@ -84,6 +84,11 @@
 .dog-card > img:hover {
   cursor: pointer;
 }
+
+.image-hover {
+  border: 1px solid #f8a100;
+}
+
 .dog-card > h3 {
     color: #1c356d;
     padding: 5%;
@@ -110,6 +115,9 @@
 }
 .dog-card > button:focus {
   outline: none;
+}
+.adopt-button {
+  background-color: #f8a100;
 }
 
 /* Styling Homepage */
@@ -329,6 +337,7 @@ p.adoption-total {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1%;
+    /* margin-bottom: 100%; */
   }
   .home-content-left {
     grid-column: 1 / 4;
