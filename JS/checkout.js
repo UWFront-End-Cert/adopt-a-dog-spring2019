@@ -1,5 +1,18 @@
-let price = 0
+//const amountToDisplay = document.getElementById('cartTotal');
+let price = 0;
 
+//amountToDisplay.innerText = 0;
+
+//function addPrice(data) {
+
+//    price = price + data;
+
+//    result = ("$" + price);
+
+//    amountToDisplay.innerText = result;
+
+
+//  }
 
 function addPrice(data) {
 
@@ -8,8 +21,7 @@ function addPrice(data) {
     result= ("$" + price);
 
     alert(result);
-
-  }
+}
 
 function sConsole() {
     var data = document.getElementById("data");
