@@ -311,7 +311,7 @@ p.adoption-total {
   text-align: center;
   color: #ffffff;
   padding: 5%;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 .adoptadog-logo-footer {
   width: 30%;
@@ -337,7 +337,7 @@ p.adoption-total {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1%;
-    /* margin-bottom: 100%; */
+    margin-bottom: 10rem;
   }
   .home-content-left {
     grid-column: 1 / 4;
@@ -372,6 +372,9 @@ p.adoption-total {
   .blog-content > p {
     margin: 5% 0;
   }
+  .dog-footer {
+    margin-top: 60rem;
+  }
 
 }
 
@@ -383,9 +386,12 @@ p.adoption-total {
     grid-row-gap: 5%;
   }
   .see-more-dogs {
-    margin-top: 30%;
+    margin-top: 10rem;
+  }
+  .dog-footer {
+    margin-top: 45rem;
   }
   .main-footer {
-    margin-top: 80%;
+    /* margin-top: 80%; */
   }
 }
