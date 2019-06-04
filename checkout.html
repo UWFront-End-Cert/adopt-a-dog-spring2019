@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt a Dog Checkout</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <script src="JS/checkout.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" type="text/javascript"></script>
+
   </head>
   <body>
     <header class="header">
@@ -37,7 +38,11 @@
 <!--
       <form method="GET">
 -->
-      <form action="" onsubmit="event.preventDefault(); sConsole();">
+      <form id="sub-form">
+        <script src="JS/checkout.js" charset="utf-8"></script>
+<!--
+      <form id="sub-form" action="" onsubmit="event.preventDefault(); sConsole();">
+-->
         <label>Name
           <input type="text" name="Name" id="data">
         </label>
@@ -102,7 +107,9 @@
         <h1>Total Adoption Cost</h1>
         <p> $1234.56</p>
 
-        <script src="JS/dogImageclick.js" charset="utf-8"></script>
+<!--        <script src="JS/dogImageclick.js" charset="utf-8"></script>
+
+-->
         <input type="submit" value="Submit!">
       </form>
       </section>
