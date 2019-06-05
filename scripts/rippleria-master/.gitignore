@@ -1,0 +1,5 @@
+.idea
+nbproject
+/bower_components
+/node_modules
+index.html

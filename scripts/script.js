@@ -208,14 +208,30 @@ $('.dog-card').hover(function(e) {
 }) //hover over dog cards
 
 //Button ripple effect
-$('.button').rippleria({
+$('#ripple').rippleria({
 
+  // animation speed
   duration: 750,
 
+  // custom easing effect
   easing: 'linear',
 
-  color: "#FFFF00",
+  // custom color
+  color: undefined
 
+  // enable automatically adding .rippleria-dark class to the dark elements (appeared with 1.3)
   detectBrightness: true
+});
 
-})
+$('#ripple').click(function(e) {
+		e.preventDefault();
+
+		var randInt = function (min, max) {
+		var rand = min + Math.random() * (max - min)
+		rand = Math.round(rand);
+		return rand;
+};
+
+$(this).rippleria('changeColor',
+				'rgba('+randInt(0,200)+','+randInt(0,200)+','+randInt(0,200)+',0.'+randInt(3,5));
+});
