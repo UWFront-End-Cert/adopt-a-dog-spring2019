@@ -5,19 +5,16 @@ body
     margin: 0;
     padding: 0;
 }
-
 .container
 {
     padding: 0 10%;
 }
-
 header
 {
     height: 50vh;
 
     background: url(../img/bg-main.jpg)  no-repeat center top/cover, linear-gradient(to right, #000 0%, #c48b8b 100%) ;
 }
-
 .title
 {
     display: flex;
@@ -26,12 +23,10 @@ header
 
     justify-content: space-between;
 }
-
 .logo-img
 {
     width: 100%;
 }
-
 .logo-text
 {
     font-size: 2.1em;
@@ -41,23 +36,19 @@ header
 
     color: #80b641;
 }
-
 .left-side
 {
     text-align: left;
 }
-
 .right-side
 {
     text-align: right;
 }
-
 .cart-img
 {
     width: 2.5em;
     margin-right: 10px;
 }
-
 .cart-price
 {
     font-size: 1.2em;
@@ -65,7 +56,6 @@ header
 
     color: #fff;
 }
-
 a[href='checkout.html'],
 .button
 {
@@ -81,20 +71,25 @@ a[href='checkout.html'],
     text-decoration: none;
 
     color: #fff;
-    border: none;
+    border: 2px solid #c48b8b;
     border-radius: 5px;
     background: linear-gradient(to right, #000 0%, #c48b8b 100%);
 }
+a[href='checkout.html']:hover,
+.button:hover
+{
+    transition-duration: .5s;
 
+    color: #80b641;
+    border-color: #80b641;
+}
 /* header ends */
-
 .nav-first
 {
     padding: 2em 0;
 
     background: #ececec;
 }
-
 .nav-first a
 {
     font-size: 1.3em;
@@ -104,7 +99,6 @@ a[href='checkout.html'],
 
     color: #093c60;
 }
-
 .nav-first .after:after
 {
     font-size: 1.3em;
@@ -114,19 +108,15 @@ a[href='checkout.html'],
 
     content: '/';
 }
-
 /* nav ends */
-
 img[src='img/home-intro2.jpg']
 {
     display: none;
 }
-
 .second-side
 {
     margin-left: 50px;
 }
-
 .read-more
 {
     font-size: 1.5em;
@@ -142,36 +132,33 @@ p
 
     color: #3d3d3d;
 }
-
-
 .block-2
 {
     display: flex;
 
-    width: 100%;    
+    width: 100%;
+
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .item
 {
+    overflow: hidden;
+
     margin-top: 70px;
 
     box-shadow: 3px 3px 5px 0 rgba(120,120,120,1);
-    overflow: hidden; 
+
     flex-basis: 22%;
 }
-
 .mini-container
 {
     padding: 10px 10px;
 }
-
 .item img
 {
     width: 100%;
 }
-
 .item .button
 {
     width: 100%;
@@ -195,18 +182,14 @@ h3
 
     color: #093c60;
 }
-
-
 .bold
 {
     font-weight: bold;
 }
-
 .text
 {
     line-height: 1.7;
 }
-
 .more-dogs
 {
     font-size: 1em;
@@ -225,7 +208,6 @@ h3
     border-radius: 5px;
     background: #ececec;
 }
-
 .home-second .container
 {
     display: flex;
@@ -244,20 +226,17 @@ h3
 
     flex-basis: 30%;
 }
-
-
 .aside-body .first-side img
 {
     width: 100%;
 }
-
 .logo-text
 {
     line-height: 1.7em;
 }
 .block-1
 {
-    margin-top: 70px;
+    margin: 50px 0;
 }
 
 img[src='img/home-intro.jpg']
@@ -274,12 +253,10 @@ img[src='img/home-intro2.jpg']
 {
     margin: 1em 0 0;
 }
-
 .item
 {
     flex-basis: 29%;
 }
-
 .blog-second .block-1
 {
     display: flex;
@@ -298,13 +275,11 @@ footer
     color: #fff;
     background: #093c60;
 }
-
 footer img,
 footer p
 {
     width: 25%;
 }
-
 footer p
 {
     line-height: 2;
@@ -313,12 +288,10 @@ footer p
 
     color: #fff;
 }
-
 .second
 {
     margin: 40px 0;
 }
-
 .second a
 {
     font-weight: bold;
@@ -327,7 +300,6 @@ footer p
 
     color: #fff;
 }
-
 .second .after:after
 {
     font-weight: bold;
@@ -336,30 +308,22 @@ footer p
 
     content: '/';
 }
-
 footer .left:after
 {
     margin: 0 20px;
 
     content: '|';
 }
-
 /* Dogs second */
-
-
 .dogs-second .item
 {
     margin: 0 0 40px;
 }
-
-
-
 /* ***************checkout****************** */
 form
 {
     width: 40%;
 }
-
 input
 {
     font-size: 15px;
@@ -371,7 +335,6 @@ input
 
     border: 1px solid #c0c0c0;
 }
-
 label,
 .label
 {
@@ -384,17 +347,14 @@ label,
 
     color: #093c60;
 }
-
 label[for=location]
 {
     margin-top: 20px;
 }
-
 input[type=number]::-webkit-inner-spin-button
 {
     -webkit-appearance: none;
 }
-
 .form-row
 {
     display: flex;
@@ -402,22 +362,18 @@ input[type=number]::-webkit-inner-spin-button
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .form-row .city-form
 {
     width: 40%;
 }
-
 .form-row .state-form
 {
     width: 20%;
 }
-
 .form-row .zip-form
 {
     width: 30%;
 }
-
 .form-row-2
 {
     display: flex;
@@ -426,9 +382,7 @@ input[type=number]::-webkit-inner-spin-button
 
     justify-content: flex-start;
 }
-
 /* *******************SELECT SETTINGS******************* */
-
 select
 {
     font: inherit;
@@ -451,10 +405,7 @@ select
     -webkit-appearance: none;
        -moz-appearance: none;
 }
-
-
 /* arrows  */
-
 form select
 {
     background-image: url(../img/arrow-down.png);
@@ -462,14 +413,10 @@ form select
     background-position: calc(100% - 10px) calc(.7em);
     background-size: 15px 15px;
 }
-
 select.long
 {
     width: 15em;
 }
-
-
-
 /******************** RADIO SETTINGS *********************/
 /* The container */
 .radio-container
@@ -491,7 +438,6 @@ select.long
         -ms-user-select: none;
             user-select: none;
 }
-
 /* Hide the browser's default radio button */
 .radio-container input
 {
@@ -501,7 +447,6 @@ select.long
 
     opacity: 0;
 }
-
 /* Create a custom radio button */
 .checkmark
 {
@@ -516,13 +461,11 @@ select.long
     border-radius: 50%;
     background-color: #fff;
 }
-
 /* When the radio button is checked, add a green background */
 .radio-container input:checked ~ .checkmark
 {
     background-color: #80b641;
 }
-
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after
 {
@@ -532,13 +475,11 @@ select.long
 
     content: '';
 }
-
 /* Show the indicator (dot/circle) when checked */
 .radio-container input:checked ~ .checkmark:after
 {
     display: block;
 }
-
 /* Style the indicator (dot/circle) */
 .radio-container .checkmark:after
 {
@@ -551,72 +492,68 @@ select.long
     border-radius: 50%;
     background: #fff;
 }
-
 .dog-text
 {
     margin: 50px 0 15px;
 }
-
 .adopted
 {
     display: flex;
+
     justify-content: space-between;
-    
-
 }
-
 .adopted-item
 {
     display: flex;
 
-    justify-content: space-between;
     margin-right: 10%;
 
-
+    justify-content: space-between;
 }
-.adopted-item:last-child{
+.adopted-item:last-child
+{
     margin-right: 0;
 }
-
-
-.adopted img {
+.adopted img
+{
     width: 6em;
     height: 6em;
 }
-
 .adopted .mini-container
 {
-    font-size: 0.8em;
+    font-size: .8em;
+
     width: 7em;
 }
-
 .button
 {
     width: 35%;
     margin: 20px 0 80px;
 }
-
-form .cart-price {
-    color:#000000;
+form .cart-price
+{
+    color: #000;
 }
-
-
-
 /* *** MEDIA STYLES *** */
-@media (max-width: 1150px){
-
-    .blog-second .block-1 {
+@media (max-width: 1150px)
+{
+    .blog-second .block-1
+    {
         display: block;
     }
-    .blog-second{
+    .blog-second
+    {
         text-align: center;
-
     }
-    .blog-second .block-1 img {
+    .blog-second .block-1 img
+    {
         width: 50%;
         margin-bottom: 2em;
     }
-
+    .second-side
+    {
+        margin: 0;
+    }
 }
 @media (max-width: 1101px)
 {
@@ -658,7 +595,6 @@ and (-webkit-min-device-pixel-ratio: 1)
         height: 60vh;
     }
 }
-
 @media (max-width: 728px)
 {
     .container
@@ -682,13 +618,32 @@ and (-webkit-min-device-pixel-ratio: 1)
     {
         flex-basis: 99%;
     }
+    .logo-img
+    {
+        width: 100%;
+    }
     .logo-text
     {
-        font-size: 1.5em;
+        font-size: 120%;
+    }
+    .left-side
+    {
+        width: 100%;
     }
     .right-side
     {
-        margin-top: 15%;
+        margin-top: 22%;
+    }
+    a[href='checkout.html']
+    {
+        width: auto;
+    }
+}
+@media (max-width: 500px)
+{
+    header
+    {
+        height: 50vh;
     }
 }
 @media only screen
@@ -702,12 +657,13 @@ and (-webkit-min-device-pixel-ratio: 1)
         height: 60vh;
     }
 }
-
-.img-hover{
-    transform: scale(1.15);
+.img-hover
+{
     transition-duration: 1s;
+    transform: scale(1.15);
 }
 
 .button-hover {
   background: #80b641;
 }
+/*I honestly prefer css link hovers over the js, done this because of the assignment's requirements*/
