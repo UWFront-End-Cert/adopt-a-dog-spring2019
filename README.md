@@ -1,5 +1,5 @@
-# [WeeWX](http://www.weewx.com)
-*Open source software for your weather station*
+# [Dog Adoption](https://ymmy1.github.io/adopt-a-dog-spring2019/)
+*HTML200 course assignment main web page by Oleg Nosyrev*
 
 ## Description
 
