@@ -1,79 +1,75 @@
 @media all and (max-width:100%) {
 }
 
-body {
-	width: 100%;
-	background-image: url(./images/header-image.jpg);
-	background-size: cover;
-	background-position: absolute;
-	background-color: rgb(236, 236, 236);
-	align-items: center;
-	margin: 1rem;
-	z-index: -1;
-}
-
-
 .header {
+	background-image: url("../images/header-image.jpg");
+	background-size: cover;
+	background:linear-gradient(to top, DeepSkyBlue, Linen)
+	repeat: no-repeat;
 	position: relative;
-	margin: 5px;
-	width: auto;
-	z-index: 0;
+	width: 100%;
+	height: 490px;
 }
 
 .logo {
-	position: relative;
+	background-image: left top;
 	margin: 5px;
 	width: 33%;
 	color:rgb(132,187,66);
-	z-index: 1;
+	font-style: italic;
 }
 
 .cart {
-	position: right;
+	background-image: right top;
 	margin: 5px;
-	width: 15%;
-	z-index: 1;
+	width:3%;
 }
 
 
 .navigation {
-	font-family: inherit;
-	font-size: 100%;
-	font-color: rgb(9, 60, 96);
-	text-align: center;
-	box-sizing: 100%;
-	border-style: solid;
-	border-color: rgb( 236, 236, 236);
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 	background-color: rgb( 236, 236, 236);
-	display: flex;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: rgb(236, 236, 236);
-	width: 100%;
-	position: absolute;
-	margin-top: 45px;
-	z-index: 2;
+}
+
+li {
+  float: left;
+}
+
+li a{
+	size: 1rem;
+	color: rgb(9, 60, 96);
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	padding: 14px 16px;
+	display: block;
+}
+
+
+.top {
+	align-content: space-around;
+	background-color: white;
+	margin-top: 30px;
 }
 
 .red-shirt {
-	position: relative;
 	float: left;
 	width: 25%;
-	margin-left: 10px;
+	margin: 10px;
 	overflow: auto;
 }
 
 .button {
-	width: auto;
 	background-color: rgb(129, 183, 65);
 	border: none;
-	text-align: center;
 	font-size: 1rem;
 	font-weight: bold;
+	text-align: center;
 	padding: 15px 32px;
 	color: white;
-	margin: 5px 4px;
-	cursor: pointer;
 }
 
 .h2 {
@@ -82,23 +78,19 @@ body {
 
 .adopt {
 	display: flex;
-	flex-flow: row wrap;
-	width: 100%;
-	justify-content: center;
-	align-content: space-between;
+	flex-flow: wrap;
 	background-color: white;
-	margin-top: 100px;
-	margin-left: 5px;
-	margin-right: 5px;
 }
 
 .box {
 	height: 100%;
-	width: 22%;
+	width: 20%;
 	border: 4px solid rgb(236, 236, 236);
 	background-color: white;
 	opacity: .8;
 	padding: 14px 16px;
+	align-content: center;
+	margin: 10px;
 }
 
 .dog {
@@ -109,10 +101,9 @@ body {
 .blog {
 	padding-top: 5px;
 	background-color: white;
-	width: 100%;
+	width: inherit;
 	justify-content: space-around;
 	position: relative;
-	margin-top: 110px;
 	text-align: left;
 	padding-bottom: 150px;
 	align-content: space-between;
@@ -120,49 +111,54 @@ body {
 
 .blogdiv {
 	padding-top: 5px;
-	width: 100%;
-	justify-content: space-around;
 	position: relative;
 	text-align: left;
-	padding-bottom: 50px;
-	align-content: space-between;
+
 }
 
 .blogpic {
-	width: 20%;
+	width: 15%;
 	float: left;
-	position: relative;
-	margin-left: 10px;
-	justify-content: space-around;
+	position: left;
+	margin: 10px;
 	overflow: auto;
-}
-
-
-
-.dogsadopted {
-	width: auto;
-	height: 10%;
 }
 
 .blogpreview {
 	float: right;
+	justify-content: flex-end;
+	border: 1px black solid;
+	padding: 5px;
+	background-color: white;
 }
+
+.checkout {
+	padding-top: 5px;
+	background-color: white;
+	justify-content: space-around;
+	position: relative;
+	margin-left: 75px;
+	text-align: left;
+	padding-bottom: 150px;
+}
+
+.dogsadopted {
+	width:100px;
+
+}
+
 
 .blue {
 	background-color: rgb(9, 60, 96);
-	position: absolute;
+	position: bottom;
 	text-align: center;
 	color: white;
-	width: 100%;
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-	justify-content: space-around;
+	margin: 5px;
 }
 
 .footing {
 	height: 100px;
-	width: inherit;
 	position: center;
 	padding-top: 15px;
+	margin: 5px;
 }

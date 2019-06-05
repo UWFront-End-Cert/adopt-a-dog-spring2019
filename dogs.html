@@ -13,31 +13,23 @@
 
 	<header>
 		<div class="header">
-			<img alt="Shopping Cart logo" class="cart" src="./images/cart-icon.svg"> <img alt="adoptadog white logo" class="logo" src="./images/adoptadog-logo.svg">
+			<img alt="adoptadog white logo" class="logo" src="./images/adoptadog-logo.svg">
+			<img alt="Shopping Cart logo" class="cart" src="./images/cart-icon.svg">
 			<button class="button" onclick="location.href = './checkout.html';">Checkout</button>
 			<h2 class="logo"> Seattle's premiere dog adoption agency</h2>
 		</div>
 	</header>
 
-	<div class="navigation">
-		<nav>
-			<a href="index.html">Home /</a>
-		</nav>
+	<ul class="navigation">
+		<li><a href="index.html">Home /</a></li>
+		<li><a href="dogs.html">Dogs /</a></li>
+		<li><a href="blog.html">Blog</a></li>
+	</ul>
 
-
-		<nav>
-			<a href="dogs.html">Dogs /</a>
-		</nav>
-
-
-		<nav>
-			<a href="blog.html">Blog</a>
-		</nav>
-	</div>
 
 	<section class="adopt">
-		<div>
-			<h2 class="h2"> Here are all of our dogs!</h2>
+		<div class="top">
+			<h2 class="h2">Here are all of our Dogs!</h2>
 			<br>
 		</div>
 
@@ -50,9 +42,8 @@
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Et malesuada fames ac turpis. Sit amet massa vitae tortor. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.</p>
 			<br>
-			<button class="button" onclick ="alert('$123.45')">Adopt Me</button>
+			<button class="button" onclick ="addAdopt()">Adopt Me</button>
 		</div>
-
 
 		<div class="box">
 			<img onclick="alert('Adopt Poppy, shitzu, $123.45')" alt="white with grey ears shitzu" class="dog" src="./images/poppy-card.jpg">
@@ -207,5 +198,6 @@
 
 		<p>2018 Adoptadog, LLC. | Seattle, WA</p>
 	</footer>
+
 </body>
 </html>
