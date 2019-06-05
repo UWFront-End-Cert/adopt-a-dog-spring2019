@@ -269,3 +269,7 @@ input {
 .footer-element {
   margin-bottom: 2rem;
 }
+
+.focus {
+  border: solid orange;
+}

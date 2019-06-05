@@ -31,6 +31,7 @@ function getDogInfo(dog){
 
 function sumTotal(dog) {
   total += dogs[dog]['price'];
+  $('#running-total').text('$' + total + ".00");
   alert("Your total is $" + total);
 }
 
@@ -56,5 +57,11 @@ for (let i = 0; i < blogs.length; i++) {
   entry.appendChild(image);
   entry.appendChild(description);
 
-  document.querySelector('.blogbody').appendChild(entry);
+  if (document.querySelector('.blogbody') != null) {
+    document.querySelector('.blogbody').appendChild(entry);
+  }
 }
+
+$('.dog-card').hover(function(e) {
+  $('img', this).addClass('focus');
+})
