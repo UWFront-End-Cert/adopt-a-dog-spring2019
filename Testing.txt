@@ -1,0 +1,22 @@
+
+BROWSER TEST
+
+	• Google Chrome test done
+	• Mozzila Firefox test done 
+	• Safari test done
+
+OPERATING SYSTEM TEST
+
+	• PC Windows 10 test done
+	• Mac test done
+
+MOBILE DEVICE TEST
+
+	•Pixel test done
+	•iPhone X test done
+	
+SUMMARY
+
+ The home page, dogs page and blog page look adaptive and responsive on everything that is tested above. 
+The images are well sized same as fonts. Pages look great on all the resolutions including landscape and portrait modes
+on mobile devices. The checkout page was told to be ignored.
