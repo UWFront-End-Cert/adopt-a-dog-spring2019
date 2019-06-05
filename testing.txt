@@ -1,0 +1,18 @@
+The adopt-a-dog website has been created to cater to the needs of both the adopter as well as the adopting agency, being a great matchmaker in essence.
+
+* Users can browse the dogs that are available for adoption.
+* Users can read short blogs that give useful tips on bringing a new dog into the household and training.
+* Users can click through to add the dog of their choice and complete the transaction on the site.
+* Agencies get the immediate compltion of the transaction through the site and can focus on assuring a great onboarding with the new owner.        
+* Agencies are welcome to submit blog stories for posting on the website @ info@adopt-a-blog.com.           
+
+The site has been tested on the following OS/Brower Configurations:
+
+* Windows 10 - Chrome
+* Windows 10 - Edge
+* Windows 10 - Edge Next
+* Android - Chrome
+
+Generally the site renders consistently accross the configurations tested. For smaller screen sizes, the checkout form is not as user freindly as it should be. 
+
+
