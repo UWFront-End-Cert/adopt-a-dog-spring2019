@@ -44,23 +44,23 @@
     <h2>Checkout</h2>
     <form name="checkout-form" method="post" onsubmit="return validateForm()">
           <label>Name
-            <input type="text" name="applicantName">
+            <input type="text" name="name" id="name">
           </label>
 
           <label>Email
-            <input type="email" id="checkoutEmail" onclick="emailValid(email)" name="applicantEmail">
+            <input type="email" id="checkoutEmail" onclick="emailValid(email)" name="email">
           </label>
 
           <label>Address
-            <input type="text" name="applicantAddress">
+            <input type="text" name="address" id="address">
           </label>
 
           <label>City
-            <input type="text" name="applicantCity">
+            <input type="text" name="city" id="city">
           </label>
 
           <label>State
-            <select name="State"><!--need option element to list out options-->
+            <select name="state" id="state"><!--need option element to list out options-->
               <option value="AL">Alabama</option>
             	<option value="AK">Alaska</option>
             	<option value="AZ">Arizona</option>
@@ -122,22 +122,22 @@
           </label>
 
           <label>Zip Code
-            <input type="text" name="applicantEmail">
+            <input type="text" name="zipcode" id="zipcode">
           </label>
 
         <p>First time adopter?</p>
-        <label class="adopter"> Yes
-          <input type="radio" name="species" value="Yes">
+        <label class="adopter" id="not-adopter"> Yes
+          <input type="radio" name="adopterStatus" value="Yes">
           <span class="checkmark"></span><!--challenges with customizing checkbox inputs is that you can't really style the browser's default checkboxes so we've created these span elements that are going to act like our new checkmark boxes and so we're going into CSS to hide the default and only see our spans-->
         </label>
 
-        <label class="adopter"> No
-          <input type="radio" name="species" value="No">
+        <label class="adopter" id="adopter"> No
+          <input type="radio" name="adopterStatus" value="No">
           <span class="checkmark"></span>
         </label>
 
         <label>Pickup Location
-          <select name="pickup-location"><!--need option element to list out options-->
+          <select name="pickup-location" id="location"><!--need option element to list out options-->
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
           </select>
@@ -167,6 +167,7 @@
     </footer>
 
     <script src="scripts/checkout.js"></script><!--JAVASCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"</script><!--JQuery-->
 
   </body>
 </html>

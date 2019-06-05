@@ -214,6 +214,14 @@ footer .logo {
   position: relative;
 }
 
+.dog-card {
+  width: 120%;
+}
+
+.dog-card-border {
+  outline: 4px solid #083b5f; 
+}
+
 /**CHECKOUT**/
 button, input, select, textarea {
   font-family: "Hind Siliguri", sans-serif;

@@ -1,5 +1,10 @@
 //index.html & dogs.html click handlers for DOG PHOTOS
 
+/*function info(name, breed) {
+	let result = name + ', ' + breed + ', $123.45';
+}
+*/
+
 function murphyInfo() {
 		alert("Murphy, Beagle, $123.45");
 }
@@ -52,7 +57,7 @@ function stellaInfo() {
 let total = 0;
 
 function adoptAlert() {
-		total += 123.45;
+	total += 123.45;
 	alert('This dog has been added to your cart. Total: $' + total);
 }
 
@@ -81,10 +86,10 @@ let blogArr = [];
 
 //Blog Entry 1
 const blogEntry1 = document.createElement('div');
-blogEntry1.innerHTML = '<h1>Entry 1</h1>';
+blogEntry1.innerHTML = '<h1>Entry 1</h1>'; //FOR Header
 blogEntry1.setAttribute('class', 'entry'); //FOR CSS
 
-console.log(blogEntry1);
+console.log(blogEntry1); //Is everything working
 
 const blogEntry1Img = document.createElement('img');
 blogEntry1Img.setAttribute('src', 'images/blog-1.jpg');
@@ -149,14 +154,36 @@ blogEntry3.appendChild(blogEntry3Header);
 blogEntry3.appendChild(blogEntry3Content);
 
 for (let i = 0; i < blogArr.length; i++) {
-	el.appendChild(blogArr[i]); //last thing you want. will loop over thing arr; everything and add it to this element
-}
+	el.appendChild(blogArr[i]);
+}//last thing you want. will loop over thing arr; everything and add it to this element
 
 //Contact Forms
 
-function show_alert() {
+function show_alert () {
 	alert("The form has been submitted.");
-}//Alert for form & Console log the values inside the form, you can build a string or build an object.
+
+	let formInput = [];
+	let name = $('#Name').val();
+	let email = $('#checkoutEmail').val();
+	let address = $('#address').val();
+	let city = $('#city').val();
+	let state = $('#state').val();
+	let zipcode = $('#zipcode').val();
+	let adopterStatus = $('input[
+		name="adopterStatus"]:checked').val();
+	let location = $('#location').val();
+
+	formInput.push(name);
+	formInput.push(email);
+	formInput.push(address);
+	formInput.push(city);
+	formInput.push(state);
+	formInput.push(zipcode);
+	formInput.push(adopterStatus);
+	formInput.push(location);
+
+	console.log(formInput)
+}
 
 //Validate email
 function emailValid (inputText) {
@@ -174,3 +201,8 @@ function emailValid (inputText) {
 		return false;
 	}
 } //Code c/o https://www.codeproject.com/Tips/492632/Email-Validation-in-JavaScript
+
+//Dog CARDS
+$('.dog-card').hover(function(e) {
+	$('img', this).addClass('dog-card-border');
+}) //hover over dog cards
