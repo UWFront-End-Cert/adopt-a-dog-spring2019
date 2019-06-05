@@ -75,6 +75,11 @@ a[href='checkout.html'],
     border-radius: 5px;
     background: linear-gradient(to right, #000 0%, #c48b8b 100%);
 }
+
+.button
+{
+    padding: 10px 20%;
+}
 a[href='checkout.html']:hover,
 .button:hover
 {
@@ -322,7 +327,7 @@ footer .left:after
 /* ***************checkout****************** */
 form
 {
-    width: 40%;
+    width: 45%;
 }
 input
 {
@@ -525,10 +530,15 @@ select.long
 
     width: 7em;
 }
-.button
+
+.submit {
+    width: 50%;
+}
+.submit .button
 {
-    width: 35%;
+    width: 100%;
     margin: 20px 0 80px;
+    padding: 0;
 }
 form .cart-price
 {
@@ -554,7 +564,43 @@ form .cart-price
     {
         margin: 0;
     }
+        .right-side
+    {
+        margin-top: 10%;
+    }
 }
+@media (max-device-height : 1024px)
+{
+    header
+    {
+        height: 70vh;
+    }
+    .right-side
+    {
+        margin-top: 2%;
+    }
+}
+@media (max-device-height : 645px)
+{
+    .logo-text{
+        display: none;
+    }
+    .title{
+        padding: 5px;
+    }
+
+}
+
+@media (max-device-height : 360px)
+{
+    .title{
+        padding: 5px;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
 @media (max-width: 1101px)
 {
     .title
@@ -584,17 +630,7 @@ form .cart-price
         width: 50%;
     }
 }
-@media only screen
-and (max-device-height : 860px)
-and (min-device-height : 767px)
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 1)
-{
-    header
-    {
-        height: 60vh;
-    }
-}
+
 @media (max-width: 728px)
 {
     .container
@@ -630,10 +666,7 @@ and (-webkit-min-device-pixel-ratio: 1)
     {
         width: 100%;
     }
-    .right-side
-    {
-        margin-top: 22%;
-    }
+
     a[href='checkout.html']
     {
         width: auto;
@@ -646,24 +679,14 @@ and (-webkit-min-device-pixel-ratio: 1)
         height: 50vh;
     }
 }
-@media only screen
-and (max-device-height : 568px)
-and (min-device-height : 567px)
-and (max-device-width : 320px)
-and (-webkit-min-device-pixel-ratio: 1)
-{
-    header
-    {
-        height: 60vh;
-    }
-}
 .img-hover
 {
     transition-duration: 1s;
     transform: scale(1.15);
 }
 
-.button-hover {
-  background: #80b641;
+.button-hover
+{
+    background: #80b641;
 }
 /*I honestly prefer css link hovers over the js, done this because of the assignment's requirements*/
