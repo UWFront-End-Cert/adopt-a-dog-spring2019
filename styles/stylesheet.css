@@ -9,19 +9,19 @@
 	position: relative;
 	width: 100%;
 	height: 490px;
-}
-
-.logo {
-	background-image: left top;
-	margin: 5px;
-	width: 33%;
 	color:rgb(132,187,66);
 	font-style: italic;
 }
 
+.logo {
+	display:block;
+	margin-right: auto;
+	width: 33%;
+}
+
 .cart {
-	background-image: right top;
-	margin: 5px;
+	display: block;
+	margin-left:80%;
 	width:3%;
 }
 
@@ -70,6 +70,7 @@ li a{
 	text-align: center;
 	padding: 15px 32px;
 	color: white;
+	float: inherit;
 }
 
 .h2 {
