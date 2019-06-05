@@ -206,3 +206,16 @@ function emailValid (inputText) {
 $('.dog-card').hover(function(e) {
 	$('img', this).addClass('dog-card-border');
 }) //hover over dog cards
+
+//Button ripple effect
+$('.button').rippleria({
+
+  duration: 750,
+
+  easing: 'linear',
+
+  color: "#FFFF00",
+
+  detectBrightness: true
+
+})
