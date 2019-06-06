@@ -17,6 +17,7 @@
 	display:block;
 	margin-right: auto;
 	width: 33%;
+
 }
 
 .cart {
@@ -32,6 +33,7 @@
   padding: 0;
   overflow: hidden;
 	background-color: rgb( 236, 236, 236);
+	text-decoration: none;
 }
 
 li {
@@ -56,10 +58,10 @@ li a{
 }
 
 .red-shirt {
-	float: left;
-	width: 25%;
+	width: 40%;
 	margin: 10px;
 	overflow: auto;
+	text-align: left;
 }
 
 .button {
@@ -99,6 +101,17 @@ li a{
 	height: 20%;
 }
 
+.see_more {
+	background-color: rgb(236, 236, 236);
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 32px;
+	color: rgb(9, 60, 96);
+	text-align: center;
+}
+
 .blog {
 	padding-top: 5px;
 	background-color: white;
@@ -118,7 +131,7 @@ li a{
 }
 
 .blogpic {
-	width: 15%;
+	width: 25%;
 	float: left;
 	position: left;
 	margin: 10px;
@@ -127,10 +140,13 @@ li a{
 
 .blogpreview {
 	float: right;
-	justify-content: flex-end;
-	border: 1px black solid;
+	display: inline-block;
+	vertical-align: top;
+	flex-flow: column;
 	padding: 5px;
 	background-color: white;
+	width: 25%;
+	overflow: auto;
 }
 
 .checkout {
