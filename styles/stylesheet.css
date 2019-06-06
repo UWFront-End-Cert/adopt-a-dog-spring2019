@@ -33,14 +33,15 @@ header {
   flex-shrink: 0;
   flex-wrap: wrap;
   padding: 3em 4em 0;
+  background: linear-gradient(to bottom, #0b2042, #000000);
   background-image: url(https://i.imgur.com/364pi2q.png);
   background-size: cover;
   color: #FFFFFF;
-  height: 36em;
+  height: 26em;
 }
 
 .header-text {
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   font-style: italic;
   color: green;
 }
@@ -51,7 +52,7 @@ header {
 }
 
 .logo-img {
-  width: 35em;
+  width: 40%;
 }
 
 .cart-img {
@@ -99,33 +100,32 @@ li a {
 /* MAIN SECTION */
 
 .format {
-  display: flex;
-  margin: 0 3rem;
+display: flex;
+  margin: 0 1em;
 }
 
 
 .main-section {
-  margin-top: 3rem;
- display: flex;
- flex-direction: column;
+  margin-top: 3em;
+  width: 100%;
 }
 
 article {
-  display: block;
-  width: 50%;
-  padding: 2em;
+  width: 100%;
 }
 
 .main-image {
   margin-left: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   width: 100%;
-  height: auto;
 }
 
 .main-body {
-  margin: 0 auto;
- max-width: 90%;
+  margin-top: 3em;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ flex-wrap: wrap;
 }
 
 h2 {
@@ -134,17 +134,18 @@ h2 {
 }
 
 aside {
-  padding-left: 3rem;
+  margin-top: 6em;
+  padding-left: 3em;
 }
+
 
 .blog-preview-pic {
   width: 100%;
-  height: auto;
 }
 
 .blog-snippet {
-  margin: 1rem 0 3rem;
- line-height: 1.5rem;
+  margin: 1rem 0 3em;
+ line-height: 1.5em;
 }
 
 .preview-header {
@@ -181,10 +182,8 @@ p {
 
 .dog {
   display: block;
-  width: 100%;
-  padding: 1em;
+  width: 22em;
   border: 0.1em solid #c7c8c9;
-  margin: 3em;
 }
 
 .chb {
