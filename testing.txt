@@ -1,0 +1,21 @@
+Users: The targeted users for this site are (at least) middle-aged individuals who are looking to adopt a dog. They will use this site to view which breeds are available for adoption at either Seattle, Bellevue, or Tacoma locations. The site provides information such as the dogs' name, age, breed, history, and how much they cost to be adopted. Customers can also view the blog in order to gather more information on dog care or view any resources that we share. Additionally, the site provides the option for the customer to pay online so they don't have to pay when they are picking up their dog and this creates a faster in-person adoption retrieval.
+
+Analytics: 70% of all site traffic is via desktop, while the remainder is via mobile. The online payment method has proven to be effective as approximately over half (55%) of our adoption payments are received via the site. Consequently, that has caused less lines to form in our adoption centers and we have a bigger space for our in-person dog visits. This tells us that our target group of users are most likely visiting our site from their home and using their desktop or laptop computers to access the page.
+
+
+Testing summary: In building this site, I implemented graceful degradation. Once the browser layout was complete, styles were adjusted to specific screen dimensions to accommodate responsiveness for a variety of browser and mobile screen sizes. For example, on desktop, the dog profiles are displayed in three columns, but on mobile devices, the dog profiles are displayed in just one column for readability. An Ipad in vertical orientation, the dog tiles are displayed in two columns and on the homepage, the blog previews are not visible so as to not oversaturate the user's minimal view with too much content. Additionally, text was enlarged for smaller devices for increased readability. The following testing has been performed on this site.
+
+Browser tests:
+  • Chrome
+  • Firefox
+  • Safari
+  • Opera
+
+Operating system tests:
+  • Mac
+  • PC
+
+Specific mobile device tests:
+  • Iphone 7
+  • Ipad
+  • Pixel
