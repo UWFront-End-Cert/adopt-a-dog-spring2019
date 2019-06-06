@@ -11,4 +11,5 @@ Adopt-a-Dog  is a website where shelters and rescues list their dogs for adoptio
 The display cost covered the shots, license, delivery charge and a month of dog supplies and food. Plus extra $1 dollars to help run this site.  Your gift to Adopt-a-Pet.com helps hundreds of thousands of dogs be seen and adopted.
 
 Follow the guideline:
+
 View the dog description and cost under the image.  Once you find your dream dog, click the Adopt button.  You can adopt as many dogs as you like.  Total cost of adopt dogs will display on top of the page next to the shopping cart.  Click the Checkout button to proceed the Checkout.  
