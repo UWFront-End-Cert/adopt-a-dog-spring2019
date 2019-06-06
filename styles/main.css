@@ -682,7 +682,7 @@ form .cart-price
 .img-hover
 {
     transition-duration: 1s;
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 .button-hover
