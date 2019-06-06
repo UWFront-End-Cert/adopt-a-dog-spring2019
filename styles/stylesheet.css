@@ -1,5 +1,5 @@
 
-z* {
+* {
   border: 0;
   margin: 0 auto;
   box-sizing: border-box;
@@ -98,10 +98,16 @@ li a {
 
 /* MAIN SECTION */
 
+.format {
+  display: flex;
+  margin: 0 3rem;
+}
+
+
 .main-section {
-    width: 90%;
-    margin: 1.25em auto;
-    display: flex;
+  margin-top: 3rem;
+ display: flex;
+ flex-direction: column;
 }
 
 article {
@@ -110,9 +116,16 @@ article {
   padding: 2em;
 }
 
-.main {
+.main-image {
+  margin-left: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.main-body {
   margin: 0 auto;
-    max-width: 90%;
+ max-width: 90%;
 }
 
 h2 {
@@ -120,22 +133,55 @@ h2 {
   padding: 2rem 0;
 }
 
+aside {
+  padding-left: 3rem;
+}
+
+.blog-preview-pic {
+  width: 100%;
+  height: auto;
+}
+
+.blog-snippet {
+  margin: 1rem 0 3rem;
+ line-height: 1.5rem;
+}
+
+.preview-header {
+  color: #1c4282;
+}
+
+.preview-link {
+  color: #a3c3f7;
+}
+
+p {
+  margin: .5rem 0 1rem;
+}
+
 /* DOG PROFILESf */
 
 .dog-profiles {
-  display: flex;
-  width: 90%;
-  justify-content: center;
-  align-content: space-between;
-  flex-direction: row;
-  flex-flow: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-auto-flow: row;
+  grid-gap: 3rem;
+  font-size: 0.8rem;
+}
+
+.dog-profiles-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-auto-flow: row;
+  grid-gap: 5em;
   font-size: 0.8rem;
 }
 
 .dog {
   display: block;
-  width: 20em;
+  width: 100%;
   padding: 1em;
   border: 0.1em solid #c7c8c9;
   margin: 3em;
@@ -143,7 +189,7 @@ h2 {
 
 .chb {
   margin: auto;
-  width: 80%;
+  width: 100%;
   background-color: green;
   color: #FFFFFF;
   padding: 1em 1em;
@@ -153,6 +199,12 @@ h2 {
 
 .dog-pic {
   width: 100%;
+}
+
+.dog-description {
+  padding: .5em;
+  margin-bottom: .5rem;
+
 }
 
 .cost-to-adopt {
@@ -173,10 +225,10 @@ h2 {
   background-color: #e3e4e5;
   color: #1c4282;
   font-weight: bold;
-  height: 3em;
-  width: 100%;
-  padding: 1em 2em;
-  border-radius: 0.2em;
+  text-align: center;
+ max-width: 15rem;
+ padding: .5rem 0;
+ margin: 3rem auto;
 }
 
 /* FOOTER */
@@ -191,7 +243,7 @@ h2 {
 }
 
 .footer-logo {
-  width: 30%;
+  max-width: 20%;
 }
 
 /*BLOG PAGE */
@@ -203,6 +255,10 @@ h2 {
 .blog {
   display: flex;
   margin-bottom: 3em;
+}
+
+.blog-summary {
+  margin: 0 0 3rem 2rem;
 }
 
 figure {
@@ -308,4 +364,96 @@ input[name=city] {
   font-size: 0.8rem;
   color: #193b72;
   font-weight: bold;
+}
+
+/* mobile */
+
+/* for-phone-only */
+@media (max-width: 599px) {
+
+  .dog-profiles, .dog-profiles-2 {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(1, auto);
+  }
+
+  aside {
+    display: none;
+  }
+
+  .format {
+    margin: 0 auto;
+  }
+
+  .blog,
+  .main-section {
+    flex-wrap: wrap;
+  }
+
+  .blog-text {
+    margin-left: 0;
+  }
+
+  .main-section img,
+  figure img {
+    width: 100%;
+  }
+
+
+}
+
+/* for-tablet-portrait*/
+@media (min-width: 600px) and (max-width: 899px) {
+
+  .dog-profiles, .dog-profiles-2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+  }
+
+  .blog,
+  .main-section {
+    flex-wrap: wrap;
+  }
+
+  .blog-text {
+    margin-left: 0;
+  }
+
+  figure {
+    margin-bottom: 2rem;
+  }
+
+  .main-section img,
+  figure img {
+    width: 100%;
+  }
+
+
+/* for-tablet-landscape { */
+@media (min-width: 900px) {
+  .dog-profiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dog-profiles-2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+  }
+}
+
+/* for-desktop { */
+@media (min-width: 1200px) {
+  .dog-profiles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .dog-profiles-2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* for-big-desktop-up { */
+@media (min-width: 1800px) {
+  .dog-profiles {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
