@@ -572,7 +572,7 @@ form .cart-price
         margin-top: 10%;
     }
 }
-@media (max-device-height : 1024px)
+@media (max-height : 1023px)
 {
     header
     {
@@ -583,7 +583,7 @@ form .cart-price
         margin-top: 2%;
     }
 }
-@media (max-device-height : 645px)
+@media (max-height : 645px)
 {
     .logo-text
     {
@@ -594,8 +594,14 @@ form .cart-price
         padding: 5px;
     }
 }
+@media (max-height: 490px){
+ 
+    header {
+        height: 90vh;
+    }
+}
 
-@media (max-device-height : 360px)
+@media (max-height : 350px)
 {
     .title
     {
@@ -635,6 +641,8 @@ form .cart-price
         width: 50%;
     }
 }
+
+
 
 @media (max-width: 728px)
 {
@@ -681,7 +689,7 @@ form .cart-price
 {
     header
     {
-        height: 50vh;
+        height: 80vh;
     }
 }
 .img-hover
