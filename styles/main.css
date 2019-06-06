@@ -278,7 +278,9 @@ footer
     text-align: center;
 
     color: #fff;
-    background: #093c60;
+    background: -webkit-linear-gradient(#073b60, #000);
+    background:      -o-linear-gradient(#073b60, #000);
+    background:         linear-gradient(#073b60, #000);
 }
 footer img,
 footer p
@@ -531,7 +533,8 @@ select.long
     width: 7em;
 }
 
-.submit {
+.submit
+{
     width: 50%;
 }
 .submit .button
@@ -564,7 +567,7 @@ form .cart-price
     {
         margin: 0;
     }
-        .right-side
+    .right-side
     {
         margin-top: 10%;
     }
@@ -582,21 +585,23 @@ form .cart-price
 }
 @media (max-device-height : 645px)
 {
-    .logo-text{
+    .logo-text
+    {
         display: none;
     }
-    .title{
+    .title
+    {
         padding: 5px;
     }
-
 }
 
 @media (max-device-height : 360px)
 {
-    .title{
-        padding: 5px;
+    .title
+    {
         width: 50%;
         margin: 0 auto;
+        padding: 5px;
     }
 }
 
