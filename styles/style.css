@@ -115,8 +115,10 @@
 
 .head{
   background-image: url(../images/header-image.jpg);
+  background-color: linear-gradient(to bottom right, rgb(9, 60 , 96),75%, lightgray);
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: 100%;
   height: 25rem;
   padding-top: 2rem;
   padding-left: 0rem;
@@ -235,6 +237,7 @@
 .top-text{
   flex-basis: 35%;
   min-width: 50%;
+  margin-left: 1rem;
 }
 .top-text2{
   color: rgb(9, 60 , 96);
@@ -312,7 +315,7 @@ flex-basis: 33%;
 .dogs-container p{
   padding: 5%;
   margin: 0;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .dogs-container h3{
   margin: 0em;
