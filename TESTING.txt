@@ -1,0 +1,23 @@
+# Adopt-A-Dog Testing
+
+*Site testing was conducted on multiple web browsers, computers, and devices.*
+
+## Website html, css, JavaScript, and jQuery was consistent and responsive on:
+
+### Browsers
+* Chrome
+* Edge
+* Safari
+* Opera
+
+### Devices
+* Samsung Galaxy S8
+* Kindle Fire HD 10
+
+### Operating Systems
+* Mac OS X El Capitan 10.11.6
+* Windows 10
+
+Site validation has also been assisted by:
+* W3C Markup Validation | https://validator.w3.org/
+* W3C CSS Validation | http://jigsaw.w3.org/css-validator/
