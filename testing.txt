@@ -1,0 +1,13 @@
+# AdoptADog Website Testing
+
+## Introduction
+
+According to recent surveys, about two-thirds of Americans access the Internet from mobile phones, more than any other type of device. This means that potential pet parents could quite literally be shopping for their next family pet at any place during any time. For this reason, the AdoptADog website was built with accessibility and responsiveness in mind, so customers can view the site without issue from any type of browser, and from any type of device, and still receive the same experience.
+
+## Resources
+
+United States Census Bureau: https://www.census.gov/library/stories/2018/08/internet-access.html
+Google Chrome: https://www.google.com/chrome/
+Mozilla Firefox: https://www.mozilla.org/en-US/firefox/
+Apple Safari: https://www.apple.com/safari/
+Opera: https://www.opera.com
