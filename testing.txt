@@ -1,0 +1,17 @@
+AdoptADog Site Testing 
+
+
+Steps taken: I used BrowserStack to conduct live testing across a variety of device types and browsers. For each device type/browser combination, I looked at all 4 pages on the site to make sure I caught all bugs and visual incongruities. The three testing profiles are outlined below:
+
+
+Testing Profiles
+
+Profile 1: Safari, macOS High Sierra, MacBook Pro
+	Observations: No problems. Site appears responsive to different browser widths and styles seem appropriate.
+
+Profile 2: Chrome, Android, Samsung Galaxy S9
+	Observations: Logo in header runs off screen. Blog images aren't centered, allowing for blog titles to wrap around them.
+
+Profile 3: Edge, Windows 11, Microsoft Surface Pro
+	Observations: Cursor doesn't turn to pointer on "Adopt" buttons. Errors in form fields on checkout page prevent scrolling unless page is refreshed. 
+
