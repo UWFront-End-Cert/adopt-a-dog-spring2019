@@ -1,5 +1,6 @@
 AdoptADog Site Testing 
 
+User personas: Our primary audience is millennials and Generation Z who think to use the internet for all big life choices, including adopting a dog. People in this demographic tend to have iPhones or other smart phones. They tend to use Chrome for most desktop internet browsing but they do the majority of their internet browsing on mobile devices. However, if they are young and don't have their own computers, they might have to use Edge because it is the default on Windows operating systems. For this reason, it is most important to test functionality on mobile devices. It is also important to ensure that everything works on Chrome, Edge, and Safari (primarily due to mobile usage).
 
 Steps taken: I used BrowserStack to conduct live testing across a variety of device types and browsers. For each device type/browser combination, I looked at all 4 pages on the site to make sure I caught all bugs and visual incongruities. The three testing profiles are outlined below:
 
@@ -14,4 +15,5 @@ Profile 2: Chrome, Android, Samsung Galaxy S9
 
 Profile 3: Edge, Windows 11, Microsoft Surface Pro
 	Observations: Cursor doesn't turn to pointer on "Adopt" buttons. Errors in form fields on checkout page prevent scrolling unless page is refreshed. 
+	Changes Made: Form errors are part of the native code base and therefore cannot be fixed by me. 
 

@@ -218,6 +218,7 @@ footer img.logo {
   border: none;
   border-radius: 5px;
   padding: 0.25rem;
+  cursor: pointer;
 }
 
 /* Blog Styles */
