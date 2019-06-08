@@ -39,6 +39,7 @@ form.addEventListener('submit', function(e) {
 
     newDiv.appendChild(titulo);
     newDiv.appendChild(para);
+    console.log(newDiv);
     document.getElementById("myDIV").prepend(newDiv);
     alert('Thank you. The form information has been received');
 });
