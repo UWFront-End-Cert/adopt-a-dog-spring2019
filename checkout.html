@@ -3,24 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Adoptadog Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:600,700,800|Montserrat:300,500&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
     <header>
-      <img src="images/adoptadog-logo.svg" alt="">
-      <a href="index.html"><h1>Adoptadog</h1></a>
-      <h2>Seattle's premiere dog adoption agency</h2>
-      <aside>
-        <!--icon for checkout-->
+      <aside  class="checkout-corner">
+        <i class="fas fa-shopping-cart"></i>
         <!--total, ecommerce feature-->
         <a class="#" href="checkout.html">checkout</a>
       </aside>
+      <a href="index.html"><img class="logo" src="images/adoptadog-logo.svg" alt=""></a>
+      <h2>Seattle's premiere dog adoption agency</h2>
     </header>
     <nav>
       <a class="#" href="index.html"><h6>Home</h6></a>
       <a class="#" href="gallery.html"><h6>Dogs</h6></a>
       <a class="#" href="blog.html"><h6>Blog</h6></a>
     </nav>
-    <article class="#">
+    <article class="container">
       <h3>Checkout</h3>
       <label>Name
         <input type="text" name="inquirerName">
