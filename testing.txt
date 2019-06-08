@@ -12,8 +12,9 @@ Profile 1: Safari, macOS High Sierra, MacBook Pro
 
 Profile 2: Chrome, Android, Samsung Galaxy S9
 	Observations: Logo in header runs off screen. Blog images aren't centered, allowing for blog titles to wrap around them.
+	Changes Made: Reduced padding-left on logo to 1em to prevent overflow. Added width and margin to blog sections to center content on Android.
 
 Profile 3: Edge, Windows 11, Microsoft Surface Pro
 	Observations: Cursor doesn't turn to pointer on "Adopt" buttons. Errors in form fields on checkout page prevent scrolling unless page is refreshed. 
-	Changes Made: Form errors are part of the native code base and therefore cannot be fixed by me. 
+	Changes Made: Form errors are part of the native code base and therefore cannot be fixed by me. Added pointer to cursor on buttons.
 

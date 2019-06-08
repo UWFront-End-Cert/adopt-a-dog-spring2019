@@ -23,7 +23,7 @@ header .cart, .logo-container {
 }
 
 header .logo, .motto {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 840px) {
@@ -224,6 +224,8 @@ footer img.logo {
 /* Blog Styles */
 .blog {
   clear: both;
+  width: 90%;
+  margin: auto;
 }
 
 
