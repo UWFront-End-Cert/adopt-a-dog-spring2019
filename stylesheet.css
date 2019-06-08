@@ -151,6 +151,7 @@ h5{
   margin-top: 2rem;
   width: 25%;
 }
+
 footer {
   background-color: rgb(9, 60, 96);
   color: white;
@@ -171,4 +172,25 @@ footer p {
   font-size: .85rem;
   line-height: 1.35rem;
   padding-bottom: .5rem;
+}
+@media screen and (min-width: 768px), (max-width: 991px) {
+  .profile{
+    width: 48%;
+  }
+  .feature{
+    width: 100%;
+    flex-direction: column;
+  }
+  .feature figure {
+    width: 100%;
+  }
+  .feature section {
+    width: 100%;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .profile{
+    width: 100%;
+  }
 }
