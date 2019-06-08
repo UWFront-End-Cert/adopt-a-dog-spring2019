@@ -1,0 +1,30 @@
+Personas –
+Name: Marc Lewis
+Age: 63
+Occupation: Retired small business owner
+Activities: Maintain the house, occasional side job, takes lots of walks because his doctor told him so
+Other details: Not very tech savvy, relies on kids for that. Has a pay as you go smartphone that he never takes with him while he’s out running errands. Access the web from a windows based desktop PC, using the default browser, edge/IE. Wife still works, but that keeps her very busy.
+Why adopting: Empty nester looking for a pet to keep him company throughout the day, going on walks together. Older dog that is low maintenance.
+
+Name: Sandy Perkins
+Age: 25
+Occupation: Accountant
+Activities: Enjoys weekend fun with husband, hiking, parks, walking the city
+Other details: current on tech, invested in the apple eco-system (macbook, iPhone, iPad, apple watch, etc). Uses chrome on windows PC at work, safari on apple devices. Would access the web from both mobile and desktop devices equally.
+Why adopting: Looking to add a four legged friend to start her family, advocates adopting over shopping for pets
+
+Name: Julia Smith
+Age: 37
+Occupation: software engineer
+Activities: spending time with family, husband and two kids. Always trying to make different sporting events and practices
+Other details: Working at a tech company Julia is very tech savvy, always tinkering with tech. builds her own PCs running linux. Uses windows based PC at work and at home. Latest android smartphone. Will access the web from mobile 75% of the time, PC 25% of the time.
+Why adopting: Family dog passed away, they are ready to adopt another dog into their family 
+
+
+Testing -
+To test site functionality for these users I ensured the site functioned properly on multiple browsers – chrome, firefox, safari, and edge. I noticed several styling differences on the checkout page within the input fields, specifically select. I have been primarily opening my page in chrome so I did not see this. 
+
+In addition to multiple browsers, I accessed the site via a macbook running chrome and safari. This is where I came across some dramatic differences on the select tag on the checkout page. Using –webkit to address and fix.
+Lastly, I pulled up the site from both an android and apple iPhone (Pixel 2XL & iPhone X) using the default browsers (chrome & safari). I noticed a difference on the actual iPhone that didn’t appear on the iPhone X chrome dev tool emulator. On the iPhone the ‘Total Adoption Cost’ didn’t fit on one line, the text wrapped onto a new line and was on top of the text on the previous line. It was all on one line in the emulator.
+
+This testing has instilled confidence that the site will work for my user personas, but I also lost confidence in the chrome dev emulators. It is always best to have access to the actual device, not just the emulator.

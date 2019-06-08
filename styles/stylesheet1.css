@@ -378,10 +378,10 @@ fieldset {
   padding: 1em;
 }
 
-select {
+select, .contact-csz select {
   padding: 1.25em;
   width: 100%;
-  margin: .5em auto 1em auto;
+  margin: .5em auto 4em auto;
   -webkit-appearance: none;
   background-color: white;
   border-radius: 0;
@@ -401,10 +401,10 @@ select {
   width: 15%;
 }
 
-.contact-csz select {
+/* .contact-csz select {
   padding: 1.25em;
   width: 100%;
-}
+} */
 
 .contact-csz#contact-city {
   width: 40%;

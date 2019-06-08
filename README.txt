@@ -1,0 +1,1 @@
+This is a website for a dog adoption company. Users are able to browse the currently available dogs, gather info on each dog, as well as read about dog training tips on the blog page. Users also have the ability to purchase a dog online and pick up the dog at a location of their choosing.
