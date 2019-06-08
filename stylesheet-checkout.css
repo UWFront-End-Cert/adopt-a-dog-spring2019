@@ -80,77 +80,6 @@ img {
   padding-left: 10%;
   padding-right: 10%;
 }
-.feature{
-  width: 100%;
-  display: flex;
-  flex: initial;
-  flex-direction: row;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  justify-content: flex-start;
-  align-content: space-between;
-}
-.feature figure {
-  width: 37%;
-  padding-right: 3%;
-}
-.feature section {
-  width: 57%;
-  padding-left: 3%;
-}
-.gallery{
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-content: space-between;
-}
-.profile{
-  width: 23.5%;
-  border: solid rgb(236, 236, 236) .25px;
-  margin: 0.5%;
-}
-h5{
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
-}
-.description {
-  padding: 1rem;
-}
-.description p {
-  font-size: .85rem;
-  line-height: 1.35rem;
-  padding-bottom: .5rem;
-}
-.adopt-button {
-  background-color: rgb(129, 182, 65);
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.15rem;
-  cursor: pointer;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  width: 100%;
-  margin-top: 1.5rem;
-
-}
-.see-more-dogs-button {
-  background-color: rgb(236, 236, 236);
-  border: none;
-  color: rgb(9, 60, 96);
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.15rem;
-  cursor: pointer;
-  padding: .75rem 1.25rem .75rem 1.25rem;
-  margin: auto;
-  margin-top: 2rem;
-  width: 25%;
-}
 footer {
   background-color: rgb(9, 60, 96);
   color: white;
@@ -166,9 +95,4 @@ footer {
 footer a {
   display: flex;
   align-items: center;
-}
-footer p {
-  font-size: .85rem;
-  line-height: 1.35rem;
-  padding-bottom: .5rem;
 }
