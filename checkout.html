@@ -25,17 +25,20 @@
     </nav>
     <article class="container">
       <h3>Checkout</h3>
-      <label>Name
+
+      <label><h4>Name</h4>
         <input type="text" name="inquirerName">
       </label>
-      <label>Email Address
+
+      <label><h4>Email Address</h4>
         <input type="email" name="inquirerEmail">
       </label>
-      <div class="">
-        <label>City
+
+      <div class="address">
+        <label><h4>City</h4>
           <input type="text" name="inquirerCity">
         </label>
-        <form> State
+        <form><h4>State</h4>
           <select name="inquirerState">
             <option value="#">Please Select</option>
             <option value="Washington">Washington</option>
@@ -46,12 +49,13 @@
             <option value="California">California</option>
           </select>
         </form>
-        <label> Zip Code
+        <label><h4>Zip Code</h4>
           <input type="text" name="inquirerZip">
         </label>
       </div>
+
       <fieldset>
-        <legend>First Time Adopter?</legend>
+        <legend><h4>First Time Adopter?</h4></legend>
         <label>Yes
           <input type="radio" name="firstTime" value="yes">
           <span class=""></span>
@@ -61,7 +65,8 @@
           <span class=""></span>
         </label>
       </fieldset>
-      <form> Pickup Location
+
+      <form><h4>Pickup Location</h4>
         <select name="pickupLocation">
           <option value="#">Please Select</option>
           <option value="northFacility">North Facility</option>
@@ -74,7 +79,9 @@
         <h4>Total Adoption Cost</h4>
         <!--total, ecommerce feature-->
       </form>
+
       <input type="submit" value="Submit">
+
     </article>
     <footer>
       <img src="images/adoptadog-logo.svg" alt="">

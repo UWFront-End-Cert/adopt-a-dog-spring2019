@@ -96,3 +96,28 @@ footer a {
   display: flex;
   align-items: center;
 }
+
+
+button, input, select, textarea{
+  display: block;
+
+}
+input[type=text],[type=email] {
+  padding-top: .5rem;
+  padding-right: .75rem;
+  width: 75%;
+}
+input[type=submit]{
+  background-color: rgb(129, 182, 65);
+  padding: .75rem;
+}
+fieldset{
+  border: none;
+}
+fieldset input{
+  display: inline;
+}
+.address{
+  display: flex;
+  align-items: center;
+}
