@@ -194,9 +194,10 @@ h3.side-blog-article {
 
 h3.blue-title-checkout {
   color: #034177;
-  font-size: 1.75em;
+  font-size: 1.25em;
   font-weight: 900;
   margin-top: 1.5em;
+  width: 100%;
 }
 
 .about-adopt-text p {
