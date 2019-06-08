@@ -349,6 +349,7 @@ footer p {
   width: 100%;
   padding: 1.25em;
   margin: .5em 0em 4em 0em;
+  border: .75px solid lightgray;
 }
 
 .form-info {
@@ -384,7 +385,7 @@ select {
   -webkit-appearance: none;
   background-color: white;
   border-radius: 0;
-  border-color: lightgray;
+  border: .75px solid lightgray;
 }
 
 .container {
