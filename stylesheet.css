@@ -23,7 +23,7 @@ header {
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 70%;
-  padding: 3rem 3rem 9rem 3rem;
+  padding: 3rem 3rem 9rem 9%;
 }
 .logo{
   width: 30%;
@@ -77,15 +77,31 @@ img {
   height: auto;
 }
 .container {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 2rem 10% 4rem 10%;
+}
+.main-and-aside{
+  display: flex;
+  flex: auto;
+  flex-direction: row wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+.main-body{
+  width: 70%;
+  padding-right: 2%;
+}
+.blog-preview{
+  width: 25%;
+  padding-left: 2%;
+}
+.blog-feature{
+  padding-bottom: 2rem;
 }
 .feature{
   width: 100%;
   display: flex;
   flex: initial;
   flex-direction: row;
-  padding-top: 2rem;
   padding-bottom: 3rem;
   justify-content: flex-start;
   align-content: space-between;
@@ -104,14 +120,19 @@ img {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-content: space-between;
+  padding-bottom: 2rem;
 }
 .profile{
-  width: 23.5%;
+  width: 30%;
   border: solid rgb(236, 236, 236) .25px;
   margin: 0.5%;
 }
+h3{
+  font-size: 1.65rem;
+  padding-bottom: 1rem;
+}
 h4{
-  font-size: 2.5rem;
+  font-size: 1.35rem;
   padding-bottom: 1rem;
 }
 h5{
@@ -121,9 +142,9 @@ h5{
 .description {
   padding: 1rem;
 }
-.description p {
-  font-size: .85rem;
-  line-height: 1.35rem;
+p {
+  font-size: .95rem;
+  line-height: 1.45rem;
   padding-bottom: .5rem;
 }
 .adopt-button {
@@ -155,7 +176,6 @@ h5{
   margin-top: 2rem;
   width: 25%;
 }
-
 footer {
   background-color: rgb(9, 60, 96);
   color: white;
@@ -168,14 +188,20 @@ footer {
   justify-content: center;
   align-items: center;
 }
-footer a {
-  display: flex;
-  align-items: center;
-}
 footer p {
   font-size: .85rem;
   line-height: 1.35rem;
   padding-bottom: .5rem;
+}
+.footer-nav{
+  display: flex;
+  align-items: center;
+  padding: 0rem;
+  background-color: rgb(9, 60, 96);
+}
+.footer-nav a{
+  color: white;
+  font-size: .85rem;
 }
 
 
@@ -194,15 +220,33 @@ footer p {
     width: 100%;
     padding: 1rem 0rem 0rem 0rem;
   }
+  .main-and-aside{
+    flex-direction: row;
+  }
+  .main-body{
+    width: 70%;
+  }
+  .blog-preview{
+    width: 25%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .profile{
     width: 100%;
   }
+  .main-and-aside{
+    flex-direction: column;
+  }
+  .main-body{
+    width: 100%;
+  }
+  .blog-preview{
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 992px){
   .profile{
-    width: 23.5%;
+    width: 30%;
     margin: 0.5%;
   }
   .feature{
@@ -214,5 +258,14 @@ footer p {
   }
   .feature section {
     width: 57%;
+  }
+  .main-and-aside{
+    flex-direction: row;
+  }
+  .main-body{
+    width: 70%;
+  }
+  .blog-preview{
+    width: 25%;
   }
 }
