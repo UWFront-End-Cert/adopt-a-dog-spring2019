@@ -130,6 +130,11 @@ figcaption {
 	font-weight: bold;
 	color:green;
 }
+header a {
+    color:green;
+    display: block;
+    font-size: .9rem;
+}
 header > nav{
 		margin-top: 1%;
 		padding-bottom: 3%;
