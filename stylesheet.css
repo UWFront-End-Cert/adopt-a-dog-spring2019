@@ -175,6 +175,24 @@ p {
   margin-top: 2rem;
   width: 25%;
 }
+.blog-post{
+  width: 100%;
+  display: flex;
+  flex: initial;
+  flex-direction: row;
+  padding-bottom: 3rem;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+.blog-post img {
+  width: 37%;
+  height: 100%;
+  padding-right: 3%;
+}
+.blog-content {
+  width: 57%;
+  padding-left: 3%;
+}
 footer {
   background-color: rgb(9, 60, 96);
   color: white;
@@ -228,6 +246,17 @@ footer p {
   .blog-preview{
     width: 25%;
   }
+  .blog-post{
+    width: 100%;
+    flex-direction: row;
+  }
+  .blog-post img {
+    width: 37%;
+  }
+  .blog-content {
+    width: 57%;
+
+  }
 }
 @media only screen and (max-width: 767px) {
   .profile{
@@ -240,6 +269,15 @@ footer p {
     width: 100%;
   }
   .blog-preview{
+    width: 100%;
+  }
+  .blog-post{
+    flex-direction: column;
+  }
+  .blog-post img {
+    width: 100%;
+  }
+  .blog-content {
     width: 100%;
   }
 }
@@ -266,5 +304,14 @@ footer p {
   }
   .blog-preview{
     width: 25%;
+  }
+  .blog-post{
+    flex-direction: row;
+  }
+  .blog-post img {
+    width: 37%;
+  }
+  .blog-content {
+    width: 57%;
   }
 }
