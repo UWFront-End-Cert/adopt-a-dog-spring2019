@@ -1,0 +1,30 @@
+Responsiveness Testing
+
+Users: millennials/genY who rely heavily on internet. they will browse and purchase their dog on this one site.
+
+Analytics: Desktops remain important in design and still takes up most usage in the shopping category. (And for the sake of research adopting a dog will be considered a purchase.) However, millennials do 73% of their shopping online. Additionally, it was important to note that a great number of millennials use Apple products.
+  Sources: https://www.stonetemple.com/mobile-vs-desktop-usage-study/, https://www.adweek.com/digital/infographic-73-of-millennials-use-their-phones-to-shop-online/
+
+Design Method: graceful degradation
+
+Website testing was performed on several web browsers and devices based on analytics and user profiles.
+The AdoptADog website has been responsive on:
+  Browsers:
+    Chrome
+    Firefox
+    Safari
+    Opera
+  Devices:
+    Galaxy S5
+    Pixel 2
+    Pixel 2XL
+    iPhone 5/SE
+    iPhone 6/7/8
+    iPhone 6/7/8 Plus
+    iPhone X
+    iPad
+    iPad Pro
+
+Validation:
+  W3C Markup Validation https://validator.w3.org/
+  W3C CSS Validation http://jigsaw.w3.org/css-validator/
