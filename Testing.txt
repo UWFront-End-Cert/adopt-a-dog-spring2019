@@ -1,0 +1,9 @@
+User Profile
+Our market study suggested that most visitors to the site were likely to be condo- or house-owners. Renters were less likely to adopt a dog. We found that the main dog-adopting demographic uses phones for casual or impulse purchases but turns to a larger screen—tablet, laptop, or desktop—for more serious transactions. Because adopting a dog is a decision that is likely to affect the adopter for years to come, it was one that they would pursue on a larger-format screen. This website was therefore designed using the principles of graceful degradation. 
+Browser Behavior
+The user profile study suggests that most visitors to this website will be using Chrome as their browser. This is not surprising given Chrome’s share of the browser market. Accordingly, the website was designed with the assumption that its appearance in Chrome would constitute the normal or default one.
+In Firefox, the website looks and performs nearly identically to the way it behaves in Chrome. Differences are slight, cosmetic, and unlikely to be noticed. For example, on the index.html page, the image at the top of the main section (of a dog looking at the camera while receiving a hug) is slightly squished vertically. Because the image does not contain a human’s face, the distortion in aspect ratio does not send alarming visual signals. 
+The website in Edge is indistinguishable from the way it looks in Chrome.
+Platform Behavior
+The site performs best on large screen (laptop, desktop) and phone sizes. It is a bit clunky on tablets/iPads. With the in-between size of a tablet, the dog tiles break unevenly. In half of the rows, there are two or three tiles; in the other half, there is one tile.
+ 
