@@ -131,7 +131,7 @@ figcaption {
 	color:green;
 }
 header > nav{
-		margin-top: 20%;
+		margin-top: 1%;
 		padding-bottom: 3%;
 }
 nav {
@@ -191,6 +191,9 @@ nav>a {
 	margin-bottom:5%; 
 	overflow:auto; 
 	width:100%;
+}
+#cost {
+    font-size: 1.2rem;
 }
 p.cost {
 	color: black;
