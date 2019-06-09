@@ -1,9 +1,9 @@
 --------------------
 - Operating System -
 --------------------
-PC / Window 10 / 64-bit
-Andriod
-tablet
+PC  Windows 10
+tablet Android 5.0.2
+mobile phone Android 7.0
 
 -------------------
 - Browser/Version -
