@@ -1,0 +1,37 @@
+Personas
+
+The user base for this site is varied. This site can be utilized for a variety of personas. Examples of user personas:
+
+- Name: Sally
+- Age: Early to mid 20's, Single
+- Occupation: Financial Analyst - recent college graduate
+- Personality: Ambivert, likes to hang out with friends, likes the outdoors, enjoys a work-life balance.
+- Hobbies: Hiking, camping, cooking, running, and calligraphy. 
+- Motivation for getting a dog: Sally just graduated and is living on her own for the first time. She misses living with friends and wants a companion to keep her company at home. She likes online sites that show information about dogs since her job is time consuming and she doesn't live near an animal shelter.
+- Technology usage: Browses on her smartphone for leisure. Works on her Windows laptop for her day job. Needs a website that is mobile friendly since that is what she primarily browses on when at home.
+- Quote: "I want to adopt a dog but It's so time consuming! I wish I was able to complete more of the process online."
+
+Name: Jessica and Michael
+Occupation: Teacher and Construction Worker
+Personality: Jessica and Michael are an outgoing couple in their late 30's with a 8 year old daughter. 
+Hobbies: They love being outdoors, going on road trips, and spending time at home as a family. 
+Motivation for getting a dog: Jessica and Michael's daughter has been asking for a puppy for the past few years. Due to their daughters good behavior and grades and the upcoming summer break they would like to adopt a dog.
+Technology usage: Jessica and Michael both have smart phones and they share an iPad at home. At work they both have access to a computer but do not own one at home. They would primarily access Adopt a Dog from their phones and iPads.
+Quote: "It's been great to be able to research dogs at home in between work and taking care of our daughter. I remember growing up we would have to drive to the shelter multiple times to see what dogs were available before we found the perfect one."
+
+Name: Darren
+Occupation: Retired - late 50's
+Personality: Introverted widow. A lot of his friends are moving out of town or going into retirement homes 
+Hobbies: Walking, watching TV, playing chess at the senior center
+Motivation for getting a dog: Darren is looking for a companion and someone to keep him company at home.
+Technology usage: Darren has a Windows laptop from 2014. It is slow and he only uses internet explorer.
+Quote: "It's so hard to learn how to do everything online. I always hope the website I go to are easy to navigate". 
+
+
+Testing
+
+When testing my site I thought a lot about the personas I created and what types of screens and browsers my users would be viewing my site on. I knew I would need to test on all the major browsers (Chrome, Safari, Firefox, IE) and on different screens (iPad, Apple computer, PC Computer, iPhone, Galaxy).I knew that in order for my website to be successful that the content would need to be able to fit all of my devices and adapt to the shape and size of the screen.
+
+When building my site throughout this class we used the technique of graceful degradation - where we designed the site for a website and took away some of the features for the mobile sites. This technique worked because when I tested my site on the normal web browser on a laptop versus testing on a mobile phone, my site adapted for the screen size and showed limited content on the mobile version.
+
+I spent time dragging the size of the window on my site to make sure it was responsive to fit whatever size window I ended up creating. I utilized the dev tools to make sure all my elements were showing up how I had written them in my code.
