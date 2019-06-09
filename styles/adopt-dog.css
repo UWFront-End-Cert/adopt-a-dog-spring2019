@@ -148,6 +148,8 @@ main {
 nav>a { 
 	vertical-align: bottom;
 	color: blue; 
+	padding-left:2%; 
+	padding-right:2%; 
 }
 
   
