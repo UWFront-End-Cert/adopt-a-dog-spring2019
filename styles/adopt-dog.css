@@ -130,7 +130,7 @@ figcaption {
 	font-weight: bold;
 	color:green;
 }
-header a {
+figcaption  a {
     color:green;
     display: block;
     font-size: .9rem;
