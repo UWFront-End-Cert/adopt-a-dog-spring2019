@@ -27,19 +27,21 @@ submitButton.setAttribute('type', 'submit');
 submitButton.textContent = 'Submit';
 form.appendChild(submitButton);
 
+let newDiv = document.createElement("div");
+
 form.addEventListener('submit', function(e) {
     e.preventDefault();
-    const newDiv = document.createElement("div");
+    // const newDiv = document.createElement("div");
     newDiv.setAttribute('class', 'top-section2')
     const titulo = document.createElement("h3");
     titulo.innerText = document.getElementById("1").value;
-
     const para = document.createElement("p");
     para.innerText = document.getElementById("2").value;
-
     newDiv.appendChild(titulo);
     newDiv.appendChild(para);
-    console.log(newDiv);
     document.getElementById("myDIV").prepend(newDiv);
     alert('Thank you. The form information has been received');
 });
+$('button').click(function(){
+   console.log(newDiv);
+ })

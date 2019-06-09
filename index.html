@@ -4,17 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="./checkout.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Home</title>
   </head>
 
   <body>
     <header class="head">
       <div class="checkout">
-        <a href="checkout.html">
           <img src="images/cart-icon.svg" alt="Cart Icon" >
-          $1234.56
-        </a>
+          <p id="totalcost">$0.00</p>
         <input type="button" name="cart" value="checkout">
       </div>
       <img src="images/adoptadog-logo.svg" alt="Adoptadog logo">
@@ -47,6 +45,7 @@
       </div>
 
       <div class="dogs-container">
+
           <div class="dog-item1">
             <img src="images/murphy-card.jpg" onclick="dog_info('Murphy', 'Beagle', '$123.45')" alt="Image of Murphy the dog">
             <h3>Murphy</h3>
@@ -118,6 +117,8 @@
       <div class="more">
           <input class="more" type="button" value="See More Dogs">
       </div>
+<script src="./jquery.js" charset="utf-8"></script>
+<script src="./checkout.js" charset="utf-8"></script>
     </div>
     <div class="right-section3">
       <h2>From Our Blog</h2>

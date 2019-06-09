@@ -8,3 +8,9 @@ function addTocart() {
 function dog_info(dog_name, dog_breed, cost) {
   alert(dog_name + ", " + dog_breed + ", " + cost)
 }
+
+
+$('input').click(function(){
+  $('#totalcost').text( '$' + total);
+   console.log('hello');
+ })

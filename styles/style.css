@@ -141,7 +141,7 @@
   margin-right: 3rem;
 }
 .checkout img{
-  width: 15%;
+  width: 20%;
 }
 .checkout-items{
     display: flex;
@@ -161,8 +161,15 @@
   min-height: 1rem;
   min-width: 75%;
 }
-.checkout a{
+.checkout p{
+    font-size: 1em;
     color: white;
+    margin-left: 2rem;
+}
+.checkout a{
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
 }
 .top ul {
   list-style-type: none;
@@ -448,4 +455,10 @@ input[type="text"] {
     height:2rem;
 
     margin-right: 1rem;
+}
+
+.tile-border{
+  transform: scale(1.2);
+  box-shadow: 0 12px 10px 0 rgb(9, 60 , 96), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 1s;
 }

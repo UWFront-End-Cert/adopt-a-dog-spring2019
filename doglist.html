@@ -4,16 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="./checkout.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- <script src="./checkout.js" charset="utf-8"></script> -->
     <title>All the Dogs</title>
   </head>
   <body>
     <header class="head">
       <div class="checkout">
-        <a href="checkout.html">
           <img src="images/cart-icon.svg" alt="Cart Icon" >
-          $1234.56
-        </a>
+        <p id="totalcost">$0.00</p>
         <input type="button" name="cart" value="checkout">
       </div>
       <img src="images/adoptadog-logo.svg" alt="Adoptadog logo">
@@ -166,6 +165,8 @@
               qui doluptae</p>
           <input type="button" onclick="addTocart()" value="Adopt">
         </div>
+        <script src="./jquery.js" charset="utf-8"></script>
+        <script src="./checkout.js" charset="utf-8"></script>
     </div>
     <footer class="foot">
       <div class="foot-items">
