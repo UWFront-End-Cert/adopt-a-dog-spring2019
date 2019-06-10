@@ -1,7 +1,7 @@
 function submitForm() {
   const form = document.querySelector('form');
 
-  alert('Thank you. The form information has been received.');
+  alert('Thank you! Your adoption form has been submitted!');
   let name = document.getElementById('name');
   let email = document.getElementById('email');
   let street = document.getElementById('street');
