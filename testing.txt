@@ -1,8 +1,14 @@
 # AdoptADog Website Testing
 
-## Introduction
+## Testing Summary
 
 According to recent surveys, about two-thirds of Americans access the Internet from mobile phones, more than any other type of device. This means that potential pet parents could quite literally be shopping for their next family pet at any place during any time. For this reason, the AdoptADog website was built with accessibility and responsiveness in mind, so customers can view the site without issue from any type of browser, and from any type of device, and still receive the same experience.
+
+Testing for this project was performed primarily on the following five desktop browsers: Google Chrome, Mozilla Firefox, Internet Explorer, Apple Safari, and Opera. Additionally, the same browsers were used on mobile, with the exception of Internet Explorer, to test the site on three separate mobile devices: iPhone Se, iPhone 6s Plus, and a Windows tablet with the Windows 8 operating system installed. The responsive design aspect of the site was also tested using the developer tools in Google Chrome to assess how the site responded on other mobile devices.
+
+Testing involved ensuring that no elements overlapped as the screen size increased or decreased, or there was no break when elements resized at smaller and larger screen sizes. Additionally, the readability of the text on mobile devices was tested to ensure it was large enough to see easily, as well as the general position of images and graphics at smaller screen sizes. Lastly, the appearance of the same elements across multiple browsers and devices was tested to ensure that they were not drastically different from one another.
+
+Overall, the responsiveness of the flex items and media queries in the code were satisfactory, and visual elements were generally consistent across all browsers and devices tested. The major limitation was a lack of older devices to test, so additional testing may need to be performed on using older technology to ensure compatibility with the widest audience possible.
 
 ## Resources
 
