@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya:600,700,800|Montserrat:300,500&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet-checkout.css">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
     <header>
@@ -26,63 +26,70 @@
       <a class="#" href="blog.html"><h6>Blog</h6></a>
     </nav>
     <article class="container">
+      <script type="text/javascript" charset="utf-8" src="checkout.js" ></script>
       <h3>Checkout</h3>
 
-      <label><h4>Name</h4>
-        <input type="text" name="inquirerName">
-      </label>
-
-      <label><h4>Email Address</h4>
-        <input type="email" name="inquirerEmail">
-      </label>
-
-      <div class="address">
-        <label><h4>City</h4>
-          <input type="text" name="inquirerCity">
+      <form>
+        <label><h4>Name</h4>
+          <input id="name" type="text" name="inquirerName">
         </label>
-        <form><h4>State</h4>
-          <select name="inquirerState">
+
+        <label><h4>Email Address</h4>
+          <input id="email" type="email" name="inquirerEmail">
+        </label>
+
+        <label><h4>Street Address</h4>
+          <input id="street" type="email" name="inquirerEmail">
+        </label>
+
+        <div class="address">
+          <label><h4>City</h4>
+            <input id="city" type="text" name="inquirerCity">
+          </label>
+          <div><h4>State</h4>
+            <select id="state" name="inquirerState">
+              <option value="">Please Select</option>
+            	<option value="CA">California</option>
+            	<option value="ID">Idaho</option>
+            	<option value="MT">Montana</option>
+            	<option value="NV">Nevada</option>
+            	<option value="OR">Oregon</option>
+            	<option value="UT">Utah</option>
+            	<option value="WA">Washington</option>
+            	<option value="WY">Wyoming</option>
+            </select>
+          </div>
+          <label><h4>Zip Code</h4>
+            <input id="zip" type="text" name="inquirerZip">
+          </label>
+        </div>
+
+        <fieldset id="adopt-status">
+          <legend><h4>First Time Adopter?</h4></legend>
+          <label>Yes
+            <input type="radio" name="firstTime" value="yes">
+          </label>
+          <label>No
+            <input type="radio" name="firstTime" value="no">
+          </label>
+        </fieldset>
+
+        <div><h4>Pickup Location</h4>
+          <select id="pickup-location" name="pickupLocation">
             <option value="#">Please Select</option>
-            <option value="Washington">Washington</option>
-            <option value="Oregon">Oregon</option>
-            <option value="Idaho">Idaho</option>
-            <option value="Montana">Montanta</option>
-            <option value="Nevada">Nevada</option>
-            <option value="California">California</option>
+            <option value="ravennaFacility">Ravenna Facility</option>
+            <option value="magnoliaFacility">Magnolia Facility</option>
+            <option value="beaconHillFacility">Beacon Hill Facility</option>
+            <option value="westSeattleFacility">West Seattle Facility</option>
           </select>
-        </form>
-        <label><h4>Zip Code</h4>
-          <input type="text" name="inquirerZip">
-        </label>
-      </div>
-
-      <fieldset>
-        <legend><h4>First Time Adopter?</h4></legend>
-        <label>Yes
-          <input type="radio" name="firstTime" value="yes">
-          <span class=""></span>
-        </label>
-        <label>No
-          <input type="radio" name="firstTime" value="no">
-          <span class=""></span>
-        </label>
-      </fieldset>
-
-      <form><h4>Pickup Location</h4>
-        <select name="pickupLocation">
-          <option value="#">Please Select</option>
-          <option value="northFacility">North Facility</option>
-          <option value="eastFacility">East Facility</option>
-          <option value="southFacility">South Facility</option>
-          <option value="westFacility">West Facility</option>
-        </select>
-        <h4>Dogs Adopted</h4>
-        <!--selected dogs, ecommerce feature-->
-        <h4>Total Adoption Cost</h4>
-        <!--total, ecommerce feature-->
+          <h4>Dogs Adopted</h4>
+          <!--selected dogs, ecommerce feature-->
+          <h4>Total Adoption Cost</h4>
+          <!--total, ecommerce feature-->
+        </div>
       </form>
 
-      <input type="submit" value="Submit">
+      <input type="button" value="Submit" id="submit" onclick="submitForm()">
 
     </article>
     <footer>
