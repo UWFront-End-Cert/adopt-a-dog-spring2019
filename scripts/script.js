@@ -3,8 +3,7 @@
 /*function info(name, breed) {
 	let result = name + ', ' + breed + ', $123.45';
 }
-*/
-
+*//*
 function murphyInfo() {
 		alert("Murphy, Beagle, $123.45");
 }
@@ -52,6 +51,12 @@ function lunaInfo() {
 function stellaInfo() {
 		alert("Violet, Chihuahua, $123.45");
 }
+*/
+
+$('#onclickTotal').click(function(e) {
+	total += 123.45;
+	alert ('Your total is' + total);
+});
 
 //index.html & dogs.html click handlers for ADOPT BUTTONS
 let total = 0;
@@ -203,8 +208,8 @@ function emailValid (inputText) {
 } //Code c/o https://www.codeproject.com/Tips/492632/Email-Validation-in-JavaScript
 
 //Dog CARDS
-$('.dog-card').hover(function(e) {
-	$('img', this).addClass('dog-card-border');
+$('.dog-img').hover(function(e) {
+	$('img', this).addClass('dog-img-border');
 }) //hover over dog cards
 
 //Button ripple effect
