@@ -7,6 +7,7 @@ function aboutDog(name, breed, cost) {
 function addToTotal(cost) {
   cartTotal += cost;
   alert(`Your current total is: $${cartTotal}`);
+  $('.total-cost').text(`$${cartTotal}`);
 }
 
 $('form').submit(function (e) {

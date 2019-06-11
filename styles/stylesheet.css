@@ -186,6 +186,10 @@ p {
   border: 0.1em solid #c7c8c9;
 }
 
+.dog:hover {
+  background-color: #ddeaff;
+}
+
 .chb {
   margin: auto;
   width: 100%;
