@@ -72,7 +72,8 @@ li a{
 	text-align: center;
 	padding: 15px 32px;
 	color: white;
-	float: inherit;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .h2 {
@@ -106,18 +107,20 @@ li a{
 	border: none;
 	font-size: 1rem;
 	font-weight: bold;
-	text-align: center;
+	margin-left: auto;
+	margin right: auto;
 	padding: 15px 32px;
 	color: rgb(9, 60, 96);
 	text-align: center;
+	position: relative;
 }
 
 .blog {
 	padding-top: 5px;
 	background-color: white;
-	width: inherit;
+	display: grid;
 	justify-content: space-around;
-	position: relative;
+	position: inherit;
 	text-align: left;
 	padding-bottom: 150px;
 	align-content: space-between;
@@ -125,9 +128,9 @@ li a{
 
 .blogdiv {
 	padding-top: 5px;
-	position: relative;
+	position: inherit;
 	text-align: left;
-
+	justify-content: space-around;
 }
 
 .blogpic {
