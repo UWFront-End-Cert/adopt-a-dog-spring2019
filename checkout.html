@@ -15,38 +15,40 @@
       <aside  class="checkout-corner">
         <i class="fas fa-shopping-cart"></i>
         <!--total, ecommerce feature-->
-        <a class="#" href="checkout.html">checkout</a>
+        <a href="checkout.html">checkout</a>
       </aside>
       <a href="index.html"><img class="logo" src="images/adoptadog-logo.svg" alt="logo"></a>
       <h2>Seattle's premiere dog adoption agency</h2>
     </header>
     <nav>
-      <a class="#" href="index.html"><h6>Home</h6></a>/
-      <a class="#" href="gallery.html"><h6>Dogs</h6></a>/
-      <a class="#" href="blog.html"><h6>Blog</h6></a>
+      <nav class="main-nav">
+        <a href="index.html"><h6>Home</h6></a>/
+        <a href="gallery.html"><h6>Dogs</h6></a>/
+        <a href="blog.html"><h6>Blog</h6></a>
+      </nav>
     </nav>
     <article class="container">
       <script type="text/javascript" charset="utf-8" src="script/checkout.js" ></script>
       <h3>Checkout</h3>
 
       <form>
-        <label><h4>Name</h4>
+        <label><h5>Name</h5>
           <input id="name" type="text" name="inquirerName">
         </label>
 
-        <label><h4>Email Address</h4>
+        <label><h5>Email Address</h5>
           <input id="email" type="email" name="inquirerEmail">
         </label>
 
-        <label><h4>Street Address</h4>
+        <label><h5>Street Address</h5>
           <input id="street" type="email" name="inquirerEmail">
         </label>
 
         <div class="address">
-          <label><h4>City</h4>
+          <label><h5>City</h5>
             <input id="city" type="text" name="inquirerCity">
           </label>
-          <div><h4>State</h4>
+          <div class="state" ><h5>State</h5>
             <select id="state" name="inquirerState">
               <option value="">Please Select</option>
             	<option value="CA">California</option>
@@ -59,13 +61,13 @@
             	<option value="WY">Wyoming</option>
             </select>
           </div>
-          <label><h4>Zip Code</h4>
+          <label><h5>Zip Code</h5>
             <input id="zip" type="text" name="inquirerZip">
           </label>
         </div>
 
         <fieldset id="adopt-status">
-          <legend><h4>First Time Adopter?</h4></legend>
+          <legend><h5>First Time Adopter?</h5></legend>
           <label>Yes
             <input type="radio" name="firstTime" value="yes">
           </label>
@@ -74,7 +76,7 @@
           </label>
         </fieldset>
 
-        <div><h4>Pickup Location</h4>
+        <div><h5>Pickup Location</h5>
           <select id="pickup-location" name="pickupLocation">
             <option value="#">Please Select</option>
             <option value="ravennaFacility">Ravenna Facility</option>
@@ -82,23 +84,42 @@
             <option value="beaconHillFacility">Beacon Hill Facility</option>
             <option value="westSeattleFacility">West Seattle Facility</option>
           </select>
-          <h4>Dogs Adopted</h4>
-          <!--selected dogs, ecommerce feature-->
-          <h4>Total Adoption Cost</h4>
-          <!--total, ecommerce feature-->
+
+          <h5>Dogs Adopted</h5>
+            <section class="checkout-profile">
+              <figure>
+                <img src="images/duffy-card.jpg" alt="adult pitbull pup with light blue eyes and light brown and white coat">
+              </figure>
+              <div class="checkout-info">
+                <h5>Duffy</h5>
+                <p>Cost to Adopt: $123.45</p>
+              </div>
+            </section>
+            <section class="checkout-profile">
+              <figure>
+                <img src="images/lucas-card.jpg" alt="mutt with black coat and light brown eyes">
+              </figure>
+              <div class="checkout-info">
+                <h5>Lucas</h5>
+                <p>Cost to Adopt: $123.45</p>
+              </div>
+            </section>
+          <h5>Total Adoption Cost</h5>
+          <p>$246.90</p>
         </div>
       </form>
 
-      <input type="button" value="Submit" id="submit" onclick="submitForm()">
+      <input type="button" id="submit" value="Submit" onclick="submitForm()">
 
     </article>
     <footer>
       <a href="index.html"><img src="images/adoptadog-logo.svg" alt="logo"></a>
       <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex <br>esseque invenienihil imaximu scideru ptistiusam consequunt</p>
       <nav class="footer-nav">
-        <a href="index.html">Home</a>/
-        <a href="gallery.html">Dogs</a>/
-        <a href="#">Contact</a>
+        <a href="index.html"><h6>Home</h6></a>/
+        <a href="gallery.html"><h6>Dogs</h6></a>/
+        <a href="blog.html"><h6>Blog</h6></a>/
+        <a href="#"><h6>Contact</h6></a>
       </nav>
       <p class="footer-text">© 2018 AdoptableDog, LLC | Seattle, WA</p>
     </footer>

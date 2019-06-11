@@ -2,5 +2,5 @@ let total = 0;
 
 function runningTotal(cost) {
   total += cost;
-  alert(total);
+  alert('Your total is: $' + total);
 }

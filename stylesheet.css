@@ -1,7 +1,7 @@
 * {
   font-family: 'Montserrat', "Century Gothic", sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0rem;
+  padding: 0rem;
 }
 p {
   font-size: 1.05rem;
@@ -11,8 +11,9 @@ h2, h3, h4, h5 {
   font-family: 'Alegreya', serif;
   font-weight: 800;
   color: rgb(9, 60, 96);
+  padding-bottom: .75rem;
 }
-a{
+a {
   text-decoration: none;
 }
 header {
@@ -21,25 +22,15 @@ header {
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  background-size: 100%;
   padding: 3rem 3rem 7rem 9%;
 }
-.logo{
+.logo {
   width: 30%;
   height: auto;
 }
-h1{
-  color: white;
-  text-transform: uppercase;
-  font-style: italic;
-}
 header h2 {
-  color: rgb(62, 152, 32);
+  color: rgb(129, 182, 65);
   font-size: 1.25rem;
-}
-h3 {
-  font-size: 2rem;
-  padding-bottom: .5rem;
 }
 .checkout-corner {
   float: right;
@@ -47,28 +38,25 @@ h3 {
 .checkout-corner a {
   color: white;
 }
-i{
+i {
   color: white;
 }
-nav {
+.main-nav {
   padding: .1rem 10% 0.1rem 9%;
   background-color: rgb(236, 236, 236);
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
-nav a {
+.main-nav a {
   font-size: 1.35rem;
   margin: 1rem;
   color: rgb(9, 60, 96);
 }
-nav a::after{
+.main-nav a::after {
   padding-right: 5rem;
 }
-nav a:visited {
-  color: black;
-}
-nav a:hover {
+.main-nav a:hover {
   color: rgb(48, 207, 106);
 }
 img {
@@ -78,25 +66,34 @@ img {
 .container {
   padding: 2rem 10% 4rem 10%;
 }
-.main-and-aside{
+.main-and-aside {
   display: flex;
   flex: auto;
   flex-direction: row wrap;
   justify-content: flex-start;
   align-content: space-between;
 }
-.main-body{
+.main-body {
   width: 70%;
   padding-right: 2%;
 }
-.blog-preview{
+.blog-preview {
   width: 25%;
   padding-left: 2%;
 }
-.blog-feature{
+.blog-preview h4 {
+  padding-top: 0.5rem;
+}
+.blog-feature {
   padding-bottom: 2rem;
 }
-.feature{
+.blog-preview a {
+  color: rgb(9, 60, 96);
+}
+.blog-preview a:hover {
+  color: rgb(129, 182, 65);
+}
+.feature {
   width: 100%;
   display: flex;
   flex: initial;
@@ -113,7 +110,7 @@ img {
   width: 57%;
   padding-left: 3%;
 }
-.gallery{
+.gallery {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -121,22 +118,16 @@ img {
   align-content: space-between;
   padding-bottom: 2rem;
 }
-.profile{
+.profile {
   width: 30%;
   border: solid rgb(236, 236, 236) .25px;
   margin: 0.5%;
 }
-h3{
-  font-size: 1.65rem;
-  padding-bottom: 1rem;
+h3 {
+  font-size: 1.85rem;
 }
-h4{
+h4 {
   font-size: 1.35rem;
-  padding-bottom: 1rem;
-}
-h5{
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
 }
 .description {
   padding: 1rem;
@@ -159,7 +150,6 @@ p {
   padding-bottom: .5rem;
   width: 100%;
   margin-top: 1.5rem;
-
 }
 .see-more-dogs-button {
   background-color: rgb(236, 236, 236);
@@ -175,7 +165,7 @@ p {
   margin-top: 2rem;
   width: 25%;
 }
-.blog-post{
+.blog-post {
   width: 100%;
   display: flex;
   flex: initial;
@@ -192,6 +182,72 @@ p {
 .blog-content {
   width: 57%;
   padding-left: 3%;
+}
+.checkout-profile {
+  width: 50%;
+  display: flex;
+  flex: initial;
+  flex-direction: row wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  padding-bottom: .5rem;
+}
+.checkout-profile figure {
+  width: 50%;
+  padding-right: 3%;
+}
+.checkout-info {
+  width: 40%;
+}
+h5 {
+  font-size: 1.25rem;
+  padding: 1.25rem 0rem 0.5rem 0rem;
+}
+.checkout-info h5 {
+  padding: 0rem;
+}
+button, input, select, textarea{
+  display: block;
+}
+input {
+  font-size: 1.05rem;
+}
+input[type=text],[type=email] {
+  padding: .5rem;
+  padding-right: .75rem;
+  width: 75%;
+}
+input[id=submit] {
+  background: rgb(129, 182, 65);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.15rem;
+  cursor: pointer;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  width: 25%;
+  margin-top: 1.5rem;
+}
+fieldset{
+  border: none;
+}
+fieldset input{
+  display: inline;
+}
+input[type=radio] {
+  margin-right: 1rem;
+}
+.address{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  align-content: space-around;
+}
+.state {
+  padding-right: 2rem;
 }
 footer {
   background-color: rgb(9, 60, 96);
@@ -210,45 +266,21 @@ footer p {
   line-height: 1.35rem;
   padding-bottom: .5rem;
 }
-.footer-nav{
+.footer-nav {
   display: flex;
   align-items: center;
   padding: 0rem;
   background-color: rgb(9, 60, 96);
 }
-.footer-nav a{
+.footer-nav a {
   color: white;
-  font-size: .85rem;
+  font-size: 1.35rem;
+  margin: 1rem;
+}
+.footer-nav a:hover {
+  color: rgb(129, 182, 65);
 }
 
-h4{
-  padding-top: 2rem;
-}
-button, input, select, textarea{
-  display: block;
-}
-form{
-  padding-right: 2rem;
-}
-input[type=text],[type=email] {
-  padding-top: .5rem;
-  padding-right: .75rem;
-  width: 75%;
-}
-input[type=submit]{
-  background-color: rgb(129, 182, 65);
-  padding: .75rem;
-}
-fieldset{
-  border: none;
-}
-fieldset input{
-  display: inline;
-}
-.address{
-  display: flex;
-  align-items: center;
-}
 
 @media only screen, print and (min-width: 768px), (max-width: 991px) {
   .profile{
@@ -283,7 +315,9 @@ fieldset input{
   }
   .blog-content {
     width: 57%;
-
+  }
+  input {
+    border: .15rem solid rgb(236, 236, 236);
   }
 }
 @media only screen and (max-width: 767px) {
@@ -304,8 +338,31 @@ fieldset input{
   }
   .blog-post img {
     width: 100%;
+    padding-bottom: .5rem;
   }
   .blog-content {
+    width: 100%;
+  }
+  footer {
+    margin-top: 4rem;
+    padding: 3rem 5rem 3rem 5rem;
+  }
+  .container {
+    padding: 1rem 5% 2rem 5%;
+  }
+  .see-more-dogs-button {
+    width: 100%;
+  }
+  .address{
+    display: block;
+  }
+  .logo {
+    width: 75%;
+  }
+  input {
+    border: .15rem solid rgb(236, 236, 236);
+  }
+  .checkout-profile {
     width: 100%;
   }
 }
