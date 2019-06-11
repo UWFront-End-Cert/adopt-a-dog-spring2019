@@ -1,0 +1,30 @@
+Purpose: The ADOPTADOG website is a website that is meant for users to view dogs
+  that can be adopted and read blog posts that can help current or future dog
+  owners care and train their dog(s). Users are able to select dogs for adoption
+  and learn a little bit of information about the dog.
+
+User: The user would be a young adult who is looking for a companion for if they
+ live alone and have the capability of owning a dog in their home or apartment.
+ As a young adult the highest level of education would be a bachelors or masters
+ degree. The user would have 5-10 years of work experience and would have to have
+ a work schedule that would allow them to spend time with and care for their dog.
+ They will come to the site because they feel more comfortable browsing for dogs
+ online then in person. The user would be able to access the site from their desktop/
+ laptops and their mobile devices and they would be able to access the site in
+ their free time. The user primarily uses their phone since they carry it with them
+ almost everywhere. The user uses social media applications and visits shopping
+ websites on a regular basis.
+
+Motivation: The user would need to be motivated to have a companion and accept
+  responsibilities of being a dog owner. They are looking for a companion who will
+  give them attention. The user will either be looking to adopt a new pet or
+  look into the blog for articles on training and taking care of a dog. The needs
+  of the person would be to learn more about selecting the right dog and the needs
+  of the dog.
+
+Testing: I have tested the site on Chrome, Firefox and Safari. I also used the
+  "toggle device toolbar" to emulate the site responsiveness on other devices. I
+  had to go back into the css file and change the font sizes from pixels to em 
+  so the text would resize depending on the device. I also tested the site on my
+  Samsung S9 Android phone and had a friend test the site on their iPhone X and the
+  site was able to resize to fit the screen.

@@ -10,9 +10,6 @@
   }
   .left-section {
       flex-basis: 95%;
-      /* border-color: yellow;
-      border-style: solid;
-      border-width: 2px; */
       margin-left: 18rem;
     }
   .dogs-container div{
@@ -258,10 +255,10 @@
   margin: 0;
 }
 .top-text p{
-  font-size: 16px;
+  font-size: 1.25em;
 }
 .top-text a{
-  font-size: 24px;
+  font-size: 1.5em;
   color: lightblue;
 }
 
@@ -277,7 +274,7 @@
   margin: 0;
 }
 .top-text3 p{
-  font-size: 16px;
+  font-size: 1.25em;
 }
 
 .dog-checkout{
@@ -314,19 +311,16 @@
 
 
 .right-section{
-/* border-color: red;
-border-style: solid;
-border-width: 2px; */
 flex-basis: 33%;
 }
 
 .right-section3 h3{
-  font-size: 28px;
+  font-size: 1.5em;
   color: darkblue;
 }
 
 .right-section a{
-  font-size: 24px;
+  font-size: 1.5em;
   color: lightblue;
 }
 
@@ -345,7 +339,7 @@ span{
   font-weight: 600;
 }
 .dog-item1{
-  border-width: 2px;
+  border-width: 0.25em;
   border-color: lightgray;
   border-style: solid;
   flex-basis: 50%;
@@ -361,7 +355,7 @@ span{
   height: 20rem;
   background-color: rgb(9, 60 , 96);
   color: white;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 .foot img{
   max-width: 100%;
@@ -387,11 +381,11 @@ span{
   display: block;
   color: white;
   text-align: center;
-  padding: 5px 5px;
+  padding: 0.2em;
   text-decoration: none;
 }
 .foot a:before {
-  padding-right: 10px;
+  padding-right: 0.1em;
   content: "/";
   color: white;
 }
@@ -401,7 +395,7 @@ span{
 .more input[type=button]{
   width: 20rem;
   height: 3rem;
-  font-size: 24px;
+  font-size: 1.5em;
   display: block;
   margin-top: 2rem;
   margin-left: auto;
@@ -453,12 +447,11 @@ span{
 input[type="text"] {
     width: 25rem;
     height:2rem;
-
     margin-right: 1rem;
 }
 
 .tile-border{
   transform: scale(1.2);
-  box-shadow: 0 12px 10px 0 rgb(9, 60 , 96), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1em 1em 0 rgb(9, 60 , 96), 0 1em 1em 0 rgba(0, 0, 0, 0.19);
   transition: all 1s;
 }
