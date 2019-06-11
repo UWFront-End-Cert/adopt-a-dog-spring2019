@@ -34,6 +34,7 @@ header h2 {
 }
 .checkout-corner {
   float: right;
+  color: white;
 }
 .checkout-corner a {
   color: white;
@@ -69,7 +70,7 @@ img {
 .main-and-aside {
   display: flex;
   flex: auto;
-  flex-direction: row wrap;
+  flex-direction: row;
   justify-content: flex-start;
   align-content: space-between;
 }
@@ -183,11 +184,14 @@ p {
   width: 57%;
   padding-left: 3%;
 }
+.hover-outline {
+  border: .25rem solid rgb(129, 182, 65);
+}
 .checkout-profile {
   width: 50%;
   display: flex;
   flex: initial;
-  flex-direction: row wrap;
+  flex-direction: row;
   justify-content: flex-start;
   align-content: space-between;
   padding-bottom: .5rem;
