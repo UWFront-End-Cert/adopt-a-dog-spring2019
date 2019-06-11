@@ -1,24 +1,25 @@
-Persona: Stephanie Moore, veterinary student (second year)
-Age: early-mid twenties (24)
-Technology: Surface Pro or tablet for studying on the go, iPhone
-About: Steph is a vet student in her second year, feeling pretty confident about her future career. Like many other vet students she wants to get a pet; not just to do her part in caring for animals who need homes, but also to have someone to keep her company on those long hard nights she spends studying. Who knows, maybe she'll be able to even practice certain procedures on this pet, such as dental work, surgical procedures like mass/wart removals, blood draws, IV catheter placement, etc. Having her own dog, she thinks, will give her an advantage over students who don't have dogs; not only will this make her more relatable as a primary health provider (someday), she can also practice health examinations on her dog in her spare time!
-Why Adopt-a-Dog? Like any other millenial, her search is going to begin online, probably on her phone when she's on the bus or ferry to UW! The blog/information aspect of the site will be a major contributing factor in why she's going to choose to adopt through Adopt-a-Dog; after all, as an aspiring veterinarian she highly values a shelter that will actively and accurately provide good husbandry and information about owning a dog.
-Quote: I'm looking for an easy-going, laid back dog that will be okay to hang out by himself at my apartment while I'm at school during the day, and/or will be mellow enough to sit quietly in a classroom with me.
-
-* For this particular user, professionalism and ease of use are going to be paramount. She doesn't have the time to sit trying to navigate a site; she's a young professional who needs immediacy and not to be bothered with the details. She already knows what she's doing, she doesn't need help with anything side from getting the dog to her physically.
-Opening up this website with an immediate, brief, to-the-point mission statement was the best decision. With a couple eye catching photos and an aesthetically pleasing banner to draw her in, all that's needed to keep Stephanie's attention is that mission statement.
-The simple, easily accessible checkout form will make it especially attractive for a student to navigate.
-The layout of the blog is important as well. Stephanie is free to check it out and take a look over the kind of content this site produces, and from there she can decide if she approves of this site's goals and content - and she can do it with a quick scan, which is important.
-Stephanie is highly likely to be primarily using a regular PC, Chrome, and her 2-3 year old iPhone as her tools, which makes it pretty easy to make this site accessible to her. Making this site an attractive and easy option on mobile will be the biggest challenge as that is her primary tool that she uses when she isn't studying or at school.
+Studies showed that a high percentage of users of this website were college students or of college age (early to mid twenties), using Chrome and tablets or mobile devices as their
+primary technology. In this respect responsiveness to a variety of screen sizes is very important and played a big part in the development of this website. The site was often visited multiple
+times by the same users before purchases were made. College students were less likely to contact with questions prior to purchasing, implying that the layout of the site seems very successful in regards
+to maintaining the attention of young professionals who have little time for navigating difficult, high-maintenance and information-heavy websites.
 
 College Students & Technology Usage
 https://library.educause.edu/resources/2019/5/ecar-study-of-community-college-students-and-information-technology
-Of my findings I found this to be the most recent and relatable study that I could find regarded my user group (college students) and their relationship with information technology. This seems especially relevant in the respect of my particular user being a college student and using AdoptADog as a means to an end; an information source if you will. This study says that community college students (women in particular) are very highly likely to use online means to achieve their goals.
+Of my findings I found this to be the most recent and relatable study that I could find regarded my user group (college students) and their relationship with information technology.
+This seems especially relevant in the respect of my particular user being a college student and using AdoptADog as a means to an end; an information source if you will. This study
+says that community college students (women in particular) are very highly likely to use online means to achieve their goals.
+
 
 SITE TESTED ON:
-Chrome: everything looks accurate to the coding!
-Firefox: everything looks accurate to the coding!
-Opera: everything looks accurate to the coding!
-Internet Explorer: really not sure any weirdness about my page is my fault here...the layout on the home and dogs page are all out of whack; images stretched out of proportion, dog profiles showing up vertically rather than as designed. Other pages look normal though.
-Mobile: everything looks pretty good except for the "See More Dogs" button text got squished. I'll have to look into that.
-Mac: as far as I can tell everything looks pretty normal! I used browsershots.org to test how my site would look on a Mac and they provided me several different snapshots on various browsers like Firefox and Chrome. The layout of the dog profiles seemed a little out of place though.
+Chrome: everything looks accurate to the coding! The site performed as expected.
+Firefox: everything looks accurate to the coding! The site performed as expected.
+Opera: everything looks accurate to the coding! The site performed as expected.
+Edge: everything looks accurate to the coding! The site performed as expected.
+Mobile: everything looks pretty good except for the "See More Dogs" and "Submit Form" button text got squished (see below)
+Mac: as far as I can tell everything looks pretty normal! I used browsershots.org to test how my site would look on a Mac and they provided me several different snapshots on various browsers
+like Firefox and Chrome (even though I already tested those browsers live on my own desktop). The layout of the dog profiles seemed a little out of place though, but not enough to detract
+from the overall appearance of the site.
+
+CHANGES MADE:
+Had to make adjustments to some of the buttons and the form to make them more responsive to different screen sizes, as the "submit form" button text
+overlapped quite a bit upon shrinking to mobile. While it still overlaps it's much better than it was before, and is now readable. This issue occurred on all browsers and operating systems tested.
