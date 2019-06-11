@@ -1,0 +1,13 @@
+Site was designed for mobile browsers. This is due to 60% of searches occurring on mobile devcies, indicating that Safari and Chrome need to be optimized to allow for maximum reach. Site was written in english for maximum capatability in the target audience of the United States.
+
+
+
+Site avoided degradation on Edge, Chrome, and Firefox, at multiple broswer window sizes.
+
+
+
+Site maintained functionality on Linux browsers as tested on Ubuntu Firefox.
+
+
+
+Site maintained functionality on mobile devices, verified using Motorola G3, LG K7, and Verizon ZTE. Site maintained functionality on tablet, verified using 7th generation Amazon Kindle Fire.
