@@ -38,7 +38,7 @@ const blogArticles = [
   ];
 
 function addBlogArticles(container, blogArticles) {
-let dev = document.createElement('dev');
+let div = document.createElement('div');
 
 let mainHeader = document.createElement('h2')
 mainHeader.innerHTML = 'Adoptadog Blog';
@@ -47,17 +47,17 @@ document.getElementById('blog-section').appendChild(mainHeader);
 let image = document.createElement('img');
 image.src = blogArticles.image;
 image.alt = blogArticles.imageAlt;
-dev.appendChild(image);
+div.appendChild(image);
 
 let blogHeader = document.createElement('h2');
  blogHeader.textContent = blogArticles.header;
- dev.appendChild(blogHeader);
+ div.appendChild(blogHeader);
 
  let paragraph = document.createElement('p');
   paragraph.text = blogArticles.text;
-  dev.appendChild(paragraph);
+  div.appendChild(paragraph);
 
-  container.appendChild(dev);
+  container.appendChild(div);
   }
 
   const blogSection = document.getElementById('blog-section');
