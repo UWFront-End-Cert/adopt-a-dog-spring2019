@@ -142,6 +142,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+  clear: both;
 }
 
 footer .logo {
@@ -171,7 +172,7 @@ footer .logo {
   }
 
   a:hover {
-    background-color: #083b5f;
+    color: #083b5f;
   }
 
 /**INDEX.HTML**/
@@ -179,6 +180,7 @@ footer .logo {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
+  width; 70%;
 }
 
 .index-main > figure {
@@ -190,9 +192,37 @@ footer .logo {
   display: flex;
 }
 
+/**Blog aside**/
+.preview {
+  padding: 1rem 0;
+}
+
+.preview h4, p, span {
+  margin: 0;
+}
+
+.preview-image {
+  height: 10rem;
+}
+
+aside {
+  margin: auto;
+  width: 33%;
+  float: right;
+  display: inline-grid;
+  padding: 1rem 1rem 1rem;
+}
+
+@media (max-width: 767px) {
+  aside {
+    display: none;
+  }
+}
+
 /**GRID FOR DOG CARDS**/
 .four-col-grid div {
   border: 1px solid #D3D3D3;
+  clear: both;
 }
 
 .four-col-grid {
@@ -204,6 +234,7 @@ footer .logo {
   grid-gap: 4em 4em;
   justify-content: center;
   align-content: space-evenly;
+  clear: both;
 }
 
 .dog-img {
@@ -216,10 +247,11 @@ footer .logo {
 
 .dog-card {
   width: 120%;
+  clear: both;
 }
 
 .dog-card-border {
-  outline: 4px solid #083b5f; 
+  outline: 4px solid #083b5f;
 }
 
 /**CHECKOUT**/
