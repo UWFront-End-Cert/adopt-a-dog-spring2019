@@ -9,6 +9,18 @@
 <p>If you have any questions, comments, or concerns, please contact our team at adoptadog.gmail.com</p>
 
 <h3>Visit the website</h3>
-<p>You can visit the website at adoptadog.com</p>
+<p>You can visit the website at https://nehapatel328.github.io/adopt-a-dog-spring2019/</p>
+
+<h3>Testing</h3>
+<p>Testing documentation can be found at https://github.com/nehapatel328/adopt-a-dog-spring2019.git </p>
+
+<h4>Firefox</h4>
+<p></p>
+
+<h4>Chrome</h4>
+<p></p>
+
+<h4>Safari</h4>
+<p></p>
 
 <footer>© Adoptadog, LLC | Seattle, WA</footer>
