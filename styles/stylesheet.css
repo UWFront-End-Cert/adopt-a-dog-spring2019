@@ -176,6 +176,10 @@ footer .logo {
   }
 
 /**INDEX.HTML**/
+main {
+  float: left;
+}
+
 .index-main {
   display: flex;
   flex-flow: row nowrap;
@@ -183,7 +187,15 @@ footer .logo {
   width; 70%;
 }
 
+.index-intro {
+  display: flex;
+}
+
 .index-main > figure {
+  align-self: flex-start;
+}
+
+.index-main > article {
   align-self: flex-start;
 }
 
@@ -205,12 +217,12 @@ footer .logo {
   height: 10rem;
 }
 
+/**aside**/
 aside {
   margin: auto;
   width: 33%;
   float: right;
-  display: inline-grid;
-  padding: 1rem 1rem 1rem;
+  display: inline-block;
 }
 
 @media (max-width: 767px) {
