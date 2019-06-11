@@ -1,0 +1,31 @@
+Persona One: Single Millenial
+Name: Jane Smith 
+Age Group:  23-38
+Occupation:  Variety of industries
+Education: High school to college
+Tech Proficiency:  Medium to high. Millennials have grown up during the rise of Web 2.0 and have themselves contributed to the invention and perfection of new technologies and processes. In fact, millennials are on track to be the “most educated generation.” We expect users in this group to technically literate and able to access and navigate the site with ease. 
+Personality: Intelligent, independent, and resourceful. Research has suggested that most millennials live at home due to skyrocketing living costs in major cities and student loan debt; however, they make up the largest generation in the labor force. We are targeting single millennials specifically who are looking for companionship and new responsibility. 
+Goals: The ideal user will be a motivated adopter who has a stable home and steady income. 
+Device: Jane mainly browses on the web on her mobile phone and prefers to use the default browser.
+Browser:  Various. Typically Firefox, Chrome, or Internet Explorer. This group uses the most common web browsers; many are able to access the web on their smart devices. 
+Why Looking for a dog? This user is looking for responsibly and a sense of building his/her own future away from parents or guardians. Millennials have a tendency to be work oriented and coming home to a dog will give them a balance between work life and home life. 
+How to Serve Audience: This user wants information at the click of a button. Forcing her to click more than three button to get to checkout, to learn about a dog, or to understand costs will make her bounce to another website. Usability is key here, especially for the mobile site. Most users in this group tend to casually browse on their smart devices and then move to their laptops once they’ve made a decision to adopt.
+
+
+
+
+
+
+Persona Two: Middle aged male 
+Name: John Doe 
+Age Group:  40-55
+Occupation:  Variety of industries
+Education: High school to college
+Tech Proficiency:  Low to high; men in this age range can either be technically savvy if their profession calls for it or technically illiterate 
+Personality: Resourceful, budget conscious, family man 
+Goals: John is most likely a family man who is looking for an additional member for his family. For him, the information pertaining to the money and personalities of the dogs in tantamount. He is going to do his research thoroughly before he ever adds anything to his cart. 
+Device: John mainly works off of his laptop or desktop computer. He will occasionally use the default web browser on his phone if he’s on the go or casually discussing various dogs with his family. 
+Browser:  Various. Typically, Firefox, Chrome, or Internet Explorer. This group uses the most common web browsers; many are able to access the web on their smart devices. 
+Why Looking for a dog? This user is looking for a family friendly dog with a humane society that will work with him as opposed to against. The website needs to convey a sense of reliability. 
+How to Serve Audience: This user is motivated and willing to take the time to do his research. A slow response time and subpar information will make him bounce. 
+
