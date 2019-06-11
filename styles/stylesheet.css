@@ -247,7 +247,7 @@ p {
 
 /*BLOG PAGE */
 
-.blog-section {
+#blog-post-container {
   padding-left: 3em;
 }
 
@@ -267,102 +267,86 @@ figure {
 
 /* CHECKOUT PAGE */
 
-form {
-  width: 20%;
-  padding-left: 3em;
+.check-out-form {
+  padding: 2em;
+  color: #1c4282;
+  font-weight: bold;
 }
 
-.checkout-header {
-  padding-left: 3em;
+label {
+  display: block;
+  margin: .3rem;
+  padding-bottom: 1.4em;
 }
 
-.form-header {
-  font-size: 1rem;
-  color: #193b72;
+input {
+  display: block;
+  margin: 1.2em 0;
+  padding: 0.6em;
+  width: 100%;
+  border: 1.2px solid #c1c1c1;
+  max-width: 32em;
+}
+
+select {
+  display: block;
+  margin: .5rem;
+}
+
+.adopt-dogs {
+  display: flex;
   margin: 0;
 }
 
-.dog-price {
-  font-size: 0.8rem;
-  color: #193b72;
+fieldset {
+  border: none;
+  padding: 0;
 }
 
-button, input, select, textarea {
-font-family: inherit;
-font-size: 100%;
+fieldset label {
+  display: inline-block;
 }
 
-input, textarea, select, button {
-margin: 0.4em;
-border-radius: 0.3em;
-outline: none;
-background-color: #ffffff;
-box-sizing: border-box;
+.cart {
+  display: flex;
+  margin: 1rem 0;
 }
 
-input[type=text] {
-  width: 100%;
-  padding: 0.5em 1em;
-  margin: 0.5em 0;
-  box-sizing: border-box;
+.cart-info {
+  padding: 3rem;
 }
 
-input[type=email] {
-  width: 100%;
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  box-sizing: border-box;
+.radio-buttons label input {
+  display: inline;
 }
 
-input[type=submit] {
+.radio-buttons label {
+  margin-right: 5.6rem;
+  padding-bottom: 2em;
+}
+
+h4 {
+    color: #1c4282;
+    font-size: 1.1rem;
+}
+
+strong {
+  color: #1c4282;
+}
+
+h3 {
+    color: #1c4282;
+    font-size: 1.3rem;
+}
+
+button {
   background-color: green;
   color: #FFFFFF;
   height: 3em;
-  width: 100%;
+  width: 10%;
   padding: 1em 2em;
-  border-radius: 0.5em;
-  text-decoration: none;
-  cursor: pointer;
-  width: 16%;
-}
-
-input[name=zipcode] {
-  width: 22%;
-  box-sizing: border-box;
-  display: inline;
-}
-
-input[name=city] {
-  width: 22%;
-  box-sizing: border-box;
-  display: inline;
-}
-
-
-.form-header-bottom {
+  border-radius: 0.2em;
   font-size: 1rem;
-  color: #193b72;
-  margin: 0;
-  padding: 2em 0;
-}
-
-.dogs-adopted {
-  display: flex;
-  width: 100%;
-}
-
-.adopted-dog {
-  margin-bottom: 3em;
-  font-size: 0.8rem;
-  color: #193b72;
-  font-weight; bold;
-}
-
-.final-info {
-  padding: 1em;
-  font-size: 0.8rem;
-  color: #193b72;
-  font-weight: bold;
 }
 
 /* mobile */
