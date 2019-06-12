@@ -1,0 +1,40 @@
+Personas
+
+Jim
+Jim is a father of two young girls, living in the Seattle area. He wants to surprise his kids with a new puppy, which they have been asking him for since last year. Jim uses Chrome on his Macbook and almost never uses his smartphone for browsing the internet.
+
+
+Kate
+Kate is a retired nurse looking for a companion. Her late husband just passed away, and an adopted dog would help Kate stay active in her golden years. Kate owns a desktop PC, but more recently uses an Apple tablet for browsing the web.
+
+
+Testing
+A few notes on the performance of the AdoptaDog website on different medias.
+
+
+Chrome
+My website appears to work as expected on Chrome on my Macbook. This is likely due to me using it when developing the app. The app takes advantage of the width of the laptop leading to more information for the user.
+
+
+Safari
+I would argue that my website looks even better on Safari. The font and images appear to be sharper and more vibrant.
+
+However, when clicking on the ‘Dogs’ tab some awful Javascript error comes up leading to element overlap. Completely unacceptable.
+
+Also my running total for the cart isn’t working, or the JQuery image highlight.
+
+I haven’t updated Safari since I got my laptop 5 years ago.
+
+
+Opera
+Opera picks up the pace and has no Javascript issues like Safari. The website looks good and functions fine.
+
+
+Windows
+On windows everything seems to function okay. It has sort of the reverse problem of the phone, the elements seem a bit big on my 27” monitor. Maybe I need to switch to media queries for sizing instead of percentages.
+
+
+Phone
+The Phone works surprisingly well for me just testing it in browser. I’d probably change it to start more ‘zoomed’ (larger elements, fonts, etc.) but it technically works alright.
+
+The only problem is the Shopping cart floats outside of the main header to the right, which is a definite flaw.
