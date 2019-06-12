@@ -16,10 +16,10 @@ Tools:  Used Chrome developer tools to resize the browser window to iPhone 6/7/8
 
 Tablet
 Tools:  Chrome developer tools and iPad Air.
--  Issue:  None found at this time.
--  Solutions:  None needed at this time.
+-  Issue:  On the homepage, AdoptADog intro and dogs cards were overlapping the blog content to the right.
+-  Solutions:  Decreased right/left padding for tablets.
 
 Desktop
 Tools:  MacBook Air (13 inch display), Lenovo Desktop (24 inch display).  Browsers used are Chrome, Safari, Firefox, Edge, and Opera.  
 -  Issue:  Cart icon in header does not display in Firefox.
--  Solution:
+-  Solution:  Targeted Firefox in CSS and changed width to 2 rem.

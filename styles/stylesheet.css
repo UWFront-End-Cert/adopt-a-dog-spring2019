@@ -383,8 +383,20 @@ p.adoption-total {
   .dog-footer {
     margin-top: 60rem;
   }
+  .footer-content {
+    display: none;
+  }
+  .adoptadog-logo-footer {
+    width: 80%;
+  }
   input {
     width: 18rem;
+  }
+}
+
+@-moz-document url-prefix() { 
+  .cart-icon {
+    width: 2rem;
   }
 }
 
@@ -394,6 +406,9 @@ p.adoption-total {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10%;
     grid-row-gap: 5%;
+  }
+  .home-content {
+    padding: 3% 5%;
   }
   .see-more-dogs {
     margin-top: 10rem;
