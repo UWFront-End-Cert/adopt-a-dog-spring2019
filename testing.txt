@@ -1,0 +1,24 @@
+Testing
+The site has been developed for mobile browsers including Safari for ios, Chrome and desktop browsers; Firefox, Chrome, Safari and Microsoft Edge. A number of changes were implemented during development, including javascript elements and jQuery.
+
+Mobile testing includes emulation with developer tools from Chrome and Firefox. The site was found to be adequately responsive for a wide range of mobile devices, both phones and tablets ensuring a high quality user experience.
+
+Research into user base included generating user personas: The personas shared insight into young professionals with families with basic technical proficiency. Users preferred Chrome browser and Android-based devices as well as PC laptops. The research uncovered an area for growth in designing the site to put medical records of animals forward in the information. The personas also illuminated the need for information tailored to small children who may be browsing with their parents. Information such as personality traits, favorite toys, games and foods would fall into this category.
+
+User Persona:
+
+name: James Michael
+age: 28
+gender: Male
+education: BS social work
+work: Catholic Social Services
+living area: Olympia, WA
+Living situation: Renting small house, saving for down payment on home.
+devices: Android phone, HP laptop
+software: Android, Windows, IE, Chrome
+Technically competent some basic knowledge of web programming. Daily use of email, text/chat and social media with various online profiles and accounts. Prefers digital shopping to analog.
+motivation: Looking for a fully grown family dog that is well behaved for his 2 year old son.
+needs: Inexpensive and easy adoption. Looking for limited time investment into research, meeting and adoption. Appreciates detailed information including animal demographics, behaviors and medical records.
+
+Adopt-a-dog: Repo
+https://github.com/yuppiecruncher/adopt-a-dog-spring2019
