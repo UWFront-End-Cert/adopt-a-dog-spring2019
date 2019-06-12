@@ -1,7 +1,7 @@
 Testing Documentation
 
 User Persona:
-  - Family of four, parents are looking to adopt a dog.  The parents are in their thirties or forties and are both working professionals, Monday through Friday and have weekends free, with the exception of the occasional work trip.  One child is 8 and the other is 12 years of age.  The parents would like their children to learn some responsibility by having a dog to train and take care of.  They would like a dog that is still young (preferably under 6 months) and is a medium size, about 25-30 pounds when fully grown.  They have a house with a backyard, and a nice park close by with an off leash area.  They parents both use their iPhones and MacBooks to look at the website, and their children use the family's iPad or Microsoft Surface to look at the dogs. 
+  - Family of four, parents are looking to adopt a dog.  The parents are in their thirties or forties and are both working professionals, Monday through Friday and have weekends free, with the exception of the occasional work trip.  One child is 8 and the other is 12 years of age.  The parents would like their children to learn some responsibility by having a dog to train and take care of.  They would like a dog that is still young (preferably under 6 months) and is a medium size, about 25-30 pounds when fully grown.  They have a house with a backyard, and a nice park close by with an off leash area.  They parents both use their iPhones and MacBooks (mainly Safari & Chrome, sometimes Firefox on their MacBooks) to look at the website, and their children use the family's iPad or Microsoft Surface (usually Safari, Chrome, or Edge) to look at the dogs. 
 
 
 
