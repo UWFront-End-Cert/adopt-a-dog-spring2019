@@ -128,6 +128,7 @@ li a {
 }
 
 li a:hover {
+  color: #FFFFFF;
   background-color: #083b5f;
 }
 
@@ -191,6 +192,13 @@ main {
   display: flex;
 }
 
+@media screen and (max-width: 700px) {
+  .index-intro {
+    display: flex;
+    flex-flow: column;
+    }
+}
+
 .index-main > figure {
   align-self: flex-start;
 }
@@ -225,7 +233,7 @@ aside {
   display: inline-block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1030px) {
   aside {
     display: none;
   }

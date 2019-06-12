@@ -1,0 +1,8 @@
+Mozilla Firefox
+Cosmetically, the site looks similar to what it does on Google. Noticed that the hover effect on the nav wasn't working properly, but it has been fixed. The aside was overlapping too much with the dog grid, so a breakpoint was added (the aside will now only appear on devices no larger than 1030px).
+
+Google
+Site is performing well on Google. All fonts, images, and spacing look and feel consistent. The site is also responsive on Google for commonly used breakpoints.
+
+Safari
+In index.html, the "Adopt a Dog" introductory text wasn't breaking properly at 700px, so a media query was added. 
