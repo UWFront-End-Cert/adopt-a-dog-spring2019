@@ -12,7 +12,7 @@ Tools:  Used Chrome developer tools to resize the browser window to iPhone 6/7/8
 -  Issue:  Form input was set universally at 30rem.  
    Solution:  Changed to 18rem in the stylesheet media query for mobile devices.
 -  Issue:  Checkout button in header:  Appears fine in chrome dev tools    but on iPhone 7, "Checkout" text runs outside of green background.
-   Solution:  Unsolved at the moment.
+   Solution:  Changed padding of a tag to 10% (was 20%).  Should fix the issue and still looks good on Chrome.
 
 Tablet
 Tools:  Chrome developer tools and iPad Air.
@@ -22,4 +22,4 @@ Tools:  Chrome developer tools and iPad Air.
 Desktop
 Tools:  MacBook Air (13 inch display), Lenovo Desktop (24 inch display).  Browsers used are Chrome, Safari, Firefox, Edge, and Opera.  
 -  Issue:  Cart icon in header does not display in Firefox.
--  Solution:  Targeted Firefox in CSS and changed width to 2 rem.
+-  Solution:  Targeted Firefox in CSS and changed width to 2 rem.  After applying this to Firefox, ended up being applied universally since it was a better size.
