@@ -17,10 +17,15 @@ Research into user base included generating user personas. The personas shared i
 
 ### Documentation and support
 
-####Adopt-a-dog: [Website](https://yuppiecruncher.github.io/adopt-a-dog-spring2019/)
+#### Adopt-a-dog: [Website](https://yuppiecruncher.github.io/adopt-a-dog-spring2019/)
+
 https://yuppiecruncher.github.io/adopt-a-dog-spring2019/
-####Adopt-a-dog: [Repo](https://github.com/yuppiecruncher/adopt-a-dog-spring2019)
+
+#### Adopt-a-dog: [Repo](https://github.com/yuppiecruncher/adopt-a-dog-spring2019)
+
 https://github.com/yuppiecruncher/adopt-a-dog-spring2019
-####My other project: [DinsForBins](https://github.com/yuppiecruncher/Dinsforbins)
+
+#### My other project: [DinsForBins](https://github.com/yuppiecruncher/Dinsforbins)
+
 https://github.com/yuppiecruncher/Dinsforbins
 
