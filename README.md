@@ -13,7 +13,7 @@ The site has been developed for mobile browsers including Safari for ios, Chrome
 
 Mobile testing includes emulation with developer tools from Chrome and Firefox. The site was found to be adequately responsive for a wide range of mobile devices, both phones and tablets ensuring a high quality user experience.
 
-Research into user base included generating user personas. The personas shared insight into young professionals with families with basic technical proficiency. The research uncovered an area for growth in designing the site to put medical records of animals forward in the information. The personas also illuminated the need for information tailored to small children who may be browsing with their parents. Information such as personality traits, favorite toys, games and foods would fall into this category.
+Research into user base included generating user personas: The personas shared insight into young professionals with families with basic technical proficiency. Users preferred Chrome browser and Android-based devices as well as PC laptops. The research uncovered an area for growth in designing the site to put medical records of animals forward in the information. The personas also illuminated the need for information tailored to small children who may be browsing with their parents. Information such as personality traits, favorite toys, games and foods would fall into this category.
 
 ### Documentation and support
 
