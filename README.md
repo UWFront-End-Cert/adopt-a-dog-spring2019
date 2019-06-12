@@ -9,7 +9,7 @@ More technically, the site is designed with a mobile-first approach giving users
 Checkout is quick and as easy as shopping online can be. Click to adopt a dog, fill in your information on the form and you are done! Keep tabs on your costs with an automated cart total. 
 
 ## Testing
-The site has been developed for mobile browsers including Safari for ios, Chrome and desktop browsers; Firefox, Chrome, Safari and Microsoft Edge. A number of changes were implemented during development, including javascript elements and jQuery. 
+The site has been developed for mobile browsers including Safari for ios, Chrome and desktop browsers; Firefox, Chrome, Safari and Microsoft Edge. A number of changes were implemented during development, including javascript elements and jQuery to enhance user experience during browsing, checkout and information gathering activities. 
 
 Mobile testing includes emulation with developer tools from Chrome and Firefox. The site was found to be adequately responsive for a wide range of mobile devices, both phones and tablets ensuring a high quality user experience.
 
