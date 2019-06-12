@@ -8,16 +8,18 @@ User Persona:
 Testing Methods
 
 Mobile
-Tools:  Used Chrome developer tools to resize the browser window to iPhone 6/7/8, iPhone X, and Samsung S5.  Also viewed the webpage on my Samsung S8.
-Issues:  Form input was set universally at 30rem.  
-Solutions:  Changed to 18rem in the stylesheet media query for mobile devices.
+Tools:  Used Chrome developer tools to resize the browser window to iPhone 6/7/8, iPhone X, and Samsung S5.  Also viewed the webpage on my Samsung S8 and wife's iPhone 7.
+-  Issue:  Form input was set universally at 30rem.  
+   Solution:  Changed to 18rem in the stylesheet media query for mobile devices.
+-  Issue:  Checkout button in header:  Appears fine in chrome dev tools    but on iPhone 7, "Checkout" text runs outside of green background.
+   Solution:  Unsolved at the moment.
 
 Tablet
 Tools:  Chrome developer tools and iPad Air.
-Issues:  None found at this time.
-Solutions:  None needed at this time.
+-  Issue:  None found at this time.
+-  Solutions:  None needed at this time.
 
 Desktop
 Tools:  MacBook Air (13 inch display), Lenovo Desktop (24 inch display).  Browsers used are Chrome, Safari, Firefox, Edge, and Opera.  
-Issues:  
-Solutions:
+-  Issue:  Cart icon in header does not display in Firefox.
+-  Solution:
