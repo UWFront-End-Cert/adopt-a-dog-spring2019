@@ -8,6 +8,9 @@ function addAdopt() {
   alert(result);
 }
 
+	$('.dog').addClass('.enlarge:hover');
+
+  var formData = new FormData(document.querySelector('AdoptMe'))
 
 
 const blogdiv = [
