@@ -5,4 +5,4 @@ Google
 Site is performing well on Google. All fonts, images, and spacing look and feel consistent. The site is also responsive on Google for commonly used breakpoints.
 
 Safari
-In index.html, the "Adopt a Dog" introductory text wasn't breaking properly at 700px, so a media query was added. 
+Site is performing well on Safari. All fonts, images, and spacing look and feel consistent. In index.html, the "Adopt a Dog" introductory text wasn't breaking properly at 700px, so a media query was added. 

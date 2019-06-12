@@ -1,6 +1,6 @@
 //index.html & dogs.html click handlers for DOG PHOTOS
 
-/*function info(name, breed) {
+function info(name, breed) {
 	let result = name + ', ' + breed + ', $123.45';
 }
 *//*
@@ -51,12 +51,13 @@ function lunaInfo() {
 function stellaInfo() {
 		alert("Violet, Chihuahua, $123.45");
 }
-*/
 
+/*
 $('#onclickTotal').click(function(e) {
 	total += 123.45;
 	alert ('Your total is' + total);
 });
+*/ //Get the onclick to work 
 
 //index.html & dogs.html click handlers for ADOPT BUTTONS
 let total = 0;
