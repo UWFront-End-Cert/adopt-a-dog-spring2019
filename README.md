@@ -12,5 +12,8 @@ Adoptadog is a site for users to browse and adopt dog (or a few) more easily! De
 Going into a shelter can tug on the heartstrings which can hinder the judgement of the person adopting- potentially resulting in the adoption of a dog that just doesn't jive well and then being retuned.
 It also serves those who may not have the time to make multiple trips to the shelter. Being able to find the right fur-friend is just as important for them as it is for the site user!
 
+## Testing
+[link to site test results!](https://github.com/aimzOG/adopt-a-dog-spring2019/blob/master/testing.txt)
+
 ### About
 *Created by: Aimee Stevens | June 12, 2019*
