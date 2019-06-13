@@ -1,0 +1,32 @@
+USERS
+  Persons looking for companionship and to add to a family. Could range from a newly-wed couple looking to expand their 
+  family before kids, a recent widower, A parent surprising their children...
+  
+TESTING
+  To test I navigated to the site on each device/browser and clicked each link on each page to ensure proper nav, 
+  filled out the form twice to test for the "submit" alert and input validation, and checked for responsiveness by 
+  tilting the mobile device, adjusting page size and using inspector.  
+
+RESULTS
+
+  Mobile
+    Apple & Android: Site responds on both very well. Blog previews are hidden when using mobile, as expected.
+                     The hover effect from desktop site changes the button color only after buttonis clicked. 
+                     This may confuse users if they believe button is still selected after. 
+  
+  Browser
+   
+    Firefox v67.0 - Site loads nicely and respinds well. Browser asks if user would like to prevent alerts after 
+                   a couple clicks on clickable content (dog pictures and the adopt buttons). This could hinder user experience
+                   as user would no longer get confirmation that dog is in cart etc. Also, the "Zip Code" label/input is 
+                   mis-styled due to its difference in size I believe.
+   
+    Safari v12.1.1 - Everything works well in Safari. Responsiveness is smooth, alerts are appropriate, JS works. On the form,
+                     the Zip Code displays arrows allowing for increments of 1. Not ideal as this number should only be typed in.
+    
+    Chrome v74.0.3729.169 - This site was made primarily on and for the Google Browser thus things work as expected.
+    
+    
+  Computer
+    PC - N/A Was unable to test on a PC.
+    Mac - Works great, from CLI to browser!
