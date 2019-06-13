@@ -1,0 +1,29 @@
+I tested my site on:
+- Opera
+- Edge
+- Chrome
+- Samsung Galaxy S9
+- Surface Tablet
+- Desktop PC
+
+
+Testing:
+Responsiveness of design. Checking buttons to see if they work, the alerts and pop ups are working.
+Checked code validators, used the developer tool in Chrome, resized the browser.
+
+Modifications made:
+
+
+
+
+User Audience:
+
+Name: Peter S.
+Middle/older aged man: 48
+Profession: Tech Support Manager
+Tech Skills: Minimal- Uses phone to text and google things. Uses computer to google, watch videos, and submit/approve timesheets.
+Hobbies include: Going to Vegas at random times, watching soccer, playing with his son, attending work events.
+Reason to adopt:
+Peter promised his son a dog. He had discussions/arguments with his wife over the course of 6 months as to whether or not it would be a smart choice.
+They knew they wouldn't have time for a puppy along with raising their son and having jobs. They compromised on a younger but mature dog that has already
+gone through the puppy stage would be the best fit for the family.
