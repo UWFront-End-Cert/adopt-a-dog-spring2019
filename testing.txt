@@ -1,6 +1,6 @@
 USERS
   Persons looking for companionship and to add to a family. Could range from a newly-wed couple looking to expand their 
-  family before kids, a recent widower, A parent surprising their children...
+  family before kids, a recent widower, A parent surprising their children. Majority of users are more tech focused and have     used laoptops and smartphones regularly and stick to the newest versions of browsers (Google and Safari primarily).
   
 TESTING
   To test I navigated to the site on each device/browser and clicked each link on each page to ensure proper nav, 
