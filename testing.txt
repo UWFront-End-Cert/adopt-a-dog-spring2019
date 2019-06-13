@@ -12,6 +12,12 @@ Responsiveness of design. Checking buttons to see if they work, the alerts and p
 Checked code validators, used the developer tool in Chrome, resized the browser.
 
 Modifications made:
+Made modifications to the responsiveness of the website.
+The site was not showing properly and the media query is not active with the size of the device screen.
+Cell device seemed to work with the testing.
+
+Notations: 
+One of the adopt buttons stopped working even though it uses the same javascript function.
 
 
 
