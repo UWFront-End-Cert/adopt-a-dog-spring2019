@@ -1,5 +1,5 @@
 @media all and (max-width:760px) {
-	.enlarge:hover{
+		.enlarge:hover{
 			display: none;
 		}
 		.box {
@@ -95,6 +95,18 @@ li a{
  	justify-content: center;
 }
 
+.buttonform {
+	background-color: rgb(129, 183, 65);
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 32px;
+	color: white;
+	display: flex;
+ 	align-items: bottom;
+ 	justify-content: center;
+}
 
 .h2 {
 	color:rgb(9,60,96);
@@ -183,6 +195,25 @@ li a{
 	width: 21%;
 }
 
+.label {
+	padding-top: 5px;
+	background-color: white;
+	justify-content: space-around;
+	position: relative;
+	margin-left: 75px;
+	text-align: left;
+	padding-bottom: 150px;
+}
+.form {
+	padding-top: 5px;
+	background-color: white;
+	justify-content: space-around;
+	position: relative;
+	margin-left: 75px;
+	text-align: left;
+	padding-bottom: 150px;
+}
+
 .checkout {
 	padding-top: 5px;
 	background-color: white;
@@ -192,6 +223,7 @@ li a{
 	text-align: left;
 	padding-bottom: 150px;
 }
+
 
 .dogsadopted {
 	width:100px;

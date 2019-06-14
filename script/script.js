@@ -10,9 +10,53 @@ function addAdopt() {
 
 $(".dog").addClass("enlarge");
 
+const fields = [
+  {
+    name: "Name",
+    label: "Name"
+  },
+  {
+    name: "Email Address",
+    label: "Email Address"
+  },
+  {
+    name: "Street Address",
+    label: "Street Address"
+  },
+  {
+    name: "City",
+    label: "City"
+  },
+  {
+    name: "State",
+    label:"State"
+  },
+  {
+    name: "Zip Code",
+    label:"Zip Code"
+  }
+];
 
-var FormData = new FormData("document.querySelector('AdoptMe')");
+const form = document.getElementbyId("form");
+document.body.appendChild(form);
 
+for (let i = 0; i < fields.length; i+= 1) {
+  const field = fields[i];
+
+  const label = document.createElement("label");
+  label.textContent = field.label;
+  label.setAttribute("for", field.name);
+
+  const input = document.createElement("input");
+  input.setAttribute("id", field.name);
+
+  form.appendChild(label);
+  form.appendChild(input);
+};
+
+$(".buttonform").click(function(){
+  alert("Thank you. The form information has been received. Your total is $246.90.");
+});
 
 
 const newblog = [
