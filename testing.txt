@@ -1,0 +1,20 @@
+Audience: The intended audience or customer for Adoptadog will actually range – our guess is that the youngest customers will most likely be in college or are finishing up their undergraduate degrees, and the maximum will most likely be elderly. The website is designed for shelters to post that are located in not just Seattle, but the entire Washington area – this includes places such as Marysville, Lynnwood, Tukwila, Tacoma, and Issaquah. Customers can view each dog, their information such as age, breed, and personality, and will be able to undergo a fast adoption transaction.
+
+Data Usage: Majority of the website traffic are users that using desktop, while a smaller percentage are using mobile devices for up to 1 hour.
+
+The creation of this website was to be easily accessible and user friendly. Adoptadog is catered to a wide audience, and so it’s important to create something that EVERYONE will be able to navigate and user easily. Stylizations were also created to minimize confusion, and increase easiness that leads to adoption. 
+
+Browser tests:
+  • Chrome
+  • Internet Explorer
+  • Safari
+  • Opera
+
+Operating system tests:
+  • Mac
+  • PC
+
+Specific mobile device tests:
+  • iPhone X
+  • PS4
+  • Samsung Galaxy S10
